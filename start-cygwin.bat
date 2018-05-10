@@ -11,7 +11,7 @@ set "MROOT=%U%\%ROOT%"
 set "UHOME=%MROOT%\%a0a%"
 set "CHOME=%CROOT%\%a0a%"
 ::set "SHOME=%~dp0\"
-set "SHOME=%~dp0\..\..\..\"
+set "SHOME=%~dp0\..\..\"
 set "LHOME=%UHOME%\%LC%"
 set "RHOME=%UHOME%\%RC%"
 
@@ -58,11 +58,15 @@ if exist %UHOME%\ext-cygwin (
 if exist %UHOME%\.common (
 	RD /S /Q %UHOME%\.common
 )
+if exist %UHOME%\.ext (
+	RD /S /Q %UHOME%\.ext
+)
 
 mklink /j %RHOME% %~dp0\%RC%
 mklink /j %UHOME%\env-cygwin %~dp0\env-cygwin
 mklink /j %UHOME%\ext-cygwin %~dp0\ext-cygwin
 mklink /j %UHOME%\.common %~dp0\.common
+mklink /j %UHOME%\.ext %~dp0\.ext
 set /p _lhome="Enter LHOME PATH:["
 echo %_lhome%]
 if not defined _lhome (
@@ -86,7 +90,7 @@ cd /d %UHOME%
 
 ::cat $(pwd)/.rc/.sshd_config_u > /etc/ssh/sshd_config && 
 ::echo 'PermitUserEnvironment yes' >> /etc/ssh/sshd_config && 
-set "HOME=%RHOME%" && cd.>%RHOME%\.bash_profile && start "" ".\bins\Cygwin\bin\mintty.exe" -e /usr/bin/bash --login -i -c "export HOME=$(pwd) && echo \"SHOME='%SHOME%'\" > ~/.bash_profile && cat $HOME/../env-cygwin >> ~/.bash_profile && /usr/bin/bash --login -i"
+set "HOME=%RHOME%" && cd.>%RHOME%\.bash_profile && start "" ".\bins\cygwin64\bin\mintty.exe" -e /usr/bin/bash --login -i -c "export HOME=$(pwd) && echo \"SHOME='%SHOME%'\" > ~/.bash_profile && cat $HOME/../env-cygwin >> ~/.bash_profile && /usr/bin/bash --login -i"
 
 
 

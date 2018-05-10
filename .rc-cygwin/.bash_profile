@@ -1,4 +1,4 @@
-SHOME='E:\a0a\ileler\configs\upan\..\..\..\'
+SHOME='E:\a0a\ileler\configs\..\..\'
 #!/usr/bin/env sh
 cd ../
 source ./ext-cygwin
@@ -16,11 +16,14 @@ export __LPATH__=$(cd "$HOME.local";pwd)
 export __RPATH__=$(cd "$HOME/../";pwd)
 
 
+#EXT DIR SET
+export _USER_EXT_=$__/.ext
+cd $HOME && rm -rf .IntelliJIdea && ext-link .IntelliJIdea $_USER_EXT_/.IntelliJIdea && cd -
+
 #COMMON DIR SET
 export _USER_COMMON_=$__/.common
 cd $HOME && rm -rf .bin && ext-link .bin $_USER_COMMON_/.bin && cd -
 cd $HOME && rm -rf .ssh && ext-link .ssh $_USER_COMMON_/.ssh && cd -
-cd $HOME && rm -rf .IntelliJIdea && ext-link .IntelliJIdea $_USER_COMMON_/.IntelliJIdea && cd -
 cd $HOME && rm -rf .m2 && ext-link .m2 $_USER_COMMON_/.m2 && cd -
 cd /etc/setup/ && rm -rf installed.db && ext-link installed.db $HOME/installed.db && cd -
 

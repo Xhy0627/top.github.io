@@ -1,38 +1,3 @@
-ll /cygdrive/
-cd /usr/bin
-ext-winpath
-ext-cd
-ext-cd
-history
-echo $PYTHON
-cnpm i -g homebridge
-vi bins/NodeJS/npm-global/node_modules/cnpm/node_modules/node-gyp/gyp/gyp_main.py 
-cd bins/NodeJS/npm-global/node_modules/cnpm/node_modules/node-gyp/gyp/
-ll
-vi gyp_main.py 
-cnpm i -g homebridge
-vi gyp_main.py 
-cnpm i -g homebridge
-vi gyp_main.py 
-ll
-ll pylib/
-vi pylib/gpy
-vi pylib/gyp
-ll buildbot/
-ll tools
-idea
-vi gyp_main.py 
-cnpm i -g homebridge
-vi gyp_main.py 
-vi gyp_main.py 
-cnpm i -g homebridge
-vi gyp_main.py 
-cnpm i -g homebridge
-vi gyp_main.py 
-cnpm i -g homebridge
-ext-vbox
-ssh kerwin@192.168.56.56
-ssh kerwin@10.0.2.2
 ssh kerwin@10.0.2.15
 ssh kerwin@192.168.56.56
 cd ~/../ws/js/homebridge-mi-aqara
@@ -498,3 +463,38 @@ java -version
 echo $JAVA_HOME
 echo $NODE_HOME
 node -v
+ll -a
+cd ileler/configs/
+git status
+ll -a
+cd .ext/
+git status
+ll -a .git/
+vi .git/index
+vi .git/config 
+git status
+cd ../
+git status
+rm -rf test.txt 
+git diff .rc-cygwin/.bash_profile 
+echo $SHOME
+git status
+git add .rc-ubuntu/
+git commit -m 'sync configs'
+git push origin configs
+ll -a ~/.ssh/
+ll -a ~/
+ll -a ~/AppData/
+ll -a ~/AppData/Roaming/
+cat .gitignore 
+git status
+cd ~
+pwd
+cd ileler/configs/
+git push origin configs
+cd ileler/configs/
+git push origin configs
+cd ileler/configs/
+git push origin configs
+ll -a ~/
+ll -a ~/
