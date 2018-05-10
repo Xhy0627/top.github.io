@@ -1,0 +1,17 @@
+[user]
+	email = ileler@qq.com
+	name = ileler
+[core]
+	autocrlf = true
+[diff]
+	tool = bc4
+[difftool]
+	prompt = false
+[difftool "bc4"]
+	cmd = "\"U:/u~u/a0a/bins/Beyond Compare 3/bcomp.exe\" \"$LOCAL\" \"$REMOTE\""
+[merge]
+	tool = bc
+[mergetool]
+	prompt = false
+[mergetool "bc4"]
+	cmd = "\"U:/u~u/a0a/bins/Beyond Compare 3/bcomp.exe\" \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\""

@@ -1,0 +1,6 @@
+if [[ ${UETYPE} == "CYGWIN" ]]; then
+	. ~/../ext-cygwin
+else
+	. ~/../ext
+fi
+cmd <<< "start \"\" "`ext-winpath $HOME/.bin/idea.bat` > /dev/null
