@@ -1,0 +1,847 @@
+2018-05-09 17:40:20 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=logger, service=set_level>
+2018-05-09 17:40:20 INFO (MainThread) [homeassistant.setup] Setup of domain logger took 0.0 seconds.
+2018-05-09 17:40:20 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=logger>
+2018-05-09 17:40:20 INFO (MainThread) [homeassistant.core] Bus:Handling <Event call_service[L]: domain=persistent_notification, service=create, service_data=title=Welcome Home!, message=
+Here are some resources to get started:
+
+ - [Configuring Home Assistant](https://home-assistant.io/getting-started/configuration/)
+ - [Available components](https://home-assistant.io/components/)
+ - [Troubleshooting your configuration](https://home-assistant.io/docs/configuration/troubleshooting/)
+ - [Getting help](https://home-assistant.io/help/)
+
+To not see this card popup in the future, edit your config in
+`configuration.yaml` and disable the `introduction` component.
+, service_call_id=140507479968680-1>
+2018-05-09 17:40:20 INFO (MainThread) [homeassistant.core] Bus:Handling <Event state_changed[L]: entity_id=persistent_notification.notification, old_state=None, new_state=<state persistent_notification.notification=notifying; title=Welcome Home!, message=Here are some resources to get started:
+
+ - [Configuring Home Assistant](https://home-assistant.io/getting-started/configuration/)
+ - [Available components](https://home-assistant.io/components/)
+ - [Troubleshooting your configuration](https://home-assistant.io/docs/configuration/troubleshooting/)
+ - [Getting help](https://home-assistant.io/help/)
+
+To not see this card popup in the future, edit your config in
+`configuration.yaml` and disable the `introduction` component. @ 2018-05-09T17:40:20.606646+08:00>>
+2018-05-09 17:40:20 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_executed[L]: service_call_id=140507479968680-1>
+2018-05-09 17:40:20 INFO (MainThread) [homeassistant.setup] Setting up http
+2018-05-09 17:40:20 INFO (MainThread) [homeassistant.setup] Setup of domain http took 0.0 seconds.
+2018-05-09 17:40:20 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=http>
+2018-05-09 17:40:20 INFO (MainThread) [homeassistant.setup] Setting up api
+2018-05-09 17:40:20 INFO (MainThread) [homeassistant.setup] Setting up system_log
+2018-05-09 17:40:20 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=system_log, service=clear>
+2018-05-09 17:40:20 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=system_log, service=write>
+2018-05-09 17:40:20 INFO (MainThread) [homeassistant.setup] Setup of domain system_log took 0.0 seconds.
+2018-05-09 17:40:20 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=system_log>
+2018-05-09 17:40:20 INFO (MainThread) [homeassistant.setup] Setting up websocket_api
+2018-05-09 17:40:20 INFO (MainThread) [homeassistant.setup] Setup of domain websocket_api took 0.0 seconds.
+2018-05-09 17:40:20 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=websocket_api>
+2018-05-09 17:40:20 INFO (MainThread) [homeassistant.setup] Setup of domain api took 0.0 seconds.
+2018-05-09 17:40:20 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=api>
+2018-05-09 17:40:20 INFO (MainThread) [homeassistant.setup] Setting up recorder
+2018-05-09 17:40:20 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=recorder, service=purge>
+2018-05-09 17:40:20 INFO (MainThread) [homeassistant.setup] Setting up frontend
+2018-05-09 17:40:20 INFO (MainThread) [homeassistant.setup] Setup of domain frontend took 0.2 seconds.
+2018-05-09 17:40:20 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=frontend>
+2018-05-09 17:40:20 WARNING (Recorder) [homeassistant.components.recorder] Ended unfinished session (id=18 from 2018-05-09 09:34:49.041906)
+2018-05-09 17:40:20 INFO (MainThread) [homeassistant.core] Bus:Handling <Event system_log_event[L]: timestamp=1525858820.9711926, level=WARNING, message=Ended unfinished session (id=18 from 2018-05-09 09:34:49.041906), exception=, source=components/recorder/__init__.py>
+2018-05-09 17:40:30 WARNING (MainThread) [homeassistant.setup] Setup of recorder is taking over 10 seconds.
+2018-05-09 17:40:30 INFO (MainThread) [homeassistant.core] Bus:Handling <Event system_log_event[L]: timestamp=1525858830.6554527, level=WARNING, message=Setup of recorder is taking over 10 seconds., exception=, source=bootstrap.py>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.setup] Setup of domain recorder took 13.4 seconds.
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=recorder>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.setup] Setting up history
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.setup] Setup of domain history took 0.0 seconds.
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=history>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.loader] Loaded group from homeassistant.components.group
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.setup] Setting up group
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=group, service=reload>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=group, service=set>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=group, service=remove>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=group, service=set_visibility>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.setup] Setup of domain group took 0.0 seconds.
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=group>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.loader] Loaded automation from homeassistant.components.automation
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.loader] Loaded updater from homeassistant.components.updater
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.loader] Loaded sun from homeassistant.components.sun
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.setup] Setting up sun
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.setup] Setup of domain sun took 0.0 seconds.
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=sun>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.loader] Loaded tts from homeassistant.components.tts
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.loader] Loaded tts.google from homeassistant.components.tts.google
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.loader] Loaded discovery from homeassistant.components.discovery
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.loader] Loaded xiaomi_aqara from homeassistant.components.xiaomi_aqara
+2018-05-09 17:40:34 WARNING (MainThread) [homeassistant.components.xiaomi_aqara] Key is not provided for gateway None. Controlling the gateway will not be possible
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.loader] Loaded logbook from homeassistant.components.logbook
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.loader] Loaded script from homeassistant.components.script
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.loader] Loaded sensor from homeassistant.components.sensor
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.loader] Loaded sensor.yr from homeassistant.components.sensor.yr
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.setup] Setting up sensor
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.loader] Loaded cloud from homeassistant.components.cloud
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.loader] Loaded conversation from homeassistant.components.conversation
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.loader] Loaded map from homeassistant.components.map
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.setup] Setting up map
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.setup] Setup of domain map took 0.0 seconds.
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=map>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.loader] Loaded config from homeassistant.components.config
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event state_changed[L]: entity_id=sun.sun, old_state=None, new_state=<state sun.sun=above_horizon; next_dawn=2018-05-09T21:22:01+00:00, next_dusk=2018-05-09T11:17:17+00:00, next_midnight=2018-05-09T16:19:54+00:00, next_noon=2018-05-10T04:19:53+00:00, next_rising=2018-05-09T21:45:56+00:00, next_setting=2018-05-09T10:53:25+00:00, elevation=15.47, azimuth=282.9, friendly_name=Sun @ 2018-05-09T17:40:34.177944+08:00>>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event system_log_event[L]: timestamp=1525858834.1538832, level=WARNING, message=Key is not provided for gateway None. Controlling the gateway will not be possible, exception=, source=components/xiaomi_aqara.py>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.setup] Setting up updater
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.setup] Setting up automation
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=automation, service=trigger>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=automation, service=reload>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=automation, service=toggle>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=automation, service=turn_on>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=automation, service=turn_off>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.setup] Setup of domain automation took 0.0 seconds.
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=automation>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.setup] Setting up logbook
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.setup] Setting up script
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=script, service=reload>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=script, service=turn_on>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=script, service=turn_off>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=script, service=toggle>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.setup] Setup of domain script took 0.0 seconds.
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=script>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.setup] Setting up conversation
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=conversation, service=process>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.setup] Setup of domain conversation took 0.0 seconds.
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=conversation>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.setup] Setting up config
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=logbook, service=log>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.loader] Loaded config.config_entries from homeassistant.components.config.config_entries
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.loader] Loaded config.core from homeassistant.components.config.core
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=config.core>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.loader] Loaded config.group from homeassistant.components.config.group
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=config.group>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.loader] Loaded config.automation from homeassistant.components.config.automation
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=config.automation>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.loader] Loaded config.script from homeassistant.components.config.script
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=config.script>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.loader] Loaded config.hassbian from homeassistant.components.config.hassbian
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.loader] Loaded config.customize from homeassistant.components.config.customize
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=config.customize>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.loader] Loaded config.entity_registry from homeassistant.components.config.entity_registry
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=config.entity_registry>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.setup] Setup of domain updater took 0.0 seconds.
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=updater>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.setup] Setup of domain logbook took 0.0 seconds.
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=logbook>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.setup] Setting up discovery
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.setup] Setup of domain discovery took 0.0 seconds.
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=discovery>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.setup] Setting up xiaomi_aqara
+2018-05-09 17:40:34 DEBUG (SyncWorker_2) [homeassistant.components.xiaomi_aqara] Expecting 1 gateways
+2018-05-09 17:40:34 INFO (SyncWorker_2) [homeassistant.components.xiaomi_aqara] Discovering Xiaomi Gateways (Try 1)
+2018-05-09 17:40:34 DEBUG (SyncWorker_2) [xiaomi_gateway] b'{"cmd":"iam","sid":"666","ip":"172.16.7.118","port":4321,"model":"gateway"}'
+2018-05-09 17:40:34 DEBUG (SyncWorker_2) [xiaomi_gateway] [{'sid': None}]
+2018-05-09 17:40:34 INFO (SyncWorker_2) [xiaomi_gateway] Xiaomi Gateway 666 found at IP 172.16.7.118
+2018-05-09 17:40:34 DEBUG (SyncWorker_2) [xiaomi_gateway] _send_cmd >> b'{"cmd":"read","sid":"666"}'
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.yr
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event state_changed[L]: entity_id=sensor.yr_symbol, old_state=None, new_state=<state sensor.yr_symbol=unknown; attribution=Weather forecast from met.no, delivered by the Norwegian Meteorological Institute., friendly_name=yr Symbol, entity_picture=https://api.met.no/weatherapi/weathericon/1.1/?symbol=None;content_type=image/png @ 2018-05-09T17:40:34.300311+08:00>>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.setup] Setting up tts
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.setup] Setting up cloud
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.setup] Setup of domain cloud took 0.0 seconds.
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=cloud>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=config.config_entries>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.setup] Setup of domain config took 0.2 seconds.
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=config>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=tts, service=google_say>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=tts, service=clear_cache>
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.setup] Setup of domain tts took 0.1 seconds.
+2018-05-09 17:40:34 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=tts>
+2018-05-09 17:40:35 INFO (MainThread) [homeassistant.core] Bus:Handling <Event state_changed[L]: entity_id=sensor.yr_symbol, old_state=<state sensor.yr_symbol=unknown; attribution=Weather forecast from met.no, delivered by the Norwegian Meteorological Institute., friendly_name=yr Symbol, entity_picture=https://api.met.no/weatherapi/weathericon/1.1/?symbol=None;content_type=image/png @ 2018-05-09T17:40:34.300311+08:00>, new_state=<state sensor.yr_symbol=4; attribution=Weather forecast from met.no, delivered by the Norwegian Meteorological Institute., friendly_name=yr Symbol, entity_picture=https://api.met.no/weatherapi/weathericon/1.1/?symbol=4;content_type=image/png @ 2018-05-09T17:40:35.924548+08:00>>
+2018-05-09 17:40:35 INFO (MainThread) [homeassistant.setup] Setup of domain sensor took 1.8 seconds.
+2018-05-09 17:40:35 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=sensor>
+2018-05-09 17:40:44 WARNING (MainThread) [homeassistant.setup] Setup of xiaomi_aqara is taking over 10 seconds.
+2018-05-09 17:40:44 INFO (MainThread) [homeassistant.core] Bus:Handling <Event system_log_event[L]: timestamp=1525858844.244057, level=WARNING, message=Setup of xiaomi_aqara is taking over 10 seconds., exception=, source=bootstrap.py>
+2018-05-09 17:40:44 ERROR (SyncWorker_2) [xiaomi_gateway] Cannot connect to Gateway
+2018-05-09 17:40:44 ERROR (SyncWorker_2) [xiaomi_gateway] No data in response from hub None
+2018-05-09 17:40:44 INFO (MainThread) [homeassistant.core] Bus:Handling <Event system_log_event[L]: timestamp=1525858844.2757215, level=ERROR, message=Cannot connect to Gateway, exception=, source=components/xiaomi_aqara.py>
+2018-05-09 17:40:44 INFO (SyncWorker_2) [xiaomi_gateway] Discovering Xiaomi Devices
+2018-05-09 17:40:44 INFO (MainThread) [homeassistant.core] Bus:Handling <Event system_log_event[L]: timestamp=1525858844.2762628, level=ERROR, message=No data in response from hub None, exception=, source=components/xiaomi_aqara.py>
+2018-05-09 17:40:44 DEBUG (SyncWorker_2) [xiaomi_gateway] _send_cmd >> b'{"cmd" : "get_id_list"}'
+2018-05-09 17:40:44 DEBUG (SyncWorker_2) [xiaomi_gateway] _send_cmd resp << {'cmd': 'get_id_list_ack', 'sid': '666', 'data': '["sid1","sid2","sid3"]'}
+2018-05-09 17:40:44 INFO (SyncWorker_2) [xiaomi_gateway] Discovering Xiaomi Devices
+2018-05-09 17:40:44 DEBUG (SyncWorker_2) [xiaomi_gateway] _send_cmd >> b'{"cmd" : "get_id_list"}'
+2018-05-09 17:40:44 DEBUG (SyncWorker_2) [xiaomi_gateway] _send_cmd resp << {'cmd': 'get_id_list_ack', 'sid': '666', 'data': '["sid1","sid2","sid3"]'}
+2018-05-09 17:40:44 INFO (SyncWorker_2) [xiaomi_gateway] Discovering Xiaomi Devices
+2018-05-09 17:40:44 DEBUG (SyncWorker_2) [xiaomi_gateway] _send_cmd >> b'{"cmd" : "get_id_list"}'
+2018-05-09 17:40:44 DEBUG (SyncWorker_2) [xiaomi_gateway] _send_cmd resp << {'cmd': 'get_id_list_ack', 'sid': '666', 'data': '["sid1","sid2","sid3"]'}
+2018-05-09 17:40:44 INFO (SyncWorker_2) [xiaomi_gateway] Discovering Xiaomi Devices
+2018-05-09 17:40:44 DEBUG (SyncWorker_2) [xiaomi_gateway] _send_cmd >> b'{"cmd" : "get_id_list"}'
+2018-05-09 17:40:44 DEBUG (SyncWorker_2) [xiaomi_gateway] _send_cmd resp << {'cmd': 'get_id_list_ack', 'sid': '666', 'data': '["sid1","sid2","sid3"]'}
+2018-05-09 17:40:44 INFO (SyncWorker_2) [xiaomi_gateway] Discovering Xiaomi Devices
+2018-05-09 17:40:44 DEBUG (SyncWorker_2) [xiaomi_gateway] _send_cmd >> b'{"cmd" : "get_id_list"}'
+2018-05-09 17:40:44 DEBUG (SyncWorker_2) [xiaomi_gateway] _send_cmd resp << {'cmd': 'get_id_list_ack', 'sid': '666', 'data': '["sid1","sid2","sid3"]'}
+2018-05-09 17:40:49 INFO (SyncWorker_2) [xiaomi_gateway] Gateway discovery finished in 5 seconds
+2018-05-09 17:40:49 INFO (SyncWorker_2) [xiaomi_gateway] Creating Multicast Socket
+2018-05-09 17:40:49 DEBUG (SyncWorker_2) [homeassistant.components.xiaomi_aqara] Gateways discovered. Listening for broadcasts
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.core] Bus:Handling <Event platform_discovered[L]: service=load_platform.sensor, platform=xiaomi_aqara, discovered=>
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=xiaomi_aqara, service=play_ringtone>
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.loader] Loaded binary_sensor from homeassistant.components.binary_sensor
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.setup] Setting up binary_sensor
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.setup] Setup of domain binary_sensor took 0.0 seconds.
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=binary_sensor>
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.loader] Loaded switch from homeassistant.components.switch
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.loader] Loaded light from homeassistant.components.light
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.loader] Loaded cover from homeassistant.components.cover
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=xiaomi_aqara, service=stop_ringtone>
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.core] Bus:Handling <Event platform_discovered[L]: service=load_platform.binary_sensor, platform=xiaomi_aqara, discovered=>
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.loader] Loaded sensor.xiaomi_aqara from homeassistant.components.sensor.xiaomi_aqara
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.xiaomi_aqara
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=xiaomi_aqara, service=add_device>
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.loader] Loaded binary_sensor.xiaomi_aqara from homeassistant.components.binary_sensor.xiaomi_aqara
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.xiaomi_aqara
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.setup] Setting up switch
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=switch, service=turn_off>
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=switch, service=turn_on>
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=switch, service=toggle>
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.setup] Setup of domain switch took 0.0 seconds.
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=switch>
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.setup] Setting up light
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.setup] Setting up cover
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=cover, service=open_cover>
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=cover, service=close_cover>
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=cover, service=set_cover_position>
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=cover, service=stop_cover>
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=cover, service=open_cover_tilt>
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=cover, service=close_cover_tilt>
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=cover, service=stop_cover_tilt>
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=cover, service=set_cover_tilt_position>
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.setup] Setup of domain cover took 0.0 seconds.
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=cover>
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=xiaomi_aqara, service=remove_device>
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.core] Bus:Handling <Event platform_discovered[L]: service=load_platform.switch, platform=xiaomi_aqara, discovered=>
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.core] Bus:Handling <Event platform_discovered[L]: service=load_platform.cover, platform=xiaomi_aqara, discovered=>
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=light, service=turn_on>
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=light, service=turn_off>
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=light, service=toggle>
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.setup] Setup of domain light took 0.0 seconds.
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=light>
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.setup] Setup of domain xiaomi_aqara took 15.1 seconds.
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=xiaomi_aqara>
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.loader] Loaded switch.xiaomi_aqara from homeassistant.components.switch.xiaomi_aqara
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.components.switch] Setting up switch.xiaomi_aqara
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.core] Bus:Handling <Event platform_discovered[L]: service=load_platform.light, platform=xiaomi_aqara, discovered=>
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.loader] Loaded cover.xiaomi_aqara from homeassistant.components.cover.xiaomi_aqara
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.components.cover] Setting up cover.xiaomi_aqara
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.loader] Loaded light.xiaomi_aqara from homeassistant.components.light.xiaomi_aqara
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.components.light] Setting up light.xiaomi_aqara
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.bootstrap] Home Assistant initialized in 28.84s
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.core] Starting Home Assistant core loop
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.core] Starting Home Assistant
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.core] Bus:Handling <Event homeassistant_start[L]>
+2018-05-09 17:40:49 INFO (MainThread) [homeassistant.core] Timer:starting
+2018-05-09 17:40:51 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:40:52 INFO (MainThread) [homeassistant.components.http.view] Serving /api/websocket to 172.16.7.106 (auth: True)
+2018-05-09 17:40:54 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:40:54 INFO (MainThread) [homeassistant.components.http.view] Serving /api/translations/zh-Hans to 172.16.7.106 (auth: True)
+2018-05-09 17:40:54 INFO (MainThread) [homeassistant.loader] Loaded deconz from homeassistant.components.deconz
+2018-05-09 17:40:54 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:40:55 INFO (MainThread) [homeassistant.loader] Loaded hue from homeassistant.components.hue
+2018-05-09 17:40:55 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:40:55 ERROR (MainThread) [homeassistant.core] Timer got out of sync. Resetting
+2018-05-09 17:40:55 INFO (MainThread) [homeassistant.core] Bus:Handling <Event system_log_event[L]: timestamp=1525858855.9427733, level=ERROR, message=Timer got out of sync. Resetting, exception=, source=core.py>
+2018-05-09 17:40:57 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:40:58 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:41:00 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:41:01 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:41:03 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:41:05 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:41:06 WARNING (SyncWorker_15) [netdisco.ssdp] Error fetching description at http://192.168.206.1:49157/TxMediaRenderer_desc.xml
+2018-05-09 17:41:06 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:41:06 INFO (MainThread) [homeassistant.core] Bus:Handling <Event system_log_event[L]: timestamp=1525858866.7013457, level=WARNING, message=Error fetching description at http://192.168.206.1:49157/TxMediaRenderer_desc.xml, exception=, source=ssdp.py>
+2018-05-09 17:41:07 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:41:09 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:41:10 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:41:12 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:41:16 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:41:16 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:41:16 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:41:19 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:41:19 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:41:21 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:41:23 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:41:24 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:41:25 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:41:28 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:41:28 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:41:30 INFO (MainThread) [homeassistant.core] Bus:Handling <Event state_changed[L]: entity_id=sun.sun, old_state=<state sun.sun=above_horizon; next_dawn=2018-05-09T21:22:01+00:00, next_dusk=2018-05-09T11:17:17+00:00, next_midnight=2018-05-09T16:19:54+00:00, next_noon=2018-05-10T04:19:53+00:00, next_rising=2018-05-09T21:45:56+00:00, next_setting=2018-05-09T10:53:25+00:00, elevation=15.47, azimuth=282.9, friendly_name=Sun @ 2018-05-09T17:40:34.177944+08:00>, new_state=<state sun.sun=above_horizon; next_dawn=2018-05-09T21:22:01+00:00, next_dusk=2018-05-09T11:17:17+00:00, next_midnight=2018-05-09T16:19:54+00:00, next_noon=2018-05-10T04:19:53+00:00, next_rising=2018-05-09T21:45:56+00:00, next_setting=2018-05-09T10:53:25+00:00, elevation=15.26, azimuth=282.98, friendly_name=Sun @ 2018-05-09T17:40:34.177944+08:00>>
+2018-05-09 17:41:30 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:41:32 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:41:33 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:41:35 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:41:36 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:41:38 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:41:39 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:41:48 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:41:48 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:41:48 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:41:48 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:41:48 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:41:48 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:41:49 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:41:51 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:41:54 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:41:54 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:41:59 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:41:59 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:00 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:00 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:03 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:03 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:05 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:06 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:10 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:10 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:10 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:13 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:13 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:15 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:16 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:18 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:22 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:23 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:23 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:25 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:25 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:28 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:30 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:30 INFO (MainThread) [homeassistant.core] Bus:Handling <Event state_changed[L]: entity_id=sun.sun, old_state=<state sun.sun=above_horizon; next_dawn=2018-05-09T21:22:01+00:00, next_dusk=2018-05-09T11:17:17+00:00, next_midnight=2018-05-09T16:19:54+00:00, next_noon=2018-05-10T04:19:53+00:00, next_rising=2018-05-09T21:45:56+00:00, next_setting=2018-05-09T10:53:25+00:00, elevation=15.26, azimuth=282.98, friendly_name=Sun @ 2018-05-09T17:40:34.177944+08:00>, new_state=<state sun.sun=above_horizon; next_dawn=2018-05-09T21:22:01+00:00, next_dusk=2018-05-09T11:17:17+00:00, next_midnight=2018-05-09T16:19:54+00:00, next_noon=2018-05-10T04:19:53+00:00, next_rising=2018-05-09T21:45:56+00:00, next_setting=2018-05-09T10:53:25+00:00, elevation=15.03, azimuth=283.06, friendly_name=Sun @ 2018-05-09T17:40:34.177944+08:00>>
+2018-05-09 17:42:31 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:32 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:34 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:36 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:37 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:40 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:40 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:40 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:43 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:43 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:46 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:48 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:49 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:50 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:52 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:52 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:55 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:55 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:42:58 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:02 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:02 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:02 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:04 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:04 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:07 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:07 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:10 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:10 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:13 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:14 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:17 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:17 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:19 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:19 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:22 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:22 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:25 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:26 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:28 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:28 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:30 INFO (MainThread) [homeassistant.core] Bus:Handling <Event state_changed[L]: entity_id=sun.sun, old_state=<state sun.sun=above_horizon; next_dawn=2018-05-09T21:22:01+00:00, next_dusk=2018-05-09T11:17:17+00:00, next_midnight=2018-05-09T16:19:54+00:00, next_noon=2018-05-10T04:19:53+00:00, next_rising=2018-05-09T21:45:56+00:00, next_setting=2018-05-09T10:53:25+00:00, elevation=15.03, azimuth=283.06, friendly_name=Sun @ 2018-05-09T17:40:34.177944+08:00>, new_state=<state sun.sun=above_horizon; next_dawn=2018-05-09T21:22:01+00:00, next_dusk=2018-05-09T11:17:17+00:00, next_midnight=2018-05-09T16:19:54+00:00, next_noon=2018-05-10T04:19:53+00:00, next_rising=2018-05-09T21:45:56+00:00, next_setting=2018-05-09T10:53:25+00:00, elevation=14.81, azimuth=283.15, friendly_name=Sun @ 2018-05-09T17:40:34.177944+08:00>>
+2018-05-09 17:43:31 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:31 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:34 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:35 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:37 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:38 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:40 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:40 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:43 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:43 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:46 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:47 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:49 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:51 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:52 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:56 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:56 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:56 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:59 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:43:59 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:44:01 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:44:02 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:44:04 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:44:04 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:44:07 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:44:08 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:44:10 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:44:13 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:44:13 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:44:15 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:44:16 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:44:16 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:44:19 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:44:20 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:44:22 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:44:25 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:44:25 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:44:25 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:44:28 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:44:30 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:44:30 INFO (MainThread) [homeassistant.core] Bus:Handling <Event state_changed[L]: entity_id=sun.sun, old_state=<state sun.sun=above_horizon; next_dawn=2018-05-09T21:22:01+00:00, next_dusk=2018-05-09T11:17:17+00:00, next_midnight=2018-05-09T16:19:54+00:00, next_noon=2018-05-10T04:19:53+00:00, next_rising=2018-05-09T21:45:56+00:00, next_setting=2018-05-09T10:53:25+00:00, elevation=14.81, azimuth=283.15, friendly_name=Sun @ 2018-05-09T17:40:34.177944+08:00>, new_state=<state sun.sun=above_horizon; next_dawn=2018-05-09T21:22:01+00:00, next_dusk=2018-05-09T11:17:17+00:00, next_midnight=2018-05-09T16:19:54+00:00, next_noon=2018-05-10T04:19:53+00:00, next_rising=2018-05-09T21:45:56+00:00, next_setting=2018-05-09T10:53:25+00:00, elevation=14.59, azimuth=283.23, friendly_name=Sun @ 2018-05-09T17:40:34.177944+08:00>>
+2018-05-09 17:44:31 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:44:31 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:44:34 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:44:35 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:44:37 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:44:38 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:44:40 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:44:40 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:44:43 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:44:43 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:44:46 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:44:46 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:44:49 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:44:52 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:44:52 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:44:52 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:44:55 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:44:55 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:44:58 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:00 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:01 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:02 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:04 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:06 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:07 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:07 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:10 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:11 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:13 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:14 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:16 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:16 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:19 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:20 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:22 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:25 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:25 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:27 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:28 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:28 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:30 INFO (MainThread) [homeassistant.core] Bus:Handling <Event state_changed[L]: entity_id=sun.sun, old_state=<state sun.sun=above_horizon; next_dawn=2018-05-09T21:22:01+00:00, next_dusk=2018-05-09T11:17:17+00:00, next_midnight=2018-05-09T16:19:54+00:00, next_noon=2018-05-10T04:19:53+00:00, next_rising=2018-05-09T21:45:56+00:00, next_setting=2018-05-09T10:53:25+00:00, elevation=14.59, azimuth=283.23, friendly_name=Sun @ 2018-05-09T17:40:34.177944+08:00>, new_state=<state sun.sun=above_horizon; next_dawn=2018-05-09T21:22:01+00:00, next_dusk=2018-05-09T11:17:17+00:00, next_midnight=2018-05-09T16:19:54+00:00, next_noon=2018-05-10T04:19:53+00:00, next_rising=2018-05-09T21:45:56+00:00, next_setting=2018-05-09T10:53:25+00:00, elevation=14.36, azimuth=283.31, friendly_name=Sun @ 2018-05-09T17:40:34.177944+08:00>>
+2018-05-09 17:45:31 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:33 ERROR (MainThread) [homeassistant.core] Timer got out of sync. Resetting
+2018-05-09 17:45:33 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:33 INFO (MainThread) [homeassistant.core] Bus:Handling <Event system_log_event[L]: timestamp=1525859133.9674556, level=ERROR, message=Timer got out of sync. Resetting, exception=, source=core.py>
+2018-05-09 17:45:34 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:35 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:37 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:37 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:40 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:42 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:43 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:44 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:46 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:46 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:49 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:51 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:52 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:52 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:55 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:56 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:58 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:45:59 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:46:01 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:46:03 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:46:04 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:46:06 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:46:07 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:46:08 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:46:10 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:46:13 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:46:13 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:46:15 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:46:16 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:46:16 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:46:19 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:46:20 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:46:22 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:46:24 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:46:25 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:46:27 WARNING (SyncWorker_4) [netdisco.ssdp] Error fetching description at http://192.168.175.1:49152/TxMediaRenderer_desc.xml
+2018-05-09 17:46:27 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:46:27 INFO (MainThread) [homeassistant.core] Bus:Handling <Event system_log_event[L]: timestamp=1525859187.1599712, level=WARNING, message=Error fetching description at http://192.168.175.1:49152/TxMediaRenderer_desc.xml, exception=, source=ssdp.py>
+2018-05-09 17:46:28 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:46:29 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:46:30 INFO (MainThread) [homeassistant.core] Bus:Handling <Event state_changed[L]: entity_id=sun.sun, old_state=<state sun.sun=above_horizon; next_dawn=2018-05-09T21:22:01+00:00, next_dusk=2018-05-09T11:17:17+00:00, next_midnight=2018-05-09T16:19:54+00:00, next_noon=2018-05-10T04:19:53+00:00, next_rising=2018-05-09T21:45:56+00:00, next_setting=2018-05-09T10:53:25+00:00, elevation=14.36, azimuth=283.31, friendly_name=Sun @ 2018-05-09T17:40:34.177944+08:00>, new_state=<state sun.sun=above_horizon; next_dawn=2018-05-09T21:22:01+00:00, next_dusk=2018-05-09T11:17:17+00:00, next_midnight=2018-05-09T16:19:54+00:00, next_noon=2018-05-10T04:19:53+00:00, next_rising=2018-05-09T21:45:56+00:00, next_setting=2018-05-09T10:53:25+00:00, elevation=14.14, azimuth=283.39, friendly_name=Sun @ 2018-05-09T17:40:34.177944+08:00>>
+2018-05-09 17:46:31 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:46:32 WARNING (SyncWorker_4) [netdisco.ssdp] Error fetching description at http://192.168.232.1:49152/TxMediaRenderer_desc.xml
+2018-05-09 17:46:33 ERROR (MainThread) [homeassistant.core] Timer got out of sync. Resetting
+2018-05-09 17:46:33 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:46:33 INFO (MainThread) [homeassistant.core] Bus:Handling <Event system_log_event[L]: timestamp=1525859192.718403, level=WARNING, message=Error fetching description at http://192.168.232.1:49152/TxMediaRenderer_desc.xml, exception=, source=ssdp.py>
+2018-05-09 17:46:33 INFO (MainThread) [homeassistant.core] Bus:Handling <Event system_log_event[L]: timestamp=1525859193.036027, level=ERROR, message=Timer got out of sync. Resetting, exception=, source=core.py>
+2018-05-09 17:46:34 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:46:36 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:46:37 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:46:40 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:46:40 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:46:41 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:46:43 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:46:43 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:46:46 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:46:48 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:46:49 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:46:51 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:46:52 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:46:56 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:46:56 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:46:56 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:46:58 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:00 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:01 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:02 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:04 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:04 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:07 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:07 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:10 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:10 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:13 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:13 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:16 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:16 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:19 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:19 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:22 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:22 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:25 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:25 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:28 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:28 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:30 INFO (MainThread) [homeassistant.core] Bus:Handling <Event state_changed[L]: entity_id=sun.sun, old_state=<state sun.sun=above_horizon; next_dawn=2018-05-09T21:22:01+00:00, next_dusk=2018-05-09T11:17:17+00:00, next_midnight=2018-05-09T16:19:54+00:00, next_noon=2018-05-10T04:19:53+00:00, next_rising=2018-05-09T21:45:56+00:00, next_setting=2018-05-09T10:53:25+00:00, elevation=14.14, azimuth=283.39, friendly_name=Sun @ 2018-05-09T17:40:34.177944+08:00>, new_state=<state sun.sun=above_horizon; next_dawn=2018-05-09T21:22:01+00:00, next_dusk=2018-05-09T11:17:17+00:00, next_midnight=2018-05-09T16:19:54+00:00, next_noon=2018-05-10T04:19:53+00:00, next_rising=2018-05-09T21:45:56+00:00, next_setting=2018-05-09T10:53:25+00:00, elevation=13.91, azimuth=283.48, friendly_name=Sun @ 2018-05-09T17:40:34.177944+08:00>>
+2018-05-09 17:47:31 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:31 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:34 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:34 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:37 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:37 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:40 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:40 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:43 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:43 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:46 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:46 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:49 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:49 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:52 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:52 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:55 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:55 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:58 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:47:58 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:01 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:01 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:04 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:04 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:07 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:07 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:10 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:10 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:13 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:13 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:16 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:16 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:19 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:19 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:22 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:22 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:25 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:25 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:28 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:28 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:30 INFO (MainThread) [homeassistant.core] Bus:Handling <Event state_changed[L]: entity_id=sun.sun, old_state=<state sun.sun=above_horizon; next_dawn=2018-05-09T21:22:01+00:00, next_dusk=2018-05-09T11:17:17+00:00, next_midnight=2018-05-09T16:19:54+00:00, next_noon=2018-05-10T04:19:53+00:00, next_rising=2018-05-09T21:45:56+00:00, next_setting=2018-05-09T10:53:25+00:00, elevation=13.91, azimuth=283.48, friendly_name=Sun @ 2018-05-09T17:40:34.177944+08:00>, new_state=<state sun.sun=above_horizon; next_dawn=2018-05-09T21:22:01+00:00, next_dusk=2018-05-09T11:17:17+00:00, next_midnight=2018-05-09T16:19:54+00:00, next_noon=2018-05-10T04:19:53+00:00, next_rising=2018-05-09T21:45:56+00:00, next_setting=2018-05-09T10:53:25+00:00, elevation=13.69, azimuth=283.56, friendly_name=Sun @ 2018-05-09T17:40:34.177944+08:00>>
+2018-05-09 17:48:31 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:31 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:34 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:34 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:37 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:37 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:40 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:40 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:43 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:43 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:46 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:46 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:49 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:49 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:52 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:52 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:55 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:55 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:58 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:48:58 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:01 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:01 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:04 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:04 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:07 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:07 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:10 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:10 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:13 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:13 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:16 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:16 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:19 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:19 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:22 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:22 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:25 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:25 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:28 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:28 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:30 INFO (MainThread) [homeassistant.core] Bus:Handling <Event state_changed[L]: entity_id=sun.sun, old_state=<state sun.sun=above_horizon; next_dawn=2018-05-09T21:22:01+00:00, next_dusk=2018-05-09T11:17:17+00:00, next_midnight=2018-05-09T16:19:54+00:00, next_noon=2018-05-10T04:19:53+00:00, next_rising=2018-05-09T21:45:56+00:00, next_setting=2018-05-09T10:53:25+00:00, elevation=13.69, azimuth=283.56, friendly_name=Sun @ 2018-05-09T17:40:34.177944+08:00>, new_state=<state sun.sun=above_horizon; next_dawn=2018-05-09T21:22:01+00:00, next_dusk=2018-05-09T11:17:17+00:00, next_midnight=2018-05-09T16:19:54+00:00, next_noon=2018-05-10T04:19:53+00:00, next_rising=2018-05-09T21:45:56+00:00, next_setting=2018-05-09T10:53:25+00:00, elevation=13.47, azimuth=283.64, friendly_name=Sun @ 2018-05-09T17:40:34.177944+08:00>>
+2018-05-09 17:49:31 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:33 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:34 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:34 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:37 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:37 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:40 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:40 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:43 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:43 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:46 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:46 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:49 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:49 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:52 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:52 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:55 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:55 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:58 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:49:58 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:01 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:01 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:04 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:04 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:07 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:07 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:10 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:10 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:13 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:13 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:16 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:16 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:19 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:19 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:22 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:22 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:25 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:25 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:28 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:28 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:30 INFO (MainThread) [homeassistant.core] Bus:Handling <Event state_changed[L]: entity_id=sun.sun, old_state=<state sun.sun=above_horizon; next_dawn=2018-05-09T21:22:01+00:00, next_dusk=2018-05-09T11:17:17+00:00, next_midnight=2018-05-09T16:19:54+00:00, next_noon=2018-05-10T04:19:53+00:00, next_rising=2018-05-09T21:45:56+00:00, next_setting=2018-05-09T10:53:25+00:00, elevation=13.47, azimuth=283.64, friendly_name=Sun @ 2018-05-09T17:40:34.177944+08:00>, new_state=<state sun.sun=above_horizon; next_dawn=2018-05-09T21:22:01+00:00, next_dusk=2018-05-09T11:17:17+00:00, next_midnight=2018-05-09T16:19:54+00:00, next_noon=2018-05-10T04:19:53+00:00, next_rising=2018-05-09T21:45:56+00:00, next_setting=2018-05-09T10:53:25+00:00, elevation=13.24, azimuth=283.73, friendly_name=Sun @ 2018-05-09T17:40:34.177944+08:00>>
+2018-05-09 17:50:31 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:31 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:34 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:35 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:37 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:37 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:40 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:40 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:43 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:43 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:46 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:46 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:49 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:49 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:52 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:52 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:55 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:55 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:58 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:50:58 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:01 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:01 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:04 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:04 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:07 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:07 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:10 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:10 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:13 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:13 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:16 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:16 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:19 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:19 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:22 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:22 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:25 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:25 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:28 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:28 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:30 INFO (MainThread) [homeassistant.core] Bus:Handling <Event state_changed[L]: entity_id=sun.sun, old_state=<state sun.sun=above_horizon; next_dawn=2018-05-09T21:22:01+00:00, next_dusk=2018-05-09T11:17:17+00:00, next_midnight=2018-05-09T16:19:54+00:00, next_noon=2018-05-10T04:19:53+00:00, next_rising=2018-05-09T21:45:56+00:00, next_setting=2018-05-09T10:53:25+00:00, elevation=13.24, azimuth=283.73, friendly_name=Sun @ 2018-05-09T17:40:34.177944+08:00>, new_state=<state sun.sun=above_horizon; next_dawn=2018-05-09T21:22:01+00:00, next_dusk=2018-05-09T11:17:17+00:00, next_midnight=2018-05-09T16:19:54+00:00, next_noon=2018-05-10T04:19:53+00:00, next_rising=2018-05-09T21:45:56+00:00, next_setting=2018-05-09T10:53:25+00:00, elevation=13.02, azimuth=283.81, friendly_name=Sun @ 2018-05-09T17:40:34.177944+08:00>>
+2018-05-09 17:51:31 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:31 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:34 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:34 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:37 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:37 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:40 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:40 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:43 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:43 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:46 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:46 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:49 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:49 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:52 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:52 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:55 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:55 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:58 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:51:58 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:01 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:01 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:04 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:04 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:07 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:07 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:10 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:10 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:13 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:13 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:16 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:16 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:19 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:19 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:22 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:22 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:25 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:25 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:28 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:28 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:30 INFO (MainThread) [homeassistant.core] Bus:Handling <Event state_changed[L]: entity_id=sun.sun, old_state=<state sun.sun=above_horizon; next_dawn=2018-05-09T21:22:01+00:00, next_dusk=2018-05-09T11:17:17+00:00, next_midnight=2018-05-09T16:19:54+00:00, next_noon=2018-05-10T04:19:53+00:00, next_rising=2018-05-09T21:45:56+00:00, next_setting=2018-05-09T10:53:25+00:00, elevation=13.02, azimuth=283.81, friendly_name=Sun @ 2018-05-09T17:40:34.177944+08:00>, new_state=<state sun.sun=above_horizon; next_dawn=2018-05-09T21:22:01+00:00, next_dusk=2018-05-09T11:17:17+00:00, next_midnight=2018-05-09T16:19:54+00:00, next_noon=2018-05-10T04:19:53+00:00, next_rising=2018-05-09T21:45:56+00:00, next_setting=2018-05-09T10:53:25+00:00, elevation=12.8, azimuth=283.89, friendly_name=Sun @ 2018-05-09T17:40:34.177944+08:00>>
+2018-05-09 17:52:31 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:32 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:34 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:35 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:37 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:37 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:40 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:40 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:43 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:43 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:46 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:46 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:49 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:49 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:52 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:52 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:55 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:55 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:58 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:52:58 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:01 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:01 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:04 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:04 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:07 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:07 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:10 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:10 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:13 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:13 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:16 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:16 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:19 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:19 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:22 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:22 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:25 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:25 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:28 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:28 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:30 INFO (MainThread) [homeassistant.core] Bus:Handling <Event state_changed[L]: entity_id=sun.sun, old_state=<state sun.sun=above_horizon; next_dawn=2018-05-09T21:22:01+00:00, next_dusk=2018-05-09T11:17:17+00:00, next_midnight=2018-05-09T16:19:54+00:00, next_noon=2018-05-10T04:19:53+00:00, next_rising=2018-05-09T21:45:56+00:00, next_setting=2018-05-09T10:53:25+00:00, elevation=12.8, azimuth=283.89, friendly_name=Sun @ 2018-05-09T17:40:34.177944+08:00>, new_state=<state sun.sun=above_horizon; next_dawn=2018-05-09T21:22:01+00:00, next_dusk=2018-05-09T11:17:17+00:00, next_midnight=2018-05-09T16:19:54+00:00, next_noon=2018-05-10T04:19:53+00:00, next_rising=2018-05-09T21:45:56+00:00, next_setting=2018-05-09T10:53:25+00:00, elevation=12.58, azimuth=283.98, friendly_name=Sun @ 2018-05-09T17:40:34.177944+08:00>>
+2018-05-09 17:53:31 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:34 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:34 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:35 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:37 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:37 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:40 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:40 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:43 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:43 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:46 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:46 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:49 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:49 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:52 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:52 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:55 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:55 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:58 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:53:58 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:01 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:01 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:04 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:04 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:07 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:07 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:10 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:10 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:13 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:13 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:16 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:16 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:19 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:19 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:22 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:22 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:25 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:25 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:28 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:28 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:30 INFO (MainThread) [homeassistant.core] Bus:Handling <Event state_changed[L]: entity_id=sun.sun, old_state=<state sun.sun=above_horizon; next_dawn=2018-05-09T21:22:01+00:00, next_dusk=2018-05-09T11:17:17+00:00, next_midnight=2018-05-09T16:19:54+00:00, next_noon=2018-05-10T04:19:53+00:00, next_rising=2018-05-09T21:45:56+00:00, next_setting=2018-05-09T10:53:25+00:00, elevation=12.58, azimuth=283.98, friendly_name=Sun @ 2018-05-09T17:40:34.177944+08:00>, new_state=<state sun.sun=above_horizon; next_dawn=2018-05-09T21:22:01+00:00, next_dusk=2018-05-09T11:17:17+00:00, next_midnight=2018-05-09T16:19:54+00:00, next_noon=2018-05-10T04:19:53+00:00, next_rising=2018-05-09T21:45:56+00:00, next_setting=2018-05-09T10:53:25+00:00, elevation=12.35, azimuth=284.06, friendly_name=Sun @ 2018-05-09T17:40:34.177944+08:00>>
+2018-05-09 17:54:31 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:33 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:34 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:34 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:37 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:37 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:40 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:40 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:43 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:43 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:46 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:46 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:49 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:49 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:52 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:52 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:55 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:55 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:58 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:54:58 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:55:01 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:55:01 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:55:04 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:55:04 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:55:07 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:55:07 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:55:10 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:55:10 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:55:13 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:55:13 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:55:16 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:55:16 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:55:19 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:55:19 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:55:22 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:55:22 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:55:25 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:55:25 DEBUG (Thread-2) [xiaomi_gateway] {'cmd': 'heartbeat', 'model': 'gateway', 'sid': '666', 'short_id': 0, 'token': '1234567890abcdef', 'data': '{"ip":"172.16.7.118"}'}
+2018-05-09 17:55:30 INFO (MainThread) [homeassistant.core] Bus:Handling <Event state_changed[L]: entity_id=sun.sun, old_state=<state sun.sun=above_horizon; next_dawn=2018-05-09T21:22:01+00:00, next_dusk=2018-05-09T11:17:17+00:00, next_midnight=2018-05-09T16:19:54+00:00, next_noon=2018-05-10T04:19:53+00:00, next_rising=2018-05-09T21:45:56+00:00, next_setting=2018-05-09T10:53:25+00:00, elevation=12.35, azimuth=284.06, friendly_name=Sun @ 2018-05-09T17:40:34.177944+08:00>, new_state=<state sun.sun=above_horizon; next_dawn=2018-05-09T21:22:01+00:00, next_dusk=2018-05-09T11:17:17+00:00, next_midnight=2018-05-09T16:19:54+00:00, next_noon=2018-05-10T04:19:53+00:00, next_rising=2018-05-09T21:45:56+00:00, next_setting=2018-05-09T10:53:25+00:00, elevation=12.13, azimuth=284.14, friendly_name=Sun @ 2018-05-09T17:40:34.177944+08:00>>
