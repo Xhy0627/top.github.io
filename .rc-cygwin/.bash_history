@@ -1,28 +1,3 @@
-ssh kerwin@10.0.2.15
-ssh kerwin@192.168.56.56
-cd ~/../ws/js/homebridge-mi-aqara
-git status
-git difftolls .
-git difftools .
-git --help
-git diff --help
-git diff --help
-gitdiff
-git diff-tool
-git diff --help
-git-difftool
-git difftool
-git diff
-git status
-git checkout dev
-git status
-git diff
-git status
-git add lib parser sampleConfig.json 
-git status
-git push origin dev
-git status
-git commit -m 'add lock support pre'
 git push origin dev
 git status
 git status
@@ -498,3 +473,28 @@ cd ileler/configs/
 git push origin configs
 ll -a ~/
 ll -a ~/
+ll -a ~/
+ll -a ./
+echo $JAVA_HOME
+ll /u/u~u/a0a/.rc-cygwin.local/bins/.win/java/jdk1.8.0_171/
+java -version
+cd ileler/configs/
+git status
+git diff
+git add .
+git status
+git commit -m 'sync configs'
+git push origin configs
+git status
+cd .ext/
+git status
+ll -a ~/
+ll .bin/
+ll /u/u~u/a0a/.common/.bin/
+ll ~/.bin/
+vi ~/.vimrc 
+vi ~/.vimrc 
+ll -a /u/u~u/a0a/.common/
+vi ~/.tmux.conf 
+ll -a ~/
+vi ~/.vimrc 

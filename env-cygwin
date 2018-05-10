@@ -17,13 +17,18 @@ export __RPATH__=$(cd "$HOME/../";pwd)
 
 #EXT DIR SET
 export _USER_EXT_=$__/.ext
-cd $HOME && rm -rf .IntelliJIdea && ext-link .IntelliJIdea $_USER_EXT_/.IntelliJIdea && cd -
+fnameArray=(.IntelliJIdea)
+for fname in ${fnameArray[@]}
+do
+  cd $HOME && rm -rf $fname && ext-link $fname $_USER_EXT_/$fname && cd -
+done
 
 #COMMON DIR SET
 export _USER_COMMON_=$__/.common
-cd $HOME && rm -rf .bin && ext-link .bin $_USER_COMMON_/.bin && cd -
-cd $HOME && rm -rf .ssh && ext-link .ssh $_USER_COMMON_/.ssh && cd -
-cd $HOME && rm -rf .m2 && ext-link .m2 $_USER_COMMON_/.m2 && cd -
+for fname in $(ls -A $_USER_COMMON_)
+do
+  cd $HOME && rm -rf $fname && ext-link $fname $_USER_COMMON_/$fname && cd -
+done
 cd /etc/setup/ && rm -rf installed.db && ext-link installed.db $HOME/installed.db && cd -
 
 
