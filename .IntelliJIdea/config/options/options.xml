@@ -1,0 +1,94 @@
+<application>
+  <component name="PropertiesComponent">
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.SPLIT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.TOOL_ORDER" value="PALETTE,COMPONENT_TREE,PROPERTIES" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Preview.PALETTE.AUTO_HIDE" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Preview.PALETTE.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Preview.TOOL_ORDER" value="PALETTE" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.COMPONENT_TREE.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.COMPONENT_TREE.SPLIT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.PALETTE.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.TOOL_ORDER" value="PALETTE,COMPONENT_TREE,PROPERTIES" />
+    <property name="ATTACHED_TOOL_WINDOW.Preview.PALETTE.AUTO_HIDE" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.Preview.PALETTE.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.Preview.TOOL_ORDER" value="PALETTE" />
+    <property name="ColorChooser.RecentColors" value="49-51-53-255" />
+    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.61055636" />
+    <property name="Copy.OpenInEditor" value="true" />
+    <property name="DEVKIT_SANDBOX_HISTORY" value="F:\a0a\bins\idea\.IntelliJIdea\system\plugins-sandbox&#10;E:\a0a\JetBrains\.IntelliJIdea2017.2\system\plugins-sandbox" />
+    <property name="DeploymentNotificationsComponent.WarnDisplayed.Java7&amp;Windows7FTPIssue" value="false" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="ExpandRunDashboardTypesPanel" value="false" />
+    <property name="FileTemplates.CurrentTab" value="Includes" />
+    <property name="FileTemplates.SelectedTemplate" value="ActionScript File Header" />
+    <property name="FindSplitterProportion" value="0.25324675" />
+    <property name="GradleModuleWizard.inheritGroupId" value="true" />
+    <property name="GradleModuleWizard.inheritVersion" value="true" />
+    <property name="GradleSupport.showInternalTestNodes" value="false" />
+    <property name="INSPECTION_FILTER_HISTORY" value="Serialization issues&#10;md" />
+    <property name="JUnitSupport.hidePassedTests" value="false" />
+    <property name="KEYMAP" value="find&#10;scroll&#10;line&#10;Size&#10;f" />
+    <property name="LayoutCode.optimizeImports" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
+    <property name="LiveContextsPanel[0]" value="0.110192835" />
+    <property name="LiveContextsPanel[1]" value="0.12391574" />
+    <property name="LiveContextsPanel[2]" value="0.14154282" />
+    <property name="MavenModuleWizard.inheritGroupId" value="true" />
+    <property name="MavenModuleWizard.inheritVersion" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MobileminApi" value="21" />
+    <property name="MoveClassWithTarget.OpenInEditor" value="false" />
+    <property name="MoveFile.OpenInEditor" value="true" />
+    <property name="NlScreenMode" value="SCREEN_ONLY" />
+    <property name="PLUGIN_FILTER" value="my&#10;Myb&#10;Myba&#10;mybai&#10;Node" />
+    <property name="RegistryRecentKeys" value="compiler.automake.allow.when.app.running" />
+    <property name="RunConfigurable.dividerProportion" value="0.41554558" />
+    <property name="ShowDocumentationInToolWindow" value="false" />
+    <property name="SpringBeansModulesPanel[0]" value="0.10857763" />
+    <property name="SpringBeansModulesPanel[1]" value="0.1216545" />
+    <property name="SpringRepositoriesModulesPanel[0]" value="0.10840108" />
+    <property name="SqlStructureView.filterD.file.structure.state" value="true" />
+    <property name="android-component-compatibility-check" value="1524532943696" />
+    <property name="com.intellij.diagnostic.IdeErrorsDialogactiveTab" value="1" />
+    <property name="com.intellij.history.integration.ui.views.DirectoryHistoryDialog.0" value="300" />
+    <property name="com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor" value="Sources" />
+    <property name="create.project.preferred.importer" value="Existing Sources" />
+    <property name="decompiler.legal.notice.accepted" value="true" />
+    <property name="eclipse.project.dir" value="E:\a0a\Eclipse\pdri\org.pdri.prms" />
+    <property name="es6.show.auto.import" value="true" />
+    <property name="favorites.view.settings.abbreviate.qualified.package.names" value="false" />
+    <property name="favorites.view.settings.autoscroll.from.source" value="true" />
+    <property name="favorites.view.settings.autoscroll.to.source" value="false" />
+    <property name="favorites.view.settings.flatten.packages" value="false" />
+    <property name="favorites.view.settings.hide.empty.middle.packages" value="true" />
+    <property name="favorites.view.settings.show.members" value="true" />
+    <property name="file.chooser.recent.files" value="U:/u~u/a0a/bins/Java/jdk1.8.0_144&#10;/u~u/ws/tl/publisher/com.mpr/com.mpr.data.collection&#10;/u~u/bins/Java/jdk-8u144-linux-x64&#10;/u~u/.rc-ubuntu/.m2/settings_spring-boot.xml&#10;/u~u/ws/tl/publisher&#10;U:/u~u/a0a/ws/python/PyXiaomiGateway&#10;U:/u~u/a0a/.rc-cygwin/.IntelliJIdea/config/plugins/python-2017.2.172.3968.33.zip&#10;U:/u~u/a0a/ws/python/home-assistant&#10;U:/u~u/a0a/ws/python&#10;U:/u~u/a0a/ws/tl/publisher/com.mpr.panmedia/com.mpr.panmedia.goods/src/main/java/com/mpr/panmedia/goods/model&#10;U:/u~u/a0a/ws/tl/publisher/com.mpr/new/com.mpr.util-for-ribbon/com.mpr.util-for-ribbon&#10;E:/a0a/IdeaProjects/publisher/20180206/server/com.mpr/com.mpr.data.collection&#10;E:/a0a/IdeaProjects/publisher/20180206/server/com.mpr.panmedia/com.mpr.panmedia.data.collection.server&#10;U:/u~u/a0a/ws/tl/publisher/dctest/src/main/resources&#10;U:/u~u/a0a/ws/tl/com.mpr.dc&#10;U:/u~u/a0a/ws/tl/publisher/com.mpr.panmedia/com.mpr.panmedia.test1&#10;U:/u~u/a0a/ws/tl/publisher/com.mpr/new/org.ileler.util/org.ileler.util&#10;U:/u~u/a0a/ws/tl/publisher/com.mpr/new/com.mpr.debug-for-ribbon&#10;U:/u~u/a0a/ws/tl/publisher/com.mpr/com.mpr.data.collection&#10;U:/u~u/a0a/ws/js/homebridge-mi-aqara&#10;U:/u~u/a0a/ws/tl/publisher/com.mpr/com.mpr.mq&#10;U:/u~u/a0a/ws/java/spring-projects/spring-cloud-zookeeper&#10;U:/u~u/a0a/ws/java/gradle-test-artifact1/settings.gradle&#10;U:/u~u/a0a/ws/java/gradle-test-artifact1/build.gradle&#10;U:/u~u/a0a/ws/java/gradle-test-artifact1&#10;U:/u~u/a0a/ws/android/ApkAutoInstaller&#10;U:/u~u/a0a/ws/android/ApkAutoInstaller-master&#10;U:/u~u/a0a/ws/android&#10;U:/u~u/a0a/ws/java/ApkAutoInstaller-master&#10;U:/u~u/a0a/bins/Android/android-sdk-windows" />
+    <property name="file.gist.reindex.count" value="4706897" />
+    <property name="fileTypeChangedCounter" value="2" />
+    <property name="find.popup.splitter" value="0.5" />
+    <property name="gradle.runner.text.console_str" value="false" />
+    <property name="gradle.test.runner.text.console_str" value="false" />
+    <property name="ideavim.statistics.timestamp" value="1514356994073" />
+    <property name="installed.kotlin.plugin.version" value="1.1.4-release-IJ2017.2-3" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last.imported.location" value="/u~u/ws/tl/publisher/com.mpr/com.mpr.data.collection" />
+    <property name="last.used.gradle.home" value="U:/u~u/a0a/bins/Gradle/gradle-4.2.1" />
+    <property name="lastTip" value="1" />
+    <property name="plugins.preselection.path" value="$APPLICATION_PLUGINS_DIR$" />
+    <property name="project.wizard.group" value="EMPTY_MODULE" />
+    <property name="project.wizard.template" value="Empty Project" />
+    <property name="quick.doc.font.size" value="MEDIUM" />
+    <property name="settings.code.style.selected.tab.JAVA" value="Imports" />
+    <property name="spring.initializr.service.url.history" value="" />
+    <property name="spring.initializr.service.url.last" value="https://start.spring.io" />
+    <property name="toolwindow.stripes.buttons.info.shown" value="true" />
+    <property name="ts.lib.d.ts.version" value="2.4.1" />
+    <property name="typescript.merge.auto.import" value="true" />
+    <property name="typescript.show.auto.import" value="true" />
+    <property name="typescript.use.config.auto.import" value="false" />
+    <property name="ProjectStructure.SecondLevelElements" value="0.37586206" />
+  </component>
+</application>

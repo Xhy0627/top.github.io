@@ -1,0 +1,10 @@
+<application>
+  <component name="NotificationConfiguration">
+    <notification groupId="Framework Detection" displayType="NONE" />
+    <notification groupId="Gradle Import" displayType="NONE" shouldLog="false" />
+    <notification groupId="Maven Import" displayType="NONE" />
+    <notification groupId="Run Dashboard" displayType="NONE" shouldLog="false" />
+    <notification groupId="Spring Configuration Check" displayType="NONE" shouldLog="false" />
+    <notification groupId="Vcs Important Messages" displayType="NONE" />
+  </component>
+</application>

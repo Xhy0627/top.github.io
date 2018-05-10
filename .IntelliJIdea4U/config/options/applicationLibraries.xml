@@ -1,0 +1,41 @@
+<application>
+  <component name="libraryTable">
+    <library name="Python 3.6 (python) interpreter library">
+      <CLASSES>
+        <root url="file:///usr/lib/python3.6" />
+        <root url="file:///usr/lib/python3.6/lib-dynload" />
+        <root url="file:///u~u/ws/python/venv/lib/python3.6/site-packages" />
+        <root url="jar:///u~u/ws/python/venv/lib/python3.6/site-packages/setuptools-28.8.0-py3.6.egg!/" />
+        <root url="file:///u~u/ws/python/venv/lib/python3.6/site-packages/pip-9.0.1-py3.6.egg" />
+        <root url="file://$APPLICATION_HOME_DIR$/.IntelliJIdea4U/system/python_stubs/1336990058" />
+        <root url="file:///media/zhangle/KERWIN/a0a/ileler/configs/upan/.rc-ubuntu/.IntelliJIdea4U/config/plugins/python/helpers/python-skeletons" />
+        <root url="file:///media/zhangle/KERWIN/a0a/ileler/configs/upan/.rc-ubuntu/.IntelliJIdea4U/config/plugins/python/helpers/typeshed/stdlib/3.6" />
+        <root url="file:///media/zhangle/KERWIN/a0a/ileler/configs/upan/.rc-ubuntu/.IntelliJIdea4U/config/plugins/python/helpers/typeshed/stdlib/3.5" />
+        <root url="file:///media/zhangle/KERWIN/a0a/ileler/configs/upan/.rc-ubuntu/.IntelliJIdea4U/config/plugins/python/helpers/typeshed/stdlib/3.4" />
+        <root url="file:///media/zhangle/KERWIN/a0a/ileler/configs/upan/.rc-ubuntu/.IntelliJIdea4U/config/plugins/python/helpers/typeshed/stdlib/3.3" />
+        <root url="file:///media/zhangle/KERWIN/a0a/ileler/configs/upan/.rc-ubuntu/.IntelliJIdea4U/config/plugins/python/helpers/typeshed/stdlib/3" />
+        <root url="file:///media/zhangle/KERWIN/a0a/ileler/configs/upan/.rc-ubuntu/.IntelliJIdea4U/config/plugins/python/helpers/typeshed/stdlib/2and3" />
+        <root url="file:///media/zhangle/KERWIN/a0a/ileler/configs/upan/.rc-ubuntu/.IntelliJIdea4U/config/plugins/python/helpers/typeshed/third_party/3" />
+        <root url="file:///media/zhangle/KERWIN/a0a/ileler/configs/upan/.rc-ubuntu/.IntelliJIdea4U/config/plugins/python/helpers/typeshed/third_party/2and3" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file:///usr/lib/python3.6" />
+        <root url="file:///usr/lib/python3.6/lib-dynload" />
+        <root url="file:///u~u/ws/python/venv/lib/python3.6/site-packages" />
+        <root url="jar:///u~u/ws/python/venv/lib/python3.6/site-packages/setuptools-28.8.0-py3.6.egg!/" />
+        <root url="file:///u~u/ws/python/venv/lib/python3.6/site-packages/pip-9.0.1-py3.6.egg" />
+        <root url="file://$APPLICATION_HOME_DIR$/.IntelliJIdea4U/system/python_stubs/1336990058" />
+        <root url="file:///media/zhangle/KERWIN/a0a/ileler/configs/upan/.rc-ubuntu/.IntelliJIdea4U/config/plugins/python/helpers/python-skeletons" />
+        <root url="file:///media/zhangle/KERWIN/a0a/ileler/configs/upan/.rc-ubuntu/.IntelliJIdea4U/config/plugins/python/helpers/typeshed/stdlib/3.6" />
+        <root url="file:///media/zhangle/KERWIN/a0a/ileler/configs/upan/.rc-ubuntu/.IntelliJIdea4U/config/plugins/python/helpers/typeshed/stdlib/3.5" />
+        <root url="file:///media/zhangle/KERWIN/a0a/ileler/configs/upan/.rc-ubuntu/.IntelliJIdea4U/config/plugins/python/helpers/typeshed/stdlib/3.4" />
+        <root url="file:///media/zhangle/KERWIN/a0a/ileler/configs/upan/.rc-ubuntu/.IntelliJIdea4U/config/plugins/python/helpers/typeshed/stdlib/3.3" />
+        <root url="file:///media/zhangle/KERWIN/a0a/ileler/configs/upan/.rc-ubuntu/.IntelliJIdea4U/config/plugins/python/helpers/typeshed/stdlib/3" />
+        <root url="file:///media/zhangle/KERWIN/a0a/ileler/configs/upan/.rc-ubuntu/.IntelliJIdea4U/config/plugins/python/helpers/typeshed/stdlib/2and3" />
+        <root url="file:///media/zhangle/KERWIN/a0a/ileler/configs/upan/.rc-ubuntu/.IntelliJIdea4U/config/plugins/python/helpers/typeshed/third_party/3" />
+        <root url="file:///media/zhangle/KERWIN/a0a/ileler/configs/upan/.rc-ubuntu/.IntelliJIdea4U/config/plugins/python/helpers/typeshed/third_party/2and3" />
+      </SOURCES>
+    </library>
+  </component>
+</application>
