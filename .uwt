@@ -1,0 +1,4 @@
+#!/bin/bash
+pattern='.*worktree.*configs'
+replace=$(cd "$(dirname "$0")";pwd)
+sed -i "s/$pattern/worktree=${replace//\//\\\/}/g" .git/config
