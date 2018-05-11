@@ -1,0 +1,13 @@
+[Unit]
+Description=nexus service
+After=network.target
+
+[Service]
+Type=forking
+ExecStart=/home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/nexus start
+ExecStop=/home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/nexus stop
+User=zhangle
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target

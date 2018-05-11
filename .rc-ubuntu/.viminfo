@@ -21,9 +21,9 @@ $\~\/\.ssh\/
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1526004653,,"wq"
+|2,0,1526018162,,"wq"
 :q
-|2,0,1526004531,,"q"
+|2,0,1526017348,,"q"
 :q!
 |2,0,1526004319,,"q!"
 :w
@@ -130,292 +130,319 @@ $\~\/\.ssh\/
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	LINE	0
+"0	LINE	0
 	#common dir set
 	export _USER_COMMON_=$cdir/.common
 	for fname in $(ls -A $_USER_COMMON_)
 	do
 	  cd $hpath && rm -rf $fname && ln -s $_USER_COMMON_/$fname $fname && cd - >/dev/null
 	done
-|3,1,0,1,6,0,1526004103,"#common dir set","export _USER_COMMON_=$cdir/.common","for fname in $(ls -A $_USER_COMMON_)","do","  cd $hpath && rm -rf $fname && ln -s $_USER_COMMON_/$fname $fname && cd - >/dev/null","done"
-"1	LINE	0
-	                    key = gateway['key']
-|3,0,1,1,1,0,1525856627,"                    key = gateway['key']"
+|3,0,0,1,6,0,1526004103,"#common dir set","export _USER_COMMON_=$cdir/.common","for fname in $(ls -A $_USER_COMMON_)","do","  cd $hpath && rm -rf $fname && ln -s $_USER_COMMON_/$fname $fname && cd - >/dev/null","done"
+""1	LINE	0
+	/home/zhangle/ws/nexus/nexus-2.14.8-01/bin/nexus start
+|3,1,1,1,1,0,1526011033,"/home/zhangle/ws/nexus/nexus-2.14.8-01/bin/nexus start"
 "2	LINE	0
-	                    sid = gateway['sid']
-|3,0,2,1,1,0,1525856626,"                    sid = gateway['sid']"
+	                    key = gateway['key']
+|3,0,2,1,1,0,1525856627,"                    key = gateway['key']"
 "3	LINE	0
-	                    _LOGGER.debug(gateway);
-|3,0,3,1,1,0,1525856625,"                    _LOGGER.debug(gateway);"
+	                    sid = gateway['sid']
+|3,0,3,1,1,0,1525856626,"                    sid = gateway['sid']"
 "4	LINE	0
-	    }, 1500);
-|3,0,4,1,1,0,1525850273,"    }, 1500);"
+	                    _LOGGER.debug(gateway);
+|3,0,4,1,1,0,1525856625,"                    _LOGGER.debug(gateway);"
 "5	LINE	0
-	    setInterval(() => {
-|3,0,5,1,1,0,1525850272,"    setInterval(() => {"
+	    }, 1500);
+|3,0,5,1,1,0,1525850273,"    }, 1500);"
 "6	LINE	0
 	    setInterval(() => {
 |3,0,6,1,1,0,1525850272,"    setInterval(() => {"
 "7	LINE	0
-	syntax on
-|3,0,7,1,1,0,1525846568,"syntax on"
+	    setInterval(() => {
+|3,0,7,1,1,0,1525850272,"    setInterval(() => {"
 "8	LINE	0
-	u~u:x:0:0::/u~u/.rc-ubuntu:/bin/bash
-|3,0,8,1,1,0,1524649305,"u~u:x:0:0::/u~u/.rc-ubuntu:/bin/bash"
+	syntax on
+|3,0,8,1,1,0,1525846568,"syntax on"
 "9	LINE	0
-	root:x:0:0:root:/root:/bin/bash
-|3,0,9,1,1,0,1524647119,"root:x:0:0:root:/root:/bin/bash"
+	u~u:x:0:0::/u~u/.rc-ubuntu:/bin/bash
+|3,0,9,1,1,0,1524649305,"u~u:x:0:0::/u~u/.rc-ubuntu:/bin/bash"
 
 # File marks:
-'0  14  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
-|4,48,14,0,1526004656,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
-'1  6  15  /media/kerwin/a0a/ileler/configs/.git/config
-|4,49,6,15,1526004571,"/media/kerwin/a0a/ileler/configs/.git/config"
-'2  59  0  ~/.profile
-|4,50,59,0,1526004531,"~/.profile"
-'3  58  0  ~/.profile
-|4,51,58,0,1526004492,"~/.profile"
-'4  58  0  ~/.profile
-|4,52,58,0,1526004492,"~/.profile"
-'5  61  0  ~/.profile
-|4,53,61,0,1526004388,"~/.profile"
-'6  61  0  ~/.profile
-|4,54,61,0,1526004388,"~/.profile"
-'7  61  0  ~/.profile
-|4,55,61,0,1526004388,"~/.profile"
-'8  61  0  ~/.profile
-|4,56,61,0,1526004388,"~/.profile"
-'9  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
-|4,57,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
+'0  3  0  /etc/rc.local
+|4,48,3,0,1526018162,"/etc/rc.local"
+'1  15  79  /home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf
+|4,49,15,79,1526017610,"/home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf"
+'2  1  0  /home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf
+|4,50,1,0,1526017348,"/home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf"
+'3  1  0  /home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf
+|4,51,1,0,1526017348,"/home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf"
+'4  9  11  /etc/systemd/system/nexus.service
+|4,52,9,11,1526017159,"/etc/systemd/system/nexus.service"
+'5  14  0  /etc/systemd/system/rc-local.service
+|4,53,14,0,1526017064,"/etc/systemd/system/rc-local.service"
+'6  3  85  /etc/rc.local
+|4,54,3,85,1526012579,"/etc/rc.local"
+'7  1  0  /etc/systemd/system/rc-local.service
+|4,55,1,0,1526012224,"/etc/systemd/system/rc-local.service"
+'8  1  0  /etc/systemd/system/rc-local.service
+|4,56,1,0,1526012224,"/etc/systemd/system/rc-local.service"
+'9  1  0  /etc/systemd/system/rc-local.service
+|4,57,1,0,1526012107,"/etc/systemd/system/rc-local.service"
 
 # Jumplist (newest first):
--'  14  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
-|4,39,14,0,1526004656,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
--'  15  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
-|4,39,15,0,1526004643,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
--'  1  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
-|4,39,1,0,1526004636,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
--'  6  15  /media/kerwin/a0a/ileler/configs/.git/config
-|4,39,6,15,1526004571,"/media/kerwin/a0a/ileler/configs/.git/config"
--'  6  15  /media/kerwin/a0a/ileler/configs/.git/config
-|4,39,6,15,1526004571,"/media/kerwin/a0a/ileler/configs/.git/config"
--'  1  0  /media/kerwin/a0a/ileler/configs/.git/config
-|4,39,1,0,1526004544,"/media/kerwin/a0a/ileler/configs/.git/config"
--'  1  0  /media/kerwin/a0a/ileler/configs/.git/config
-|4,39,1,0,1526004544,"/media/kerwin/a0a/ileler/configs/.git/config"
--'  59  0  ~/.profile
-|4,39,59,0,1526004531,"~/.profile"
--'  59  0  ~/.profile
-|4,39,59,0,1526004531,"~/.profile"
--'  59  0  ~/.profile
-|4,39,59,0,1526004531,"~/.profile"
--'  59  0  ~/.profile
-|4,39,59,0,1526004531,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1526004516,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1526004516,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1526004516,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1526004516,"~/.profile"
--'  58  0  ~/.profile
-|4,39,58,0,1526004492,"~/.profile"
--'  58  0  ~/.profile
-|4,39,58,0,1526004492,"~/.profile"
--'  58  0  ~/.profile
-|4,39,58,0,1526004492,"~/.profile"
--'  58  0  ~/.profile
-|4,39,58,0,1526004492,"~/.profile"
--'  58  0  ~/.profile
-|4,39,58,0,1526004492,"~/.profile"
--'  58  0  ~/.profile
-|4,39,58,0,1526004492,"~/.profile"
--'  58  0  ~/.profile
-|4,39,58,0,1526004492,"~/.profile"
--'  58  0  ~/.profile
-|4,39,58,0,1526004492,"~/.profile"
--'  6  0  ~/.profile
-|4,39,6,0,1526004482,"~/.profile"
--'  6  0  ~/.profile
-|4,39,6,0,1526004482,"~/.profile"
--'  6  0  ~/.profile
-|4,39,6,0,1526004482,"~/.profile"
--'  6  0  ~/.profile
-|4,39,6,0,1526004482,"~/.profile"
--'  6  0  ~/.profile
-|4,39,6,0,1526004482,"~/.profile"
--'  6  0  ~/.profile
-|4,39,6,0,1526004482,"~/.profile"
--'  6  0  ~/.profile
-|4,39,6,0,1526004482,"~/.profile"
--'  6  0  ~/.profile
-|4,39,6,0,1526004482,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1526004481,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1526004481,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1526004481,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1526004481,"~/.profile"
--'  61  0  ~/.profile
-|4,39,61,0,1526004388,"~/.profile"
--'  61  0  ~/.profile
-|4,39,61,0,1526004388,"~/.profile"
--'  61  0  ~/.profile
-|4,39,61,0,1526004388,"~/.profile"
--'  61  0  ~/.profile
-|4,39,61,0,1526004388,"~/.profile"
--'  61  0  ~/.profile
-|4,39,61,0,1526004388,"~/.profile"
--'  61  0  ~/.profile
-|4,39,61,0,1526004388,"~/.profile"
--'  61  0  ~/.profile
-|4,39,61,0,1526004388,"~/.profile"
--'  61  0  ~/.profile
-|4,39,61,0,1526004388,"~/.profile"
--'  61  0  ~/.profile
-|4,39,61,0,1526004388,"~/.profile"
--'  61  0  ~/.profile
-|4,39,61,0,1526004388,"~/.profile"
--'  61  0  ~/.profile
-|4,39,61,0,1526004388,"~/.profile"
--'  61  0  ~/.profile
-|4,39,61,0,1526004388,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1526004378,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1526004378,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1526004378,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1526004378,"~/.profile"
--'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
-|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
--'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
-|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
--'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
-|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
--'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
-|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
--'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
-|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
--'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
-|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
--'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
-|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
--'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
-|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
--'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
-|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
--'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
-|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
--'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
-|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
--'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
-|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
--'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
-|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
--'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
-|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
--'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
-|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
--'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
-|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
--'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
-|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
--'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
-|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
--'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
-|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
--'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
-|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
--'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
-|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
--'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
-|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
--'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
-|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
--'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
-|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
--'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
-|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
--'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
-|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
--'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
-|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
--'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
-|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
--'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
-|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
--'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
-|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
--'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
-|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
--'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
-|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
--'  40  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
-|4,39,40,0,1526004178,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
--'  39  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
-|4,39,39,0,1526004178,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
--'  39  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
-|4,39,39,0,1526004178,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
--'  39  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
-|4,39,39,0,1526004178,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
--'  39  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
-|4,39,39,0,1526004178,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
--'  39  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
-|4,39,39,0,1526004178,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
--'  39  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
-|4,39,39,0,1526004178,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
--'  39  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
-|4,39,39,0,1526004178,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
--'  39  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
-|4,39,39,0,1526004178,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
--'  39  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
-|4,39,39,0,1526004178,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
--'  39  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
-|4,39,39,0,1526004178,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
--'  39  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
-|4,39,39,0,1526004178,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
--'  39  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
-|4,39,39,0,1526004178,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
--'  39  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
-|4,39,39,0,1526004178,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
--'  39  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
-|4,39,39,0,1526004178,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
--'  39  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
-|4,39,39,0,1526004178,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
--'  39  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
-|4,39,39,0,1526004178,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
+-'  3  0  /etc/rc.local
+|4,39,3,0,1526018162,"/etc/rc.local"
+-'  1  0  /etc/rc.local
+|4,39,1,0,1526018157,"/etc/rc.local"
+-'  15  79  /home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf
+|4,39,15,79,1526017610,"/home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf"
+-'  15  79  /home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf
+|4,39,15,79,1526017610,"/home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf"
+-'  1  0  /home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf
+|4,39,1,0,1526017592,"/home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf"
+-'  1  0  /home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf
+|4,39,1,0,1526017592,"/home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf"
+-'  1  0  /home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf
+|4,39,1,0,1526017348,"/home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf"
+-'  1  0  /home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf
+|4,39,1,0,1526017348,"/home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf"
+-'  195  0  /home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf
+|4,39,195,0,1526017343,"/home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf"
+-'  195  0  /home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf
+|4,39,195,0,1526017343,"/home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf"
+-'  195  0  /home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf
+|4,39,195,0,1526017343,"/home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf"
+-'  195  0  /home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf
+|4,39,195,0,1526017343,"/home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf"
+-'  9  11  /etc/systemd/system/nexus.service
+|4,39,9,11,1526017159,"/etc/systemd/system/nexus.service"
+-'  9  11  /etc/systemd/system/nexus.service
+|4,39,9,11,1526017159,"/etc/systemd/system/nexus.service"
+-'  9  11  /etc/systemd/system/nexus.service
+|4,39,9,11,1526017159,"/etc/systemd/system/nexus.service"
+-'  9  11  /etc/systemd/system/nexus.service
+|4,39,9,11,1526017159,"/etc/systemd/system/nexus.service"
+-'  9  11  /etc/systemd/system/nexus.service
+|4,39,9,11,1526017159,"/etc/systemd/system/nexus.service"
+-'  9  11  /etc/systemd/system/nexus.service
+|4,39,9,11,1526017159,"/etc/systemd/system/nexus.service"
+-'  9  11  /etc/systemd/system/nexus.service
+|4,39,9,11,1526017159,"/etc/systemd/system/nexus.service"
+-'  9  11  /etc/systemd/system/nexus.service
+|4,39,9,11,1526017159,"/etc/systemd/system/nexus.service"
+-'  1  0  /etc/systemd/system/nexus.service
+|4,39,1,0,1526017084,"/etc/systemd/system/nexus.service"
+-'  1  0  /etc/systemd/system/nexus.service
+|4,39,1,0,1526017084,"/etc/systemd/system/nexus.service"
+-'  1  0  /etc/systemd/system/nexus.service
+|4,39,1,0,1526017084,"/etc/systemd/system/nexus.service"
+-'  1  0  /etc/systemd/system/nexus.service
+|4,39,1,0,1526017084,"/etc/systemd/system/nexus.service"
+-'  1  0  /etc/systemd/system/nexus.service
+|4,39,1,0,1526017084,"/etc/systemd/system/nexus.service"
+-'  1  0  /etc/systemd/system/nexus.service
+|4,39,1,0,1526017084,"/etc/systemd/system/nexus.service"
+-'  1  0  /etc/systemd/system/nexus.service
+|4,39,1,0,1526017084,"/etc/systemd/system/nexus.service"
+-'  1  0  /etc/systemd/system/nexus.service
+|4,39,1,0,1526017084,"/etc/systemd/system/nexus.service"
+-'  14  0  /etc/systemd/system/rc-local.service
+|4,39,14,0,1526017064,"/etc/systemd/system/rc-local.service"
+-'  14  0  /etc/systemd/system/rc-local.service
+|4,39,14,0,1526017064,"/etc/systemd/system/rc-local.service"
+-'  14  0  /etc/systemd/system/rc-local.service
+|4,39,14,0,1526017064,"/etc/systemd/system/rc-local.service"
+-'  14  0  /etc/systemd/system/rc-local.service
+|4,39,14,0,1526017064,"/etc/systemd/system/rc-local.service"
+-'  14  0  /etc/systemd/system/rc-local.service
+|4,39,14,0,1526017064,"/etc/systemd/system/rc-local.service"
+-'  14  0  /etc/systemd/system/rc-local.service
+|4,39,14,0,1526017064,"/etc/systemd/system/rc-local.service"
+-'  14  0  /etc/systemd/system/rc-local.service
+|4,39,14,0,1526017064,"/etc/systemd/system/rc-local.service"
+-'  14  0  /etc/systemd/system/rc-local.service
+|4,39,14,0,1526017064,"/etc/systemd/system/rc-local.service"
+-'  14  0  /etc/systemd/system/rc-local.service
+|4,39,14,0,1526017064,"/etc/systemd/system/rc-local.service"
+-'  14  0  /etc/systemd/system/rc-local.service
+|4,39,14,0,1526017064,"/etc/systemd/system/rc-local.service"
+-'  14  0  /etc/systemd/system/rc-local.service
+|4,39,14,0,1526017064,"/etc/systemd/system/rc-local.service"
+-'  14  0  /etc/systemd/system/rc-local.service
+|4,39,14,0,1526017064,"/etc/systemd/system/rc-local.service"
+-'  14  0  /etc/systemd/system/rc-local.service
+|4,39,14,0,1526017064,"/etc/systemd/system/rc-local.service"
+-'  14  0  /etc/systemd/system/rc-local.service
+|4,39,14,0,1526017064,"/etc/systemd/system/rc-local.service"
+-'  14  0  /etc/systemd/system/rc-local.service
+|4,39,14,0,1526017064,"/etc/systemd/system/rc-local.service"
+-'  14  0  /etc/systemd/system/rc-local.service
+|4,39,14,0,1526017064,"/etc/systemd/system/rc-local.service"
+-'  1  0  /etc/systemd/system/rc-local.service
+|4,39,1,0,1526017020,"/etc/systemd/system/rc-local.service"
+-'  1  0  /etc/systemd/system/rc-local.service
+|4,39,1,0,1526017020,"/etc/systemd/system/rc-local.service"
+-'  1  0  /etc/systemd/system/rc-local.service
+|4,39,1,0,1526017020,"/etc/systemd/system/rc-local.service"
+-'  1  0  /etc/systemd/system/rc-local.service
+|4,39,1,0,1526017020,"/etc/systemd/system/rc-local.service"
+-'  1  0  /etc/systemd/system/rc-local.service
+|4,39,1,0,1526017020,"/etc/systemd/system/rc-local.service"
+-'  1  0  /etc/systemd/system/rc-local.service
+|4,39,1,0,1526017020,"/etc/systemd/system/rc-local.service"
+-'  1  0  /etc/systemd/system/rc-local.service
+|4,39,1,0,1526017020,"/etc/systemd/system/rc-local.service"
+-'  1  0  /etc/systemd/system/rc-local.service
+|4,39,1,0,1526017020,"/etc/systemd/system/rc-local.service"
+-'  1  0  /etc/systemd/system/rc-local.service
+|4,39,1,0,1526017020,"/etc/systemd/system/rc-local.service"
+-'  1  0  /etc/systemd/system/rc-local.service
+|4,39,1,0,1526017020,"/etc/systemd/system/rc-local.service"
+-'  1  0  /etc/systemd/system/rc-local.service
+|4,39,1,0,1526017020,"/etc/systemd/system/rc-local.service"
+-'  1  0  /etc/systemd/system/rc-local.service
+|4,39,1,0,1526017020,"/etc/systemd/system/rc-local.service"
+-'  1  0  /etc/systemd/system/rc-local.service
+|4,39,1,0,1526017020,"/etc/systemd/system/rc-local.service"
+-'  1  0  /etc/systemd/system/rc-local.service
+|4,39,1,0,1526017020,"/etc/systemd/system/rc-local.service"
+-'  1  0  /etc/systemd/system/rc-local.service
+|4,39,1,0,1526017020,"/etc/systemd/system/rc-local.service"
+-'  1  0  /etc/systemd/system/rc-local.service
+|4,39,1,0,1526017020,"/etc/systemd/system/rc-local.service"
+-'  3  85  /etc/rc.local
+|4,39,3,85,1526012579,"/etc/rc.local"
+-'  3  85  /etc/rc.local
+|4,39,3,85,1526012579,"/etc/rc.local"
+-'  3  85  /etc/rc.local
+|4,39,3,85,1526012579,"/etc/rc.local"
+-'  3  85  /etc/rc.local
+|4,39,3,85,1526012579,"/etc/rc.local"
+-'  3  85  /etc/rc.local
+|4,39,3,85,1526012579,"/etc/rc.local"
+-'  3  85  /etc/rc.local
+|4,39,3,85,1526012579,"/etc/rc.local"
+-'  3  85  /etc/rc.local
+|4,39,3,85,1526012579,"/etc/rc.local"
+-'  3  85  /etc/rc.local
+|4,39,3,85,1526012579,"/etc/rc.local"
+-'  3  85  /etc/rc.local
+|4,39,3,85,1526012579,"/etc/rc.local"
+-'  3  85  /etc/rc.local
+|4,39,3,85,1526012579,"/etc/rc.local"
+-'  3  85  /etc/rc.local
+|4,39,3,85,1526012579,"/etc/rc.local"
+-'  3  85  /etc/rc.local
+|4,39,3,85,1526012579,"/etc/rc.local"
+-'  3  85  /etc/rc.local
+|4,39,3,85,1526012579,"/etc/rc.local"
+-'  3  85  /etc/rc.local
+|4,39,3,85,1526012579,"/etc/rc.local"
+-'  3  85  /etc/rc.local
+|4,39,3,85,1526012579,"/etc/rc.local"
+-'  3  85  /etc/rc.local
+|4,39,3,85,1526012579,"/etc/rc.local"
+-'  1  0  /etc/rc.local
+|4,39,1,0,1526012568,"/etc/rc.local"
+-'  1  0  /etc/rc.local
+|4,39,1,0,1526012568,"/etc/rc.local"
+-'  1  0  /etc/rc.local
+|4,39,1,0,1526012568,"/etc/rc.local"
+-'  1  0  /etc/rc.local
+|4,39,1,0,1526012568,"/etc/rc.local"
+-'  1  0  /etc/rc.local
+|4,39,1,0,1526012568,"/etc/rc.local"
+-'  1  0  /etc/rc.local
+|4,39,1,0,1526012568,"/etc/rc.local"
+-'  1  0  /etc/rc.local
+|4,39,1,0,1526012568,"/etc/rc.local"
+-'  1  0  /etc/rc.local
+|4,39,1,0,1526012568,"/etc/rc.local"
+-'  1  0  /etc/rc.local
+|4,39,1,0,1526012568,"/etc/rc.local"
+-'  1  0  /etc/rc.local
+|4,39,1,0,1526012568,"/etc/rc.local"
+-'  1  0  /etc/rc.local
+|4,39,1,0,1526012568,"/etc/rc.local"
+-'  1  0  /etc/rc.local
+|4,39,1,0,1526012568,"/etc/rc.local"
+-'  1  0  /etc/rc.local
+|4,39,1,0,1526012568,"/etc/rc.local"
+-'  1  0  /etc/rc.local
+|4,39,1,0,1526012568,"/etc/rc.local"
+-'  1  0  /etc/rc.local
+|4,39,1,0,1526012568,"/etc/rc.local"
+-'  1  0  /etc/rc.local
+|4,39,1,0,1526012568,"/etc/rc.local"
+-'  1  0  /etc/systemd/system/rc-local.service
+|4,39,1,0,1526012224,"/etc/systemd/system/rc-local.service"
+-'  1  0  /etc/systemd/system/rc-local.service
+|4,39,1,0,1526012224,"/etc/systemd/system/rc-local.service"
+-'  1  0  /etc/systemd/system/rc-local.service
+|4,39,1,0,1526012224,"/etc/systemd/system/rc-local.service"
+-'  1  0  /etc/systemd/system/rc-local.service
+|4,39,1,0,1526012224,"/etc/systemd/system/rc-local.service"
+-'  1  0  /etc/systemd/system/rc-local.service
+|4,39,1,0,1526012224,"/etc/systemd/system/rc-local.service"
+-'  1  0  /etc/systemd/system/rc-local.service
+|4,39,1,0,1526012224,"/etc/systemd/system/rc-local.service"
+-'  1  0  /etc/systemd/system/rc-local.service
+|4,39,1,0,1526012224,"/etc/systemd/system/rc-local.service"
+-'  1  0  /etc/systemd/system/rc-local.service
+|4,39,1,0,1526012224,"/etc/systemd/system/rc-local.service"
 
 # History of marks within files (newest to oldest):
 
-> /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
-	*	1526004652	0
-	"	14	0
-	^	14	1
-	.	14	0
-	+	38	3
-	+	37	0
-	+	39	27
-	+	40	41
-	+	41	28
-	+	43	47
-	+	8	0
-	+	16	0
-	+	14	0
+> /etc/rc.local
+	*	1526018161	0
+	"	3	0
+	^	3	1
+	.	3	0
+	+	3	85
+	+	3	0
 
-> /media/kerwin/a0a/ileler/configs/.git/config
-	*	1526004569	0
-	"	6	15
-	^	6	16
-	.	6	15
-	+	6	15
+> /home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf
+	*	1526017606	0
+	"	15	79
+	^	15	80
+	.	15	79
+	+	15	79
+
+> /etc/systemd/system/nexus.service
+	*	1526017155	0
+	"	9	11
+	^	9	12
+	.	9	11
+	+	13	0
+	+	7	63
+	+	8	62
+	+	9	11
+
+> /etc/systemd/system/rc-local.service
+	*	1526017041	0
+	"	14	0
+
+> /home/zhangle/ileler/bins/.linux/nexus/sonatype-work/nexus/conf/capabilities.xml
+	*	1526010915	0
+	"	68	0
+
+> /home/zhangle/ileler/bins/.linux/nexus/sonatype-work/nexus/conf/nexus.xml
+	*	1526010900	0
+	"	1	0
+
+> /home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/conf/nexus.properties
+	*	1526010775	0
+	"	1	0
+
+> /home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/nexus/WEB-INF/classes/ehcache.xml
+	*	1526010676	0
+	"	135	0
+
+> /home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/nexus
+	*	1526010562	0
+	"	259	0
 
 > ~/.profile
-	*	1526004524	0
+	*	1526009748	0
 	"	59	0
 	^	44	45
 	.	44	44
@@ -461,6 +488,32 @@ $\~\/\.ssh\/
 	+	31	56
 	+	37	41
 	+	44	44
+
+> /media/kerwin/a0a/ws/js/aqara-gateway-faker/index.js
+	*	1526007754	0
+	"	1	0
+
+> /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
+	*	1526004652	0
+	"	14	0
+	^	14	1
+	.	14	0
+	+	38	3
+	+	37	0
+	+	39	27
+	+	40	41
+	+	41	28
+	+	43	47
+	+	8	0
+	+	16	0
+	+	14	0
+
+> /media/kerwin/a0a/ileler/configs/.git/config
+	*	1526004569	0
+	"	6	15
+	^	6	16
+	.	6	15
+	+	6	15
 
 > /media/kerwin/a0a/ileler/configs/env-cygwin
 	*	1526004317	0
