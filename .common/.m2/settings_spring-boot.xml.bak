@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+	<localRepository>${root.path}/ws/.m2/repo</localRepository>
+	<!--<localRepository>I:/maven_repo_cat</localRepository>-->
+
+	<pluginGroups>
+	</pluginGroups>
+
+
+	<proxies>
+	</proxies>
+	<properties>  
+          <maven.compiler.source>1.8</maven.compiler.source>  
+          <maven.compiler.target>1.8</maven.compiler.target>  
+          <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>  
+      </properties>  
+
+	<servers>
+		<server>
+			<id>tomcat</id>
+			<username>admin</username>
+			<password>admin</password>
+		</server>
+		<server>
+			<id>snapshots</id>
+			<username>developer</username>
+			<password>123456</password>
+		</server>
+		 <server>
+			<id>releases</id>
+			<username>developer</username>
+			<password>123456</password>
+		</server>
+		<server>
+		  <id>ssh-repository</id>
+		  <username>mpr</username>
+		  <!-- <privateKey>/path/to/your/private/key</privateKey> not needed if using pageant -->
+		  <password>Mprwebsite2008</password>
+		</server>
+	</servers>
+
+
+	<mirrors>
+		<mirror>
+			<id>nexus</id>
+			<name>internal nexus repository</name>
+			<!--<url>http://172.16.6.17:8081/repository/maven-public/</url>-->
+			<url>http://localhost:8081/nexus/content/repositories/for-spring-boot/</url>
+			<mirrorOf>central</mirrorOf>
+		</mirror>
+	</mirrors>
+	<profiles>
+		<profile>
+			<id>nexus</id>
+                        <repositories>
+				<repository>
+					<id>nexus</id>
+					<name>local private nexus</name>
+					<!--<url>http://172.16.6.17:8081/repository/maven-public/</url>-->
+					<url>http://localhost:8081/nexus/content/repositories/for-spring-boot/</url>
+					<releases><enabled>true</enabled><updatePolicy>always</updatePolicy></releases>
+					<snapshots><enabled>true</enabled><updatePolicy>always</updatePolicy></snapshots>
+				</repository>
+			</repositories>
+			<pluginRepositories>
+				<pluginRepository>
+				  <id>central</id>
+				  <!--<url>http://172.16.6.17:8081/repository/maven-public/</url>-->
+				  <url>http://localhost:8081/nexus/content/repositories/for-spring-boot/</url>
+				  <releases><enabled>true</enabled><updatePolicy>always</updatePolicy></releases>
+				  <snapshots><enabled>true</enabled><updatePolicy>always</updatePolicy></snapshots>
+				</pluginRepository>
+			</pluginRepositories>
+		</profile>		
+	</profiles>
+	<!-- activeProfiles
+	| List of profiles that are active for all builds.
+	|-->
+	<activeProfiles>
+		<activeProfile>nexus</activeProfile>
+	</activeProfiles>
+
+</settings>

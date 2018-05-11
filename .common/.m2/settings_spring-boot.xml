@@ -48,8 +48,7 @@ xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.o
 		<mirror>
 			<id>nexus</id>
 			<name>internal nexus repository</name>
-			<!--<url>http://172.16.6.17:8081/repository/maven-public/</url>-->
-			<url>http://localhost:8081/nexus/content/repositories/for-spring-boot/</url>
+			<url>http://172.16.6.17:8081/repository/maven-public/</url>
 			<mirrorOf>central</mirrorOf>
 		</mirror>
 	</mirrors>
@@ -60,8 +59,7 @@ xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.o
 				<repository>
 					<id>nexus</id>
 					<name>local private nexus</name>
-					<!--<url>http://172.16.6.17:8081/repository/maven-public/</url>-->
-					<url>http://localhost:8081/nexus/content/repositories/for-spring-boot/</url>
+					<url>http://172.16.6.17:8081/repository/maven-public/</url>
 					<releases><enabled>true</enabled><updatePolicy>always</updatePolicy></releases>
 					<snapshots><enabled>true</enabled><updatePolicy>always</updatePolicy></snapshots>
 				</repository>
@@ -69,8 +67,7 @@ xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.o
 			<pluginRepositories>
 				<pluginRepository>
 				  <id>central</id>
-				  <!--<url>http://172.16.6.17:8081/repository/maven-public/</url>-->
-				  <url>http://localhost:8081/nexus/content/repositories/for-spring-boot/</url>
+				  <url>http://172.16.6.17:8081/repository/maven-public/</url>
 				  <releases><enabled>true</enabled><updatePolicy>always</updatePolicy></releases>
 				  <snapshots><enabled>true</enabled><updatePolicy>always</updatePolicy></snapshots>
 				</pluginRepository>

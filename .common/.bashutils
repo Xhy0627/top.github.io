@@ -1,0 +1,16 @@
+#!/bin/bash
+
+exchange() {
+    if [[ -z "$1" || -z "$2" ]]; then
+        echo "Missing parameters"
+        return
+    elif [[ -n "$1" && ! -f "$1" ]]; then
+        echo "Parameter 1 is not a valid file"
+        return
+    elif [[ -n "$2" && ! -f "$2" ]]; then
+        echo "Parameter 2 is not a valid file"
+        return
+    fi
+    baksuffix=`date "+%s%N"`
+    mv $1 $1.$baksuffix && mv $2 $1 && mv $1.$baksuffix $2
+}

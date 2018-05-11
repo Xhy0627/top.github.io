@@ -85,6 +85,7 @@ echo $PATH
 echo "<<<<<<<<<<<<<<<<<<<<<<<<<"
 
 source ~/.bashrc
+source ~/.bashutils
 
 export HOMEPATH=`ext-winpath $HOME`
 export USERPROFILE=`ext-winpath $HOME`

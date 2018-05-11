@@ -21,6 +21,7 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
+source ~/.bashutils
 echo 'hi~'
 
 #__RPATH__=$(cd $(git rev-parse --show-toplevel)/../ && pwd)
