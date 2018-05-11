@@ -804,3 +804,18 @@ ll bins/nodejs/
 tar -xf bins/nodejs/node-v8.11.1-linux-x64.tar.xz -C .rc-ubuntu.local/bins/.linux/nodejs/
 tmux
 exit
+ll -a ~/
+ll -a ../
+ll /u~u/
+ll -a /u~u/
+vi .profile 
+cd /u~u/ileler/configs/
+ll
+vi start-ubuntu.sh 
+exit
+cd ../ileler
+cd configs/
+ll -a ~/
+vi ~/.profile 
+mv .rc-cygwin/.git-prompt.sh .common/
+exit

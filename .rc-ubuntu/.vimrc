@@ -1,1 +1,1 @@
-/media/zhangle/KERWIN/a0a/ileler/configs/upan/.common/.vimrc
+/media/kerwin/a0a/ileler/configs/.common/.vimrc

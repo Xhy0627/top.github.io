@@ -1,29 +1,3 @@
-git push origin dev
-git status
-git status
-git status
-rm -rf .idea *.iml
-git status
-git diff parser/UnlockedSensorParser.js 
-git add parser/
-git status
-git commit -m 'suppport lock model'
-git push origin dev
-git status
-cd ~/../ws/java/zkui/
-ll
-git status
-ssh pi@192.168.31.223
-idea
-idea
-ssh pi@192.168.31.223
-cd ws/js/homebridge-mi-aqara
-git status
-git diff README.md 
-git status
-git add README.md 
-git commit -m 'Maintaining readme.md'
-git push origin dev
 git checkout master
 git merge dev
 git status
@@ -498,3 +472,29 @@ ll -a /u/u~u/a0a/.common/
 vi ~/.tmux.conf 
 ll -a ~/
 vi ~/.vimrc 
+ll -a ~/
+ll -a
+cd ileler
+cd configs/
+git status
+git diff env-cygwin 
+git add .
+git commit -m 'sync configs'
+git push origin configs
+git status
+cd .ext/
+git status
+cd ~/../ws/
+ll
+cd js
+ll
+cd aqara-gateway-faker/
+ll
+node -v
+node index.js 
+cd ileler/configs/
+git pull origin configs
+git status
+ll -a ~/
+vi ext-cygwin 
+exit

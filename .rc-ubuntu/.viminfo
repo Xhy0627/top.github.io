@@ -21,11 +21,15 @@ $\~\/\.ssh\/
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1525913301,,"wq"
+|2,0,1526004653,,"wq"
 :q
-|2,0,1525859719,,"q"
+|2,0,1526004531,,"q"
+:q!
+|2,0,1526004319,,"q!"
 :w
-|2,0,1525858448,,"w"
+|2,0,1526004307,,"w"
+:vsplit env-cygwin
+|2,0,1526004178,,"vsplit env-cygwin"
 :172
 |2,0,1525858755,,"172"
 :100
@@ -34,8 +38,6 @@ $\~\/\.ssh\/
 |2,0,1525856623,,"94"
 :95
 |2,0,1525855198,,"95"
-:q!
-|2,0,1525853169,,"q!"
 :set list!
 |2,0,1525847583,,"set list!"
 :set nolist
@@ -129,12 +131,13 @@ $\~\/\.ssh\/
 
 # Registers:
 ""0	LINE	0
-	function sendMsg2(address, port) {
-	    console.log('server sendMsg');
-	    server.send(JSON.stringify({"cmd" : "get_id_list_ack","sid":"666","data":"[\"sid1\",\"sid2\",\"sid3\"]"}), port, mulicastAddr);
-	}
-	
-|3,1,0,1,5,0,1525858347,"function sendMsg2(address, port) {","    console.log('server sendMsg');","    server.send(JSON.stringify({\"cmd\" : \"get_id_list_ack\",\"sid\":\"666\",\"data\":\"[\\\"sid1\\\",\\\"sid2\\\",\\\"sid3\\\"]\"}), port, mulicastAddr);","}",""
+	#common dir set
+	export _USER_COMMON_=$cdir/.common
+	for fname in $(ls -A $_USER_COMMON_)
+	do
+	  cd $hpath && rm -rf $fname && ln -s $_USER_COMMON_/$fname $fname && cd - >/dev/null
+	done
+|3,1,0,1,6,0,1526004103,"#common dir set","export _USER_COMMON_=$cdir/.common","for fname in $(ls -A $_USER_COMMON_)","do","  cd $hpath && rm -rf $fname && ln -s $_USER_COMMON_/$fname $fname && cd - >/dev/null","done"
 "1	LINE	0
 	                    key = gateway['key']
 |3,0,1,1,1,0,1525856627,"                    key = gateway['key']"
@@ -164,234 +167,256 @@ $\~\/\.ssh\/
 |3,0,9,1,1,0,1524647119,"root:x:0:0:root:/root:/bin/bash"
 
 # File marks:
-'0  61  26  ~/.profile
-|4,48,61,26,1525913301,"~/.profile"
-'1  52  25  /media/zhangle/KERWIN/a0a/ws/js/aqara-gateway-faker/index.js
-|4,49,52,25,1525859719,"/media/zhangle/KERWIN/a0a/ws/js/aqara-gateway-faker/index.js"
-'2  175  38  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,50,175,38,1525858791,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
-'3  100  16  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,51,100,16,1525856779,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
-'4  100  16  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,52,100,16,1525856779,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
-'5  96  73  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,53,96,73,1525856639,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
-'6  96  73  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,54,96,73,1525856639,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
-'7  96  73  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,55,96,73,1525856639,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
-'8  96  73  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,56,96,73,1525856639,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
-'9  97  42  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,57,97,42,1525856006,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
+'0  14  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
+|4,48,14,0,1526004656,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
+'1  6  15  /media/kerwin/a0a/ileler/configs/.git/config
+|4,49,6,15,1526004571,"/media/kerwin/a0a/ileler/configs/.git/config"
+'2  59  0  ~/.profile
+|4,50,59,0,1526004531,"~/.profile"
+'3  58  0  ~/.profile
+|4,51,58,0,1526004492,"~/.profile"
+'4  58  0  ~/.profile
+|4,52,58,0,1526004492,"~/.profile"
+'5  61  0  ~/.profile
+|4,53,61,0,1526004388,"~/.profile"
+'6  61  0  ~/.profile
+|4,54,61,0,1526004388,"~/.profile"
+'7  61  0  ~/.profile
+|4,55,61,0,1526004388,"~/.profile"
+'8  61  0  ~/.profile
+|4,56,61,0,1526004388,"~/.profile"
+'9  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
+|4,57,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
 
 # Jumplist (newest first):
--'  61  26  ~/.profile
-|4,39,61,26,1525913301,"~/.profile"
+-'  14  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
+|4,39,14,0,1526004656,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
+-'  15  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
+|4,39,15,0,1526004643,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
+-'  1  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
+|4,39,1,0,1526004636,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
+-'  6  15  /media/kerwin/a0a/ileler/configs/.git/config
+|4,39,6,15,1526004571,"/media/kerwin/a0a/ileler/configs/.git/config"
+-'  6  15  /media/kerwin/a0a/ileler/configs/.git/config
+|4,39,6,15,1526004571,"/media/kerwin/a0a/ileler/configs/.git/config"
+-'  1  0  /media/kerwin/a0a/ileler/configs/.git/config
+|4,39,1,0,1526004544,"/media/kerwin/a0a/ileler/configs/.git/config"
+-'  1  0  /media/kerwin/a0a/ileler/configs/.git/config
+|4,39,1,0,1526004544,"/media/kerwin/a0a/ileler/configs/.git/config"
+-'  59  0  ~/.profile
+|4,39,59,0,1526004531,"~/.profile"
+-'  59  0  ~/.profile
+|4,39,59,0,1526004531,"~/.profile"
+-'  59  0  ~/.profile
+|4,39,59,0,1526004531,"~/.profile"
+-'  59  0  ~/.profile
+|4,39,59,0,1526004531,"~/.profile"
 -'  1  0  ~/.profile
-|4,39,1,0,1525913178,"~/.profile"
--'  52  25  /media/zhangle/KERWIN/a0a/ws/js/aqara-gateway-faker/index.js
-|4,39,52,25,1525859719,"/media/zhangle/KERWIN/a0a/ws/js/aqara-gateway-faker/index.js"
--'  52  25  /media/zhangle/KERWIN/a0a/ws/js/aqara-gateway-faker/index.js
-|4,39,52,25,1525859719,"/media/zhangle/KERWIN/a0a/ws/js/aqara-gateway-faker/index.js"
--'  175  38  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,175,38,1525858791,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  175  38  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,175,38,1525858791,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  1  0  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,1,0,1525858752,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  1  0  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,1,0,1525858752,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  45  0  /media/zhangle/KERWIN/a0a/ws/js/aqara-gateway-faker/index.js
-|4,39,45,0,1525857866,"/media/zhangle/KERWIN/a0a/ws/js/aqara-gateway-faker/index.js"
--'  45  0  /media/zhangle/KERWIN/a0a/ws/js/aqara-gateway-faker/index.js
-|4,39,45,0,1525857866,"/media/zhangle/KERWIN/a0a/ws/js/aqara-gateway-faker/index.js"
--'  100  16  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,100,16,1525856779,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  100  16  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,100,16,1525856779,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  100  16  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,100,16,1525856779,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  100  16  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,100,16,1525856779,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  1  0  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,1,0,1525856768,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  1  0  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,1,0,1525856768,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  96  73  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,96,73,1525856639,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  96  73  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,96,73,1525856639,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  96  73  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,96,73,1525856639,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  96  73  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,96,73,1525856639,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  96  73  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,96,73,1525856639,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  96  73  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,96,73,1525856639,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  1  0  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,1,0,1525856619,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  1  0  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,1,0,1525856619,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  97  42  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,97,42,1525856006,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  95  42  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,95,42,1525856006,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  97  42  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,97,42,1525856006,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  95  42  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,95,42,1525856006,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  97  42  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,97,42,1525856006,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  95  42  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,95,42,1525856006,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  97  42  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,97,42,1525856006,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  95  42  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,95,42,1525856006,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  97  42  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,97,42,1525856006,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  95  42  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,95,42,1525856006,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  97  42  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,97,42,1525856006,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  95  42  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,95,42,1525856006,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  1  0  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,1,0,1525855190,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  1  0  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,1,0,1525855190,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  29  4  /media/zhangle/KERWIN/a0a/ws/js/aqara-gateway-faker/index.js
-|4,39,29,4,1525854181,"/media/zhangle/KERWIN/a0a/ws/js/aqara-gateway-faker/index.js"
--'  29  4  /media/zhangle/KERWIN/a0a/ws/js/aqara-gateway-faker/index.js
-|4,39,29,4,1525854181,"/media/zhangle/KERWIN/a0a/ws/js/aqara-gateway-faker/index.js"
--'  79  35  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,79,35,1525853583,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  79  35  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,79,35,1525853583,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  79  35  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,79,35,1525853583,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  79  35  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,79,35,1525853583,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  79  35  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,79,35,1525853583,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  79  35  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,79,35,1525853583,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  79  35  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,79,35,1525853583,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  79  35  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,79,35,1525853583,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  79  35  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,79,35,1525853583,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  79  35  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,79,35,1525853583,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  1  0  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,1,0,1525853541,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  1  0  /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-|4,39,1,0,1525853541,"/home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
--'  160  80  ~/.homeassistant/home-assistant.log
-|4,39,160,80,1525853172,"~/.homeassistant/home-assistant.log"
+|4,39,1,0,1526004516,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1526004516,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1526004516,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1526004516,"~/.profile"
+-'  58  0  ~/.profile
+|4,39,58,0,1526004492,"~/.profile"
+-'  58  0  ~/.profile
+|4,39,58,0,1526004492,"~/.profile"
+-'  58  0  ~/.profile
+|4,39,58,0,1526004492,"~/.profile"
+-'  58  0  ~/.profile
+|4,39,58,0,1526004492,"~/.profile"
+-'  58  0  ~/.profile
+|4,39,58,0,1526004492,"~/.profile"
+-'  58  0  ~/.profile
+|4,39,58,0,1526004492,"~/.profile"
+-'  58  0  ~/.profile
+|4,39,58,0,1526004492,"~/.profile"
+-'  58  0  ~/.profile
+|4,39,58,0,1526004492,"~/.profile"
+-'  6  0  ~/.profile
+|4,39,6,0,1526004482,"~/.profile"
+-'  6  0  ~/.profile
+|4,39,6,0,1526004482,"~/.profile"
+-'  6  0  ~/.profile
+|4,39,6,0,1526004482,"~/.profile"
+-'  6  0  ~/.profile
+|4,39,6,0,1526004482,"~/.profile"
+-'  6  0  ~/.profile
+|4,39,6,0,1526004482,"~/.profile"
+-'  6  0  ~/.profile
+|4,39,6,0,1526004482,"~/.profile"
+-'  6  0  ~/.profile
+|4,39,6,0,1526004482,"~/.profile"
+-'  6  0  ~/.profile
+|4,39,6,0,1526004482,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1526004481,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1526004481,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1526004481,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1526004481,"~/.profile"
+-'  61  0  ~/.profile
+|4,39,61,0,1526004388,"~/.profile"
+-'  61  0  ~/.profile
+|4,39,61,0,1526004388,"~/.profile"
+-'  61  0  ~/.profile
+|4,39,61,0,1526004388,"~/.profile"
+-'  61  0  ~/.profile
+|4,39,61,0,1526004388,"~/.profile"
+-'  61  0  ~/.profile
+|4,39,61,0,1526004388,"~/.profile"
+-'  61  0  ~/.profile
+|4,39,61,0,1526004388,"~/.profile"
+-'  61  0  ~/.profile
+|4,39,61,0,1526004388,"~/.profile"
+-'  61  0  ~/.profile
+|4,39,61,0,1526004388,"~/.profile"
+-'  61  0  ~/.profile
+|4,39,61,0,1526004388,"~/.profile"
+-'  61  0  ~/.profile
+|4,39,61,0,1526004388,"~/.profile"
+-'  61  0  ~/.profile
+|4,39,61,0,1526004388,"~/.profile"
+-'  61  0  ~/.profile
+|4,39,61,0,1526004388,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1526004378,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1526004378,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1526004378,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1526004378,"~/.profile"
+-'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
+|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
+-'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
+|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
+-'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
+|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
+-'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
+|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
+-'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
+|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
+-'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
+|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
+-'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
+|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
+-'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
+|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
+-'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
+|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
+-'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
+|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
+-'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
+|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
+-'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
+|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
+-'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
+|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
+-'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
+|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
+-'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
+|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
+-'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
+|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
+-'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
+|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
+-'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
+|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
+-'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
+|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
+-'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
+|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
+-'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
+|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
+-'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
+|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
+-'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
+|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
+-'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
+|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
+-'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
+|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
+-'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
+|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
+-'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
+|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
+-'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
+|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
+-'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
+|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
+-'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
+|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
+-'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
+|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
+-'  20  0  /media/kerwin/a0a/ileler/configs/env-cygwin
+|4,39,20,0,1526004319,"/media/kerwin/a0a/ileler/configs/env-cygwin"
+-'  40  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
+|4,39,40,0,1526004178,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
+-'  39  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
+|4,39,39,0,1526004178,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
+-'  39  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
+|4,39,39,0,1526004178,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
+-'  39  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
+|4,39,39,0,1526004178,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
+-'  39  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
+|4,39,39,0,1526004178,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
+-'  39  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
+|4,39,39,0,1526004178,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
+-'  39  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
+|4,39,39,0,1526004178,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
+-'  39  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
+|4,39,39,0,1526004178,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
+-'  39  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
+|4,39,39,0,1526004178,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
+-'  39  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
+|4,39,39,0,1526004178,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
+-'  39  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
+|4,39,39,0,1526004178,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
+-'  39  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
+|4,39,39,0,1526004178,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
+-'  39  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
+|4,39,39,0,1526004178,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
+-'  39  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
+|4,39,39,0,1526004178,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
+-'  39  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
+|4,39,39,0,1526004178,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
+-'  39  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
+|4,39,39,0,1526004178,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
+-'  39  0  /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
+|4,39,39,0,1526004178,"/media/kerwin/a0a/ileler/configs/start-ubuntu.sh"
 
 # History of marks within files (newest to oldest):
 
+> /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
+	*	1526004652	0
+	"	14	0
+	^	14	1
+	.	14	0
+	+	38	3
+	+	37	0
+	+	39	27
+	+	40	41
+	+	41	28
+	+	43	47
+	+	8	0
+	+	16	0
+	+	14	0
+
+> /media/kerwin/a0a/ileler/configs/.git/config
+	*	1526004569	0
+	"	6	15
+	^	6	16
+	.	6	15
+	+	6	15
+
 > ~/.profile
-	*	1525913300	0
-	"	61	26
+	*	1526004524	0
+	"	59	0
 	^	44	45
 	.	44	44
 	+	24	9
@@ -436,6 +461,10 @@ $\~\/\.ssh\/
 	+	31	56
 	+	37	41
 	+	44	44
+
+> /media/kerwin/a0a/ileler/configs/env-cygwin
+	*	1526004317	0
+	"	20	0
 
 > /media/zhangle/KERWIN/a0a/ws/js/aqara-gateway-faker/index.js
 	*	1525859084	0

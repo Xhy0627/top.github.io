@@ -1,1 +1,1 @@
-/u/u~u/a0a/.common/.vimrc
+/media/kerwin/.NTFS-3G/U:/u~u/a0a/.common/.vimrc
