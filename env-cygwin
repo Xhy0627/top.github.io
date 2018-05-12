@@ -25,7 +25,7 @@ done
 
 #COMMON DIR SET
 export _USER_COMMON_=$__/.common
-for fname in $(ls -A $_USER_COMMON_)
+for fname in $(ls -A $_USER_COMMON_/)
 do
   cd $HOME && rm -rf $fname && ext-link $fname $_USER_COMMON_/$fname && cd -
 done
