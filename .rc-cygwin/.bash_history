@@ -1,13 +1,3 @@
-git checkout master
-git merge dev
-git status
-git push origin master
-git fetch --help
-idea
-cd ws
-ll
-mkdir python
-cd python
 git clone git@github.com:ileler/home-assistant.git
 git clone gh:ileler/home-assistant.git
 ll
@@ -498,3 +488,13 @@ git status
 ll -a ~/
 vi ext-cygwin 
 exit
+cd ileler/configs/
+ll -a ~/
+.init
+ll -a ~/
+cd $HOME && rm -rf .ssh && ext-link .ssh $_USER_COMMON_/.ssh && cd -
+ll -a ~/
+cat .init
+git pull origin configs
+ll -a ~/.ssh
+ll -a ~/.ssh/

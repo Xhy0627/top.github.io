@@ -1,4 +1,4 @@
-SHOME='E:\a0a\ileler\configs\..\..\'
+SHOME='D:\a0a\ileler\configs\..\..\'
 #!/usr/bin/env sh
 cd ../
 source ./ext-cygwin
@@ -26,7 +26,7 @@ done
 
 #COMMON DIR SET
 export _USER_COMMON_=$__/.common
-for fname in $(ls -A $_USER_COMMON_)
+for fname in $(ls -A $_USER_COMMON_/)
 do
   cd $HOME && rm -rf $fname && ext-link $fname $_USER_COMMON_/$fname && cd -
 done
@@ -86,6 +86,7 @@ echo $PATH
 echo "<<<<<<<<<<<<<<<<<<<<<<<<<"
 
 source ~/.bashrc
+source ~/.bashutils
 
 export HOMEPATH=`ext-winpath $HOME`
 export USERPROFILE=`ext-winpath $HOME`

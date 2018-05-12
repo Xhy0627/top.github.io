@@ -2,7 +2,7 @@
 	email = ileler@qq.com
 	name = ileler
 [core]
-	autocrlf = true
+	#autocrlf = true
 [diff]
 	tool = bc4
 [difftool]

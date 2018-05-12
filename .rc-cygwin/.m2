@@ -1,1 +1,1 @@
-/media/kerwin/.NTFS-3G/U:/u~u/a0a/.common/.m2
+/u/u~u/a0a/.common/.m2
