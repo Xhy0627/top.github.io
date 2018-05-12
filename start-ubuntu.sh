@@ -44,7 +44,7 @@ done
 
 #common dir set
 export _USER_COMMON_=$cdir/.common
-for fname in $(ls -A $_USER_COMMON_)
+for fname in $(ls -A $_USER_COMMON_/)
 do
   cd $hpath && rm -rf $fname && ln -s $_USER_COMMON_/$fname $fname && cd - >/dev/null
 done
