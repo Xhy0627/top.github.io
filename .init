@@ -4,4 +4,5 @@ git init
 git remote add -f -t configs origin git@github.com:ileler/ileler.github.io.git
 git reset --hard origin/configs
 git checkout -b configs
+chmod 600 -R ~/.ssh
 git pull origin configs
