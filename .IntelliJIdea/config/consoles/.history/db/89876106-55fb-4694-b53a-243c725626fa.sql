@@ -110,3 +110,7 @@ from
   mpr_img.t_image b,
   (select publisher_shop_id, concat('logo-fmr-', publisher_shop_id) as target_id, seller_account as owner_id from mpr_pss.t_shop where isli_logo is null) c
 where a.publisher_shop_id = c.publisher_shop_id and b.target_rel_id = c.target_id and b.image_owner = c.owner_id;
+;-- -. . -..- - / . -. - .-. -.--
+use mpr_pcs;
+;-- -. . -..- - / . -. - .-. -.--
+ALTER TABLE t_consumer MODIFY birthday TIMESTAMP DEFAULT '0000-00-00 00:00:00' COMMENT '出生日期';

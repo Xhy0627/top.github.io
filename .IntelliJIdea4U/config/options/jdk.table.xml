@@ -3,8 +3,8 @@
     <jdk version="2">
       <name value="1.8" />
       <type value="JavaSDK" />
-      <version value="java version &quot;1.8.0_144&quot;" />
-      <homePath value="/u~u/bins/Java/jdk-8u144-linux-x64" />
+      <version value="java version &quot;1.8.0_171&quot;" />
+      <homePath value="/u~u/.rc-ubuntu.local/bins/.linux/java/jdk1.8.0_171" />
       <roots>
         <annotationsPath>
           <root type="composite">
@@ -13,27 +13,27 @@
         </annotationsPath>
         <classPath>
           <root type="composite">
-            <root url="jar:///u~u/bins/Java/jdk-8u144-linux-x64/jre/lib/charsets.jar!/" type="simple" />
-            <root url="jar:///u~u/bins/Java/jdk-8u144-linux-x64/jre/lib/deploy.jar!/" type="simple" />
-            <root url="jar:///u~u/bins/Java/jdk-8u144-linux-x64/jre/lib/ext/cldrdata.jar!/" type="simple" />
-            <root url="jar:///u~u/bins/Java/jdk-8u144-linux-x64/jre/lib/ext/dnsns.jar!/" type="simple" />
-            <root url="jar:///u~u/bins/Java/jdk-8u144-linux-x64/jre/lib/ext/jaccess.jar!/" type="simple" />
-            <root url="jar:///u~u/bins/Java/jdk-8u144-linux-x64/jre/lib/ext/jfxrt.jar!/" type="simple" />
-            <root url="jar:///u~u/bins/Java/jdk-8u144-linux-x64/jre/lib/ext/localedata.jar!/" type="simple" />
-            <root url="jar:///u~u/bins/Java/jdk-8u144-linux-x64/jre/lib/ext/nashorn.jar!/" type="simple" />
-            <root url="jar:///u~u/bins/Java/jdk-8u144-linux-x64/jre/lib/ext/sunec.jar!/" type="simple" />
-            <root url="jar:///u~u/bins/Java/jdk-8u144-linux-x64/jre/lib/ext/sunjce_provider.jar!/" type="simple" />
-            <root url="jar:///u~u/bins/Java/jdk-8u144-linux-x64/jre/lib/ext/sunpkcs11.jar!/" type="simple" />
-            <root url="jar:///u~u/bins/Java/jdk-8u144-linux-x64/jre/lib/ext/zipfs.jar!/" type="simple" />
-            <root url="jar:///u~u/bins/Java/jdk-8u144-linux-x64/jre/lib/javaws.jar!/" type="simple" />
-            <root url="jar:///u~u/bins/Java/jdk-8u144-linux-x64/jre/lib/jce.jar!/" type="simple" />
-            <root url="jar:///u~u/bins/Java/jdk-8u144-linux-x64/jre/lib/jfr.jar!/" type="simple" />
-            <root url="jar:///u~u/bins/Java/jdk-8u144-linux-x64/jre/lib/jfxswt.jar!/" type="simple" />
-            <root url="jar:///u~u/bins/Java/jdk-8u144-linux-x64/jre/lib/jsse.jar!/" type="simple" />
-            <root url="jar:///u~u/bins/Java/jdk-8u144-linux-x64/jre/lib/management-agent.jar!/" type="simple" />
-            <root url="jar:///u~u/bins/Java/jdk-8u144-linux-x64/jre/lib/plugin.jar!/" type="simple" />
-            <root url="jar:///u~u/bins/Java/jdk-8u144-linux-x64/jre/lib/resources.jar!/" type="simple" />
-            <root url="jar:///u~u/bins/Java/jdk-8u144-linux-x64/jre/lib/rt.jar!/" type="simple" />
+            <root url="jar:///u~u/.rc-ubuntu.local/bins/.linux/java/jdk1.8.0_171/jre/lib/charsets.jar!/" type="simple" />
+            <root url="jar:///u~u/.rc-ubuntu.local/bins/.linux/java/jdk1.8.0_171/jre/lib/deploy.jar!/" type="simple" />
+            <root url="jar:///u~u/.rc-ubuntu.local/bins/.linux/java/jdk1.8.0_171/jre/lib/ext/cldrdata.jar!/" type="simple" />
+            <root url="jar:///u~u/.rc-ubuntu.local/bins/.linux/java/jdk1.8.0_171/jre/lib/ext/dnsns.jar!/" type="simple" />
+            <root url="jar:///u~u/.rc-ubuntu.local/bins/.linux/java/jdk1.8.0_171/jre/lib/ext/jaccess.jar!/" type="simple" />
+            <root url="jar:///u~u/.rc-ubuntu.local/bins/.linux/java/jdk1.8.0_171/jre/lib/ext/jfxrt.jar!/" type="simple" />
+            <root url="jar:///u~u/.rc-ubuntu.local/bins/.linux/java/jdk1.8.0_171/jre/lib/ext/localedata.jar!/" type="simple" />
+            <root url="jar:///u~u/.rc-ubuntu.local/bins/.linux/java/jdk1.8.0_171/jre/lib/ext/nashorn.jar!/" type="simple" />
+            <root url="jar:///u~u/.rc-ubuntu.local/bins/.linux/java/jdk1.8.0_171/jre/lib/ext/sunec.jar!/" type="simple" />
+            <root url="jar:///u~u/.rc-ubuntu.local/bins/.linux/java/jdk1.8.0_171/jre/lib/ext/sunjce_provider.jar!/" type="simple" />
+            <root url="jar:///u~u/.rc-ubuntu.local/bins/.linux/java/jdk1.8.0_171/jre/lib/ext/sunpkcs11.jar!/" type="simple" />
+            <root url="jar:///u~u/.rc-ubuntu.local/bins/.linux/java/jdk1.8.0_171/jre/lib/ext/zipfs.jar!/" type="simple" />
+            <root url="jar:///u~u/.rc-ubuntu.local/bins/.linux/java/jdk1.8.0_171/jre/lib/javaws.jar!/" type="simple" />
+            <root url="jar:///u~u/.rc-ubuntu.local/bins/.linux/java/jdk1.8.0_171/jre/lib/jce.jar!/" type="simple" />
+            <root url="jar:///u~u/.rc-ubuntu.local/bins/.linux/java/jdk1.8.0_171/jre/lib/jfr.jar!/" type="simple" />
+            <root url="jar:///u~u/.rc-ubuntu.local/bins/.linux/java/jdk1.8.0_171/jre/lib/jfxswt.jar!/" type="simple" />
+            <root url="jar:///u~u/.rc-ubuntu.local/bins/.linux/java/jdk1.8.0_171/jre/lib/jsse.jar!/" type="simple" />
+            <root url="jar:///u~u/.rc-ubuntu.local/bins/.linux/java/jdk1.8.0_171/jre/lib/management-agent.jar!/" type="simple" />
+            <root url="jar:///u~u/.rc-ubuntu.local/bins/.linux/java/jdk1.8.0_171/jre/lib/plugin.jar!/" type="simple" />
+            <root url="jar:///u~u/.rc-ubuntu.local/bins/.linux/java/jdk1.8.0_171/jre/lib/resources.jar!/" type="simple" />
+            <root url="jar:///u~u/.rc-ubuntu.local/bins/.linux/java/jdk1.8.0_171/jre/lib/rt.jar!/" type="simple" />
           </root>
         </classPath>
         <javadocPath>
@@ -41,8 +41,8 @@
         </javadocPath>
         <sourcePath>
           <root type="composite">
-            <root url="jar:///u~u/bins/Java/jdk-8u144-linux-x64/src.zip!/" type="simple" />
-            <root url="jar:///u~u/bins/Java/jdk-8u144-linux-x64/javafx-src.zip!/" type="simple" />
+            <root url="jar:///u~u/.rc-ubuntu.local/bins/.linux/java/jdk1.8.0_171/src.zip!/" type="simple" />
+            <root url="jar:///u~u/.rc-ubuntu.local/bins/.linux/java/jdk1.8.0_171/javafx-src.zip!/" type="simple" />
           </root>
         </sourcePath>
       </roots>
@@ -61,19 +61,7 @@
           <root type="composite">
             <root url="file:///usr/lib/python3.6" type="simple" />
             <root url="file:///usr/lib/python3.6/lib-dynload" type="simple" />
-            <root url="file:///u~u/ws/python/venv/lib/python3.6/site-packages" type="simple" />
-            <root url="jar:///u~u/ws/python/venv/lib/python3.6/site-packages/setuptools-28.8.0-py3.6.egg!/" type="simple" />
-            <root url="file:///u~u/ws/python/venv/lib/python3.6/site-packages/pip-9.0.1-py3.6.egg" type="simple" />
             <root url="file://$APPLICATION_HOME_DIR$/.IntelliJIdea4U/system/python_stubs/1336990058" type="simple" />
-            <root url="file:///media/zhangle/KERWIN/a0a/ileler/configs/upan/.rc-ubuntu/.IntelliJIdea4U/config/plugins/python/helpers/python-skeletons" type="simple" />
-            <root url="file:///media/zhangle/KERWIN/a0a/ileler/configs/upan/.rc-ubuntu/.IntelliJIdea4U/config/plugins/python/helpers/typeshed/stdlib/3.6" type="simple" />
-            <root url="file:///media/zhangle/KERWIN/a0a/ileler/configs/upan/.rc-ubuntu/.IntelliJIdea4U/config/plugins/python/helpers/typeshed/stdlib/3.5" type="simple" />
-            <root url="file:///media/zhangle/KERWIN/a0a/ileler/configs/upan/.rc-ubuntu/.IntelliJIdea4U/config/plugins/python/helpers/typeshed/stdlib/3.4" type="simple" />
-            <root url="file:///media/zhangle/KERWIN/a0a/ileler/configs/upan/.rc-ubuntu/.IntelliJIdea4U/config/plugins/python/helpers/typeshed/stdlib/3.3" type="simple" />
-            <root url="file:///media/zhangle/KERWIN/a0a/ileler/configs/upan/.rc-ubuntu/.IntelliJIdea4U/config/plugins/python/helpers/typeshed/stdlib/3" type="simple" />
-            <root url="file:///media/zhangle/KERWIN/a0a/ileler/configs/upan/.rc-ubuntu/.IntelliJIdea4U/config/plugins/python/helpers/typeshed/stdlib/2and3" type="simple" />
-            <root url="file:///media/zhangle/KERWIN/a0a/ileler/configs/upan/.rc-ubuntu/.IntelliJIdea4U/config/plugins/python/helpers/typeshed/third_party/3" type="simple" />
-            <root url="file:///media/zhangle/KERWIN/a0a/ileler/configs/upan/.rc-ubuntu/.IntelliJIdea4U/config/plugins/python/helpers/typeshed/third_party/2and3" type="simple" />
           </root>
         </classPath>
         <javadocPath>

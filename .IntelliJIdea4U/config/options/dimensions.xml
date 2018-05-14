@@ -163,6 +163,7 @@
     <location key="CommitChangelistDialog2.0.0.1920.1080" x="305" y="112" />
     <location key="#TODO.0.0.1920.1080" x="734" y="40" />
     <location key="#Inspections.0.0.1920.1080" x="628" y="230" />
+    <location key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1.0.0.1920.1080" x="672" y="388" />
     <size key="NewModule_or_Project.wizard.0.0.1920.1080" width="861" height="735" />
     <size key="javadoc.popup.1920.0.1920.1080" width="446" height="166" />
     <size key="ProcessPopupWindow.1920.0.1920.1080" width="187" height="113" />
@@ -177,10 +178,10 @@
     <size key="GridCell.Tab.1.right.1920.0.1920.1080" width="1920" height="353" />
     <size key="GridCell.Tab.1.bottom.1920.0.1920.1080" width="1920" height="353" />
     <size key="ProcessPopupWindow.0.0.1920.1080" width="650" height="117" />
-    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1807" height="275" />
-    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1807" height="275" />
-    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1807" height="275" />
-    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="1807" height="275" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1807" height="276" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1807" height="276" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1807" height="276" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="1807" height="276" />
     <size key="ProcessPopupWindow.-1920.0.1920.1080" width="650" height="117" />
     <size key="GridCell.Tab.0.left.-1920.0.1920.1080" width="1876" height="278" />
     <size key="GridCell.Tab.0.center.-1920.0.1920.1080" width="1876" height="278" />
