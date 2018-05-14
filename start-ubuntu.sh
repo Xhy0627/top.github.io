@@ -1,17 +1,19 @@
 #!/bin/bash
-#remount
-#msource=UUID=2AFAD6ECFAD6B2F5
-mtarget=/media/kerwin
-if [[ ! -d $mtarget || "`ls $mtarget/|wc -l`" -eq "0" ]]
-then
-    scriptpath=$0
-    tempout=`df --output=source,target $scriptpath | grep /dev`
-    msource=`echo $tempout | awk '{print $1}'`
-    starget=`echo $tempout | awk '{print $2}'`
-    newscriptpath=`echo $scriptpath | sed "s:$starget:$mtarget:g"`
-    targetcmd="umount -f $msource; mkdir -p $mtarget && mount -t ntfs-3g -o permissions $msource $mtarget && $newscriptpath $@"
-    echo $targetcmd && eval $targetcmd
-    exit
+scriptpath=$0
+tempout=`df --output=source,target $scriptpath | grep /dev`
+msource=`echo $tempout | awk '{print $1}'`
+starget=`echo $tempout | awk '{print $2}'`
+if [ ! "$starget" == "/" ]; then
+    #remount
+    #msource=UUID=2AFAD6ECFAD6B2F5
+    mtarget=/media/kerwin
+    if [[ ! -d $mtarget || "`ls $mtarget/|wc -l`" -eq "0" ]]
+    then
+        newscriptpath=`echo $scriptpath | sed "s:$starget:$mtarget:g"`
+        targetcmd="umount -f $msource; mkdir -p $mtarget && mount -t ntfs-3g -o permissions $msource $mtarget && $newscriptpath $@"
+        echo $targetcmd && eval $targetcmd
+        exit
+    fi
 fi
 user=u~u
 hdir=.rc-ubuntu
