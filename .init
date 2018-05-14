@@ -4,4 +4,5 @@ git init
 git remote add -f -t configs.ext origin git@github.com:ileler/ileler.github.io.git
 git reset --hard origin/configs.ext
 git checkout -b configs.ext
+chmod 600 -R ~/.ssh
 git pull origin configs.ext
