@@ -1,1 +1,13 @@
 .ext/
+.npm/
+
+#link file
+.rc-*/.bashutils
+.rc-*/.bin
+.rc-*/.git-prompt.sh
+.rc-*/.IntelliJIdea
+.rc-*/.IntelliJIdea4U
+.rc-*/.m2
+.rc-*/.ssh
+.rc-*/.tmux.conf
+.rc-*/.vimrc
