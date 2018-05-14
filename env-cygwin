@@ -36,7 +36,7 @@ un=`id -u -n`
 echo "none / cygdrive binary,user,noacl,posix=0 0 0" > /etc/fstab
 mkdir -p /home && cd /home && rm -rf $un && ext-link $un $HOME && cd -
 mount -o binary,user,noacl,posix=0 `ext-winpath $__RPATH__/bins/cygwin64/home` /home
-chown -R $un /home/$un/.ssh && chmod -R 600 /home/$un/.ssh
+chown -RL $un /home/$un/.ssh && chmod -R 600 /home/$un/.ssh
 
 
 #some software need.(eg: electron)
