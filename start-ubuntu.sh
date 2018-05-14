@@ -57,6 +57,8 @@ do
   cd $hpath && rm -rf $fname && ln -s $_USER_COMMON_/$fname $fname && cd - >/dev/null
 done
 
+chown -R $user $hpath/.ssh && chmod -R 600 $hpath/.ssh
+
 #create user
 egrep "^$user" /etc/passwd >& /dev/null
 if [ $? -eq 0 ]
