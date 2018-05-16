@@ -11,23 +11,25 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0/L
+~MSle0~/for-old
 
 # Last Substitute Search Pattern:
-~MSle0~&\.\/
+~MSle0&\.\/
 
 # Last Substitute String:
 $\~\/\.ssh\/
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1526018162,,"wq"
+|2,0,1526454332,,"wq"
 :q
-|2,0,1526017348,,"q"
-:q!
-|2,0,1526004319,,"q!"
+|2,0,1526453986,,"q"
+:set ff
+|2,0,1526453981,,"set ff"
 :w
-|2,0,1526004307,,"w"
+|2,0,1526280935,,"w"
+:q!
+|2,0,1526280301,,"q!"
 :vsplit env-cygwin
 |2,0,1526004178,,"vsplit env-cygwin"
 :172
@@ -92,6 +94,8 @@ $\~\/\.ssh\/
 |2,0,1523754239,,"split"
 
 # Search String History (newest to oldest):
+?/for-old
+|2,1,1526371251,47,"for-old"
 ?/Discovering Xiaomi Gateways
 |2,1,1525853110,47,"Discovering Xiaomi Gateways"
 ?/xiaomi
@@ -131,266 +135,398 @@ $\~\/\.ssh\/
 
 # Registers:
 "0	LINE	0
-	#common dir set
-	export _USER_COMMON_=$cdir/.common
-	for fname in $(ls -A $_USER_COMMON_)
-	do
-	  cd $hpath && rm -rf $fname && ln -s $_USER_COMMON_/$fname $fname && cd - >/dev/null
-	done
-|3,0,0,1,6,0,1526004103,"#common dir set","export _USER_COMMON_=$cdir/.common","for fname in $(ls -A $_USER_COMMON_)","do","  cd $hpath && rm -rf $fname && ln -s $_USER_COMMON_/$fname $fname && cd - >/dev/null","done"
+	.rc-*/.vimrc
+|3,0,0,1,1,0,1526280905,".rc-*/.vimrc"
 ""1	LINE	0
-	/home/zhangle/ws/nexus/nexus-2.14.8-01/bin/nexus start
-|3,1,1,1,1,0,1526011033,"/home/zhangle/ws/nexus/nexus-2.14.8-01/bin/nexus start"
+	.rc-*/.config/
+|3,1,1,1,1,0,1526280933,".rc-*/.config/"
 "2	LINE	0
-	                    key = gateway['key']
-|3,0,2,1,1,0,1525856627,"                    key = gateway['key']"
+	/home/zhangle/ws/nexus/nexus-2.14.8-01/bin/nexus start
+|3,0,2,1,1,0,1526011033,"/home/zhangle/ws/nexus/nexus-2.14.8-01/bin/nexus start"
 "3	LINE	0
-	                    sid = gateway['sid']
-|3,0,3,1,1,0,1525856626,"                    sid = gateway['sid']"
+	                    key = gateway['key']
+|3,0,3,1,1,0,1525856627,"                    key = gateway['key']"
 "4	LINE	0
-	                    _LOGGER.debug(gateway);
-|3,0,4,1,1,0,1525856625,"                    _LOGGER.debug(gateway);"
+	                    sid = gateway['sid']
+|3,0,4,1,1,0,1525856626,"                    sid = gateway['sid']"
 "5	LINE	0
-	    }, 1500);
-|3,0,5,1,1,0,1525850273,"    }, 1500);"
+	                    _LOGGER.debug(gateway);
+|3,0,5,1,1,0,1525856625,"                    _LOGGER.debug(gateway);"
 "6	LINE	0
-	    setInterval(() => {
-|3,0,6,1,1,0,1525850272,"    setInterval(() => {"
+	    }, 1500);
+|3,0,6,1,1,0,1525850273,"    }, 1500);"
 "7	LINE	0
 	    setInterval(() => {
 |3,0,7,1,1,0,1525850272,"    setInterval(() => {"
 "8	LINE	0
-	syntax on
-|3,0,8,1,1,0,1525846568,"syntax on"
+	    setInterval(() => {
+|3,0,8,1,1,0,1525850272,"    setInterval(() => {"
 "9	LINE	0
-	u~u:x:0:0::/u~u/.rc-ubuntu:/bin/bash
-|3,0,9,1,1,0,1524649305,"u~u:x:0:0::/u~u/.rc-ubuntu:/bin/bash"
+	syntax on
+|3,0,9,1,1,0,1525846568,"syntax on"
 
 # File marks:
-'0  3  0  /etc/rc.local
-|4,48,3,0,1526018162,"/etc/rc.local"
-'1  15  79  /home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf
-|4,49,15,79,1526017610,"/home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf"
-'2  1  0  /home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf
-|4,50,1,0,1526017348,"/home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf"
-'3  1  0  /home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf
-|4,51,1,0,1526017348,"/home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf"
-'4  9  11  /etc/systemd/system/nexus.service
-|4,52,9,11,1526017159,"/etc/systemd/system/nexus.service"
-'5  14  0  /etc/systemd/system/rc-local.service
-|4,53,14,0,1526017064,"/etc/systemd/system/rc-local.service"
-'6  3  85  /etc/rc.local
-|4,54,3,85,1526012579,"/etc/rc.local"
-'7  1  0  /etc/systemd/system/rc-local.service
-|4,55,1,0,1526012224,"/etc/systemd/system/rc-local.service"
-'8  1  0  /etc/systemd/system/rc-local.service
-|4,56,1,0,1526012224,"/etc/systemd/system/rc-local.service"
-'9  1  0  /etc/systemd/system/rc-local.service
-|4,57,1,0,1526012107,"/etc/systemd/system/rc-local.service"
+'0  16  5  /home/zhangle/ileler/ileler/configs/.gitignore
+|4,48,16,5,1526454332,"/home/zhangle/ileler/ileler/configs/.gitignore"
+'1  15  12  /home/zhangle/ileler/ileler/configs/.gitignore
+|4,49,15,12,1526454236,"/home/zhangle/ileler/ileler/configs/.gitignore"
+'2  15  12  /home/zhangle/ileler/ileler/configs/.gitignore
+|4,50,15,12,1526454236,"/home/zhangle/ileler/ileler/configs/.gitignore"
+'3  1  0  /home/zhangle/ileler/ileler/configs/.ext/.IntelliJIdea/config/jdbc-drivers/jdbc-drivers.xml
+|4,51,1,0,1526453986,"/home/zhangle/ileler/ileler/configs/.ext/.IntelliJIdea/config/jdbc-drivers/jdbc-drivers.xml"
+'4  9  0  /home/zhangle/ileler/ileler/configs/.ext/.git/config
+|4,52,9,0,1526453911,"/home/zhangle/ileler/ileler/configs/.ext/.git/config"
+'5  62  0  ~/.profile
+|4,53,62,0,1526382086,"~/.profile"
+'6  205  10  ~/nexus.xml.bak
+|4,54,205,10,1526374901,"~/nexus.xml.bak"
+'7  1  0  ~/.gitconfig
+|4,55,1,0,1526284259,"~/.gitconfig"
+'8  5  0  ~/.gitconfig
+|4,56,5,0,1526283985,"~/.gitconfig"
+'9  5  0  ~/.gitconfig
+|4,57,5,0,1526283985,"~/.gitconfig"
 
 # Jumplist (newest first):
--'  3  0  /etc/rc.local
-|4,39,3,0,1526018162,"/etc/rc.local"
--'  1  0  /etc/rc.local
-|4,39,1,0,1526018157,"/etc/rc.local"
--'  15  79  /home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf
-|4,39,15,79,1526017610,"/home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf"
--'  15  79  /home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf
-|4,39,15,79,1526017610,"/home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf"
--'  1  0  /home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf
-|4,39,1,0,1526017592,"/home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf"
--'  1  0  /home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf
-|4,39,1,0,1526017592,"/home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf"
--'  1  0  /home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf
-|4,39,1,0,1526017348,"/home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf"
--'  1  0  /home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf
-|4,39,1,0,1526017348,"/home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf"
--'  195  0  /home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf
-|4,39,195,0,1526017343,"/home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf"
--'  195  0  /home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf
-|4,39,195,0,1526017343,"/home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf"
--'  195  0  /home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf
-|4,39,195,0,1526017343,"/home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf"
--'  195  0  /home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf
-|4,39,195,0,1526017343,"/home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf"
--'  9  11  /etc/systemd/system/nexus.service
-|4,39,9,11,1526017159,"/etc/systemd/system/nexus.service"
--'  9  11  /etc/systemd/system/nexus.service
-|4,39,9,11,1526017159,"/etc/systemd/system/nexus.service"
--'  9  11  /etc/systemd/system/nexus.service
-|4,39,9,11,1526017159,"/etc/systemd/system/nexus.service"
--'  9  11  /etc/systemd/system/nexus.service
-|4,39,9,11,1526017159,"/etc/systemd/system/nexus.service"
--'  9  11  /etc/systemd/system/nexus.service
-|4,39,9,11,1526017159,"/etc/systemd/system/nexus.service"
--'  9  11  /etc/systemd/system/nexus.service
-|4,39,9,11,1526017159,"/etc/systemd/system/nexus.service"
--'  9  11  /etc/systemd/system/nexus.service
-|4,39,9,11,1526017159,"/etc/systemd/system/nexus.service"
--'  9  11  /etc/systemd/system/nexus.service
-|4,39,9,11,1526017159,"/etc/systemd/system/nexus.service"
--'  1  0  /etc/systemd/system/nexus.service
-|4,39,1,0,1526017084,"/etc/systemd/system/nexus.service"
--'  1  0  /etc/systemd/system/nexus.service
-|4,39,1,0,1526017084,"/etc/systemd/system/nexus.service"
--'  1  0  /etc/systemd/system/nexus.service
-|4,39,1,0,1526017084,"/etc/systemd/system/nexus.service"
--'  1  0  /etc/systemd/system/nexus.service
-|4,39,1,0,1526017084,"/etc/systemd/system/nexus.service"
--'  1  0  /etc/systemd/system/nexus.service
-|4,39,1,0,1526017084,"/etc/systemd/system/nexus.service"
--'  1  0  /etc/systemd/system/nexus.service
-|4,39,1,0,1526017084,"/etc/systemd/system/nexus.service"
--'  1  0  /etc/systemd/system/nexus.service
-|4,39,1,0,1526017084,"/etc/systemd/system/nexus.service"
--'  1  0  /etc/systemd/system/nexus.service
-|4,39,1,0,1526017084,"/etc/systemd/system/nexus.service"
--'  14  0  /etc/systemd/system/rc-local.service
-|4,39,14,0,1526017064,"/etc/systemd/system/rc-local.service"
--'  14  0  /etc/systemd/system/rc-local.service
-|4,39,14,0,1526017064,"/etc/systemd/system/rc-local.service"
--'  14  0  /etc/systemd/system/rc-local.service
-|4,39,14,0,1526017064,"/etc/systemd/system/rc-local.service"
--'  14  0  /etc/systemd/system/rc-local.service
-|4,39,14,0,1526017064,"/etc/systemd/system/rc-local.service"
--'  14  0  /etc/systemd/system/rc-local.service
-|4,39,14,0,1526017064,"/etc/systemd/system/rc-local.service"
--'  14  0  /etc/systemd/system/rc-local.service
-|4,39,14,0,1526017064,"/etc/systemd/system/rc-local.service"
--'  14  0  /etc/systemd/system/rc-local.service
-|4,39,14,0,1526017064,"/etc/systemd/system/rc-local.service"
--'  14  0  /etc/systemd/system/rc-local.service
-|4,39,14,0,1526017064,"/etc/systemd/system/rc-local.service"
--'  14  0  /etc/systemd/system/rc-local.service
-|4,39,14,0,1526017064,"/etc/systemd/system/rc-local.service"
--'  14  0  /etc/systemd/system/rc-local.service
-|4,39,14,0,1526017064,"/etc/systemd/system/rc-local.service"
--'  14  0  /etc/systemd/system/rc-local.service
-|4,39,14,0,1526017064,"/etc/systemd/system/rc-local.service"
--'  14  0  /etc/systemd/system/rc-local.service
-|4,39,14,0,1526017064,"/etc/systemd/system/rc-local.service"
--'  14  0  /etc/systemd/system/rc-local.service
-|4,39,14,0,1526017064,"/etc/systemd/system/rc-local.service"
--'  14  0  /etc/systemd/system/rc-local.service
-|4,39,14,0,1526017064,"/etc/systemd/system/rc-local.service"
--'  14  0  /etc/systemd/system/rc-local.service
-|4,39,14,0,1526017064,"/etc/systemd/system/rc-local.service"
--'  14  0  /etc/systemd/system/rc-local.service
-|4,39,14,0,1526017064,"/etc/systemd/system/rc-local.service"
--'  1  0  /etc/systemd/system/rc-local.service
-|4,39,1,0,1526017020,"/etc/systemd/system/rc-local.service"
--'  1  0  /etc/systemd/system/rc-local.service
-|4,39,1,0,1526017020,"/etc/systemd/system/rc-local.service"
--'  1  0  /etc/systemd/system/rc-local.service
-|4,39,1,0,1526017020,"/etc/systemd/system/rc-local.service"
--'  1  0  /etc/systemd/system/rc-local.service
-|4,39,1,0,1526017020,"/etc/systemd/system/rc-local.service"
--'  1  0  /etc/systemd/system/rc-local.service
-|4,39,1,0,1526017020,"/etc/systemd/system/rc-local.service"
--'  1  0  /etc/systemd/system/rc-local.service
-|4,39,1,0,1526017020,"/etc/systemd/system/rc-local.service"
--'  1  0  /etc/systemd/system/rc-local.service
-|4,39,1,0,1526017020,"/etc/systemd/system/rc-local.service"
--'  1  0  /etc/systemd/system/rc-local.service
-|4,39,1,0,1526017020,"/etc/systemd/system/rc-local.service"
--'  1  0  /etc/systemd/system/rc-local.service
-|4,39,1,0,1526017020,"/etc/systemd/system/rc-local.service"
--'  1  0  /etc/systemd/system/rc-local.service
-|4,39,1,0,1526017020,"/etc/systemd/system/rc-local.service"
--'  1  0  /etc/systemd/system/rc-local.service
-|4,39,1,0,1526017020,"/etc/systemd/system/rc-local.service"
--'  1  0  /etc/systemd/system/rc-local.service
-|4,39,1,0,1526017020,"/etc/systemd/system/rc-local.service"
--'  1  0  /etc/systemd/system/rc-local.service
-|4,39,1,0,1526017020,"/etc/systemd/system/rc-local.service"
--'  1  0  /etc/systemd/system/rc-local.service
-|4,39,1,0,1526017020,"/etc/systemd/system/rc-local.service"
--'  1  0  /etc/systemd/system/rc-local.service
-|4,39,1,0,1526017020,"/etc/systemd/system/rc-local.service"
--'  1  0  /etc/systemd/system/rc-local.service
-|4,39,1,0,1526017020,"/etc/systemd/system/rc-local.service"
--'  3  85  /etc/rc.local
-|4,39,3,85,1526012579,"/etc/rc.local"
--'  3  85  /etc/rc.local
-|4,39,3,85,1526012579,"/etc/rc.local"
--'  3  85  /etc/rc.local
-|4,39,3,85,1526012579,"/etc/rc.local"
--'  3  85  /etc/rc.local
-|4,39,3,85,1526012579,"/etc/rc.local"
--'  3  85  /etc/rc.local
-|4,39,3,85,1526012579,"/etc/rc.local"
--'  3  85  /etc/rc.local
-|4,39,3,85,1526012579,"/etc/rc.local"
--'  3  85  /etc/rc.local
-|4,39,3,85,1526012579,"/etc/rc.local"
--'  3  85  /etc/rc.local
-|4,39,3,85,1526012579,"/etc/rc.local"
--'  3  85  /etc/rc.local
-|4,39,3,85,1526012579,"/etc/rc.local"
--'  3  85  /etc/rc.local
-|4,39,3,85,1526012579,"/etc/rc.local"
--'  3  85  /etc/rc.local
-|4,39,3,85,1526012579,"/etc/rc.local"
--'  3  85  /etc/rc.local
-|4,39,3,85,1526012579,"/etc/rc.local"
--'  3  85  /etc/rc.local
-|4,39,3,85,1526012579,"/etc/rc.local"
--'  3  85  /etc/rc.local
-|4,39,3,85,1526012579,"/etc/rc.local"
--'  3  85  /etc/rc.local
-|4,39,3,85,1526012579,"/etc/rc.local"
--'  3  85  /etc/rc.local
-|4,39,3,85,1526012579,"/etc/rc.local"
--'  1  0  /etc/rc.local
-|4,39,1,0,1526012568,"/etc/rc.local"
--'  1  0  /etc/rc.local
-|4,39,1,0,1526012568,"/etc/rc.local"
--'  1  0  /etc/rc.local
-|4,39,1,0,1526012568,"/etc/rc.local"
--'  1  0  /etc/rc.local
-|4,39,1,0,1526012568,"/etc/rc.local"
--'  1  0  /etc/rc.local
-|4,39,1,0,1526012568,"/etc/rc.local"
--'  1  0  /etc/rc.local
-|4,39,1,0,1526012568,"/etc/rc.local"
--'  1  0  /etc/rc.local
-|4,39,1,0,1526012568,"/etc/rc.local"
--'  1  0  /etc/rc.local
-|4,39,1,0,1526012568,"/etc/rc.local"
--'  1  0  /etc/rc.local
-|4,39,1,0,1526012568,"/etc/rc.local"
--'  1  0  /etc/rc.local
-|4,39,1,0,1526012568,"/etc/rc.local"
--'  1  0  /etc/rc.local
-|4,39,1,0,1526012568,"/etc/rc.local"
--'  1  0  /etc/rc.local
-|4,39,1,0,1526012568,"/etc/rc.local"
--'  1  0  /etc/rc.local
-|4,39,1,0,1526012568,"/etc/rc.local"
--'  1  0  /etc/rc.local
-|4,39,1,0,1526012568,"/etc/rc.local"
--'  1  0  /etc/rc.local
-|4,39,1,0,1526012568,"/etc/rc.local"
--'  1  0  /etc/rc.local
-|4,39,1,0,1526012568,"/etc/rc.local"
--'  1  0  /etc/systemd/system/rc-local.service
-|4,39,1,0,1526012224,"/etc/systemd/system/rc-local.service"
--'  1  0  /etc/systemd/system/rc-local.service
-|4,39,1,0,1526012224,"/etc/systemd/system/rc-local.service"
--'  1  0  /etc/systemd/system/rc-local.service
-|4,39,1,0,1526012224,"/etc/systemd/system/rc-local.service"
--'  1  0  /etc/systemd/system/rc-local.service
-|4,39,1,0,1526012224,"/etc/systemd/system/rc-local.service"
--'  1  0  /etc/systemd/system/rc-local.service
-|4,39,1,0,1526012224,"/etc/systemd/system/rc-local.service"
--'  1  0  /etc/systemd/system/rc-local.service
-|4,39,1,0,1526012224,"/etc/systemd/system/rc-local.service"
--'  1  0  /etc/systemd/system/rc-local.service
-|4,39,1,0,1526012224,"/etc/systemd/system/rc-local.service"
--'  1  0  /etc/systemd/system/rc-local.service
-|4,39,1,0,1526012224,"/etc/systemd/system/rc-local.service"
+-'  16  5  /home/zhangle/ileler/ileler/configs/.gitignore
+|4,39,16,5,1526454332,"/home/zhangle/ileler/ileler/configs/.gitignore"
+-'  1  0  /home/zhangle/ileler/ileler/configs/.gitignore
+|4,39,1,0,1526454295,"/home/zhangle/ileler/ileler/configs/.gitignore"
+-'  15  12  /home/zhangle/ileler/ileler/configs/.gitignore
+|4,39,15,12,1526454236,"/home/zhangle/ileler/ileler/configs/.gitignore"
+-'  15  12  /home/zhangle/ileler/ileler/configs/.gitignore
+|4,39,15,12,1526454236,"/home/zhangle/ileler/ileler/configs/.gitignore"
+-'  1  0  /home/zhangle/ileler/ileler/configs/.gitignore
+|4,39,1,0,1526454193,"/home/zhangle/ileler/ileler/configs/.gitignore"
+-'  1  0  /home/zhangle/ileler/ileler/configs/.ext/.IntelliJIdea/config/jdbc-drivers/jdbc-drivers.xml
+|4,39,1,0,1526453986,"/home/zhangle/ileler/ileler/configs/.ext/.IntelliJIdea/config/jdbc-drivers/jdbc-drivers.xml"
+-'  1  0  /home/zhangle/ileler/ileler/configs/.ext/.IntelliJIdea/config/jdbc-drivers/jdbc-drivers.xml
+|4,39,1,0,1526453986,"/home/zhangle/ileler/ileler/configs/.ext/.IntelliJIdea/config/jdbc-drivers/jdbc-drivers.xml"
+-'  1  0  /home/zhangle/ileler/ileler/configs/.ext/.IntelliJIdea/config/jdbc-drivers/jdbc-drivers.xml
+|4,39,1,0,1526453986,"/home/zhangle/ileler/ileler/configs/.ext/.IntelliJIdea/config/jdbc-drivers/jdbc-drivers.xml"
+-'  1  0  /home/zhangle/ileler/ileler/configs/.ext/.IntelliJIdea/config/jdbc-drivers/jdbc-drivers.xml
+|4,39,1,0,1526453986,"/home/zhangle/ileler/ileler/configs/.ext/.IntelliJIdea/config/jdbc-drivers/jdbc-drivers.xml"
+-'  9  0  /home/zhangle/ileler/ileler/configs/.ext/.git/config
+|4,39,9,0,1526453911,"/home/zhangle/ileler/ileler/configs/.ext/.git/config"
+-'  9  0  /home/zhangle/ileler/ileler/configs/.ext/.git/config
+|4,39,9,0,1526453911,"/home/zhangle/ileler/ileler/configs/.ext/.git/config"
+-'  9  0  /home/zhangle/ileler/ileler/configs/.ext/.git/config
+|4,39,9,0,1526453911,"/home/zhangle/ileler/ileler/configs/.ext/.git/config"
+-'  9  0  /home/zhangle/ileler/ileler/configs/.ext/.git/config
+|4,39,9,0,1526453911,"/home/zhangle/ileler/ileler/configs/.ext/.git/config"
+-'  9  0  /home/zhangle/ileler/ileler/configs/.ext/.git/config
+|4,39,9,0,1526453911,"/home/zhangle/ileler/ileler/configs/.ext/.git/config"
+-'  9  0  /home/zhangle/ileler/ileler/configs/.ext/.git/config
+|4,39,9,0,1526453911,"/home/zhangle/ileler/ileler/configs/.ext/.git/config"
+-'  9  0  /home/zhangle/ileler/ileler/configs/.ext/.git/config
+|4,39,9,0,1526453911,"/home/zhangle/ileler/ileler/configs/.ext/.git/config"
+-'  9  0  /home/zhangle/ileler/ileler/configs/.ext/.git/config
+|4,39,9,0,1526453911,"/home/zhangle/ileler/ileler/configs/.ext/.git/config"
+-'  1  0  /home/zhangle/ileler/ileler/configs/.ext/.git/config
+|4,39,1,0,1526453905,"/home/zhangle/ileler/ileler/configs/.ext/.git/config"
+-'  1  0  /home/zhangle/ileler/ileler/configs/.ext/.git/config
+|4,39,1,0,1526453905,"/home/zhangle/ileler/ileler/configs/.ext/.git/config"
+-'  1  0  /home/zhangle/ileler/ileler/configs/.ext/.git/config
+|4,39,1,0,1526453905,"/home/zhangle/ileler/ileler/configs/.ext/.git/config"
+-'  1  0  /home/zhangle/ileler/ileler/configs/.ext/.git/config
+|4,39,1,0,1526453905,"/home/zhangle/ileler/ileler/configs/.ext/.git/config"
+-'  1  0  /home/zhangle/ileler/ileler/configs/.ext/.git/config
+|4,39,1,0,1526453905,"/home/zhangle/ileler/ileler/configs/.ext/.git/config"
+-'  1  0  /home/zhangle/ileler/ileler/configs/.ext/.git/config
+|4,39,1,0,1526453905,"/home/zhangle/ileler/ileler/configs/.ext/.git/config"
+-'  1  0  /home/zhangle/ileler/ileler/configs/.ext/.git/config
+|4,39,1,0,1526453905,"/home/zhangle/ileler/ileler/configs/.ext/.git/config"
+-'  1  0  /home/zhangle/ileler/ileler/configs/.ext/.git/config
+|4,39,1,0,1526453905,"/home/zhangle/ileler/ileler/configs/.ext/.git/config"
+-'  62  0  ~/.profile
+|4,39,62,0,1526382086,"~/.profile"
+-'  62  0  ~/.profile
+|4,39,62,0,1526382086,"~/.profile"
+-'  62  0  ~/.profile
+|4,39,62,0,1526382086,"~/.profile"
+-'  62  0  ~/.profile
+|4,39,62,0,1526382086,"~/.profile"
+-'  62  0  ~/.profile
+|4,39,62,0,1526382086,"~/.profile"
+-'  62  0  ~/.profile
+|4,39,62,0,1526382086,"~/.profile"
+-'  62  0  ~/.profile
+|4,39,62,0,1526382086,"~/.profile"
+-'  62  0  ~/.profile
+|4,39,62,0,1526382086,"~/.profile"
+-'  62  0  ~/.profile
+|4,39,62,0,1526382086,"~/.profile"
+-'  62  0  ~/.profile
+|4,39,62,0,1526382086,"~/.profile"
+-'  62  0  ~/.profile
+|4,39,62,0,1526382086,"~/.profile"
+-'  62  0  ~/.profile
+|4,39,62,0,1526382086,"~/.profile"
+-'  62  0  ~/.profile
+|4,39,62,0,1526382086,"~/.profile"
+-'  62  0  ~/.profile
+|4,39,62,0,1526382086,"~/.profile"
+-'  62  0  ~/.profile
+|4,39,62,0,1526382086,"~/.profile"
+-'  62  0  ~/.profile
+|4,39,62,0,1526382086,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1526382068,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1526382068,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1526382068,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1526382068,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1526382068,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1526382068,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1526382068,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1526382068,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1526382068,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1526382068,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1526382068,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1526382068,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1526382068,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1526382068,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1526382068,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1526382068,"~/.profile"
+-'  205  10  ~/nexus.xml.bak
+|4,39,205,10,1526374901,"~/nexus.xml.bak"
+-'  205  10  ~/nexus.xml.bak
+|4,39,205,10,1526374901,"~/nexus.xml.bak"
+-'  205  10  ~/nexus.xml.bak
+|4,39,205,10,1526374901,"~/nexus.xml.bak"
+-'  205  10  ~/nexus.xml.bak
+|4,39,205,10,1526374901,"~/nexus.xml.bak"
+-'  205  10  ~/nexus.xml.bak
+|4,39,205,10,1526374901,"~/nexus.xml.bak"
+-'  205  10  ~/nexus.xml.bak
+|4,39,205,10,1526374901,"~/nexus.xml.bak"
+-'  205  10  ~/nexus.xml.bak
+|4,39,205,10,1526374901,"~/nexus.xml.bak"
+-'  205  10  ~/nexus.xml.bak
+|4,39,205,10,1526374901,"~/nexus.xml.bak"
+-'  205  10  ~/nexus.xml.bak
+|4,39,205,10,1526374901,"~/nexus.xml.bak"
+-'  205  10  ~/nexus.xml.bak
+|4,39,205,10,1526374901,"~/nexus.xml.bak"
+-'  205  10  ~/nexus.xml.bak
+|4,39,205,10,1526374901,"~/nexus.xml.bak"
+-'  205  10  ~/nexus.xml.bak
+|4,39,205,10,1526374901,"~/nexus.xml.bak"
+-'  205  10  ~/nexus.xml.bak
+|4,39,205,10,1526374901,"~/nexus.xml.bak"
+-'  205  10  ~/nexus.xml.bak
+|4,39,205,10,1526374901,"~/nexus.xml.bak"
+-'  205  10  ~/nexus.xml.bak
+|4,39,205,10,1526374901,"~/nexus.xml.bak"
+-'  205  10  ~/nexus.xml.bak
+|4,39,205,10,1526374901,"~/nexus.xml.bak"
+-'  205  10  ~/nexus.xml.bak
+|4,39,205,10,1526374901,"~/nexus.xml.bak"
+-'  205  10  ~/nexus.xml.bak
+|4,39,205,10,1526374901,"~/nexus.xml.bak"
+-'  205  10  ~/nexus.xml.bak
+|4,39,205,10,1526374901,"~/nexus.xml.bak"
+-'  205  10  ~/nexus.xml.bak
+|4,39,205,10,1526374901,"~/nexus.xml.bak"
+-'  205  10  ~/nexus.xml.bak
+|4,39,205,10,1526374901,"~/nexus.xml.bak"
+-'  205  10  ~/nexus.xml.bak
+|4,39,205,10,1526374901,"~/nexus.xml.bak"
+-'  205  10  ~/nexus.xml.bak
+|4,39,205,10,1526374901,"~/nexus.xml.bak"
+-'  205  10  ~/nexus.xml.bak
+|4,39,205,10,1526374901,"~/nexus.xml.bak"
+-'  205  10  ~/nexus.xml.bak
+|4,39,205,10,1526374901,"~/nexus.xml.bak"
+-'  205  10  ~/nexus.xml.bak
+|4,39,205,10,1526374901,"~/nexus.xml.bak"
+-'  205  10  ~/nexus.xml.bak
+|4,39,205,10,1526374901,"~/nexus.xml.bak"
+-'  205  10  ~/nexus.xml.bak
+|4,39,205,10,1526374901,"~/nexus.xml.bak"
+-'  205  10  ~/nexus.xml.bak
+|4,39,205,10,1526374901,"~/nexus.xml.bak"
+-'  205  10  ~/nexus.xml.bak
+|4,39,205,10,1526374901,"~/nexus.xml.bak"
+-'  205  10  ~/nexus.xml.bak
+|4,39,205,10,1526374901,"~/nexus.xml.bak"
+-'  205  10  ~/nexus.xml.bak
+|4,39,205,10,1526374901,"~/nexus.xml.bak"
+-'  1  0  ~/nexus.xml.bak
+|4,39,1,0,1526371251,"~/nexus.xml.bak"
+-'  1  0  ~/nexus.xml.bak
+|4,39,1,0,1526371251,"~/nexus.xml.bak"
+-'  1  0  ~/nexus.xml.bak
+|4,39,1,0,1526371251,"~/nexus.xml.bak"
+-'  1  0  ~/nexus.xml.bak
+|4,39,1,0,1526371251,"~/nexus.xml.bak"
+-'  1  0  ~/nexus.xml.bak
+|4,39,1,0,1526371251,"~/nexus.xml.bak"
+-'  1  0  ~/nexus.xml.bak
+|4,39,1,0,1526371251,"~/nexus.xml.bak"
+-'  1  0  ~/nexus.xml.bak
+|4,39,1,0,1526371251,"~/nexus.xml.bak"
+-'  1  0  ~/nexus.xml.bak
+|4,39,1,0,1526371251,"~/nexus.xml.bak"
+-'  1  0  ~/nexus.xml.bak
+|4,39,1,0,1526371251,"~/nexus.xml.bak"
+-'  1  0  ~/nexus.xml.bak
+|4,39,1,0,1526371251,"~/nexus.xml.bak"
+-'  1  0  ~/nexus.xml.bak
+|4,39,1,0,1526371251,"~/nexus.xml.bak"
 
 # History of marks within files (newest to oldest):
+
+> /home/zhangle/ileler/ileler/configs/.gitignore
+	*	1526454330	0
+	"	16	5
+	^	16	6
+	.	16	6
+	+	1	5
+	+	2	4
+	+	5	0
+	+	5	4
+	+	5	15
+	+	6	10
+	+	7	0
+	+	8	0
+	+	9	0
+	+	10	0
+	+	10	10
+	+	12	0
+	+	13	0
+	+	7	19
+	+	8	18
+	+	9	20
+	+	10	9
+	+	10	0
+	+	11	9
+	+	12	16
+	+	13	11
+	+	4	9
+	+	12	11
+	+	14	0
+	+	15	12
+	+	16	6
+
+> /home/zhangle/ileler/ileler/configs/.ext/.IntelliJIdea/config/jdbc-drivers/jdbc-drivers.xml
+	*	1526453981	0
+	"	1	0
+
+> /home/zhangle/ileler/ileler/configs/.ext/.git/config
+	*	1526453909	0
+	"	9	0
+
+> ~/.profile
+	*	1526382072	0
+	"	62	0
+	^	44	45
+	.	44	44
+	+	24	9
+	+	38	58
+	+	38	57
+	+	38	10
+	+	25	54
+	+	38	0
+	+	29	52
+	+	37	5
+	+	26	32
+	+	52	27
+	+	39	56
+	+	26	27
+	+	26	0
+	+	27	0
+	+	26	0
+	+	25	0
+	+	27	31
+	+	27	8
+	+	26	0
+	+	55	0
+	+	57	0
+	+	61	0
+	+	59	28
+	+	32	76
+	+	36	58
+	+	40	50
+	+	1	140
+	+	51	0
+	+	43	61
+	+	51	26
+	+	59	0
+	+	51	0
+	+	44	48
+	+	43	14
+	+	48	30
+	+	45	24
+	+	46	25
+	+	47	92
+	+	49	25
+	+	31	56
+	+	37	41
+	+	44	44
+
+> ~/nexus.xml.bak
+	*	1526371251	0
+	"	205	10
+
+> ~/.gitconfig
+	*	1526284258	0
+	"	1	0
+	^	5	2
+	.	5	1
+	+	5	1
+
+> ~/.config/configstore/update-notifier-npm.json
+	*	1526280053	0
+	"	1	0
+
+> ~/.bashutils
+	*	1526279641	0
+	"	20	31
+	^	22	32
+	.	22	31
+	+	23	0
+	+	22	31
+
+> /home/zhangle/ileler/ileler/configs/.ext/.IntelliJIdea4U/config/port
+	*	1526278629	0
+	"	1	0
+
+> /home/zhangle/ileler/ileler/configs/.common/.vimrc
+	*	1526269257	0
+	"	1	0
+
+> /home/zhangle/ileler/ileler/configs/start-ubuntu.sh
+	*	1526268028	0
+	"	60	53
+	^	60	54
+	.	60	53
+	+	60	53
+
+> /home/zhangle/ileler/ileler/configs/.ext/.init
+	*	1526267757	0
+	"	7	11
+	^	7	12
+	.	7	11
+	+	7	11
+
+> /home/zhangle/ileler/ileler/configs/.ext/.int
+	*	1526267720	0
+	"	1	0
 
 > /etc/rc.local
 	*	1526018161	0
@@ -440,54 +576,6 @@ $\~\/\.ssh\/
 > /home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/nexus
 	*	1526010562	0
 	"	259	0
-
-> ~/.profile
-	*	1526009748	0
-	"	59	0
-	^	44	45
-	.	44	44
-	+	24	9
-	+	38	58
-	+	38	57
-	+	38	10
-	+	25	54
-	+	38	0
-	+	29	52
-	+	37	5
-	+	26	32
-	+	52	27
-	+	39	56
-	+	26	27
-	+	26	0
-	+	27	0
-	+	26	0
-	+	25	0
-	+	27	31
-	+	27	8
-	+	26	0
-	+	55	0
-	+	57	0
-	+	61	0
-	+	59	28
-	+	32	76
-	+	36	58
-	+	40	50
-	+	1	140
-	+	51	0
-	+	43	61
-	+	51	26
-	+	59	0
-	+	51	0
-	+	44	48
-	+	43	14
-	+	48	30
-	+	45	24
-	+	46	25
-	+	47	92
-	+	49	25
-	+	31	56
-	+	37	41
-	+	44	44
 
 > /media/kerwin/a0a/ws/js/aqara-gateway-faker/index.js
 	*	1526007754	0

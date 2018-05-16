@@ -1,438 +1,3 @@
-echo $HOME
-ll
-cat ~/.ssh/config 
-:q
-ll
-exit
-vi ../env-cygwin 
-vi ../ext
-vi ../env
-vi ../env-cygwin 
-cp /home/zhangle/ws/ideaj/idea-IU-181.4203.550/bin/idea.sh .bin/
-ll .bin
-ll .bin/
-vi .bin/idea.sh 
-rm -f .bin/idea.sh
-ll /home/zhangle/ws/ideaj/idea-IU-181.4203.550/
-idea
-vi .profile 
-source .profile
-idea
-vi .IntelliJIdea/idea.properties 
-ll /home/zhangle/ws/ideaj/idea-IU-181.4203.550/
-sudo vi /etc/profile
-source /etc/profile
-idea.sh
-echo $DISPLAY
-exit
-pwd
-git --help
-sudo apt install git
-git --help
-git status
-git rev-parse --show-cdup
-git root
-git rev-parse --show-toplevel
-git rev-parse --show-toplevel | pwd ../
-git rev-parse --show-toplevel | pwd 
-git rev-parse --show-toplevel | cd
-ll
-git rev-parse --show-toplevel 
-git rev-parse --show-toplevel | xargs -i cd {}
-git rev-parse --show-toplevel | xargs -i cd '{}'
-git rev-parse --show-toplevel | xargs -i echo '{}'
-git rev-parse --show-toplevel | xargs -i cd '{}'
-git rev-parse --show-toplevel | xargs -i cd '{}'/
-git rev-parse --show-toplevel | xargs -i cd '{}/'
-git rev-parse --show-toplevel | xargs -i cd $({})
-git rev-parse --show-toplevel | xargs -i cd $('{}')
-cd $(git rev-parse --show-toplevel)
-cd -
-cd ../$(git rev-parse --show-toplevel)
-cd $(git rev-parse --show-toplevel)/../
-cd -
-
-cd $(git rev-parse --show-toplevel)
-cd ../
-idea.sh
-xhost --help
-idea.sh
-vi ../start-ubuntu.sh 
-vi ~/.profile 
-ll ../
-vi ../env
-vi ../env-cygwin 
-vi ../start-ubuntu.sh 
-ll
-vi .profile 
-source ~/.profile 
-vi .profile 
-source .profile
-vi .profile 
-source .profile
-echo $JAVA_HOME
-java -version
-ll /media/zhangle/KERWIN/a0a/ileler/configs/upan/.common/.bin/
-vi /media/zhangle/KERWIN/a0a/ileler/configs/upan/.common/.bin/idea
-vi /media/zhangle/KERWIN/a0a/ileler/configs/upan/.common/.bin/idea.bat 
-diff
-diff /media/zhangle/KERWIN/a0a/ileler/configs/upan/.common/.bin/idea.bat /wind/a0a/IDEA/ideaIU-2017.2.6.win/bin/idea.bat 
-su - zhangle
-tmux
-exit
-idea.sh
-echo $HOME
-vi idea.sh
-vi /home/zhangle/ws/ideaj/idea-IU-181.4203.550/bin/idea.sh 
-idea.sh
-vi /media/zhangle/KERWIN/a0a/ileler/configs/upan/.rc-ubuntu/.IntelliJIdea/idea.properties
-echo $HOME
-vi /media/zhangle/KERWIN/a0a/ileler/configs/upan/.rc-ubuntu/.IntelliJIdea/idea.properties
-vi /home/zhangle/ws/ideaj/idea-IU-181.4203.550/bin/idea.sh 
-exit
-pwd
-ll
-vi test.java
-javac test.java 
-ll
-java Test
-java Test -user.home=$HOME
-java Test --user.home=$HOME
-java Test --user.home=/
-java Test --Duser.home=/
-java Test -Duser.home=/
-java Test -Duser.home=/ll
-java -Duser.home=/ll Test
-java -Duser.home=$HOME Test
-vi /home/zhangle/ws/ideaj/idea-IU-181.4203.550/bin/idea.sh 
-vi ~/.IntelliJIdea/idea.properties 
-vi /home/zhangle/ws/ideaj/idea-IU-181.4203.550/bin/idea.sh 
-idea.sh 
-vi /home/zhangle/ws/ideaj/idea-IU-181.4203.550/bin/idea.sh 
-source ~/.profile 
-idea.sh
-vi /home/zhangle/ws/ideaj/idea-IU-181.4203.550/bin/idea.sh 
-idea.sh
-source ~/.profile 
-vi ~/.IntelliJIdea/idea.properties 
-vi ~/.IntelliJIdea/config/idea64.exe.vmoptions 
-idea.sh
-vi ~/.IntelliJIdea/config/idea64.exe.vmoptions 
-cp /home/zhangle/ws/ideaj/idea-IU-181.4203.550/bin/idea64.vmoptions ~/.IntelliJIdea/config/
-vi ~/.profile 
-source ~/.profile 
-vi ~/.IntelliJIdea/config/idea64.vmoptions 
-idea.sh
-ll -a ~
-rm -rf \$HOME
-ll
-rm -rf \$HOME\$/
-rm -rf 
-ll
-rm -rf \$\{HOME\}/
-ll
-vi ~/.IntelliJIdea/config/idea64.vmoptions 
-idea.sh
-vi ~/.IntelliJIdea/config/idea64.vmoptions 
-vi /home/zhangle/ws/ideaj/idea-IU-181.4203.550/bin/idea.sh 
-vi ~/.IntelliJIdea/config/idea64.vmoptions 
-idea.sh
-vi ~/.IntelliJIdea/config/idea64.vmoptions 
-idea.sh
-vi ~/.IntelliJIdea/config/idea64.vmoptions 
-vi /home/zhangle/ws/ideaj/idea-IU-181.4203.550/bin/idea.sh 
-idea.sh
-vi ~/.IntelliJIdea/config/idea64.vmoptions 
-idea.sh
-vi /home/zhangle/ws/ideaj/idea-IU-181.4203.550/bin/idea.sh 
-vi ~/.IntelliJIdea/config/idea64.vmoptions 
-idea.sh
-ll
-vi /home/zhangle/ws/ideaj/idea-IU-181.4203.550/bin/idea.sh 
-vi ~/.IntelliJIdea/config/idea64.vmoptions 
-idea.sh -Duser.home=$HOME
-vi /home/zhangle/ws/ideaj/idea-IU-181.4203.550/bin/idea.sh 
-`cat "~/.IntelliJIdea/config/idea64.vmoptions" | "grep" -v "^#.*"`
-`cat ~/.IntelliJIdea/config/idea64.vmoptions | "grep" -v "^#.*"`
-echo `cat ~/.IntelliJIdea/config/idea64.vmoptions | "grep" -v "^#.*"`
-vi ~/.IntelliJIdea/config/idea64.vmoptions 
-echo `cat ~/.IntelliJIdea/config/idea64.vmoptions | "grep" -v "^#.*"`
-vi ~/.IntelliJIdea/config/idea64.vmoptions 
-vi ~/.IntelliJIdea/idea.properties 
-idea.sh
-exit
-idea.sh
-ps -ef|grep idea
-kill -9 1979
-idea.sh
-exit
-idea.sh
-exit
-git push origin ileler
-local -a
-locale -a
-vi ~/.bashrc 
-vi ~/.profile 
-source ~/.profile 
-git push origin ileler
-locale
-vi ~/.profile 
-source ~/.profile 
-locale
-export LANGUAGE=en_US.UTF-8
-git push origin ileler
-vi ~/.profile 
-exit
-mkdir ~/.ssh/config.d
-cp /home/zhangle/.ssh/config ./.ssh/config.d/
-vi ~/.ssh/config
-mv ~/.ssh/config.d/config ~/.ssh/config.d/mpr-test.cfg
-vi ~/.ssh/config.d/mpr-test.cfg
-ssh 3.45
-vi ~/.ssh/config
-ssh 3.45
-ssh --help]
-ssh -help
-ssh -version
-ssh -ve
-ssh -v
-man ssh
-ssh -V
-exit
-ssh 3.45
-ssh -F ~/.ssh/config.d/mpr-test.cfg 
-ssh -F ~/.ssh/config.d/mpr-test.cfg  3.45
-vi ~/.ssh/config
-ssh 3.45
-vi ~/.ssh/config
-ll ~/.ssh/config.d/
-ssh 3.45
-vi ~/.ssh/config.d/mpr-test.cfg 
-vi ~/.ssh/config
-ssh 3.45
-ps -ef|grep ssh
-ssh 3.45
-ssh mpr@172.16.3.36
-jjj
-java -version
-echo $HOME
-tmux
-npm -v
-echo $NODE_HOME
-vi ~/.profile
-cd ../ws
-cd tl/publisher/ng2-panmedia-admin/
-cnpm start
-cnpm i common-tags
-cnpm start
-cnpm i -g common-tags
-cnpm start
-cat /u~u/bins/NodeJS/npm-cache/_logs/2018-04-19T01_18_26_411Z-debug.log
-idea.sh
-xhost +
-sudo xhost +
-exit
-cd ../ws/
-cd tl/publisher/ng2-panmedia-admin/
-cnpm start
-cnpm i -g common-tags
-cnpm i common-tags
-ssh --help
-git --help
-ll /root/.ssh
-ssh 3.21
-ssh -F ~/.ssh/config 3.21
-alase --help
-alias --help
-vi ~/.profile
-vi ~/.bashrc 
-source ~/.bashrc 
-source ~/.profile
-ssh 3.21
-chmod -R 600 ~/.ssh/config.d/
-ll ~/.ssh/config.d/
-chmod -R 600 ~/.ssh/config.d/
-ssh 3.21
-chmod -R 600 ~/.ssh/config.d/mpr-test.cfg 
-ssh 3.21
-chown $USER ~/.ssh/config.d/mpr-test.cfg
-ssh 3.21
-ll ~/.ssh
-ll ~/.ssh/
-vi ~/.ssh/config
-ssh 3.21
-chmod 600 ~/.ssh/config
-ll ~/.ssh/config
-chmod -R 600 ~/.ssh
-ll ~/.ssh/config
-sudo chmod -R 600 ~/.ssh/
-ll ~/.ssh/
-vi /etc/fstab 
-blkid
-sudo mount /dev/sdb1 -t ntfs-3g -o permissions /media/Data/
-exit
-git push origin ileler
-vi ~/.ssh/config
-vi ~/.ssh/upan.pub 
-ll ~/.ssh/
-vi ~/.ssh/id_rsa.pub 
-vi ~/.ssh/moba_rsa.pub 
-vi ~/.ssh/id_rsa.pub 
-vi ~/.ssh/config
-git push origin ileler
-git config --global user.name
-git config --global user.email
-vi ~/.ssh/id_rsa
-vi ~/.ssh/id_rsa.pub 
-ssh-keygen -t rsa -C "test@qq.com"
-ll /tmp
-ll ~/.ssh
-ll ~/.ssh/
-chmod 600 ~/.ssh/id_rsa
-chmoad 644 ~/.ssh/id_rsa.pub 
-chmod 644 ~/.ssh/id_rsa.pub 
-ll ~/.ssh/
-git push origin ileler
-chmod 644 ~/.ssh/id_rsa.pub 
-chmod 600 ~/.ssh/id_rsa
-ll ~/.ssh/
-ll /root/.ssh/
-cp ~/.ssh/id_rsa* /root/.ssh/
-ll /root/.ssh/
-git push origin ileler
-chmod 644 /root/.ssh/id_rsa.pub 
-chmod 600 /root/.ssh/id_rsa
-git push origin ileler
-git --help
-which ssh
-whereis ssh
-vi /etc/ssh/ssh_config 
-rm -rf /root/.ssh/id_rsa*
-ll /root/.ssh/
-ll ~/.ssh
-ll ~/.ssh/
-tmux
-exit
-ll ~/.ssh
-ll ~/.ssh/
-ssh 3.21
-chmod -R 600 ~/.ssh/config
-ll ~/.ssh/config
-ssh 3.21
-chmod -R 600 ~/.ssh/config.d/
-ssh 3.21
-ll /root/.ssh
-git status
-cp ~/.ssh/config.d/mpr-test.cfg ~/.ssh/config.d/mpr-dev.cfg
-vi ~/.ssh/config.d/mpr-dev.cfg
-ssh 2.28
-git status
-git add ../.common/.ssh/config.d
-git status
-git add .IntelliJIdea4U/
-git status
-git add ../start-ubuntu.sh .profile .bashrc .IntelliJIdea ../.common/.ssh/config 
-git status
-git commit -m 'sync configs dir'
-git push origin ileler
-vi ~/.bin/ssh
-git push origin ileler
-ssh
-vi ~/.bin/ssh
-ssh
-echo $PATH
-ll ~/.bin/
-chmod a+x ~/.bin/ssh
-ll ~/.bin/
-ssh
-rm -rf ~/.bin/ssh 
-ll ~/.bin/
-export GIT_SSH_COMMAND="ssh -F $HOME/.ssh/config"
-echo $GIT_SSH_COMMAND
-git push origin ileler
-git -V
-git --version
-vi ~/.ssh/config
-export GIT_SSH_COMMAND="HOME=$HOME && ssh -F $HOME/.ssh/config"
-echo $GIT_SSH_COMMAND
-git push origin ileler
-pwd ~
-echo ~
-vi ~/.ssh/config
-git push origin ileler
-vi ~/.ssh/config
-git push origin ileler
-ssh --help
-echo $GIT_SSH_COMMAND
-vi ~/.ssh/config
-git push origin ileler
-vi ~/.ssh/config
-git push origin ileler
-ll
-vi test.sh
-sh test.sh 
-rm -rf test.sh
-ssh push origin ileler
-git push origin ileler
-vi /etc/passwd
-git push origin ileler
-pwd
-cd ../
-ll
-cd ileler/configs/upan/
-ll
-vi start-ubuntu.sh 
-pwck -s
-vi /etc/passwd
-grpck -s
-vi /etc/passwd
-pwck --help
-vi /etc/passwd
-pwck -s
-vi /etc/passwd
-vi /etc/sudoers
-vi /etc/passwd
-sort -g -t : -k 3 /etc/passwd
-sort --help
-sort -g -t : -k 1 /etc/passwd
-sort -r -g -t : -k 3 /etc/passwd
-sort -r -g -t : -k 3 /etc/passwd > /etc/passwd
-vi /etc/passwd
-sort -r -g -t : -k 3 /etc/passwd
-sort -g -t : -k 3 /etc/passwd
-vi /etc/passwd
-sort -g -t : -k 3 /etc/passwd | echo > /tmp/passwd
-vi /tmp/passwd 
-sort -g -t : -k 3 /etc/passwd | > /tmp/passwd
-vi /tmp/passwd 
-sort -g -t : -k 3 /etc/passwd -o /tmp/passwd
-vi /tmp/passwd 
-sort -r -g -t : -k 3 /etc/passwd -o /tmp/passwd
-vi /tmp/passwd 
-sor --help
-sort --help
-sort -r -g -t : -k 3 /etc/passwd -o /etc/passwd
-vi /etc/passwd
-vi start-ubuntu.sh 
-sort -g -t : -k 3 /etc/passwd | grep 'u~u'
-sort -g -t : -k 3 /etc/passwd | grep -v 'u~u'
-vi .rc-ubuntu/exit.sh
-chmod a+x .rc-ubuntu/exit.sh
-exit
-exit.sh
-./exit.sh
-vi ./exit.sh
-./exit.sh
-vi /etc/passwd
-cat /tmp/passwd > /etc/passwd
-vi /etc/passwd
-vi ./exit.sh 
-sort -g -t : -k 3 /etc/passwd | grep -v 'u~u' > /tmp/passwd 
-vi /tmp/passwd
-rm -f /tmp/passwd
-vi /tmp/passwd
-sort -g -t : -k 3 /etc/passwd | grep -v 'u~u' > /tmp/passwd 
-vi /tmp/passwd
 exit
 git status
 rm -f exit.sh 
@@ -819,3 +384,152 @@ ll -a ~/
 vi ~/.profile 
 mv .rc-cygwin/.git-prompt.sh .common/
 exit
+ll -a ~/.ssh/
+chmod 777 -R ~/.ssh/
+ll -a ~/.ssh/
+chmod 600 -R ~/.ssh/
+ll -a ~/.ssh/
+cd ../ileler/configs
+./.init
+ll -a ~/.ssh/
+chown u~u -R ~/.ssh/
+./.init
+ll -a ~/.ssh/
+ll -a ~/.ssh
+exit
+exit
+cd ../ileler/configs
+git status
+git add .common/
+git status
+dos2unix  .common/.bashutils 
+dos2unix .common/.git-prompt.sh 
+git status
+git checkout -- .commont/
+git checkout -- .common/
+git status
+dos2unix .common/.bashutils 
+dos2unix .common/.git-prompt.sh 
+git status
+git reset --hard HEAD .common/
+git diff start-ubuntu.sh
+git add start-ubuntu.sh
+git push origin configs
+ll -a ~/.ssh/
+chmod 600 -R ~/.ssh/
+ll -a ~/.ssh/
+git push origin configs
+git status
+git diff .rc-ubuntu/.profile
+vi ~/.gitconfig 
+dos2unix .common/.vimrc 
+vi ~/.gitconfig 
+git status
+git add .rc-ubuntu/.profile 
+git add .rc-ubuntu/.bashrc 
+git add .rc-ubuntu/.bash_logout 
+git status
+git commit -m 'sync configs'
+git push origin configs
+cd .ext/
+git clone -b configs.ext gh:ileler/ileler.github.io.git
+ll
+cd ../
+ll -a
+mv * ../
+ll -a
+ll
+ll -a
+cd ../
+ll
+ll -a
+mv e* configs/
+mv s* configs/
+ll -a
+cd configs/
+ll -a
+cd .ext/
+ll
+cd ileler.github.io/
+ll -a
+mv -rf * ../
+mv * ../
+ll -a
+mv -a * ../
+mv --help
+ll -a
+mv .g* ../
+ll -a
+mv .init .uwt .I* ../
+ll
+cd ../
+ll -a
+rm -rf ileler.github.io/
+ll
+chmod u+x .init .uwt
+vi .int
+vi .init 
+./.uwt 
+cd ../
+ll
+git pull origin configs
+vi start-ubuntu.sh 
+git pull origin configs
+git status
+git diff env-cygwin
+cat ~/.gitconfig 
+git status
+git checkout -- e*
+git diff start-ubuntu.sh
+git pull origin configs
+git status
+git add start-ubuntu.sh 
+git commit -m 'sync configs'
+git push origin configs
+exit
+cd /home/zhangle/ileler/ileler/configs/
+dos2unix .common/.bashutils 
+dos2unix .rc-ubuntu/.profile 
+./start-ubuntu.sh /home/zhangle/ileler/
+su - u~u
+dos2unix .rc-ubuntu/.bash_logout 
+dos2unix .rc-ubuntu/.bashrc 
+dos2unix .rc-ubuntu/.git-prompt.sh 
+dos2unix .common/.git-prompt.sh 
+su - u~u
+exit
+cd /home/zhangle/ileler/ws/tl/publisher/com.mpr.panmedia/com.mpr.panmedia.consumer
+svn --non-interactive update
+svn --non-interactive update .
+svn update
+cd ../../ng2-panmedia-admin/
+node -v
+ll
+cnpm i
+npm -v
+vi ~/.profile 
+vi ~/.bashutils 
+source ~/.bashutils
+cnpm -v
+cnpm i 
+cnpm start
+cnpm i
+cnpm start
+cnpm i
+cnpm start
+cnpm run build:prod
+cnpm run build
+ll
+cd dist/
+tar -czf dist.tar.gz *
+ll
+tar -zxf dist.tar.gz -C /tmp/dist
+mkdir /tmp/dist
+tar -zxf dist.tar.gz -C /tmp/dist
+ll /tmp/dist
+mv dist.tar.gz /home/zhangle/ileler/temp
+ll -a /u~u/
+ll -a /u~u/.rc-ubuntu
+ll -a /u~u/.rc-ubuntu/
+idea.sh
+tmux
