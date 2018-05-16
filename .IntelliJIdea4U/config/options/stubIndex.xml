@@ -90,6 +90,13 @@
         <option value="angularjs.module.index" />
         <option value="angularjs.controller.index" />
         <option value="angularjs.directives.index" />
+        <option value="bash.var" />
+        <option value="bash.vardef" />
+        <option value="bash.scriptCommandReference" />
+        <option value="bash.includers" />
+        <option value="bash.included" />
+        <option value="bash.script.name" />
+        <option value="bash.function.name" />
         <option value="Django.foreignKey" />
         <option value="Python.Decorator" />
         <option value="Py.class.shortName" />

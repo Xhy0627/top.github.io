@@ -7,7 +7,7 @@
     <location key="WELCOME_SCREEN.0.0.1920.1080" x="959" y="451" />
     <location key="com.intellij.ide.util.TipDialog.0.0.1920.1080" x="667" y="330" />
     <location key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog.1920.0.1920.1080" x="2498" y="197" />
-    <location key="new project wizard.0.0.1920.1080" x="545" y="22" />
+    <location key="new project wizard.0.0.1920.1080" x="545" y="27" />
     <location key="WELCOME_SCREEN.1920.0.1920.1080" x="960" y="230" />
     <location key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog.1920.0.1920.1080" x="2498" y="429" />
     <location key="SettingsEditor.1920.0.1920.1080" x="2762" y="34" />
@@ -25,7 +25,7 @@
     <location key="Vcs.Push.Dialog.1920.0.1920.1080" x="2578" y="226" />
     <location key="findTextDialog.1920.0.1920.1080" x="2633" y="232" />
     <location key="EditParametersPopupWindow.0.0.1920.1080" x="789" y="372" />
-    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1920.1080" x="335" y="135" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1920.1080" x="2177" y="98" />
     <location key="#Project_Structure.0.0.1920.1080" x="440" y="88" />
     <location key="ProcessPopupWindow.0.0.1920.1080" x="67" y="865" />
     <location key="AbstractVcsHelper.FilterDialog.org.jetbrains.idea.svn.history.SvnVersionFilterComponent.0.0.1920.1080" x="794" y="358" />
@@ -91,7 +91,7 @@
     <location key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes.0.0.1920.1080" x="407" y="367" />
     <location key="#com.intellij.unscramble.UnscrambleDialog.-1920.0.1920.1080" x="-1280" y="156" />
     <location key="#Maven_environment.-1920.0.1920.1080" x="-1257" y="339" />
-    <location key="find.popup.0.0.1920.1080" x="636" y="101" />
+    <location key="find.popup.0.0.1920.1080" x="623" y="88" />
     <location key="com.intellij.openapi.editor.actions.MultiplePasteAction$1.0.0.1920.1080" x="662" y="121" />
     <location key="#com.intellij.ide.util.TreeClassChooserDialog.0.0.1920.1080" x="691" y="287" />
     <location key="#com.intellij.codeInsight.template.impl.EditVariableDialog.-1920.0.1920.1080" x="-1245" y="288" />
@@ -164,7 +164,8 @@
     <location key="#TODO.0.0.1920.1080" x="734" y="40" />
     <location key="#Inspections.0.0.1920.1080" x="628" y="230" />
     <location key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1.0.0.1920.1080" x="672" y="388" />
-    <size key="NewModule_or_Project.wizard.0.0.1920.1080" width="861" height="735" />
+    <location key="com.intellij.database.view.editors.DatabaseObjectCommentEditor$1$1.0.0.1920.1080" x="659" y="467" />
+    <size key="NewModule_or_Project.wizard.0.0.1920.1080" width="1141" height="735" />
     <size key="javadoc.popup.1920.0.1920.1080" width="446" height="166" />
     <size key="ProcessPopupWindow.1920.0.1920.1080" width="187" height="113" />
     <size key="StructurePopup.1920.0.1920.1080" width="444" height="368" />
@@ -191,10 +192,10 @@
     <size key="GridCell.Tab.1.center.-1920.0.1920.1080" width="1876" height="278" />
     <size key="GridCell.Tab.1.right.-1920.0.1920.1080" width="1876" height="278" />
     <size key="GridCell.Tab.1.bottom.-1920.0.1920.1080" width="1876" height="278" />
-    <size key="GridCell.Tab.1.left.0.0.1920.1080" width="1807" height="275" />
-    <size key="GridCell.Tab.1.center.0.0.1920.1080" width="1807" height="275" />
-    <size key="GridCell.Tab.1.right.0.0.1920.1080" width="1807" height="275" />
-    <size key="GridCell.Tab.1.bottom.0.0.1920.1080" width="1807" height="275" />
+    <size key="GridCell.Tab.1.left.0.0.1920.1080" width="1807" height="341" />
+    <size key="GridCell.Tab.1.center.0.0.1920.1080" width="1807" height="341" />
+    <size key="GridCell.Tab.1.right.0.0.1920.1080" width="1807" height="341" />
+    <size key="GridCell.Tab.1.bottom.0.0.1920.1080" width="1807" height="341" />
     <size key="javadoc.popup.0.0.1920.1080" width="512" height="292" />
     <size key="javadoc.popup.-1920.0.1920.1080" width="1129" height="336" />
     <size key="DebuggerActiveHint.-1920.0.1920.1080" width="569" height="444" />
@@ -216,13 +217,13 @@
     <size key="GridCell.Tab.2.center.-1920.0.1920.1080" width="1876" height="278" />
     <size key="GridCell.Tab.2.right.-1920.0.1920.1080" width="1876" height="278" />
     <size key="GridCell.Tab.2.bottom.-1920.0.1920.1080" width="1876" height="278" />
-    <size key="find.popup.0.0.1920.1080" width="987" height="773" />
+    <size key="find.popup.0.0.1920.1080" width="1013" height="799" />
     <size key="new project wizard.0.0.1920.1080" width="905" height="604" />
     <size key="SettingsEditor.-1920.0.1920.1080" width="1157" height="702" />
-    <size key="GridCell.Tab.2.left.0.0.1920.1080" width="1807" height="275" />
-    <size key="GridCell.Tab.2.center.0.0.1920.1080" width="1807" height="275" />
-    <size key="GridCell.Tab.2.right.0.0.1920.1080" width="1807" height="275" />
-    <size key="GridCell.Tab.2.bottom.0.0.1920.1080" width="1807" height="275" />
+    <size key="GridCell.Tab.2.left.0.0.1920.1080" width="1807" height="341" />
+    <size key="GridCell.Tab.2.center.0.0.1920.1080" width="1807" height="341" />
+    <size key="GridCell.Tab.2.right.0.0.1920.1080" width="1807" height="341" />
+    <size key="GridCell.Tab.2.bottom.0.0.1920.1080" width="1807" height="341" />
     <size key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1920.1080" width="1344" height="909" />
     <size key="GotoFile_FileTypePopup.0.0.1920.1080" width="200" height="200" />
     <size key="SettingsEditor.0.0.1920.1080" width="1242" height="702" />
@@ -272,5 +273,8 @@
     <size key="CommitChangelistDialog2.0.0.1920.1080" width="1367" height="880" />
     <size key="#TODO.0.0.1920.1080" width="498" height="1024" />
     <size key="#Inspections.0.0.1920.1080" width="720" height="645" />
+    <size key="#xdebugger.evaluate.0.0.1920.1080" width="240" height="493" />
+    <size key="#Project_Structure.0.0.1920.1080" width="1024" height="853" />
+    <size key="DatabaseViewActions_Filter.0.0.1920.1080" width="254" height="195" />
   </component>
 </application>
