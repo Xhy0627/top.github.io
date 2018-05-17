@@ -46,6 +46,7 @@ export MAVEN_HOME=$__LPATH__/bins/.linux/maven/apache-maven-3.5.0
 export PATH=$MAVEN_HOME/bin:$PATH
 
 #ideaj
+export IDEA_CLASSPATH=$CLASSPATH
 export IDEA_PROPERTIES=$HOME/.IntelliJIdea4U/idea.properties
 export IDEA_VM_OPTIONS=$HOME/.IntelliJIdea4U/config/idea64.vmoptions
 
