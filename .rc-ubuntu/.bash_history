@@ -533,3 +533,20 @@ ll -a /u~u/.rc-ubuntu
 ll -a /u~u/.rc-ubuntu/
 idea.sh
 tmux
+vi ../start-ubuntu.sh 
+ll
+mvn --help
+echo $MAVEN_HOME
+mvn --help
+source ~/.profile
+mvn -DgroupId=commons-io -DartifactId=commons-io -Dversion-1.4 dependency:get
+ll
+mvn -DgroupId=commons-io -DartifactId=commons-io -Dversion=1.4 dependency:get
+ll
+ll -a
+mvn -DgroupId=org.isli.uasc -DartifactId=org.isli.uasc -Dversion=1.0.0-SNAPSHOT dependency:get
+echo $JAVA_HOME
+source ~/.profile
+java com.ileler.maven.util.MavenUtil
+source ~/.profile 
+java com.ileler.maven.util.MavenUtil

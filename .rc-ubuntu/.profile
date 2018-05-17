@@ -25,17 +25,25 @@ source ~/.bashutils
 echo 'hi~'
 
 #__RPATH__=$(cd $(git rev-parse --show-toplevel)/../ && pwd)
+export __EPATH__=$(cd -P "$HOME/../.ext";pwd)
 export __LPATH__=$(cd "$HOME.local";pwd)
 export __RPATH__=$(cd "$HOME/../";pwd)
 
 #java
+_JAVA_LIBS="$__EPATH__/tools/java-libs"
+_CLASSPATH=""
+for jarname in $(ls -A $_JAVA_LIBS/)
+do
+    _CLASSPATH=$_CLASSPATH:$_JAVA_LIBS/$jarname
+done
 export JAVA_HOME=$__LPATH__/bins/.linux/java/jdk1.8.0_171
-export CLASSPATH=.:$JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar
+export CLASSPATH=.:$JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar:$_CLASSPATH
 export _JAVA_OPTIONS="-Duser.home=$HOME -Droot.path=$__RPATH__ $_JAVA_OPTIONS"
 export PATH=$JAVA_HOME/bin:$PATH
 
 #maven
 export MAVEN_HOME=$__LPATH__/bins/.linux/maven/apache-maven-3.5.0
+export PATH=$MAVEN_HOME/bin:$PATH
 
 #ideaj
 export IDEA_PROPERTIES=$HOME/.IntelliJIdea4U/idea.properties

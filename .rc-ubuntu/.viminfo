@@ -21,15 +21,19 @@ $\~\/\.ssh\/
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1526454332,,"wq"
+|2,0,1526521744,,"wq"
 :q
-|2,0,1526453986,,"q"
+|2,0,1526521627,,"q"
+:vsplit ../../start-ubuntu.sh
+|2,0,1526521217,,"vsplit ../../start-ubuntu.sh"
+:q!
+|2,0,1526519216,,"q!"
+:!
+|2,0,1526519212,,"!"
 :set ff
 |2,0,1526453981,,"set ff"
 :w
 |2,0,1526280935,,"w"
-:q!
-|2,0,1526280301,,"q!"
 :vsplit env-cygwin
 |2,0,1526004178,,"vsplit env-cygwin"
 :172
@@ -135,261 +139,367 @@ $\~\/\.ssh\/
 
 # Registers:
 "0	LINE	0
-	.rc-*/.vimrc
-|3,0,0,1,1,0,1526280905,".rc-*/.vimrc"
+	export _USER_COMMON_=$cdir/.common
+	for fname in $(ls -A $_USER_COMMON_/)
+	do
+	  cd $hpath && rm -rf $fname && ln -s $_USER_COMMON_/$fname $fname && cd - >/dev/null
+	done
+|3,0,0,1,5,0,1526521224,"export _USER_COMMON_=$cdir/.common","for fname in $(ls -A $_USER_COMMON_/)","do","  cd $hpath && rm -rf $fname && ln -s $_USER_COMMON_/$fname $fname && cd - >/dev/null","done"
 ""1	LINE	0
-	.rc-*/.config/
-|3,1,1,1,1,0,1526280933,".rc-*/.config/"
+	  cd $hpath && rm -rf $fname && ln -s $_USER_COMMON_/$fname $fname && cd - >/dev/null
+|3,1,1,1,1,0,1526521326,"  cd $hpath && rm -rf $fname && ln -s $_USER_COMMON_/$fname $fname && cd - >/dev/null"
 "2	LINE	0
-	/home/zhangle/ws/nexus/nexus-2.14.8-01/bin/nexus start
-|3,0,2,1,1,0,1526011033,"/home/zhangle/ws/nexus/nexus-2.14.8-01/bin/nexus start"
+	export __EPATH__=$(cd -P "$HOME/../.ext";pwd)
+|3,0,2,1,1,0,1526520722,"export __EPATH__=$(cd -P \"$HOME/../.ext\";pwd)"
 "3	LINE	0
-	                    key = gateway['key']
-|3,0,3,1,1,0,1525856627,"                    key = gateway['key']"
+	.rc-*/.config/
+|3,0,3,1,1,0,1526280933,".rc-*/.config/"
 "4	LINE	0
-	                    sid = gateway['sid']
-|3,0,4,1,1,0,1525856626,"                    sid = gateway['sid']"
+	/home/zhangle/ws/nexus/nexus-2.14.8-01/bin/nexus start
+|3,0,4,1,1,0,1526011033,"/home/zhangle/ws/nexus/nexus-2.14.8-01/bin/nexus start"
 "5	LINE	0
-	                    _LOGGER.debug(gateway);
-|3,0,5,1,1,0,1525856625,"                    _LOGGER.debug(gateway);"
+	                    key = gateway['key']
+|3,0,5,1,1,0,1525856627,"                    key = gateway['key']"
 "6	LINE	0
-	    }, 1500);
-|3,0,6,1,1,0,1525850273,"    }, 1500);"
+	                    sid = gateway['sid']
+|3,0,6,1,1,0,1525856626,"                    sid = gateway['sid']"
 "7	LINE	0
-	    setInterval(() => {
-|3,0,7,1,1,0,1525850272,"    setInterval(() => {"
+	                    _LOGGER.debug(gateway);
+|3,0,7,1,1,0,1525856625,"                    _LOGGER.debug(gateway);"
 "8	LINE	0
-	    setInterval(() => {
-|3,0,8,1,1,0,1525850272,"    setInterval(() => {"
+	    }, 1500);
+|3,0,8,1,1,0,1525850273,"    }, 1500);"
 "9	LINE	0
-	syntax on
-|3,0,9,1,1,0,1525846568,"syntax on"
+	    setInterval(() => {
+|3,0,9,1,1,0,1525850272,"    setInterval(() => {"
 
 # File marks:
-'0  16  5  /home/zhangle/ileler/ileler/configs/.gitignore
-|4,48,16,5,1526454332,"/home/zhangle/ileler/ileler/configs/.gitignore"
-'1  15  12  /home/zhangle/ileler/ileler/configs/.gitignore
-|4,49,15,12,1526454236,"/home/zhangle/ileler/ileler/configs/.gitignore"
-'2  15  12  /home/zhangle/ileler/ileler/configs/.gitignore
-|4,50,15,12,1526454236,"/home/zhangle/ileler/ileler/configs/.gitignore"
-'3  1  0  /home/zhangle/ileler/ileler/configs/.ext/.IntelliJIdea/config/jdbc-drivers/jdbc-drivers.xml
-|4,51,1,0,1526453986,"/home/zhangle/ileler/ileler/configs/.ext/.IntelliJIdea/config/jdbc-drivers/jdbc-drivers.xml"
-'4  9  0  /home/zhangle/ileler/ileler/configs/.ext/.git/config
-|4,52,9,0,1526453911,"/home/zhangle/ileler/ileler/configs/.ext/.git/config"
-'5  62  0  ~/.profile
-|4,53,62,0,1526382086,"~/.profile"
-'6  205  10  ~/nexus.xml.bak
-|4,54,205,10,1526374901,"~/nexus.xml.bak"
-'7  1  0  ~/.gitconfig
-|4,55,1,0,1526284259,"~/.gitconfig"
-'8  5  0  ~/.gitconfig
-|4,56,5,0,1526283985,"~/.gitconfig"
-'9  5  0  ~/.gitconfig
-|4,57,5,0,1526283985,"~/.gitconfig"
+'0  35  29  ~/.profile
+|4,48,35,29,1526521744,"~/.profile"
+'1  37  33  ~/.profile
+|4,49,37,33,1526521675,"~/.profile"
+'2  37  33  ~/.profile
+|4,50,37,33,1526521675,"~/.profile"
+'3  54  0  /home/zhangle/ileler/ileler/configs/start-ubuntu.sh
+|4,51,54,0,1526521627,"/home/zhangle/ileler/ileler/configs/start-ubuntu.sh"
+'4  54  0  /home/zhangle/ileler/ileler/configs/start-ubuntu.sh
+|4,52,54,0,1526521185,"/home/zhangle/ileler/ileler/configs/start-ubuntu.sh"
+'5  40  54  ~/.profile
+|4,53,40,54,1526520765,"~/.profile"
+'6  34  54  ~/.profile
+|4,54,34,54,1526520765,"~/.profile"
+'7  40  54  ~/.profile
+|4,55,40,54,1526520765,"~/.profile"
+'8  34  54  ~/.profile
+|4,56,34,54,1526520765,"~/.profile"
+'9  40  54  ~/.profile
+|4,57,40,54,1526520765,"~/.profile"
 
 # Jumplist (newest first):
--'  16  5  /home/zhangle/ileler/ileler/configs/.gitignore
-|4,39,16,5,1526454332,"/home/zhangle/ileler/ileler/configs/.gitignore"
--'  1  0  /home/zhangle/ileler/ileler/configs/.gitignore
-|4,39,1,0,1526454295,"/home/zhangle/ileler/ileler/configs/.gitignore"
--'  15  12  /home/zhangle/ileler/ileler/configs/.gitignore
-|4,39,15,12,1526454236,"/home/zhangle/ileler/ileler/configs/.gitignore"
--'  15  12  /home/zhangle/ileler/ileler/configs/.gitignore
-|4,39,15,12,1526454236,"/home/zhangle/ileler/ileler/configs/.gitignore"
--'  1  0  /home/zhangle/ileler/ileler/configs/.gitignore
-|4,39,1,0,1526454193,"/home/zhangle/ileler/ileler/configs/.gitignore"
--'  1  0  /home/zhangle/ileler/ileler/configs/.ext/.IntelliJIdea/config/jdbc-drivers/jdbc-drivers.xml
-|4,39,1,0,1526453986,"/home/zhangle/ileler/ileler/configs/.ext/.IntelliJIdea/config/jdbc-drivers/jdbc-drivers.xml"
--'  1  0  /home/zhangle/ileler/ileler/configs/.ext/.IntelliJIdea/config/jdbc-drivers/jdbc-drivers.xml
-|4,39,1,0,1526453986,"/home/zhangle/ileler/ileler/configs/.ext/.IntelliJIdea/config/jdbc-drivers/jdbc-drivers.xml"
--'  1  0  /home/zhangle/ileler/ileler/configs/.ext/.IntelliJIdea/config/jdbc-drivers/jdbc-drivers.xml
-|4,39,1,0,1526453986,"/home/zhangle/ileler/ileler/configs/.ext/.IntelliJIdea/config/jdbc-drivers/jdbc-drivers.xml"
--'  1  0  /home/zhangle/ileler/ileler/configs/.ext/.IntelliJIdea/config/jdbc-drivers/jdbc-drivers.xml
-|4,39,1,0,1526453986,"/home/zhangle/ileler/ileler/configs/.ext/.IntelliJIdea/config/jdbc-drivers/jdbc-drivers.xml"
--'  9  0  /home/zhangle/ileler/ileler/configs/.ext/.git/config
-|4,39,9,0,1526453911,"/home/zhangle/ileler/ileler/configs/.ext/.git/config"
--'  9  0  /home/zhangle/ileler/ileler/configs/.ext/.git/config
-|4,39,9,0,1526453911,"/home/zhangle/ileler/ileler/configs/.ext/.git/config"
--'  9  0  /home/zhangle/ileler/ileler/configs/.ext/.git/config
-|4,39,9,0,1526453911,"/home/zhangle/ileler/ileler/configs/.ext/.git/config"
--'  9  0  /home/zhangle/ileler/ileler/configs/.ext/.git/config
-|4,39,9,0,1526453911,"/home/zhangle/ileler/ileler/configs/.ext/.git/config"
--'  9  0  /home/zhangle/ileler/ileler/configs/.ext/.git/config
-|4,39,9,0,1526453911,"/home/zhangle/ileler/ileler/configs/.ext/.git/config"
--'  9  0  /home/zhangle/ileler/ileler/configs/.ext/.git/config
-|4,39,9,0,1526453911,"/home/zhangle/ileler/ileler/configs/.ext/.git/config"
--'  9  0  /home/zhangle/ileler/ileler/configs/.ext/.git/config
-|4,39,9,0,1526453911,"/home/zhangle/ileler/ileler/configs/.ext/.git/config"
--'  9  0  /home/zhangle/ileler/ileler/configs/.ext/.git/config
-|4,39,9,0,1526453911,"/home/zhangle/ileler/ileler/configs/.ext/.git/config"
--'  1  0  /home/zhangle/ileler/ileler/configs/.ext/.git/config
-|4,39,1,0,1526453905,"/home/zhangle/ileler/ileler/configs/.ext/.git/config"
--'  1  0  /home/zhangle/ileler/ileler/configs/.ext/.git/config
-|4,39,1,0,1526453905,"/home/zhangle/ileler/ileler/configs/.ext/.git/config"
--'  1  0  /home/zhangle/ileler/ileler/configs/.ext/.git/config
-|4,39,1,0,1526453905,"/home/zhangle/ileler/ileler/configs/.ext/.git/config"
--'  1  0  /home/zhangle/ileler/ileler/configs/.ext/.git/config
-|4,39,1,0,1526453905,"/home/zhangle/ileler/ileler/configs/.ext/.git/config"
--'  1  0  /home/zhangle/ileler/ileler/configs/.ext/.git/config
-|4,39,1,0,1526453905,"/home/zhangle/ileler/ileler/configs/.ext/.git/config"
--'  1  0  /home/zhangle/ileler/ileler/configs/.ext/.git/config
-|4,39,1,0,1526453905,"/home/zhangle/ileler/ileler/configs/.ext/.git/config"
--'  1  0  /home/zhangle/ileler/ileler/configs/.ext/.git/config
-|4,39,1,0,1526453905,"/home/zhangle/ileler/ileler/configs/.ext/.git/config"
--'  1  0  /home/zhangle/ileler/ileler/configs/.ext/.git/config
-|4,39,1,0,1526453905,"/home/zhangle/ileler/ileler/configs/.ext/.git/config"
--'  62  0  ~/.profile
-|4,39,62,0,1526382086,"~/.profile"
--'  62  0  ~/.profile
-|4,39,62,0,1526382086,"~/.profile"
--'  62  0  ~/.profile
-|4,39,62,0,1526382086,"~/.profile"
--'  62  0  ~/.profile
-|4,39,62,0,1526382086,"~/.profile"
--'  62  0  ~/.profile
-|4,39,62,0,1526382086,"~/.profile"
--'  62  0  ~/.profile
-|4,39,62,0,1526382086,"~/.profile"
--'  62  0  ~/.profile
-|4,39,62,0,1526382086,"~/.profile"
--'  62  0  ~/.profile
-|4,39,62,0,1526382086,"~/.profile"
--'  62  0  ~/.profile
-|4,39,62,0,1526382086,"~/.profile"
--'  62  0  ~/.profile
-|4,39,62,0,1526382086,"~/.profile"
--'  62  0  ~/.profile
-|4,39,62,0,1526382086,"~/.profile"
--'  62  0  ~/.profile
-|4,39,62,0,1526382086,"~/.profile"
--'  62  0  ~/.profile
-|4,39,62,0,1526382086,"~/.profile"
--'  62  0  ~/.profile
-|4,39,62,0,1526382086,"~/.profile"
--'  62  0  ~/.profile
-|4,39,62,0,1526382086,"~/.profile"
--'  62  0  ~/.profile
-|4,39,62,0,1526382086,"~/.profile"
+-'  35  29  ~/.profile
+|4,39,35,29,1526521744,"~/.profile"
 -'  1  0  ~/.profile
-|4,39,1,0,1526382068,"~/.profile"
+|4,39,1,0,1526521707,"~/.profile"
+-'  37  33  ~/.profile
+|4,39,37,33,1526521675,"~/.profile"
+-'  37  33  ~/.profile
+|4,39,37,33,1526521675,"~/.profile"
 -'  1  0  ~/.profile
-|4,39,1,0,1526382068,"~/.profile"
+|4,39,1,0,1526521646,"~/.profile"
+-'  54  0  /home/zhangle/ileler/ileler/configs/start-ubuntu.sh
+|4,39,54,0,1526521627,"/home/zhangle/ileler/ileler/configs/start-ubuntu.sh"
+-'  54  0  /home/zhangle/ileler/ileler/configs/start-ubuntu.sh
+|4,39,54,0,1526521627,"/home/zhangle/ileler/ileler/configs/start-ubuntu.sh"
+-'  54  0  /home/zhangle/ileler/ileler/configs/start-ubuntu.sh
+|4,39,54,0,1526521627,"/home/zhangle/ileler/ileler/configs/start-ubuntu.sh"
+-'  54  0  /home/zhangle/ileler/ileler/configs/start-ubuntu.sh
+|4,39,54,0,1526521627,"/home/zhangle/ileler/ileler/configs/start-ubuntu.sh"
+-'  32  4  ~/.profile
+|4,39,32,4,1526521217,"~/.profile"
+-'  32  4  ~/.profile
+|4,39,32,4,1526521217,"~/.profile"
+-'  32  4  ~/.profile
+|4,39,32,4,1526521217,"~/.profile"
+-'  39  0  ~/.profile
+|4,39,39,0,1526521188,"~/.profile"
+-'  39  0  ~/.profile
+|4,39,39,0,1526521188,"~/.profile"
+-'  39  0  ~/.profile
+|4,39,39,0,1526521188,"~/.profile"
+-'  54  0  /home/zhangle/ileler/ileler/configs/start-ubuntu.sh
+|4,39,54,0,1526521185,"/home/zhangle/ileler/ileler/configs/start-ubuntu.sh"
+-'  54  0  /home/zhangle/ileler/ileler/configs/start-ubuntu.sh
+|4,39,54,0,1526521185,"/home/zhangle/ileler/ileler/configs/start-ubuntu.sh"
+-'  54  0  /home/zhangle/ileler/ileler/configs/start-ubuntu.sh
+|4,39,54,0,1526521185,"/home/zhangle/ileler/ileler/configs/start-ubuntu.sh"
+-'  54  0  /home/zhangle/ileler/ileler/configs/start-ubuntu.sh
+|4,39,54,0,1526521185,"/home/zhangle/ileler/ileler/configs/start-ubuntu.sh"
+-'  1  0  /home/zhangle/ileler/ileler/configs/start-ubuntu.sh
+|4,39,1,0,1526521138,"/home/zhangle/ileler/ileler/configs/start-ubuntu.sh"
+-'  1  0  /home/zhangle/ileler/ileler/configs/start-ubuntu.sh
+|4,39,1,0,1526521138,"/home/zhangle/ileler/ileler/configs/start-ubuntu.sh"
+-'  1  0  /home/zhangle/ileler/ileler/configs/start-ubuntu.sh
+|4,39,1,0,1526521138,"/home/zhangle/ileler/ileler/configs/start-ubuntu.sh"
+-'  1  0  /home/zhangle/ileler/ileler/configs/start-ubuntu.sh
+|4,39,1,0,1526521138,"/home/zhangle/ileler/ileler/configs/start-ubuntu.sh"
 -'  1  0  ~/.profile
-|4,39,1,0,1526382068,"~/.profile"
+|4,39,1,0,1526521087,"~/.profile"
+-'  40  54  ~/.profile
+|4,39,40,54,1526520765,"~/.profile"
+-'  34  54  ~/.profile
+|4,39,34,54,1526520765,"~/.profile"
+-'  40  54  ~/.profile
+|4,39,40,54,1526520765,"~/.profile"
+-'  34  54  ~/.profile
+|4,39,34,54,1526520765,"~/.profile"
+-'  40  54  ~/.profile
+|4,39,40,54,1526520765,"~/.profile"
+-'  34  54  ~/.profile
+|4,39,34,54,1526520765,"~/.profile"
+-'  34  54  ~/.profile
+|4,39,34,54,1526520765,"~/.profile"
 -'  1  0  ~/.profile
-|4,39,1,0,1526382068,"~/.profile"
+|4,39,1,0,1526520662,"~/.profile"
 -'  1  0  ~/.profile
-|4,39,1,0,1526382068,"~/.profile"
+|4,39,1,0,1526520662,"~/.profile"
+-'  1  0  /home/zhangle/ileler/ileler/configs/start-ubuntu.sh
+|4,39,1,0,1526520659,"/home/zhangle/ileler/ileler/configs/start-ubuntu.sh"
+-'  1  0  /home/zhangle/ileler/ileler/configs/start-ubuntu.sh
+|4,39,1,0,1526520659,"/home/zhangle/ileler/ileler/configs/start-ubuntu.sh"
+-'  1  0  /home/zhangle/ileler/ileler/configs/start-ubuntu.sh
+|4,39,1,0,1526520659,"/home/zhangle/ileler/ileler/configs/start-ubuntu.sh"
+-'  1  0  /home/zhangle/ileler/ileler/configs/start-ubuntu.sh
+|4,39,1,0,1526520659,"/home/zhangle/ileler/ileler/configs/start-ubuntu.sh"
+-'  1  0  /home/zhangle/ileler/ileler/configs/start-ubuntu.sh
+|4,39,1,0,1526520659,"/home/zhangle/ileler/ileler/configs/start-ubuntu.sh"
+-'  1  0  /home/zhangle/ileler/ileler/configs/start-ubuntu.sh
+|4,39,1,0,1526520659,"/home/zhangle/ileler/ileler/configs/start-ubuntu.sh"
+-'  1  0  /home/zhangle/ileler/ileler/configs/start-ubuntu.sh
+|4,39,1,0,1526520659,"/home/zhangle/ileler/ileler/configs/start-ubuntu.sh"
+-'  1  0  /home/zhangle/ileler/ileler/configs/start-ubuntu.sh
+|4,39,1,0,1526520659,"/home/zhangle/ileler/ileler/configs/start-ubuntu.sh"
+-'  1  0  /home/zhangle/ileler/ileler/configs/start-ubuntu.sh
+|4,39,1,0,1526520659,"/home/zhangle/ileler/ileler/configs/start-ubuntu.sh"
+-'  1  0  /home/zhangle/ileler/ileler/configs/start-ubuntu.sh
+|4,39,1,0,1526520659,"/home/zhangle/ileler/ileler/configs/start-ubuntu.sh"
+-'  1  0  /home/zhangle/ileler/ileler/configs/start-ubuntu.sh
+|4,39,1,0,1526520659,"/home/zhangle/ileler/ileler/configs/start-ubuntu.sh"
+-'  1  0  /home/zhangle/ileler/ileler/configs/start-ubuntu.sh
+|4,39,1,0,1526520659,"/home/zhangle/ileler/ileler/configs/start-ubuntu.sh"
+-'  33  32  ~/.profile
+|4,39,33,32,1526520592,"~/.profile"
+-'  33  32  ~/.profile
+|4,39,33,32,1526520592,"~/.profile"
+-'  33  32  ~/.profile
+|4,39,33,32,1526520592,"~/.profile"
+-'  33  32  ~/.profile
+|4,39,33,32,1526520592,"~/.profile"
+-'  33  32  ~/.profile
+|4,39,33,32,1526520592,"~/.profile"
+-'  33  32  ~/.profile
+|4,39,33,32,1526520592,"~/.profile"
 -'  1  0  ~/.profile
-|4,39,1,0,1526382068,"~/.profile"
+|4,39,1,0,1526520392,"~/.profile"
 -'  1  0  ~/.profile
-|4,39,1,0,1526382068,"~/.profile"
+|4,39,1,0,1526520392,"~/.profile"
 -'  1  0  ~/.profile
-|4,39,1,0,1526382068,"~/.profile"
+|4,39,1,0,1526520392,"~/.profile"
 -'  1  0  ~/.profile
-|4,39,1,0,1526382068,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1526382068,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1526382068,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1526382068,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1526382068,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1526382068,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1526382068,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1526382068,"~/.profile"
--'  205  10  ~/nexus.xml.bak
-|4,39,205,10,1526374901,"~/nexus.xml.bak"
--'  205  10  ~/nexus.xml.bak
-|4,39,205,10,1526374901,"~/nexus.xml.bak"
--'  205  10  ~/nexus.xml.bak
-|4,39,205,10,1526374901,"~/nexus.xml.bak"
--'  205  10  ~/nexus.xml.bak
-|4,39,205,10,1526374901,"~/nexus.xml.bak"
--'  205  10  ~/nexus.xml.bak
-|4,39,205,10,1526374901,"~/nexus.xml.bak"
--'  205  10  ~/nexus.xml.bak
-|4,39,205,10,1526374901,"~/nexus.xml.bak"
--'  205  10  ~/nexus.xml.bak
-|4,39,205,10,1526374901,"~/nexus.xml.bak"
--'  205  10  ~/nexus.xml.bak
-|4,39,205,10,1526374901,"~/nexus.xml.bak"
--'  205  10  ~/nexus.xml.bak
-|4,39,205,10,1526374901,"~/nexus.xml.bak"
--'  205  10  ~/nexus.xml.bak
-|4,39,205,10,1526374901,"~/nexus.xml.bak"
--'  205  10  ~/nexus.xml.bak
-|4,39,205,10,1526374901,"~/nexus.xml.bak"
--'  205  10  ~/nexus.xml.bak
-|4,39,205,10,1526374901,"~/nexus.xml.bak"
--'  205  10  ~/nexus.xml.bak
-|4,39,205,10,1526374901,"~/nexus.xml.bak"
--'  205  10  ~/nexus.xml.bak
-|4,39,205,10,1526374901,"~/nexus.xml.bak"
--'  205  10  ~/nexus.xml.bak
-|4,39,205,10,1526374901,"~/nexus.xml.bak"
--'  205  10  ~/nexus.xml.bak
-|4,39,205,10,1526374901,"~/nexus.xml.bak"
--'  205  10  ~/nexus.xml.bak
-|4,39,205,10,1526374901,"~/nexus.xml.bak"
--'  205  10  ~/nexus.xml.bak
-|4,39,205,10,1526374901,"~/nexus.xml.bak"
--'  205  10  ~/nexus.xml.bak
-|4,39,205,10,1526374901,"~/nexus.xml.bak"
--'  205  10  ~/nexus.xml.bak
-|4,39,205,10,1526374901,"~/nexus.xml.bak"
--'  205  10  ~/nexus.xml.bak
-|4,39,205,10,1526374901,"~/nexus.xml.bak"
--'  205  10  ~/nexus.xml.bak
-|4,39,205,10,1526374901,"~/nexus.xml.bak"
--'  205  10  ~/nexus.xml.bak
-|4,39,205,10,1526374901,"~/nexus.xml.bak"
--'  205  10  ~/nexus.xml.bak
-|4,39,205,10,1526374901,"~/nexus.xml.bak"
--'  205  10  ~/nexus.xml.bak
-|4,39,205,10,1526374901,"~/nexus.xml.bak"
--'  205  10  ~/nexus.xml.bak
-|4,39,205,10,1526374901,"~/nexus.xml.bak"
--'  205  10  ~/nexus.xml.bak
-|4,39,205,10,1526374901,"~/nexus.xml.bak"
--'  205  10  ~/nexus.xml.bak
-|4,39,205,10,1526374901,"~/nexus.xml.bak"
--'  205  10  ~/nexus.xml.bak
-|4,39,205,10,1526374901,"~/nexus.xml.bak"
--'  205  10  ~/nexus.xml.bak
-|4,39,205,10,1526374901,"~/nexus.xml.bak"
--'  205  10  ~/nexus.xml.bak
-|4,39,205,10,1526374901,"~/nexus.xml.bak"
--'  205  10  ~/nexus.xml.bak
-|4,39,205,10,1526374901,"~/nexus.xml.bak"
--'  1  0  ~/nexus.xml.bak
-|4,39,1,0,1526371251,"~/nexus.xml.bak"
--'  1  0  ~/nexus.xml.bak
-|4,39,1,0,1526371251,"~/nexus.xml.bak"
--'  1  0  ~/nexus.xml.bak
-|4,39,1,0,1526371251,"~/nexus.xml.bak"
--'  1  0  ~/nexus.xml.bak
-|4,39,1,0,1526371251,"~/nexus.xml.bak"
--'  1  0  ~/nexus.xml.bak
-|4,39,1,0,1526371251,"~/nexus.xml.bak"
--'  1  0  ~/nexus.xml.bak
-|4,39,1,0,1526371251,"~/nexus.xml.bak"
--'  1  0  ~/nexus.xml.bak
-|4,39,1,0,1526371251,"~/nexus.xml.bak"
--'  1  0  ~/nexus.xml.bak
-|4,39,1,0,1526371251,"~/nexus.xml.bak"
--'  1  0  ~/nexus.xml.bak
-|4,39,1,0,1526371251,"~/nexus.xml.bak"
--'  1  0  ~/nexus.xml.bak
-|4,39,1,0,1526371251,"~/nexus.xml.bak"
--'  1  0  ~/nexus.xml.bak
-|4,39,1,0,1526371251,"~/nexus.xml.bak"
+|4,39,1,0,1526520392,"~/.profile"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
+-'  53  0  /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+|4,39,53,0,1526519268,"/home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh"
 
 # History of marks within files (newest to oldest):
+
+> ~/.profile
+	*	1526521741	0
+	"	35	29
+	^	35	30
+	.	35	29
+	+	24	9
+	+	45	58
+	+	45	57
+	+	45	10
+	+	25	54
+	+	45	0
+	+	30	52
+	+	44	5
+	+	26	32
+	+	60	27
+	+	47	56
+	+	26	27
+	+	26	0
+	+	27	0
+	+	26	0
+	+	25	0
+	+	27	31
+	+	27	8
+	+	26	0
+	+	63	0
+	+	65	0
+	+	69	0
+	+	67	28
+	+	39	76
+	+	43	58
+	+	48	50
+	+	1	140
+	+	59	0
+	+	51	61
+	+	59	26
+	+	67	0
+	+	59	0
+	+	52	48
+	+	51	14
+	+	56	30
+	+	53	24
+	+	54	25
+	+	55	92
+	+	57	25
+	+	32	56
+	+	44	41
+	+	52	44
+	+	46	32
+	+	40	33
+	+	31	0
+	+	28	0
+	+	40	64
+	+	39	0
+	+	33	36
+	+	33	72
+	+	33	38
+	+	38	0
+	+	37	38
+	+	33	37
+	+	33	0
+	+	34	48
+	+	34	24
+	+	37	46
+	+	34	13
+	+	34	0
+	+	40	77
+	+	40	0
+	+	33	38
+	+	37	33
+	+	35	29
+
+> /home/zhangle/ileler/ileler/configs/start-ubuntu.sh
+	*	1526521626	0
+	"	54	0
+	^	60	54
+	.	60	53
+	+	60	53
+
+> /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
+	*	1526519264	0
+	"	53	0
+
+> /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/checkJava.sh
+	*	1526519238	0
+	"	1	0
+
+> /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/setupClasspath.sh
+	*	1526519214	0
+	"	1	0
+
+> /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/dmk.sh
+	*	1526519176	0
+	"	15	0
+
+> /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/startup.sh
+	*	1526519150	0
+	"	1	0
+
+> /home/zhangle/ileler/ileler/configs/.common/.m2/settings.xml
+	*	1526463046	0
+	"	313	0
 
 > /home/zhangle/ileler/ileler/configs/.gitignore
 	*	1526454330	0
@@ -431,54 +541,6 @@ $\~\/\.ssh\/
 	*	1526453909	0
 	"	9	0
 
-> ~/.profile
-	*	1526382072	0
-	"	62	0
-	^	44	45
-	.	44	44
-	+	24	9
-	+	38	58
-	+	38	57
-	+	38	10
-	+	25	54
-	+	38	0
-	+	29	52
-	+	37	5
-	+	26	32
-	+	52	27
-	+	39	56
-	+	26	27
-	+	26	0
-	+	27	0
-	+	26	0
-	+	25	0
-	+	27	31
-	+	27	8
-	+	26	0
-	+	55	0
-	+	57	0
-	+	61	0
-	+	59	28
-	+	32	76
-	+	36	58
-	+	40	50
-	+	1	140
-	+	51	0
-	+	43	61
-	+	51	26
-	+	59	0
-	+	51	0
-	+	44	48
-	+	43	14
-	+	48	30
-	+	45	24
-	+	46	25
-	+	47	92
-	+	49	25
-	+	31	56
-	+	37	41
-	+	44	44
-
 > ~/nexus.xml.bak
 	*	1526371251	0
 	"	205	10
@@ -509,13 +571,6 @@ $\~\/\.ssh\/
 > /home/zhangle/ileler/ileler/configs/.common/.vimrc
 	*	1526269257	0
 	"	1	0
-
-> /home/zhangle/ileler/ileler/configs/start-ubuntu.sh
-	*	1526268028	0
-	"	60	53
-	^	60	54
-	.	60	53
-	+	60	53
 
 > /home/zhangle/ileler/ileler/configs/.ext/.init
 	*	1526267757	0
