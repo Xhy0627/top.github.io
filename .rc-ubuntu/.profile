@@ -21,7 +21,6 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
-source ~/.bashutils
 echo 'hi~'
 
 #__RPATH__=$(cd $(git rev-parse --show-toplevel)/../ && pwd)
@@ -66,6 +65,8 @@ export PATH=$HOME/.bin:$PATH
 
 
 source ~/.git-prompt.sh
+source ~/.bashutils
+source ~/.alias
 export PS1="\[\033]0;\$TITLEPREFIX:\${PWD//[^[:ascii:]]/?}\007\]\n\[\033[32m\]\u@\h\[\033[35m\]:\[\033[33m\]\w\[\033[36m\]\`__git_ps1\`\[\033[0m\]\n$"
 export LANGUAGE="en_US.UTF-8"
 export LC_ALL="en_US.UTF-8"

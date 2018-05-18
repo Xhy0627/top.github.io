@@ -1,5 +1,29 @@
 #!/bin/bash
 
+lpath() {
+    echo $(dirname $(cd -P $__LPATH__;pwd)/.)/$@
+}
+
+cdlpath() {
+    cd `lpath "$@"`
+}
+
+epath() {
+    echo $(dirname $(cd -P $__EPATH__;pwd)/.)/$@
+}
+
+cdepath() {
+    cd `epath "$@"`
+}
+
+rpath() {
+    echo $(dirname $(cd -P $HOME/../;pwd)/.)/$@
+}
+
+cdrpath() {
+    cd `rpath "$@"`
+}
+
 exchange() {
     if [[ -z "$1" || -z "$2" ]]; then
         echo "Missing parameters"

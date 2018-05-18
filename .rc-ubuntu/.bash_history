@@ -550,3 +550,83 @@ source ~/.profile
 java com.ileler.maven.util.MavenUtil
 source ~/.profile 
 java com.ileler.maven.util.MavenUtil
+idea.sh
+echo $CLASSPATH
+java com.ileler.maven.util.MavenUtil
+ll ~
+cd -P ~/../
+git pull origin configs
+idea.sh
+tmux
+java class com.ileler.maven.util.MavenUtil
+java com.ileler.maven.util.MavenUtil
+echo $CLASSPATH
+ll -a
+vi ~/.profile 
+source ~/.profile
+vi ~/.alias 
+source ~/.profile
+vi ~/.alias 
+vi ~/.bashutils 
+source ~/.profile
+epath
+cdepath
+cd ../
+exit
+epath
+cdepath
+cd -
+vi ~/.alias 
+source ~/.profile 
+vi ~/.alias 
+source ~/.profile 
+epath
+vi ~/.profile 
+vi ~/.alias 
+exit
+epath
+cdepath
+cd -
+epath tools
+vi ~/.alias 
+source ~/.profile 
+epath
+vi ~/.alias 
+dirname --help
+vi ~/.alias 
+source ~/.profile 
+epath
+vi ~/.alias 
+source ~/.profile 
+epath
+exit
+epath
+vi ~/.alias 
+cd -P ~/../.ext
+dirname .
+dirname ./
+dirname /home/zhangle/ileler/ileler/configs/.ext
+dirname /home/zhangle/ileler/ileler/configs/.ext/.
+vi ~/.alias 
+cd -P $__EPATH__/
+pwd
+cd -P $__EPATH__/./
+pwd
+vi ~/.alias 
+source ~/.profile 
+epath
+epath tools
+vi ~/.alias 
+vi ~/.bashutils 
+exit
+epath
+vi ~/.bashutils 
+exit
+epath
+epath tools
+cdepath
+cd -
+cdepath /tools
+vi ~/.bashutils 
+lpath
+exit

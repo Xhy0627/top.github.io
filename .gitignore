@@ -11,6 +11,7 @@
 .rc-*/.ssh
 .rc-*/.tmux.conf
 .rc-*/.vimrc
+.rc-*/.alias
 
 .rc-*/.gradle
 .rc-*/tmux-*.log
