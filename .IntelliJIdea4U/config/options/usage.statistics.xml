@@ -39,7 +39,7 @@
       <entry action="Console.TableResult.ChooseExtractor" count="4" />
       <entry action="Console.TableResult.CloneRow" count="2" />
       <entry action="Console.TableResult.CompareWith" count="2" />
-      <entry action="Console.TableResult.Copy.DumpToClipboard" count="4" />
+      <entry action="Console.TableResult.Copy.DumpToClipboard" count="5" />
       <entry action="Console.TableResult.DeleteRows" count="1" />
       <entry action="Console.TableResult.DumpGroup" count="2" />
       <entry action="Console.TableResult.EditValue" count="1" />
@@ -68,7 +68,7 @@
       <entry action="DumpThreads" count="1" />
       <entry action="EditSource" count="13" />
       <entry action="EditorBackSpace" count="15869" />
-      <entry action="EditorChooseLookupItem" count="4715" />
+      <entry action="EditorChooseLookupItem" count="4716" />
       <entry action="EditorChooseLookupItemReplace" count="59" />
       <entry action="EditorCodeBlockEnd" count="1" />
       <entry action="EditorCodeBlockStart" count="28" />
@@ -260,7 +260,7 @@
     <feature id="editing.completion.finishBySmartEnter" count="0" last-shown="1508464399261" last-used="0" shown-count="23" />
     <feature id="navigation.popup.symbol" count="1" last-shown="0" last-used="1492073144047" shown-count="0" />
     <feature id="find.recent.search" count="32" last-shown="0" last-used="1525674458657" shown-count="0" />
-    <feature id="editing.completion.replace" count="786" last-shown="1526627523659" last-used="1520489988859" shown-count="27928" />
+    <feature id="editing.completion.replace" count="786" last-shown="1526632870241" last-used="1520489988859" shown-count="27933" />
     <feature id="switcher" count="11" last-shown="0" last-used="1501479522079" shown-count="0" />
     <feature id="codeassists.complete.statement" count="34" last-shown="0" last-used="1511772663635" shown-count="0" />
     <feature id="navigation.goto.inspection" count="0" last-shown="0" last-used="0" shown-count="0" />
@@ -303,7 +303,7 @@
     <feature id="db.table.editor.wrapper" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="codeassists.quickdefinition" count="0" last-shown="1508464399261" last-used="0" shown-count="23" />
     <feature id="find.completion" count="0" last-shown="0" last-used="0" shown-count="0" />
-    <feature id="editing.completion.basic" count="10378" last-shown="0" last-used="1526627528249" shown-count="0" />
+    <feature id="editing.completion.basic" count="10379" last-shown="0" last-used="1526632865698" shown-count="0" />
     <feature id="tag.name.completion" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="editing.completion.second.smarttype.array.member" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="editing.completion.postfix" count="615" last-shown="0" last-used="1526541535364" shown-count="0" />
@@ -333,8 +333,8 @@
     <feature id="editing.completion.changeSorting" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="codeassists.quickdefinition.lookup" count="0" last-shown="0" last-used="0" shown-count="0" />
     <completionStatsTag>
-      <option name="sparedCharacters" value="54221" />
-      <option name="invocations" value="7227" />
+      <option name="sparedCharacters" value="54231" />
+      <option name="invocations" value="7228" />
       <option name="startDate" value="1462896000000" />
       <option name="dayCount" value="232" />
       <option name="lastDate" value="1526572800000" />
@@ -484,7 +484,7 @@
       <entry shortcut="Delete" count="536" />
       <entry shortcut="Down" count="16373" />
       <entry shortcut="End" count="755" />
-      <entry shortcut="Enter" count="18249" />
+      <entry shortcut="Enter" count="18251" />
       <entry shortcut="Escape" count="33" />
       <entry shortcut="F12" count="7" />
       <entry shortcut="F2" count="7" />
