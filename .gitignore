@@ -15,3 +15,5 @@
 
 .rc-*/.gradle
 .rc-*/tmux-*.log
+.rc-cygwin/AppData
+*setup.log*
