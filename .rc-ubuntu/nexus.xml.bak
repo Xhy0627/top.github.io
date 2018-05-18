@@ -198,12 +198,16 @@
           <memberRepository>snapshots</memberRepository>
           <memberRepository>thirdparty</memberRepository>
           <memberRepository>central</memberRepository>
+          <memberRepository>for-old-release</memberRepository>
+          <memberRepository>for-old-snapshot</memberRepository>
+          <memberRepository>for-spring-boot-release</memberRepository>
+          <memberRepository>for-spring-boot-snapshot</memberRepository>
         </memberRepositories>
       </externalConfiguration>
     </repository>
     <repository>
-      <id>for-old</id>
-      <name>for-old</name>
+      <id>for-old-release</id>
+      <name>for-old-release</name>
       <providerRole>org.sonatype.nexus.proxy.repository.Repository</providerRole>
       <providerHint>maven2</providerHint>
       <localStatus>IN_SERVICE</localStatus>
@@ -220,10 +224,6 @@
       </localStorage>
       <remoteStorage>
         <url>http://172.16.6.17:8080/nexus/content/groups/public/</url>
-        <authentication>
-          <username>deployment</username>
-          <password>{woWPM3711j8HUozJ9j4ZV7Rj+UskUkCiXV9KJ2HuySI=}</password>
-        </authentication>
       </remoteStorage>
       <externalConfiguration>
         <repositoryPolicy>RELEASE</repositoryPolicy>
@@ -237,8 +237,39 @@
       </externalConfiguration>
     </repository>
     <repository>
-      <id>for-spring-boot</id>
-      <name>for-spring-boot</name>
+      <id>for-old-snapshot</id>
+      <name>for-old-snapshot</name>
+      <providerRole>org.sonatype.nexus.proxy.repository.Repository</providerRole>
+      <providerHint>maven2</providerHint>
+      <localStatus>IN_SERVICE</localStatus>
+      <notFoundCacheActive>true</notFoundCacheActive>
+      <notFoundCacheTTL>1440</notFoundCacheTTL>
+      <userManaged>true</userManaged>
+      <exposed>true</exposed>
+      <browseable>true</browseable>
+      <writePolicy>READ_ONLY</writePolicy>
+      <indexable>true</indexable>
+      <searchable>true</searchable>
+      <localStorage>
+        <provider>file</provider>
+      </localStorage>
+      <remoteStorage>
+        <url>http://172.16.6.17:8080/nexus/content/groups/public/</url>
+      </remoteStorage>
+      <externalConfiguration>
+        <repositoryPolicy>SNAPSHOT</repositoryPolicy>
+        <checksumPolicy>WARN</checksumPolicy>
+        <fileTypeValidation>true</fileTypeValidation>
+        <downloadRemoteIndex>true</downloadRemoteIndex>
+        <artifactMaxAge>1440</artifactMaxAge>
+        <metadataMaxAge>1440</metadataMaxAge>
+        <itemMaxAge>1440</itemMaxAge>
+        <autoBlockActive>true</autoBlockActive>
+      </externalConfiguration>
+    </repository>
+    <repository>
+      <id>for-spring-boot-release</id>
+      <name>for-spring-boot-release</name>
       <providerRole>org.sonatype.nexus.proxy.repository.Repository</providerRole>
       <providerHint>maven2</providerHint>
       <localStatus>IN_SERVICE</localStatus>
@@ -255,10 +286,6 @@
       </localStorage>
       <remoteStorage>
         <url>http://172.16.6.17:8081/repository/maven-public/</url>
-        <authentication>
-          <username>developer</username>
-          <password>{woWPM3711j8HUozJ9j4ZV7Rj+UskUkCiXV9KJ2HuySI=}</password>
-        </authentication>
       </remoteStorage>
       <externalConfiguration>
         <repositoryPolicy>RELEASE</repositoryPolicy>
@@ -266,6 +293,37 @@
         <fileTypeValidation>true</fileTypeValidation>
         <downloadRemoteIndex>true</downloadRemoteIndex>
         <artifactMaxAge>-1</artifactMaxAge>
+        <metadataMaxAge>1440</metadataMaxAge>
+        <itemMaxAge>1440</itemMaxAge>
+        <autoBlockActive>true</autoBlockActive>
+      </externalConfiguration>
+    </repository>
+    <repository>
+      <id>for-spring-boot-snapshot</id>
+      <name>for-spring-boot-snapshot</name>
+      <providerRole>org.sonatype.nexus.proxy.repository.Repository</providerRole>
+      <providerHint>maven2</providerHint>
+      <localStatus>IN_SERVICE</localStatus>
+      <notFoundCacheActive>true</notFoundCacheActive>
+      <notFoundCacheTTL>1440</notFoundCacheTTL>
+      <userManaged>true</userManaged>
+      <exposed>true</exposed>
+      <browseable>true</browseable>
+      <writePolicy>READ_ONLY</writePolicy>
+      <indexable>true</indexable>
+      <searchable>true</searchable>
+      <localStorage>
+        <provider>file</provider>
+      </localStorage>
+      <remoteStorage>
+        <url>http://172.16.6.17:8081/repository/maven-public/</url>
+      </remoteStorage>
+      <externalConfiguration>
+        <repositoryPolicy>SNAPSHOT</repositoryPolicy>
+        <checksumPolicy>WARN</checksumPolicy>
+        <fileTypeValidation>true</fileTypeValidation>
+        <downloadRemoteIndex>true</downloadRemoteIndex>
+        <artifactMaxAge>1440</artifactMaxAge>
         <metadataMaxAge>1440</metadataMaxAge>
         <itemMaxAge>1440</itemMaxAge>
         <autoBlockActive>true</autoBlockActive>
@@ -378,7 +436,7 @@
     <hostname>smtp-host</hostname>
     <port>25</port>
     <username>smtp-username</username>
-    <password>{woWPM3711j8HEHA5AR6HFRFVw95ICxgTbF9KJ2HuySI=}</password>
+    <password>{QzPf0ax4WkIH0pXuPN+cYoNjbdLfUZwhHj7Ycst04TQ=}</password>
     <systemEmailAddress>system@nexus.org</systemEmailAddress>
   </smtpConfiguration>
   <notification />
