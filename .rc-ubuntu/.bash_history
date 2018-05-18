@@ -630,3 +630,7 @@ cdepath /tools
 vi ~/.bashutils 
 lpath
 exit
+cd /home/zhangle/ileler/ws/tl/publisher/com.mpr.common/com.mpr.common.admin
+svn update .
+scp -P8585 target/com.mpr.common.admin-1.0.0-SNAPSHOT.jar mpr@172.16.3.63:/microService
+scp -P8585 target/com.mpr.common.admin-1.0.0-SNAPSHOT.jar mpr@172.16.3.63:~/
