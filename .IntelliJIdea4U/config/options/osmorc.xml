@@ -27,6 +27,11 @@
           <option name="frameworkIntegratorName" value="dmServer" />
           <option name="name" value="virgo dmServer (3.5.0.RELEASE) Framework Framework" />
         </FrameworkInstanceDefinition>
+        <FrameworkInstanceDefinition>
+          <option name="baseFolder" value="/u~u/.rc-ubuntu.local/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE" />
+          <option name="frameworkIntegratorName" value="dmServer" />
+          <option name="name" value="dmServer (3.5.0.RELEASE) Framework" />
+        </FrameworkInstanceDefinition>
       </list>
     </option>
   </component>

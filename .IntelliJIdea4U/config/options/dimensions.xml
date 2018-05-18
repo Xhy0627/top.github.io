@@ -25,15 +25,15 @@
     <location key="Vcs.Push.Dialog.1920.0.1920.1080" x="2578" y="226" />
     <location key="findTextDialog.1920.0.1920.1080" x="2633" y="232" />
     <location key="EditParametersPopupWindow.0.0.1920.1080" x="789" y="372" />
-    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1920.1080" x="2177" y="98" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1920.1080" x="433" y="71" />
     <location key="#Project_Structure.0.0.1920.1080" x="440" y="88" />
-    <location key="ProcessPopupWindow.0.0.1920.1080" x="67" y="865" />
+    <location key="ProcessPopupWindow.0.0.1920.1080" x="128" y="871" />
     <location key="AbstractVcsHelper.FilterDialog.org.jetbrains.idea.svn.history.SvnVersionFilterComponent.0.0.1920.1080" x="794" y="358" />
     <location key="svn.copyDialog.0.0.1920.1080" x="618" y="142" />
     <location key="VCS.ChangeListViewerDialog.0.0.1920.1080" x="740" y="253" />
     <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.1920.1080" x="699" y="351" />
     <location key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog.0.0.1920.1080" x="578" y="197" />
-    <location key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable.0.0.1920.1080" x="574" y="11" />
+    <location key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable.0.0.1920.1080" x="574" y="27" />
     <location key="#virgo-8280.0.0.1920.1080" x="685" y="122" />
     <location key="#com.intellij.execution.impl.EditConfigurationsDialog.-1920.0.1920.1080" x="-1781" y="12" />
     <location key="new project wizard.-1920.0.1920.1080" x="-1335" y="222" />
@@ -165,6 +165,10 @@
     <location key="#Inspections.0.0.1920.1080" x="628" y="230" />
     <location key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1.0.0.1920.1080" x="672" y="388" />
     <location key="com.intellij.database.view.editors.DatabaseObjectCommentEditor$1$1.0.0.1920.1080" x="659" y="467" />
+    <location key="#virgo-8090.0.0.1920.1080" x="643" y="144" />
+    <location key="com.intellij.javaee.view.ServerArtifactsDialog.0.0.1920.1080" x="566" y="196" />
+    <location key="#virgo.0.0.1920.1080" x="643" y="27" />
+    <location key="com.intellij.dmserver.libraries.LibrariesDialog.0.0.1920.1080" x="67" y="27" />
     <size key="NewModule_or_Project.wizard.0.0.1920.1080" width="1141" height="735" />
     <size key="javadoc.popup.1920.0.1920.1080" width="446" height="166" />
     <size key="ProcessPopupWindow.1920.0.1920.1080" width="187" height="113" />
@@ -179,10 +183,10 @@
     <size key="GridCell.Tab.1.right.1920.0.1920.1080" width="1920" height="353" />
     <size key="GridCell.Tab.1.bottom.1920.0.1920.1080" width="1920" height="353" />
     <size key="ProcessPopupWindow.0.0.1920.1080" width="650" height="117" />
-    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1807" height="276" />
-    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1807" height="276" />
-    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1807" height="276" />
-    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="1807" height="276" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1807" height="341" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1807" height="341" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1807" height="341" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="1807" height="341" />
     <size key="ProcessPopupWindow.-1920.0.1920.1080" width="650" height="117" />
     <size key="GridCell.Tab.0.left.-1920.0.1920.1080" width="1876" height="278" />
     <size key="GridCell.Tab.0.center.-1920.0.1920.1080" width="1876" height="278" />
@@ -276,5 +280,11 @@
     <size key="#xdebugger.evaluate.0.0.1920.1080" width="240" height="493" />
     <size key="#Project_Structure.0.0.1920.1080" width="1024" height="853" />
     <size key="DatabaseViewActions_Filter.0.0.1920.1080" width="254" height="195" />
+    <size key="#virgo-8090.0.0.1920.1080" width="690" height="817" />
+    <size key="com.intellij.javaee.view.ServerArtifactsDialog.0.0.1920.1080" width="844" height="712" />
+    <size key="#Spring_dmServer.0.0.1920.1080" width="525" height="475" />
+    <size key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable.0.0.1920.1080" width="869" height="1031" />
+    <size key="#virgo.0.0.1920.1080" width="690" height="1050" />
+    <size key="com.intellij.dmserver.libraries.LibrariesDialog.0.0.1920.1080" width="956" height="1053" />
   </component>
 </application>

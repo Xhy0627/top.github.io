@@ -8,14 +8,6 @@
           <option name="dumpsFolder" value="serviceability/dump" />
           <option name="installationHome" value="E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8180" />
           <option name="pickupFolder" value="pickup" />
-          <DMServerRepositoryExternalItem>
-            <option name="name" value="ext" />
-            <option name="path" value="repository/ext/{artifact}" />
-          </DMServerRepositoryExternalItem>
-          <DMServerRepositoryWatchedItem>
-            <option name="name" value="usr" />
-            <option name="path" value="repository/usr" />
-          </DMServerRepositoryWatchedItem>
         </integrationState>
       </DATA>
     </ServerDK>
@@ -27,14 +19,6 @@
           <option name="dumpsFolder" value="serviceability/dump" />
           <option name="installationHome" value="E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8280" />
           <option name="pickupFolder" value="pickup" />
-          <DMServerRepositoryExternalItem>
-            <option name="name" value="ext" />
-            <option name="path" value="repository/ext/{artifact}" />
-          </DMServerRepositoryExternalItem>
-          <DMServerRepositoryWatchedItem>
-            <option name="name" value="usr" />
-            <option name="path" value="repository/usr" />
-          </DMServerRepositoryWatchedItem>
         </integrationState>
       </DATA>
     </ServerDK>
@@ -46,14 +30,6 @@
           <option name="dumpsFolder" value="serviceability/dump" />
           <option name="installationHome" value="E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8380" />
           <option name="pickupFolder" value="pickup" />
-          <DMServerRepositoryExternalItem>
-            <option name="name" value="ext" />
-            <option name="path" value="repository/ext/{artifact}" />
-          </DMServerRepositoryExternalItem>
-          <DMServerRepositoryWatchedItem>
-            <option name="name" value="usr" />
-            <option name="path" value="repository/usr" />
-          </DMServerRepositoryWatchedItem>
         </integrationState>
       </DATA>
     </ServerDK>
@@ -65,14 +41,6 @@
           <option name="dumpsFolder" value="serviceability/dump" />
           <option name="installationHome" value="E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8480" />
           <option name="pickupFolder" value="pickup" />
-          <DMServerRepositoryExternalItem>
-            <option name="name" value="ext" />
-            <option name="path" value="repository/ext/{artifact}" />
-          </DMServerRepositoryExternalItem>
-          <DMServerRepositoryWatchedItem>
-            <option name="name" value="usr" />
-            <option name="path" value="repository/usr" />
-          </DMServerRepositoryWatchedItem>
         </integrationState>
       </DATA>
     </ServerDK>
@@ -84,14 +52,6 @@
           <option name="dumpsFolder" value="serviceability/dump" />
           <option name="installationHome" value="E:/a0a/Virgo/virgo-tomcat-server-3.6.4.RELEASE" />
           <option name="pickupFolder" value="pickup" />
-          <DMServerRepositoryExternalItem>
-            <option name="name" value="ext" />
-            <option name="path" value="repository/ext/{artifact}" />
-          </DMServerRepositoryExternalItem>
-          <DMServerRepositoryWatchedItem>
-            <option name="name" value="usr" />
-            <option name="path" value="repository/usr" />
-          </DMServerRepositoryWatchedItem>
         </integrationState>
       </DATA>
     </ServerDK>
@@ -103,14 +63,6 @@
           <option name="dumpsFolder" value="serviceability/dump" />
           <option name="installationHome" value="E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8090" />
           <option name="pickupFolder" value="pickup" />
-          <DMServerRepositoryWatchedItem>
-            <option name="name" value="usr" />
-            <option name="path" value="repository/usr" />
-          </DMServerRepositoryWatchedItem>
-          <DMServerRepositoryExternalItem>
-            <option name="name" value="ext" />
-            <option name="path" value="repository/ext/{artifact}" />
-          </DMServerRepositoryExternalItem>
         </integrationState>
       </DATA>
     </ServerDK>
@@ -121,7 +73,47 @@
         <option name="CATALINA_BASE" value="" />
       </DATA>
     </ServerDK>
+    <ServerDK NAME="dmServer (3.5.0.RELEASE)">
+      <option name="SOURCE_INTEGRATION_NAME" value="Spring dmServer" />
+      <DATA>
+        <integrationState>
+          <option name="deploymentTimeoutSecs" value="300" />
+          <option name="dumpsFolder" value="serviceability/dump" />
+          <option name="installationHome" value="/u~u/.rc-ubuntu.local/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE" />
+          <option name="pickupFolder" value="pickup" />
+          <DMServerRepositoryExternalItem>
+            <option name="name" value="ext" />
+            <option name="path" value="repository/ext/{artifact}" />
+          </DMServerRepositoryExternalItem>
+          <DMServerRepositoryWatchedItem>
+            <option name="name" value="usr" />
+            <option name="path" value="repository/usr" />
+          </DMServerRepositoryWatchedItem>
+          <DMServerRepositoryExternalItem>
+            <option name="name" value="mvn" />
+            <option name="path" value="~/.m2/repo/**/{bundle}.jar" />
+          </DMServerRepositoryExternalItem>
+          <option name="wrapSystemErr" value="false" />
+          <option name="wrapSystemOut" value="false" />
+        </integrationState>
+      </DATA>
+    </ServerDK>
     <LibraryTable>
+      <library name="dmServer (3.5.0.RELEASE)">
+        <CLASSES>
+          <root url="jar:///u~u/.rc-ubuntu.local/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/repository/ext/com.springsource.javax.xml.stream_1.0.1.jar!/" />
+          <root url="jar:///u~u/.rc-ubuntu.local/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/repository/ext/com.springsource.javax.persistence_1.0.0.jar!/" />
+          <root url="jar:///u~u/.rc-ubuntu.local/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/repository/ext/com.springsource.javax.xml.soap_1.3.0.jar!/" />
+          <root url="jar:///u~u/.rc-ubuntu.local/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/repository/ext/com.springsource.javax.activation_1.1.0.jar!/" />
+          <root url="jar:///u~u/.rc-ubuntu.local/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/repository/ext/com.springsource.javax.xml.bind_2.1.7.jar!/" />
+          <root url="jar:///u~u/.rc-ubuntu.local/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/repository/ext/com.springsource.javax.servlet.jsp.jstl_1.2.0.v20110728.jar!/" />
+          <root url="jar:///u~u/.rc-ubuntu.local/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/repository/ext/com.springsource.javax.mail_1.4.0.jar!/" />
+          <root url="jar:///u~u/.rc-ubuntu.local/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/repository/ext/com.springsource.javax.portlet_2.0.0.v20110525.jar!/" />
+          <root url="jar:///u~u/.rc-ubuntu.local/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/repository/usr/com.springsource.javax.servlet-2.5.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
       <library name="Tomcat 8.5.23">
         <CLASSES>
           <root url="jar://U:/u~u/a0a/bins/Tomcat/apache-tomcat-8.5.23-windows-x64/apache-tomcat-8.5.23/lib/jsp-api.jar!/" />

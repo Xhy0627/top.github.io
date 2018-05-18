@@ -50,6 +50,9 @@
             <Goal>
               <option name="commandLine" value="wagon:upload-single -X" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="-f ./deploy.xml -Pdev clean package" />
+            </Goal>
           </list>
         </option>
       </Goals>
