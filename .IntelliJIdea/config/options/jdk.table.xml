@@ -3,39 +3,39 @@
     <jdk version="2">
       <name value="1.8" />
       <type value="JavaSDK" />
-      <version value="java version &quot;1.8.0_144&quot;" />
-      <homePath value="U:\u~u\a0a\bins\Java\jdk1.8.0_144" />
+      <version value="java version &quot;1.8.0_171&quot;" />
+      <homePath value="U:/u~u/a0a/.rc-cygwin.local/bins/.win/java/jdk1.8.0_171" />
       <roots>
         <annotationsPath>
           <root type="composite">
-            <root type="simple" url="jar://$APPLICATION_HOME_DIR$/lib/jdkAnnotations.jar!/" />
+            <root url="jar://$APPLICATION_HOME_DIR$/lib/jdkAnnotations.jar!/" type="simple" />
           </root>
         </annotationsPath>
         <classPath>
           <root type="composite">
-            <root type="simple" url="jar://U:/u~u/a0a/bins/Java/jdk1.8.0_144/jre/lib/charsets.jar!/" />
-            <root type="simple" url="jar://U:/u~u/a0a/bins/Java/jdk1.8.0_144/jre/lib/deploy.jar!/" />
-            <root type="simple" url="jar://U:/u~u/a0a/bins/Java/jdk1.8.0_144/jre/lib/ext/access-bridge-64.jar!/" />
-            <root type="simple" url="jar://U:/u~u/a0a/bins/Java/jdk1.8.0_144/jre/lib/ext/cldrdata.jar!/" />
-            <root type="simple" url="jar://U:/u~u/a0a/bins/Java/jdk1.8.0_144/jre/lib/ext/dnsns.jar!/" />
-            <root type="simple" url="jar://U:/u~u/a0a/bins/Java/jdk1.8.0_144/jre/lib/ext/jaccess.jar!/" />
-            <root type="simple" url="jar://U:/u~u/a0a/bins/Java/jdk1.8.0_144/jre/lib/ext/jfxrt.jar!/" />
-            <root type="simple" url="jar://U:/u~u/a0a/bins/Java/jdk1.8.0_144/jre/lib/ext/localedata.jar!/" />
-            <root type="simple" url="jar://U:/u~u/a0a/bins/Java/jdk1.8.0_144/jre/lib/ext/nashorn.jar!/" />
-            <root type="simple" url="jar://U:/u~u/a0a/bins/Java/jdk1.8.0_144/jre/lib/ext/sunec.jar!/" />
-            <root type="simple" url="jar://U:/u~u/a0a/bins/Java/jdk1.8.0_144/jre/lib/ext/sunjce_provider.jar!/" />
-            <root type="simple" url="jar://U:/u~u/a0a/bins/Java/jdk1.8.0_144/jre/lib/ext/sunmscapi.jar!/" />
-            <root type="simple" url="jar://U:/u~u/a0a/bins/Java/jdk1.8.0_144/jre/lib/ext/sunpkcs11.jar!/" />
-            <root type="simple" url="jar://U:/u~u/a0a/bins/Java/jdk1.8.0_144/jre/lib/ext/zipfs.jar!/" />
-            <root type="simple" url="jar://U:/u~u/a0a/bins/Java/jdk1.8.0_144/jre/lib/javaws.jar!/" />
-            <root type="simple" url="jar://U:/u~u/a0a/bins/Java/jdk1.8.0_144/jre/lib/jce.jar!/" />
-            <root type="simple" url="jar://U:/u~u/a0a/bins/Java/jdk1.8.0_144/jre/lib/jfr.jar!/" />
-            <root type="simple" url="jar://U:/u~u/a0a/bins/Java/jdk1.8.0_144/jre/lib/jfxswt.jar!/" />
-            <root type="simple" url="jar://U:/u~u/a0a/bins/Java/jdk1.8.0_144/jre/lib/jsse.jar!/" />
-            <root type="simple" url="jar://U:/u~u/a0a/bins/Java/jdk1.8.0_144/jre/lib/management-agent.jar!/" />
-            <root type="simple" url="jar://U:/u~u/a0a/bins/Java/jdk1.8.0_144/jre/lib/plugin.jar!/" />
-            <root type="simple" url="jar://U:/u~u/a0a/bins/Java/jdk1.8.0_144/jre/lib/resources.jar!/" />
-            <root type="simple" url="jar://U:/u~u/a0a/bins/Java/jdk1.8.0_144/jre/lib/rt.jar!/" />
+            <root url="jar://U:/u~u/a0a/.rc-cygwin.local/bins/.win/java/jdk1.8.0_171/jre/lib/charsets.jar!/" type="simple" />
+            <root url="jar://U:/u~u/a0a/.rc-cygwin.local/bins/.win/java/jdk1.8.0_171/jre/lib/deploy.jar!/" type="simple" />
+            <root url="jar://U:/u~u/a0a/.rc-cygwin.local/bins/.win/java/jdk1.8.0_171/jre/lib/ext/access-bridge-64.jar!/" type="simple" />
+            <root url="jar://U:/u~u/a0a/.rc-cygwin.local/bins/.win/java/jdk1.8.0_171/jre/lib/ext/cldrdata.jar!/" type="simple" />
+            <root url="jar://U:/u~u/a0a/.rc-cygwin.local/bins/.win/java/jdk1.8.0_171/jre/lib/ext/dnsns.jar!/" type="simple" />
+            <root url="jar://U:/u~u/a0a/.rc-cygwin.local/bins/.win/java/jdk1.8.0_171/jre/lib/ext/jaccess.jar!/" type="simple" />
+            <root url="jar://U:/u~u/a0a/.rc-cygwin.local/bins/.win/java/jdk1.8.0_171/jre/lib/ext/jfxrt.jar!/" type="simple" />
+            <root url="jar://U:/u~u/a0a/.rc-cygwin.local/bins/.win/java/jdk1.8.0_171/jre/lib/ext/localedata.jar!/" type="simple" />
+            <root url="jar://U:/u~u/a0a/.rc-cygwin.local/bins/.win/java/jdk1.8.0_171/jre/lib/ext/nashorn.jar!/" type="simple" />
+            <root url="jar://U:/u~u/a0a/.rc-cygwin.local/bins/.win/java/jdk1.8.0_171/jre/lib/ext/sunec.jar!/" type="simple" />
+            <root url="jar://U:/u~u/a0a/.rc-cygwin.local/bins/.win/java/jdk1.8.0_171/jre/lib/ext/sunjce_provider.jar!/" type="simple" />
+            <root url="jar://U:/u~u/a0a/.rc-cygwin.local/bins/.win/java/jdk1.8.0_171/jre/lib/ext/sunmscapi.jar!/" type="simple" />
+            <root url="jar://U:/u~u/a0a/.rc-cygwin.local/bins/.win/java/jdk1.8.0_171/jre/lib/ext/sunpkcs11.jar!/" type="simple" />
+            <root url="jar://U:/u~u/a0a/.rc-cygwin.local/bins/.win/java/jdk1.8.0_171/jre/lib/ext/zipfs.jar!/" type="simple" />
+            <root url="jar://U:/u~u/a0a/.rc-cygwin.local/bins/.win/java/jdk1.8.0_171/jre/lib/javaws.jar!/" type="simple" />
+            <root url="jar://U:/u~u/a0a/.rc-cygwin.local/bins/.win/java/jdk1.8.0_171/jre/lib/jce.jar!/" type="simple" />
+            <root url="jar://U:/u~u/a0a/.rc-cygwin.local/bins/.win/java/jdk1.8.0_171/jre/lib/jfr.jar!/" type="simple" />
+            <root url="jar://U:/u~u/a0a/.rc-cygwin.local/bins/.win/java/jdk1.8.0_171/jre/lib/jfxswt.jar!/" type="simple" />
+            <root url="jar://U:/u~u/a0a/.rc-cygwin.local/bins/.win/java/jdk1.8.0_171/jre/lib/jsse.jar!/" type="simple" />
+            <root url="jar://U:/u~u/a0a/.rc-cygwin.local/bins/.win/java/jdk1.8.0_171/jre/lib/management-agent.jar!/" type="simple" />
+            <root url="jar://U:/u~u/a0a/.rc-cygwin.local/bins/.win/java/jdk1.8.0_171/jre/lib/plugin.jar!/" type="simple" />
+            <root url="jar://U:/u~u/a0a/.rc-cygwin.local/bins/.win/java/jdk1.8.0_171/jre/lib/resources.jar!/" type="simple" />
+            <root url="jar://U:/u~u/a0a/.rc-cygwin.local/bins/.win/java/jdk1.8.0_171/jre/lib/rt.jar!/" type="simple" />
           </root>
         </classPath>
         <javadocPath>
@@ -43,8 +43,8 @@
         </javadocPath>
         <sourcePath>
           <root type="composite">
-            <root type="simple" url="jar://U:/u~u/a0a/bins/Java/jdk1.8.0_144/src.zip!/" />
-            <root type="simple" url="jar://U:/u~u/a0a/bins/Java/jdk1.8.0_144/javafx-src.zip!/" />
+            <root url="jar://U:/u~u/a0a/.rc-cygwin.local/bins/.win/java/jdk1.8.0_171/src.zip!/" type="simple" />
+            <root url="jar://U:/u~u/a0a/.rc-cygwin.local/bins/.win/java/jdk1.8.0_171/javafx-src.zip!/" type="simple" />
           </root>
         </sourcePath>
       </roots>

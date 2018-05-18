@@ -2,6 +2,7 @@
   <component name="RecentProjectsManager">
     <option name="recentPaths">
       <list>
+        <option value="U:/u~u/a0a/ws/20180206" />
         <option value="U:/u~u/a0a/ws/tl/publisher" />
         <option value="U:/u~u/a0a/ws/tl/old-proj" />
         <option value="U:/u~u/a0a/ws/python" />
@@ -18,10 +19,11 @@
     </option>
     <option name="openPaths">
       <list>
-        <option value="U:/u~u/a0a/ws/tl/publisher" />
+        <option value="U:/u~u/a0a/ws/20180206" />
       </list>
     </option>
-    <option name="lastPath" value="U:/u~u/a0a/ws/tl/publisher" />
+    <option name="lastPath" value="U:/u~u/a0a/ws/20180206" />
+    <option name="pid" value="" />
     <option name="additionalInfo">
       <map>
         <entry key="/u~u/ws/tl/publisher">
@@ -153,6 +155,17 @@
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="projectOpenTimestamp" value="1506041236432" />
               <option name="buildTimestamp" value="1500115302032" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="U:/u~u/a0a/ws/20180206">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-181.4892.42" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1526630910698" />
+              <option name="buildTimestamp" value="1525760381369" />
             </RecentProjectMetaInfo>
           </value>
         </entry>

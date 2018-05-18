@@ -2,12 +2,6 @@
   <component name="FileBasedIndex">
     <option name="registeredIndices">
       <list>
-        <option value="Scss.variable" />
-        <option value="Less.variables" />
-        <option value="Less.mixins" />
-        <option value="org.jetbrains.kotlin.idea.stubindex.KotlinOverridableInternalMembersShortNameIndex" />
-        <option value="org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasByExpansionShortNameIndex" />
-        <option value="org.jetbrains.kotlin.idea.stubindex.KotlinScriptFqnIndex" />
         <option value="org.jetbrains.kotlin.idea.stubindex.KotlinMultifileClassPartIndex" />
         <option value="org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeShortNameIndex" />
         <option value="org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeClassByPackageIndex" />
@@ -35,6 +29,7 @@
         <option value="aj.itd.class" />
         <option value="aj.itd.method" />
         <option value="aj.itd.field" />
+        <option value="markdown.header" />
         <option value="gr.anonymous.class" />
         <option value="gr.class.super" />
         <option value="gr.script.class" />
@@ -57,13 +52,15 @@
         <option value="angularjs.symbol.index" />
         <option value="angularjs.filter.index" />
         <option value="angularjs.module.index" />
-        <option value="angularjs.decorators.index" />
         <option value="angularjs.controller.index" />
         <option value="angularjs.directives.doc.index" />
         <option value="angularjs.directives.index" />
+        <option value="js.doc.modules" />
         <option value="js.gcl.modules" />
         <option value="js.nonglobal.symbol.index" />
+        <option value="ts.local.classes" />
         <option value="es6.assignment.index" />
+        <option value="es6.exported.index" />
         <option value="js.exported.index" />
         <option value="js.global.symbol.index" />
         <option value="amd.requirePaths.index" />
@@ -104,21 +101,17 @@
         <option value="java.field.name" />
         <option value="java.class.extlist" />
         <option value="java.annotations" />
-        <option value="Django.manager" />
-        <option value="Django.foreignKey" />
-        <option value="Py.class.attributes" />
-        <option value="Python.Decorator" />
-        <option value="Py.instanceAttribute.name" />
-        <option value="Py.variable.shortName" />
-        <option value="Py.class.super" />
-        <option value="Py.function.shortName" />
-        <option value="Py.class.shortNameInsensitive" />
-        <option value="Py.class.shortName" />
         <option value="Stylus.mixins" />
         <option value="Stylus.variables" />
         <option value="Scss.mixin" />
         <option value="Scss.function" />
         <option value="Scss.placeholder.selector" />
+        <option value="Scss.variable" />
+        <option value="Less.variables" />
+        <option value="Less.mixins" />
+        <option value="org.jetbrains.kotlin.idea.stubindex.KotlinOverridableInternalMembersShortNameIndex" />
+        <option value="org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasByExpansionShortNameIndex" />
+        <option value="org.jetbrains.kotlin.idea.stubindex.KotlinScriptFqnIndex" />
       </list>
     </option>
   </component>

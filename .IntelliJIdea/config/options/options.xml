@@ -44,6 +44,7 @@
     <property name="MoveFile.OpenInEditor" value="true" />
     <property name="NlScreenMode" value="SCREEN_ONLY" />
     <property name="PLUGIN_FILTER" value="my&#10;Myb&#10;Myba&#10;mybai&#10;Node" />
+    <property name="ProjectStructure.SecondLevelElements" value="0.37586206" />
     <property name="RegistryRecentKeys" value="compiler.automake.allow.when.app.running" />
     <property name="RunConfigurable.dividerProportion" value="0.41554558" />
     <property name="ShowDocumentationInToolWindow" value="false" />
@@ -51,7 +52,7 @@
     <property name="SpringBeansModulesPanel[1]" value="0.1216545" />
     <property name="SpringRepositoriesModulesPanel[0]" value="0.10840108" />
     <property name="SqlStructureView.filterD.file.structure.state" value="true" />
-    <property name="android-component-compatibility-check" value="1524532943696" />
+    <property name="android-component-compatibility-check" value="1526620185540" />
     <property name="com.intellij.diagnostic.IdeErrorsDialogactiveTab" value="1" />
     <property name="com.intellij.history.integration.ui.views.DirectoryHistoryDialog.0" value="300" />
     <property name="com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor" value="Sources" />
@@ -65,14 +66,14 @@
     <property name="favorites.view.settings.flatten.packages" value="false" />
     <property name="favorites.view.settings.hide.empty.middle.packages" value="true" />
     <property name="favorites.view.settings.show.members" value="true" />
-    <property name="file.chooser.recent.files" value="U:/u~u/a0a/bins/Java/jdk1.8.0_144&#10;/u~u/ws/tl/publisher/com.mpr/com.mpr.data.collection&#10;/u~u/bins/Java/jdk-8u144-linux-x64&#10;/u~u/.rc-ubuntu/.m2/settings_spring-boot.xml&#10;/u~u/ws/tl/publisher&#10;U:/u~u/a0a/ws/python/PyXiaomiGateway&#10;U:/u~u/a0a/.rc-cygwin/.IntelliJIdea/config/plugins/python-2017.2.172.3968.33.zip&#10;U:/u~u/a0a/ws/python/home-assistant&#10;U:/u~u/a0a/ws/python&#10;U:/u~u/a0a/ws/tl/publisher/com.mpr.panmedia/com.mpr.panmedia.goods/src/main/java/com/mpr/panmedia/goods/model&#10;U:/u~u/a0a/ws/tl/publisher/com.mpr/new/com.mpr.util-for-ribbon/com.mpr.util-for-ribbon&#10;E:/a0a/IdeaProjects/publisher/20180206/server/com.mpr/com.mpr.data.collection&#10;E:/a0a/IdeaProjects/publisher/20180206/server/com.mpr.panmedia/com.mpr.panmedia.data.collection.server&#10;U:/u~u/a0a/ws/tl/publisher/dctest/src/main/resources&#10;U:/u~u/a0a/ws/tl/com.mpr.dc&#10;U:/u~u/a0a/ws/tl/publisher/com.mpr.panmedia/com.mpr.panmedia.test1&#10;U:/u~u/a0a/ws/tl/publisher/com.mpr/new/org.ileler.util/org.ileler.util&#10;U:/u~u/a0a/ws/tl/publisher/com.mpr/new/com.mpr.debug-for-ribbon&#10;U:/u~u/a0a/ws/tl/publisher/com.mpr/com.mpr.data.collection&#10;U:/u~u/a0a/ws/js/homebridge-mi-aqara&#10;U:/u~u/a0a/ws/tl/publisher/com.mpr/com.mpr.mq&#10;U:/u~u/a0a/ws/java/spring-projects/spring-cloud-zookeeper&#10;U:/u~u/a0a/ws/java/gradle-test-artifact1/settings.gradle&#10;U:/u~u/a0a/ws/java/gradle-test-artifact1/build.gradle&#10;U:/u~u/a0a/ws/java/gradle-test-artifact1&#10;U:/u~u/a0a/ws/android/ApkAutoInstaller&#10;U:/u~u/a0a/ws/android/ApkAutoInstaller-master&#10;U:/u~u/a0a/ws/android&#10;U:/u~u/a0a/ws/java/ApkAutoInstaller-master&#10;U:/u~u/a0a/bins/Android/android-sdk-windows" />
-    <property name="file.gist.reindex.count" value="4706897" />
+    <property name="file.chooser.recent.files" value="Q:/tl/Panmedia/20180206/server/com.mpr&#10;U:/u~u/a0a/.rc-cygwin.local/bins/.win/java/jdk1.8.0_171&#10;U:/u~u/a0a/.rc-cygwin.local/bins/.win/maven/apache-maven-3.5.0&#10;U:/u~u/a0a/ws/20180206&#10;U:/u~u/a0a/bins/Java/jdk1.8.0_144&#10;/u~u/ws/tl/publisher/com.mpr/com.mpr.data.collection&#10;/u~u/bins/Java/jdk-8u144-linux-x64&#10;/u~u/.rc-ubuntu/.m2/settings_spring-boot.xml&#10;/u~u/ws/tl/publisher&#10;U:/u~u/a0a/ws/python/PyXiaomiGateway&#10;U:/u~u/a0a/.rc-cygwin/.IntelliJIdea/config/plugins/python-2017.2.172.3968.33.zip&#10;U:/u~u/a0a/ws/python/home-assistant&#10;U:/u~u/a0a/ws/python&#10;U:/u~u/a0a/ws/tl/publisher/com.mpr.panmedia/com.mpr.panmedia.goods/src/main/java/com/mpr/panmedia/goods/model&#10;U:/u~u/a0a/ws/tl/publisher/com.mpr/new/com.mpr.util-for-ribbon/com.mpr.util-for-ribbon&#10;E:/a0a/IdeaProjects/publisher/20180206/server/com.mpr/com.mpr.data.collection&#10;E:/a0a/IdeaProjects/publisher/20180206/server/com.mpr.panmedia/com.mpr.panmedia.data.collection.server&#10;U:/u~u/a0a/ws/tl/publisher/dctest/src/main/resources&#10;U:/u~u/a0a/ws/tl/com.mpr.dc&#10;U:/u~u/a0a/ws/tl/publisher/com.mpr.panmedia/com.mpr.panmedia.test1&#10;U:/u~u/a0a/ws/tl/publisher/com.mpr/new/org.ileler.util/org.ileler.util&#10;U:/u~u/a0a/ws/tl/publisher/com.mpr/new/com.mpr.debug-for-ribbon&#10;U:/u~u/a0a/ws/tl/publisher/com.mpr/com.mpr.data.collection&#10;U:/u~u/a0a/ws/js/homebridge-mi-aqara&#10;U:/u~u/a0a/ws/tl/publisher/com.mpr/com.mpr.mq&#10;U:/u~u/a0a/ws/java/spring-projects/spring-cloud-zookeeper&#10;U:/u~u/a0a/ws/java/gradle-test-artifact1/settings.gradle&#10;U:/u~u/a0a/ws/java/gradle-test-artifact1/build.gradle&#10;U:/u~u/a0a/ws/java/gradle-test-artifact1&#10;U:/u~u/a0a/ws/android/ApkAutoInstaller" />
+    <property name="file.gist.reindex.count" value="4707203" />
     <property name="fileTypeChangedCounter" value="2" />
     <property name="find.popup.splitter" value="0.5" />
     <property name="gradle.runner.text.console_str" value="false" />
     <property name="gradle.test.runner.text.console_str" value="false" />
     <property name="ideavim.statistics.timestamp" value="1514356994073" />
-    <property name="installed.kotlin.plugin.version" value="1.1.4-release-IJ2017.2-3" />
+    <property name="installed.kotlin.plugin.version" value="1.2.31-release-IJ2018.1-1" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last.imported.location" value="/u~u/ws/tl/publisher/com.mpr/com.mpr.data.collection" />
     <property name="last.used.gradle.home" value="U:/u~u/a0a/bins/Gradle/gradle-4.2.1" />
@@ -85,10 +86,9 @@
     <property name="spring.initializr.service.url.history" value="" />
     <property name="spring.initializr.service.url.last" value="https://start.spring.io" />
     <property name="toolwindow.stripes.buttons.info.shown" value="true" />
-    <property name="ts.lib.d.ts.version" value="2.4.1" />
+    <property name="ts.lib.d.ts.version" value="2.8.1" />
     <property name="typescript.merge.auto.import" value="true" />
     <property name="typescript.show.auto.import" value="true" />
     <property name="typescript.use.config.auto.import" value="false" />
-    <property name="ProjectStructure.SecondLevelElements" value="0.37586206" />
   </component>
 </application>

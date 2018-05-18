@@ -23,10 +23,6 @@
       <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
         <file url="PROJECT" charset="UTF-8" />
       </component>
-      <component name="InspectionProjectProfileManager">
-        <option name="PROJECT_PROFILE" />
-        <version value="1.0" />
-      </component>
       <component name="JsFlowSettings">
         <service-enabled>false</service-enabled>
         <exe-path />
@@ -49,6 +45,9 @@
       </component>
       <component name="MavenRunner">
         <option name="vmOptions" value="-Duser.home=U:\u~u\a0a\.rc" />
+      </component>
+      <component name="NodePackageJsonFileManager">
+        <packageJsonPaths />
       </component>
       <component name="Osmorc">
         <option name="bndAutoImport" value="true" />
