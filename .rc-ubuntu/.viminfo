@@ -21,7 +21,7 @@ $\~\/\.ssh\/
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1526603587,,"wq"
+|2,0,1526604761,,"wq"
 :q
 |2,0,1526602565,,"q"
 :q!
@@ -146,23 +146,19 @@ $\~\/\.ssh\/
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	epath() {
-	    echo $(dirname $(cd -P $__EPATH__;pwd)/.)/$@
-	}
-	
-	cdepath() {
-	    cd `epath "$@"`
-	}
-	
-|3,0,0,1,8,0,1526603126,"epath() {","    echo $(dirname $(cd -P $__EPATH__;pwd)/.)/$@","}","","cdepath() {","    cd `epath \"$@\"`","}",""
-""1	LINE	0
-	source ~/.bashutils
-|3,1,1,1,1,0,1526603567,"source ~/.bashutils"
-"2	LINE	0
+""0	LINE	0
+	export __RPATH__=$(cd "$HOME/../";pwd)
+|3,1,0,1,1,0,1526604736,"export __RPATH__=$(cd \"$HOME/../\";pwd)"
+"1	LINE	0
 	source ~/.bashrc
-|3,0,2,1,1,0,1526603552,"source ~/.bashrc"
+|3,0,1,1,1,0,1526604697,"source ~/.bashrc"
+"2	LINE	0
+	source ~/.bashutils
+|3,0,2,1,1,0,1526603567,"source ~/.bashutils"
 "3	LINE	0
+	source ~/.bashrc
+|3,0,3,1,1,0,1526603552,"source ~/.bashrc"
+"4	LINE	0
 	lpath() {
 	    echo $(dirname $(cd -P $__LPATH__;pwd)/.)/$@
 	}
@@ -171,68 +167,89 @@ $\~\/\.ssh\/
 	    cd `lpath "$@"`
 	}
 	
-|3,0,3,1,8,0,1526603229,"lpath() {","    echo $(dirname $(cd -P $__LPATH__;pwd)/.)/$@","}","","cdlpath() {","    cd `lpath \"$@\"`","}",""
-"4	LINE	0
-	alias cdepath="cd `epath \"$@\"`"
-|3,0,4,1,1,0,1526602770,"alias cdepath=\"cd `epath \\\"$@\\\"`\""
+|3,0,4,1,8,0,1526603229,"lpath() {","    echo $(dirname $(cd -P $__LPATH__;pwd)/.)/$@","}","","cdlpath() {","    cd `lpath \"$@\"`","}",""
 "5	LINE	0
-	alias epath="dirname $(cd -P $__EPATH__;pwd)/."
-|3,0,5,1,1,0,1526602769,"alias epath=\"dirname $(cd -P $__EPATH__;pwd)/.\""
+	alias cdepath="cd `epath \"$@\"`"
+|3,0,5,1,1,0,1526602770,"alias cdepath=\"cd `epath \\\"$@\\\"`\""
 "6	LINE	0
+	alias epath="dirname $(cd -P $__EPATH__;pwd)/."
+|3,0,6,1,1,0,1526602769,"alias epath=\"dirname $(cd -P $__EPATH__;pwd)/.\""
+"7	LINE	0
 	source ~/.bashutils
 	source ~/.alias
-|3,0,6,1,2,0,1526602111,"source ~/.bashutils","source ~/.alias"
-"7	LINE	0
-	
-|3,0,7,1,1,0,1526601925,""
+|3,0,7,1,2,0,1526602111,"source ~/.bashutils","source ~/.alias"
 "8	LINE	0
-	}
-|3,0,8,1,1,0,1526601924,"}"
+	
+|3,0,8,1,1,0,1526601925,""
 "9	LINE	0
-	    cd `epath "$@"`
-|3,0,9,1,1,0,1526601923,"    cd `epath \"$@\"`"
+	}
+|3,0,9,1,1,0,1526601924,"}"
 
 # File marks:
-'0  1  0  /home/zhangle/ileler/ileler/configs/env-cygwin
-|4,48,1,0,1526603587,"/home/zhangle/ileler/ileler/configs/env-cygwin"
-'1  3  0  ~/.bashutils
-|4,49,3,0,1526603290,"~/.bashutils"
-'2  12  40  ~/.bashutils
-|4,50,12,40,1526603016,"~/.bashutils"
-'3  4  40  ~/.bashutils
-|4,51,4,40,1526603016,"~/.bashutils"
-'4  18  0  ~/.bashutils
-|4,52,18,0,1526602919,"~/.bashutils"
-'5  18  0  ~/.bashutils
-|4,53,18,0,1526602919,"~/.bashutils"
-'6  10  0  ~/.bashutils
-|4,54,10,0,1526602919,"~/.bashutils"
-'7  10  0  ~/.bashutils
-|4,55,10,0,1526602919,"~/.bashutils"
-'8  1  0  ~/.alias
-|4,56,1,0,1526602773,"~/.alias"
-'9  1  45  ~/.alias
-|4,57,1,45,1526602641,"~/.alias"
+'0  14  38  /home/zhangle/ileler/ileler/configs/env-cygwin
+|4,48,14,38,1526604761,"/home/zhangle/ileler/ileler/configs/env-cygwin"
+'1  1  0  /home/zhangle/ileler/ileler/configs/env-cygwin
+|4,49,1,0,1526603587,"/home/zhangle/ileler/ileler/configs/env-cygwin"
+'2  1  0  /home/zhangle/ileler/ileler/configs/env-cygwin
+|4,50,1,0,1526603587,"/home/zhangle/ileler/ileler/configs/env-cygwin"
+'3  3  0  ~/.bashutils
+|4,51,3,0,1526603290,"~/.bashutils"
+'4  12  40  ~/.bashutils
+|4,52,12,40,1526603016,"~/.bashutils"
+'5  4  40  ~/.bashutils
+|4,53,4,40,1526603016,"~/.bashutils"
+'6  18  0  ~/.bashutils
+|4,54,18,0,1526602919,"~/.bashutils"
+'7  18  0  ~/.bashutils
+|4,55,18,0,1526602919,"~/.bashutils"
+'8  10  0  ~/.bashutils
+|4,56,10,0,1526602919,"~/.bashutils"
+'9  10  0  ~/.bashutils
+|4,57,10,0,1526602919,"~/.bashutils"
 
 # Jumplist (newest first):
+-'  14  38  /home/zhangle/ileler/ileler/configs/env-cygwin
+|4,39,14,38,1526604761,"/home/zhangle/ileler/ileler/configs/env-cygwin"
+-'  1  0  /home/zhangle/ileler/ileler/configs/env-cygwin
+|4,39,1,0,1526604689,"/home/zhangle/ileler/ileler/configs/env-cygwin"
 -'  1  0  /home/zhangle/ileler/ileler/configs/env-cygwin
 |4,39,1,0,1526603587,"/home/zhangle/ileler/ileler/configs/env-cygwin"
+-'  98  14  /home/zhangle/ileler/ileler/configs/env-cygwin
+|4,39,98,14,1526603580,"/home/zhangle/ileler/ileler/configs/env-cygwin"
 -'  97  14  /home/zhangle/ileler/ileler/configs/env-cygwin
 |4,39,97,14,1526603580,"/home/zhangle/ileler/ileler/configs/env-cygwin"
+-'  3  0  /home/zhangle/ileler/ileler/configs/env-cygwin
+|4,39,3,0,1526603565,"/home/zhangle/ileler/ileler/configs/env-cygwin"
 -'  4  0  /home/zhangle/ileler/ileler/configs/env-cygwin
 |4,39,4,0,1526603565,"/home/zhangle/ileler/ileler/configs/env-cygwin"
+-'  90  0  /home/zhangle/ileler/ileler/configs/env-cygwin
+|4,39,90,0,1526603553,"/home/zhangle/ileler/ileler/configs/env-cygwin"
 -'  89  0  /home/zhangle/ileler/ileler/configs/env-cygwin
 |4,39,89,0,1526603553,"/home/zhangle/ileler/ileler/configs/env-cygwin"
+-'  25  0  /home/zhangle/ileler/ileler/configs/env-cygwin
+|4,39,25,0,1526603488,"/home/zhangle/ileler/ileler/configs/env-cygwin"
 -'  25  0  /home/zhangle/ileler/ileler/configs/env-cygwin
 |4,39,25,0,1526603488,"/home/zhangle/ileler/ileler/configs/env-cygwin"
 -'  3  0  ~/.bashutils
 |4,39,3,0,1526603290,"~/.bashutils"
 -'  3  0  ~/.bashutils
 |4,39,3,0,1526603290,"~/.bashutils"
+-'  3  0  ~/.bashutils
+|4,39,3,0,1526603290,"~/.bashutils"
+-'  3  0  ~/.bashutils
+|4,39,3,0,1526603290,"~/.bashutils"
 -'  28  0  ~/.bashutils
 |4,39,28,0,1526603132,"~/.bashutils"
 -'  28  0  ~/.bashutils
 |4,39,28,0,1526603132,"~/.bashutils"
+-'  28  0  ~/.bashutils
+|4,39,28,0,1526603132,"~/.bashutils"
+-'  28  0  ~/.bashutils
+|4,39,28,0,1526603132,"~/.bashutils"
+-'  1  0  ~/.bashutils
+|4,39,1,0,1526603062,"~/.bashutils"
+-'  1  0  ~/.bashutils
+|4,39,1,0,1526603062,"~/.bashutils"
 -'  1  0  ~/.bashutils
 |4,39,1,0,1526603062,"~/.bashutils"
 -'  1  0  ~/.bashutils
@@ -245,6 +262,18 @@ $\~\/\.ssh\/
 |4,39,12,40,1526603016,"~/.bashutils"
 -'  4  40  ~/.bashutils
 |4,39,4,40,1526603016,"~/.bashutils"
+-'  12  40  ~/.bashutils
+|4,39,12,40,1526603016,"~/.bashutils"
+-'  4  40  ~/.bashutils
+|4,39,4,40,1526603016,"~/.bashutils"
+-'  12  40  ~/.bashutils
+|4,39,12,40,1526603016,"~/.bashutils"
+-'  4  40  ~/.bashutils
+|4,39,4,40,1526603016,"~/.bashutils"
+-'  1  0  ~/.bashutils
+|4,39,1,0,1526602936,"~/.bashutils"
+-'  1  0  ~/.bashutils
+|4,39,1,0,1526602936,"~/.bashutils"
 -'  1  0  ~/.bashutils
 |4,39,1,0,1526602936,"~/.bashutils"
 -'  1  0  ~/.bashutils
@@ -261,6 +290,22 @@ $\~\/\.ssh\/
 |4,39,10,0,1526602919,"~/.bashutils"
 -'  10  0  ~/.bashutils
 |4,39,10,0,1526602919,"~/.bashutils"
+-'  18  0  ~/.bashutils
+|4,39,18,0,1526602919,"~/.bashutils"
+-'  10  0  ~/.bashutils
+|4,39,10,0,1526602919,"~/.bashutils"
+-'  10  0  ~/.bashutils
+|4,39,10,0,1526602919,"~/.bashutils"
+-'  18  0  ~/.bashutils
+|4,39,18,0,1526602919,"~/.bashutils"
+-'  10  0  ~/.bashutils
+|4,39,10,0,1526602919,"~/.bashutils"
+-'  10  0  ~/.bashutils
+|4,39,10,0,1526602919,"~/.bashutils"
+-'  1  0  ~/.bashutils
+|4,39,1,0,1526602797,"~/.bashutils"
+-'  1  0  ~/.bashutils
+|4,39,1,0,1526602797,"~/.bashutils"
 -'  1  0  ~/.bashutils
 |4,39,1,0,1526602797,"~/.bashutils"
 -'  1  0  ~/.bashutils
@@ -297,6 +342,38 @@ $\~\/\.ssh\/
 |4,39,1,0,1526602773,"~/.alias"
 -'  1  0  ~/.alias
 |4,39,1,0,1526602773,"~/.alias"
+-'  1  0  ~/.alias
+|4,39,1,0,1526602773,"~/.alias"
+-'  1  0  ~/.alias
+|4,39,1,0,1526602773,"~/.alias"
+-'  1  0  ~/.alias
+|4,39,1,0,1526602773,"~/.alias"
+-'  1  0  ~/.alias
+|4,39,1,0,1526602773,"~/.alias"
+-'  1  0  ~/.alias
+|4,39,1,0,1526602773,"~/.alias"
+-'  1  0  ~/.alias
+|4,39,1,0,1526602773,"~/.alias"
+-'  1  0  ~/.alias
+|4,39,1,0,1526602773,"~/.alias"
+-'  1  0  ~/.alias
+|4,39,1,0,1526602773,"~/.alias"
+-'  1  0  ~/.alias
+|4,39,1,0,1526602773,"~/.alias"
+-'  1  0  ~/.alias
+|4,39,1,0,1526602773,"~/.alias"
+-'  1  0  ~/.alias
+|4,39,1,0,1526602773,"~/.alias"
+-'  1  0  ~/.alias
+|4,39,1,0,1526602773,"~/.alias"
+-'  1  0  ~/.alias
+|4,39,1,0,1526602773,"~/.alias"
+-'  1  0  ~/.alias
+|4,39,1,0,1526602773,"~/.alias"
+-'  1  0  ~/.alias
+|4,39,1,0,1526602773,"~/.alias"
+-'  1  0  ~/.alias
+|4,39,1,0,1526602773,"~/.alias"
 -'  1  45  ~/.alias
 |4,39,1,45,1526602641,"~/.alias"
 -'  1  45  ~/.alias
@@ -329,105 +406,24 @@ $\~\/\.ssh\/
 |4,39,1,45,1526602641,"~/.alias"
 -'  1  45  ~/.alias
 |4,39,1,45,1526602641,"~/.alias"
--'  1  37  ~/.alias
-|4,39,1,37,1526602565,"~/.alias"
--'  1  37  ~/.alias
-|4,39,1,37,1526602565,"~/.alias"
--'  1  37  ~/.alias
-|4,39,1,37,1526602565,"~/.alias"
--'  1  37  ~/.alias
-|4,39,1,37,1526602565,"~/.alias"
--'  1  37  ~/.alias
-|4,39,1,37,1526602565,"~/.alias"
--'  1  37  ~/.alias
-|4,39,1,37,1526602565,"~/.alias"
--'  1  37  ~/.alias
-|4,39,1,37,1526602565,"~/.alias"
--'  1  37  ~/.alias
-|4,39,1,37,1526602565,"~/.alias"
--'  1  37  ~/.alias
-|4,39,1,37,1526602565,"~/.alias"
--'  1  37  ~/.alias
-|4,39,1,37,1526602565,"~/.alias"
--'  1  37  ~/.alias
-|4,39,1,37,1526602565,"~/.alias"
--'  1  37  ~/.alias
-|4,39,1,37,1526602565,"~/.alias"
--'  1  37  ~/.alias
-|4,39,1,37,1526602565,"~/.alias"
--'  1  37  ~/.alias
-|4,39,1,37,1526602565,"~/.alias"
--'  1  37  ~/.alias
-|4,39,1,37,1526602565,"~/.alias"
--'  1  37  ~/.alias
-|4,39,1,37,1526602565,"~/.alias"
--'  1  0  ~/.alias
-|4,39,1,0,1526602499,"~/.alias"
--'  1  0  ~/.alias
-|4,39,1,0,1526602499,"~/.alias"
--'  1  0  ~/.alias
-|4,39,1,0,1526602499,"~/.alias"
--'  1  0  ~/.alias
-|4,39,1,0,1526602499,"~/.alias"
--'  1  0  ~/.alias
-|4,39,1,0,1526602499,"~/.alias"
--'  1  0  ~/.alias
-|4,39,1,0,1526602499,"~/.alias"
--'  1  0  ~/.alias
-|4,39,1,0,1526602499,"~/.alias"
--'  1  0  ~/.alias
-|4,39,1,0,1526602499,"~/.alias"
--'  1  0  ~/.alias
-|4,39,1,0,1526602499,"~/.alias"
--'  1  0  ~/.alias
-|4,39,1,0,1526602499,"~/.alias"
--'  1  0  ~/.alias
-|4,39,1,0,1526602499,"~/.alias"
--'  1  0  ~/.alias
-|4,39,1,0,1526602499,"~/.alias"
--'  1  0  ~/.alias
-|4,39,1,0,1526602499,"~/.alias"
--'  1  0  ~/.alias
-|4,39,1,0,1526602499,"~/.alias"
--'  1  0  ~/.alias
-|4,39,1,0,1526602499,"~/.alias"
--'  1  0  ~/.alias
-|4,39,1,0,1526602499,"~/.alias"
--'  1  41  ~/.alias
-|4,39,1,41,1526602455,"~/.alias"
--'  1  41  ~/.alias
-|4,39,1,41,1526602455,"~/.alias"
--'  1  41  ~/.alias
-|4,39,1,41,1526602455,"~/.alias"
--'  1  41  ~/.alias
-|4,39,1,41,1526602455,"~/.alias"
--'  1  41  ~/.alias
-|4,39,1,41,1526602455,"~/.alias"
--'  1  41  ~/.alias
-|4,39,1,41,1526602455,"~/.alias"
--'  1  41  ~/.alias
-|4,39,1,41,1526602455,"~/.alias"
--'  1  41  ~/.alias
-|4,39,1,41,1526602455,"~/.alias"
--'  1  41  ~/.alias
-|4,39,1,41,1526602455,"~/.alias"
--'  1  41  ~/.alias
-|4,39,1,41,1526602455,"~/.alias"
--'  1  41  ~/.alias
-|4,39,1,41,1526602455,"~/.alias"
+-'  1  45  ~/.alias
+|4,39,1,45,1526602641,"~/.alias"
 
 # History of marks within files (newest to oldest):
 
 > /home/zhangle/ileler/ileler/configs/env-cygwin
-	*	1526603581	0
-	"	1	0
-	^	97	15
-	.	97	14
-	+	89	0
+	*	1526604755	0
+	"	14	38
+	^	14	39
+	.	14	38
+	+	90	0
+	+	3	0
+	+	90	0
+	+	97	0
+	+	98	14
 	+	3	0
 	+	89	0
-	+	96	0
-	+	97	14
+	+	14	38
 
 > ~/.bashutils
 	*	1526603289	0
