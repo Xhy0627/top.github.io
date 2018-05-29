@@ -56,7 +56,7 @@ export npm_config_cache=$NODE_DIR/npm-cache
 export npm_config_prefix=$NODE_DIR/npm-global
 export NODE_PATH=$HOME/.node_modules:$npm_config_prefix/node_modules:$NODE_HOME/node_modules
 export NODE_MODULES=$NODE_PATH
-export PATH=$NODE_HOME/bin:$npm_config_prefix:$PATH
+export PATH=$NODE_HOME/bin:$npm_config_prefix/bin:$PATH
 
 
 

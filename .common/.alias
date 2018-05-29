@@ -1,0 +1,1 @@
+alias hass="cd /home/zhangle/ileler/bins/homeassistant && source ./bin/activate && ./start && tail -f ~/.homeassistant/home-assistant.log"
