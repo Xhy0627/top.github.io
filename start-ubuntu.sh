@@ -3,7 +3,7 @@ scriptpath=$0
 tempout=`df --output=source,target $scriptpath | grep /dev`
 msource=`echo $tempout | awk '{print $1}'`
 starget=`echo $tempout | awk '{print $2}'`
-if [ ! "$starget" == "/" ]; then
+if [[ $starget && ! "$starget" == "/" ]]; then
     #remount
     #msource=UUID=2AFAD6ECFAD6B2F5
     mtarget=/media/kerwin

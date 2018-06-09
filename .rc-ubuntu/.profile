@@ -31,10 +31,12 @@ export __RPATH__=$(cd "$HOME/../";pwd)
 #java
 _JAVA_LIBS="$__EPATH__/tools/java-libs"
 _CLASSPATH=""
-for jarname in $(ls -A $_JAVA_LIBS/)
-do
-    _CLASSPATH=$_CLASSPATH:$_JAVA_LIBS/$jarname
-done
+if [ -d $_JAVA_LIBS ] ; then
+    for jarname in $(ls -A $_JAVA_LIBS/)
+    do
+        _CLASSPATH=$_CLASSPATH:$_JAVA_LIBS/$jarname
+    done
+fi
 export JAVA_HOME=$__LPATH__/bins/.linux/java/jdk1.8.0_171
 export CLASSPATH=.:$JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar:$_CLASSPATH
 export _JAVA_OPTIONS="-Duser.home=$HOME -Droot.path=$__RPATH__ $_JAVA_OPTIONS"
