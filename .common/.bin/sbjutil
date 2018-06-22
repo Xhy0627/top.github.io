@@ -1,0 +1,211 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# Author: ileler@qq.com
+import os
+import sys
+import getopt
+import zipfile
+from shutil import copyfile, rmtree, move
+
+MFDIR = "META-INF/"
+MFPATH = MFDIR + "MANIFEST.MF"
+CPLABEL = "Class-Path:"
+ILPATH = "inside.lib"
+BIC = "BOOT-INF/classes/"
+BIL = "BOOT-INF/lib/"
+
+def usage():
+    print """
+Usage:%s [option]
+ option:
+     -h or --help: 显示帮助信息
+     -o spring-boot-jar-file [-n original-jar-file-name] [-d original-jar-parent-path] [-e extract-lib-path]: 生成原始jar包
+        spring-boot-jar-file:       文件路径，由spring-boot-maven-plugin插件生成的jar包文件路径
+        original-jar-file-name:     输出文件名，生成原始jar包文件，名称默认为[spring-boot-jar-file].original
+        original-jar-parent-path:   输出文件所在目录，默认生成到spring-boot-jar-file所在路径
+        extract-lib-path:           输出lib文件所在目录，默认不解压lib，如果传参则解压lib下的jar到指定的路径
+     -i original-jar-file [-t target-dir] -l lib-dir [-p classpath-prefix] [-I ignore-jar]: 从原始jar安装依赖
+        original-jar-file:          字符串，所需安装的jar的文件名称
+        target-dir:                 文件夹路径，安装到该文件夹下，默认安装到当前目录[.]
+        lib-dir:                    文件夹路径，公共lib包的路径，安装依赖时从这个目录copy
+        classpath-prefix:           字符串，jar包所需classpath的前缀
+        ignore-jar:                 正则表达式，匹配安装过程中需要忽略的jar 
+    """ % sys.argv[0]
+
+def install():
+    #mkdir target-dir
+    global td
+    if not td:
+        td = "."
+    elif not os.path.exists(td):
+        os.makedirs(td)
+
+    #check lib-dir
+    if not ld or not os.path.exists(ld):
+        print "[-l lib-dir] invalid"
+        sys.exit()
+
+    #get jar to install
+    ldojf = ld + "/" + ojf
+    tdojf = td + "/" + ojf
+    if os.path.isfile(ojf):
+        tdojf = os.path.join(td, os.path.basename(ojf))
+        copyfile(ojf, tdojf)
+    else:
+        if os.path.exists(ldojf):
+            copyfile(ldojf, tdojf)
+            print "install " + ojf + " to " + tdojf + " success."
+        if not os.path.exists(tdojf):
+            print "install " + ojf + " to " + tdojf + " failed."
+            sys.exit()
+
+    #mkdir prefix
+    tdcp = td + "/" + (cp if cp is not None else "")
+    if not os.path.exists(tdcp): os.makedirs(tdcp)
+    
+    #resolve classpath
+    with zipfile.ZipFile(tdojf, "r") as jar:
+        with jar.open(MFPATH) as mf:
+            start = False
+            cpstr = ""
+            for line in mf:
+                if start and not line.startswith(" "): break
+                if not start and line.startswith(CPLABEL):
+                    start = True
+                    line = line[len(CPLABEL):]
+                if start: cpstr += line[1:].replace("\r", "").replace("\n", "")
+            jars = cpstr.split(" ")
+        ejars = "/"
+        for member in jar.namelist():
+            if not member.startswith(ILPATH): continue
+            filename = os.path.basename(member)
+            if not filename: continue
+            ejars += filename + "/"
+            print "extract " + filename + " success."
+            (lambda f, d: (f.write(d), f.close()))(open(r"" + tdcp + "/" + filename, "wb"), jar.read(member))
+
+    #download jars
+    err = ""
+    ijs = ""
+    for jar in jars:
+        if cp is not None: jar = jar[len(cp):]
+        srcFile = ld + "/" + jar
+        destFile = tdcp + "/" + jar
+        if jar in ejars: continue
+        if ij is not None and ij in jar:
+            ijs += jar + " ignore\n"
+            continue
+        if not os.access(srcFile, os.F_OK):
+            err += jar + " unexists in " + ld + "\n"
+            continue
+        copyfile(srcFile, destFile)
+        print "install " + jar + " success."
+    if ijs:
+        print "\n" + ijs
+    if err:
+        print "\n" + err
+        print "check [-p classpath-prefix]"
+        print "\ninstall failed."
+    else:
+        print "\ninstall success."
+    
+    
+
+def original():
+    global ojfn, ojpp
+    if not os.path.exists(sbjf):
+        print "[-o spring-boot-jar-file] invalid"
+        sys.exit()
+    if ojfn is None:
+        ojfn = os.path.basename(sbjf) + ".original"
+    if ojpp is None:
+        ojpp = os.path.dirname(sbjf)    
+    if elp is not None and not os.path.isdir(elp):
+        print "[-e extract-lib-path] invalid"
+        sys.exit()
+    #mkdir temp work dir
+    tempdir = ojpp + "/" + ojfn + ".tmp"
+    if os.path.exists(tempdir): rmtree(tempdir)
+    os.makedirs(tempdir)
+    
+    #extract dir
+    with zipfile.ZipFile(sbjf, "r") as jar:
+        jar.extractall(tempdir, [n for n in jar.namelist() if n.startswith(BIC) and not n.endswith("/")])
+        jar.extractall(tempdir, [n for n in jar.namelist() if n.startswith(MFDIR) and not n.endswith("/")])
+        if elp is not None: jar.extractall(tempdir, [n for n in jar.namelist() if n.startswith(BIL) and not n.endswith("/")])
+
+    #update MF
+    f = open(tempdir + "/" + MFPATH, "r+") 
+    lines = f.readlines()
+    f.seek(0)
+    for line in lines:
+        if line.startswith("Spring-Boot") or line.startswith("Main-Class"): continue
+        f.write(line.replace("Start-Class", "Main-Class") if line.startswith("Start-Class") else line)
+    f.truncate()
+    f.close()
+
+    #copy lib
+    if os.path.exists(tempdir + "/" + BIL):
+        for root, dirs, files in os.walk(tempdir + "/" + BIL):
+            for d in dirs:
+                move(os.path.join(root, d), os.path.join(elp, f))
+            for f in files:
+                move(os.path.join(root, f), os.path.join(elp, f))
+
+    #generate new jar
+    with zipfile.ZipFile(tempdir + "/" + ojfn, "w", zipfile.ZIP_DEFLATED) as jar:
+        for root, dirs, files in os.walk(tempdir + "/" + BIC):
+            for d in dirs:
+                jar.write(os.path.join(root, d), os.path.join(root.replace(tempdir + "/" + BIC, ""), d))     
+            for f in files:
+                jar.write(os.path.join(root, f), os.path.join(root.replace(tempdir + "/" + BIC, ""), f))     
+        for root, dirs, files in os.walk(tempdir + "/" + MFDIR):
+            for d in dirs:
+                jar.write(os.path.join(root, d), os.path.join(root.replace(tempdir, ""), d))     
+            for f in files:
+                jar.write(os.path.join(root, f), os.path.join(root.replace(tempdir, ""), f))     
+    #move to target dir
+    move(tempdir + "/" + ojfn, ojpp + "/" + ojfn)
+    
+    #rm temp work dir
+    rmtree(tempdir)
+    
+    
+
+try:
+    opts, args = getopt.getopt(sys.argv[1:] if len(sys.argv) > 0 else [], "ho:n:d:e:i:t:l:p:I:", ["help"])
+except getopt.GetoptError:
+    print "argv error, please input"
+    usage()
+    sys.exit()
+
+sbjf = ojfn = ojpp = elp = ojf = td = ld = cp = ij = None
+for cmd, arg in opts:
+    if cmd in ("-h", "--help"):
+        usage()
+        sys.exit()
+    elif cmd in ("-o"):
+        sbjf = arg
+    elif cmd in ("-n"):
+        ojfn = arg
+    elif cmd in ("-d"):
+        ojpp = arg
+    elif cmd in ("-e"):
+        elp = arg
+    elif cmd in ("-i"):
+        ojf = arg
+    elif cmd in ("-t"):
+        td = arg
+    elif cmd in ("-l"):
+        ld = arg
+    elif cmd in ("-p"):
+        cp = arg
+    elif cmd in ("-I"): 
+        ij = arg
+
+if sbjf:
+    original()
+elif ojf:
+    install()
+else:
+    usage()

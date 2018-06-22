@@ -4,5 +4,5 @@
 [core]
 	#autocrlf = true
 [core]
-	autocrlf = input
+	autocrlf = false
 	safecrlf = true
