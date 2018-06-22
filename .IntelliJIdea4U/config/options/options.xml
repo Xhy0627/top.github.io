@@ -53,12 +53,13 @@
     <property name="SpringBeansModulesPanel[1]" value="0.1216545" />
     <property name="SpringRepositoriesModulesPanel[0]" value="0.10840108" />
     <property name="SqlStructureView.filterD.file.structure.state" value="true" />
-    <property name="android-component-compatibility-check" value="1526268302459" />
+    <property name="XDebuggerExpressionEditor_Use_Soft_Wraps" value="true" />
+    <property name="android-component-compatibility-check" value="1528861541049" />
     <property name="build.toolwindow.Sync.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
     <property name="com.intellij.diagnostic.IdeErrorsDialogactiveTab" value="1" />
     <property name="com.intellij.history.integration.ui.views.DirectoryHistoryDialog.0" value="300" />
-    <property name="com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor" value="Dependencies" />
-    <property name="create.project.preferred.importer" value="Gradle" />
+    <property name="com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor" value="Paths" />
+    <property name="create.project.preferred.importer" value="Maven" />
     <property name="decompiler.legal.notice.accepted" value="true" />
     <property name="eclipse.project.dir" value="E:\a0a\Eclipse\pdri\org.pdri.prms" />
     <property name="es6.show.auto.import" value="true" />
@@ -68,8 +69,8 @@
     <property name="favorites.view.settings.flatten.packages" value="false" />
     <property name="favorites.view.settings.hide.empty.middle.packages" value="true" />
     <property name="favorites.view.settings.show.members" value="true" />
-    <property name="file.chooser.recent.files" value="/u~u/.rc-ubuntu.local/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE&#10;/u~u/ws/tl/chaincode&#10;/u~u/ws/tl/chaincode/build.gradle&#10;/u~u/ws/tl/gradle-projects&#10;/u~u/ws/tl&#10;/u~u/.rc-ubuntu/.IntelliJIdea/config/plugins/BashSupport-1.6.13.181.zip&#10;/u~u/.rc-ubuntu.local/bins/.linux/java/jdk1.8.0_171&#10;/u~u/ws/js&#10;/u~u/ws/python/home-assistant.github.io&#10;/u~u/.rc-ubuntu/.IntelliJIdea/config/plugins/free-idea-mybatis.jar&#10;/u~u/.rc-ubuntu/.IntelliJIdea/config/plugins/python-2018.1.181.4203.550.zip&#10;/u~u/.rc-ubuntu/.m2/settings_spring-boot.xml&#10;/u~u/ws/python&#10;/u~u/bins/Java/jdk-8u144-linux-x64&#10;/u~u/ws/tl/old-proj&#10;/u~u/ws/tl/publisher&#10;U:/u~u/a0a/bins/Java/jdk1.8.0_144&#10;/u~u/ws/tl/publisher/com.mpr/com.mpr.data.collection&#10;U:/u~u/a0a/ws/python/PyXiaomiGateway&#10;U:/u~u/a0a/.rc-cygwin/.IntelliJIdea/config/plugins/python-2017.2.172.3968.33.zip&#10;U:/u~u/a0a/ws/python/home-assistant&#10;U:/u~u/a0a/ws/python&#10;U:/u~u/a0a/ws/tl/publisher/com.mpr.panmedia/com.mpr.panmedia.goods/src/main/java/com/mpr/panmedia/goods/model&#10;U:/u~u/a0a/ws/tl/publisher/com.mpr/new/com.mpr.util-for-ribbon/com.mpr.util-for-ribbon&#10;E:/a0a/IdeaProjects/publisher/20180206/server/com.mpr/com.mpr.data.collection&#10;E:/a0a/IdeaProjects/publisher/20180206/server/com.mpr.panmedia/com.mpr.panmedia.data.collection.server&#10;U:/u~u/a0a/ws/tl/publisher/dctest/src/main/resources&#10;U:/u~u/a0a/ws/tl/com.mpr.dc&#10;U:/u~u/a0a/ws/tl/publisher/com.mpr.panmedia/com.mpr.panmedia.test1&#10;U:/u~u/a0a/ws/tl/publisher/com.mpr/new/org.ileler.util/org.ileler.util" />
-    <property name="file.gist.reindex.count" value="4724228" />
+    <property name="file.chooser.recent.files" value="/u~u/ws/tl/publisher/springboot2.0/com.mpr.panmedia&#10;/u~u/ws/tl/publisher/springboot2.0/com.mpr/com.mpr.debug-for-ribbon&#10;/u~u/ws/tl/publisher/springboot2.0/com.mpr.common/com.mpr.maven.template&#10;/u~u/ws/tl/publisher/springboot2.0/com.mpr.common&#10;/u~u/ws/tl/publisher/springboot2.0/com.mpr&#10;/u~u/ws/tl/publisher/springboot2.0&#10;/u~u/ws/tl/publisher/com.mpr/com.mpr.api.gateway&#10;/u~u/temp/aqara-gateway-faker/frontend&#10;/u~u/ws/java/org.ileler.utils/org.ileler.utils&#10;/u~u/ws/tl/publisher/com.mpr/com.mpr.ticket.authentication&#10;/u~u/.rc-ubuntu.local/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE&#10;/u~u/ws/tl/chaincode&#10;/u~u/ws/tl/chaincode/build.gradle&#10;/u~u/ws/tl/gradle-projects&#10;/u~u/ws/tl&#10;/u~u/.rc-ubuntu/.IntelliJIdea/config/plugins/BashSupport-1.6.13.181.zip&#10;/u~u/.rc-ubuntu.local/bins/.linux/java/jdk1.8.0_171&#10;/u~u/ws/js&#10;/u~u/ws/python/home-assistant.github.io&#10;/u~u/.rc-ubuntu/.IntelliJIdea/config/plugins/free-idea-mybatis.jar&#10;/u~u/.rc-ubuntu/.IntelliJIdea/config/plugins/python-2018.1.181.4203.550.zip&#10;/u~u/.rc-ubuntu/.m2/settings_spring-boot.xml&#10;/u~u/ws/python&#10;/u~u/bins/Java/jdk-8u144-linux-x64&#10;/u~u/ws/tl/old-proj&#10;/u~u/ws/tl/publisher&#10;U:/u~u/a0a/bins/Java/jdk1.8.0_144&#10;/u~u/ws/tl/publisher/com.mpr/com.mpr.data.collection&#10;U:/u~u/a0a/ws/python/PyXiaomiGateway&#10;U:/u~u/a0a/.rc-cygwin/.IntelliJIdea/config/plugins/python-2017.2.172.3968.33.zip" />
+    <property name="file.gist.reindex.count" value="4726906" />
     <property name="fileTypeChangedCounter" value="2" />
     <property name="find.popup.splitter" value="0.5" />
     <property name="gradle.runner.text.console_str" value="false" />
@@ -77,12 +78,12 @@
     <property name="ideavim.statistics.timestamp" value="1514356994073" />
     <property name="installed.kotlin.plugin.version" value="1.2.30-release-IJ2018.1-1" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last.imported.location" value="/u~u/ws/tl/chaincode/build.gradle" />
+    <property name="last.imported.location" value="/u~u/ws/tl/publisher/springboot2.0/com.mpr.common" />
     <property name="last.used.gradle.home" value="/u~u/.rc-ubuntu.local/bins/.linux/gradle/gradle-4.6" />
     <property name="lastTip" value="1" />
     <property name="plugins.preselection.path" value="$USER_HOME$/.IntelliJIdea/config/plugins" />
-    <property name="project.wizard.group" value="spring" />
-    <property name="project.wizard.template" value="Griffon" />
+    <property name="project.wizard.group" value="EMPTY_MODULE" />
+    <property name="project.wizard.template" value="Empty Project" />
     <property name="quick.doc.font.size" value="MEDIUM" />
     <property name="settings.code.style.selected.tab.JAVA" value="Imports" />
     <property name="spring.initializr.service.url.history" value="" />

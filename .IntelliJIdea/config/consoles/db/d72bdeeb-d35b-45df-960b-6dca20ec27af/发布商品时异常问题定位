@@ -4,7 +4,7 @@
 #商品状态0：待销售(下架)、1：销售中(上架)、2：删除、3：强制下架(运营管理)、4：上传中、5：上传失败、6.预处理中、7：预处理失败、8：编辑中
 USE mpr_pgs;
 SELECT * FROM t_goods tg JOIN t_goods_base_info tgbi ON tg.goods_base_id = tgbi.id
-WHERE tg.status = 7 AND tgbi.goods_name LIKE CONCAT('%', '20180307', '%');
+WHERE tg.status = 4 AND tgbi.goods_name LIKE CONCAT('%', '水浒传', '%');
 
 
 
@@ -13,12 +13,12 @@ WHERE tg.status = 7 AND tgbi.goods_name LIKE CONCAT('%', '20180307', '%');
 #查看CPPS的日志
 #com.mpr.content.preprocessor.system.service.impl.UploadServiceImpl#applyUploadId
 #定位到uploadId
-cat nohup.out | grep '发送上传文件信息: .*118927.*'
-cat nohup.out | grep '发送mq消息到通知服务，记录回调业务系统地址: .*118927.*'							【cpps-queue-biz-callback-params-2-ns】
+cat nohup.out | grep '发送上传文件信息: .*108808.*'
+cat nohup.out | grep '发送mq消息到通知服务，记录回调业务系统地址: .*108808.*'							【cpps-queue-biz-callback-params-2-ns】
 
 
 USE mpr_cpps;
-select * from t_upload_file where upload_id = '0bd4aea2a4364cb7b5cca6a8fca926ff'
+select * from t_upload_file where upload_id = '23d82a9d604a40f79aad9fa78021bee9'
 
 
 
@@ -29,17 +29,18 @@ select * from t_upload_file where upload_id = '0bd4aea2a4364cb7b5cca6a8fca926ff'
 cat nohup.out | grep '上传结束回调：.*0bd4aea2a4364cb7b5cca6a8fca926ff.*'
 cat nohup.out | grep '上传完成，发送预处理进度消息给通知服务。MQ消息内容:.*118927.*'					【cpps-queue-progress-2-biz】
 cat nohup.out | grep '上传完成，发送MQ消息给预处理模块。uploadId:0bd4aea2a4364cb7b5cca6a8fca926ff'		【cpps-queue-uploaded】
-cat nohup.out | grep '预处理收到上传完成MQ消息。 uploadId: 9027fd3452264a1f92ba490242d8ca88'			【cpps-queue-uploaded】【cpps-queue-process-mpr-2-eats】【cpps-queue-process-mprx-2-eats】
+cat nohup.out | grep '预处理收到上传完成MQ消息。 uploadId: 23d82a9d604a40f79aad9fa78021bee9'			【cpps-queue-uploaded】【cpps-queue-process-mpr-2-eats】【cpps-queue-process-mprx-2-eats】
 cat nohup.out | grep '保存mprx转码请求文件信息:.*119943.*'
 
 #根据商品ID，定位到预处理的任务ID
 USE mpr_cpps;
-select * from t_processing_file where goods_id = '119943';
+select * from t_processing_file where goods_id = '120859';
+select * from t_processing_file where id = 5579
 
 #根据预处理任务ID定位信息
 #com.mpr.content.preprocessor.system.mq.consumer.MessageConsumer#receiveProcessProgress
 cat nohup.out | grep 'Received EatsProcessCallbackMessage message = <.*3575.*>'
-cat nohup.out | grep 'Received EatsProcessCallbackMessage message = <.*3575.*"progress":"100".*>' 		【eats-queue-progress-2-cpps】
+cat nohup.out | grep 'Received EatsProcessCallbackMessage message = <.*5245.*"progress":"100".*>' 		【eats-queue-progress-2-cpps】
 cat nohup.out | grep '查询出的数据：<.*3575.*>'
 
 
@@ -99,3 +100,8 @@ cat nohup.out | grep 'storage params:.*1000000461.*'
 
 #客户端预处理列表接口com.mpr.panmedia.goods.controller.PublishGoodsController#queryProgress
 
+
+cat nohup.out | grep 'beforeFinished -------------------：.*120873.*'
+cat nohup.out | grep '预处理完成,发送MQ消息到cpps-queue-pub-file-2-rds队列.*120873.*'
+#rds
+cat nohup.out | grep 'CDS Receive <.*120873.*>'

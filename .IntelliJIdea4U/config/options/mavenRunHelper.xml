@@ -33,7 +33,7 @@
               <option name="commandLine" value="site" />
             </Goal>
             <Goal>
-              <option name="commandLine" value="clean install" />
+              <option name="commandLine" value="clean compile -X" />
             </Goal>
             <Goal>
               <option name="commandLine" value="clean install -X" />
@@ -52,6 +52,12 @@
             </Goal>
             <Goal>
               <option name="commandLine" value="-f ./deploy.xml -Pdev clean package" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="-U -X clean compile" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="package -X" />
             </Goal>
           </list>
         </option>
