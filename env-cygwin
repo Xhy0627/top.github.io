@@ -29,6 +29,10 @@ export _USER_COMMON_=$__/.common
 for fname in $(ls -A $_USER_COMMON_/)
 do
   cd $HOME && rm -rf $fname && ext-link $fname $_USER_COMMON_/$fname && cd -
+  if [ "$fname" == ".vimrc" ]
+  then
+	cd $HOME && rm -rf ".virc" && ext-link ".virc" $_USER_COMMON_/$fname && cd -
+  fi
 done
 cd /etc/setup/ && rm -rf installed.db && ext-link installed.db $HOME/installed.db && cd -
 
