@@ -2,210 +2,447 @@
 # -*- coding: utf-8 -*-
 # Author: ileler@qq.com
 import os
+import re
 import sys
 import getopt
 import zipfile
-from shutil import copyfile, rmtree, move
+from shutil import copy, copyfile, copytree, rmtree, move
 
-MFDIR = "META-INF/"
-MFPATH = MFDIR + "MANIFEST.MF"
-CPLABEL = "Class-Path:"
-ILPATH = "inside.lib"
-BIC = "BOOT-INF/classes/"
-BIL = "BOOT-INF/lib/"
+MFDIR = 'META-INF/'
+MFPATH = MFDIR + 'MANIFEST.MF'
+CPLABEL = 'Class-Path:'
+ILPATH = 'inside.lib'
+BIC = 'BOOT-INF/classes/'
+BIL = 'BOOT-INF/lib/'
 
 def usage():
-    print """
+    print '''
 Usage:%s [option]
+
  option:
+
      -h or --help: 显示帮助信息
+
      -o spring-boot-jar-file [-n original-jar-file-name] [-d original-jar-parent-path] [-e extract-lib-path]: 生成原始jar包
         spring-boot-jar-file:       文件路径，由spring-boot-maven-plugin插件生成的jar包文件路径
         original-jar-file-name:     输出文件名，生成原始jar包文件，名称默认为[spring-boot-jar-file].original
         original-jar-parent-path:   输出文件所在目录，默认生成到spring-boot-jar-file所在路径
         extract-lib-path:           输出lib文件所在目录，默认不解压lib，如果传参则解压lib下的jar到指定的路径
+
      -i original-jar-file [-t target-dir] -l lib-dir [-p classpath-prefix] [-I ignore-jar]: 从原始jar安装依赖
         original-jar-file:          字符串，所需安装的jar的文件名称
         target-dir:                 文件夹路径，安装到该文件夹下，默认安装到当前目录[.]
         lib-dir:                    文件夹路径，公共lib包的路径，安装依赖时从这个目录copy
         classpath-prefix:           字符串，jar包所需classpath的前缀
-        ignore-jar:                 正则表达式，匹配安装过程中需要忽略的jar 
-    """ % sys.argv[0]
+        ignore-jar:                 正则表达式，匹配安装过程中需要忽略的jar
+
+     -c old-jar -t new-jar [-n incremental-pkg-name] [-d incremental-pkg-dir] [-f force-path]: 生成增量包
+        old-jar:                    文件路径，旧jar包的文件路径
+        new-jar:                    文件路径，新jar包的文件路径
+        incremental-pkg-name:       输出文件名，生成增量jar包文件，名称默认为[old-jar].incremental
+        incremental-pkg-dir:        输出文件所在目录，默认生成到当前路径
+        force-path:                 正则表达式，匹配需要强制更新的文件路径
+
+     -u target-jar -a incremental-pkg [-n new-pkg-name] [-d new-pkg-dir] [-I ignore-path]: 从增量包更新jar包
+        target-jar:                 文件路径，需要更新的jar包的文件路径
+        incremental-pkg:            文件路径，增量包的文件路径
+        new-pkg-name:               输出文件名，生成新的jar包文件，默认直接替换原文件
+        new-pkg-dir:                输出文件所在目录，默认生成到源文件所在路径
+        ignore-path:                正则表达式，匹配安装过程中需要忽略的路径
+
+ example:
+     %s -c temp/test.jar -t temp/test_new.jar -d temp.out -f '/BOOT-INF/(classes/*|lib/com\.mpr\.*)|/META-INF/*'
+     %s -u temp/test.jar -a temp.out/test.jar.incremental -d temp.out
+
+    ''' % (sys.argv[0], sys.argv[0], sys.argv[0])
 
 def install():
     #mkdir target-dir
-    global td
+    ojf, td, ld, cp, ij = installConfig['ojf'], installConfig['td'], installConfig['ld'], installConfig['cp'], installConfig['ij']
     if not td:
-        td = "."
+        td = './'
     elif not os.path.exists(td):
         os.makedirs(td)
 
     #check lib-dir
     if not ld or not os.path.exists(ld):
-        print "[-l lib-dir] invalid"
+        print '[-l lib-dir] invalid'
         sys.exit()
 
     #get jar to install
-    ldojf = ld + "/" + ojf
-    tdojf = td + "/" + ojf
+    ldojf = ld + '/' + ojf
+    tdojf = td + '/' + ojf
     if os.path.isfile(ojf):
         tdojf = os.path.join(td, os.path.basename(ojf))
         copyfile(ojf, tdojf)
     else:
         if os.path.exists(ldojf):
             copyfile(ldojf, tdojf)
-            print "install " + ojf + " to " + tdojf + " success."
+            print 'install ' + ojf + ' to ' + tdojf + ' success.'
         if not os.path.exists(tdojf):
-            print "install " + ojf + " to " + tdojf + " failed."
+            print 'install ' + ojf + ' to ' + tdojf + ' failed.'
             sys.exit()
 
     #mkdir prefix
-    tdcp = td + "/" + (cp if cp is not None else "")
+    tdcp = td + '/' + (cp if cp is not None else '')
     if not os.path.exists(tdcp): os.makedirs(tdcp)
     
     #resolve classpath
-    with zipfile.ZipFile(tdojf, "r") as jar:
+    with zipfile.ZipFile(tdojf, 'r') as jar:
         with jar.open(MFPATH) as mf:
             start = False
-            cpstr = ""
+            cpstr = ''
             for line in mf:
-                if start and not line.startswith(" "): break
+                if start and not line.startswith(' '): break
                 if not start and line.startswith(CPLABEL):
                     start = True
                     line = line[len(CPLABEL):]
-                if start: cpstr += line[1:].replace("\r", "").replace("\n", "")
-            jars = cpstr.split(" ")
-        ejars = "/"
+                if start: cpstr += line[1:].replace('\r', '').replace('\n', '')
+            jars = cpstr.split(' ')
+        ejars = '/'
         for member in jar.namelist():
             if not member.startswith(ILPATH): continue
             filename = os.path.basename(member)
             if not filename: continue
-            ejars += filename + "/"
-            print "extract " + filename + " success."
-            (lambda f, d: (f.write(d), f.close()))(open(r"" + tdcp + "/" + filename, "wb"), jar.read(member))
+            ejars += filename + '/'
+            print 'extract ' + filename + ' success.'
+            (lambda f, d: (f.write(d), f.close()))(open(r'' + tdcp + '/' + filename, 'wb'), jar.read(member))
 
     #download jars
-    err = ""
-    ijs = ""
+    err = ''
+    ijs = ''
     for jar in jars:
         if cp is not None: jar = jar[len(cp):]
-        srcFile = ld + "/" + jar
-        destFile = tdcp + "/" + jar
+        srcFile = ld + '/' + jar
+        destFile = tdcp + '/' + jar
         if jar in ejars: continue
-        if ij is not None and ij in jar:
-            ijs += jar + " ignore\n"
+        if ij is not None and re.match(r'' + ij, jar):
+            ijs += jar + ' ignore\n'
             continue
         if not os.access(srcFile, os.F_OK):
-            err += jar + " unexists in " + ld + "\n"
+            err += jar + ' unexists in ' + ld + '\n'
             continue
         copyfile(srcFile, destFile)
-        print "install " + jar + " success."
+        print 'install ' + jar + ' success.'
     if ijs:
-        print "\n" + ijs
+        print '\n' + ijs
     if err:
-        print "\n" + err
-        print "check [-p classpath-prefix]"
-        print "\ninstall failed."
+        print '\n' + err
+        print 'check [-p classpath-prefix]'
+        print '\ninstall failed.'
     else:
-        print "\ninstall success."
+        print '\ninstall success.'
     
     
 
 def original():
-    global ojfn, ojpp
+    sbjf, ojfn, ojpp, elp = originalConfig['sbjf'], originalConfig['ojfn'], originalConfig['ojpp'], originalConfig['elp']
     if not os.path.exists(sbjf):
-        print "[-o spring-boot-jar-file] invalid"
+        print '[-o spring-boot-jar-file] invalid'
         sys.exit()
     if ojfn is None:
-        ojfn = os.path.basename(sbjf) + ".original"
+        ojfn = os.path.basename(sbjf) + '.original'
     if ojpp is None:
         ojpp = os.path.dirname(sbjf)    
     if elp is not None and not os.path.isdir(elp):
-        print "[-e extract-lib-path] invalid"
+        print '[-e extract-lib-path] invalid'
         sys.exit()
     #mkdir temp work dir
-    tempdir = ojpp + "/" + ojfn + ".tmp"
+    tempdir = ojpp + '/' + ojfn + '.tmp'
     if os.path.exists(tempdir): rmtree(tempdir)
     os.makedirs(tempdir)
     
     #extract dir
-    with zipfile.ZipFile(sbjf, "r") as jar:
-        jar.extractall(tempdir, [n for n in jar.namelist() if n.startswith(BIC) and not n.endswith("/")])
-        jar.extractall(tempdir, [n for n in jar.namelist() if n.startswith(MFDIR) and not n.endswith("/")])
-        if elp is not None: jar.extractall(tempdir, [n for n in jar.namelist() if n.startswith(BIL) and not n.endswith("/")])
+    with zipfile.ZipFile(sbjf, 'r') as jar:
+        jar.extractall(tempdir, [n for n in jar.namelist() if n.startswith(BIC) and not n.endswith('/')])
+        jar.extractall(tempdir, [n for n in jar.namelist() if n.startswith(MFDIR) and not n.endswith('/')])
+        if elp is not None: jar.extractall(tempdir, [n for n in jar.namelist() if n.startswith(BIL) and not n.endswith('/')])
 
     #update MF
-    f = open(tempdir + "/" + MFPATH, "r+") 
+    f = open(tempdir + '/' + MFPATH, 'r+') 
     lines = f.readlines()
     f.seek(0)
     for line in lines:
-        if line.startswith("Spring-Boot") or line.startswith("Main-Class"): continue
-        f.write(line.replace("Start-Class", "Main-Class") if line.startswith("Start-Class") else line)
+        if line.startswith('Spring-Boot') or line.startswith('Main-Class'): continue
+        f.write(line.replace('Start-Class', 'Main-Class') if line.startswith('Start-Class') else line)
     f.truncate()
     f.close()
 
     #copy lib
-    if os.path.exists(tempdir + "/" + BIL):
-        for root, dirs, files in os.walk(tempdir + "/" + BIL):
+    if os.path.exists(tempdir + '/' + BIL):
+        for root, dirs, files in os.walk(tempdir + '/' + BIL):
             for d in dirs:
                 move(os.path.join(root, d), os.path.join(elp, f))
             for f in files:
                 move(os.path.join(root, f), os.path.join(elp, f))
 
     #generate new jar
-    with zipfile.ZipFile(tempdir + "/" + ojfn, "w", zipfile.ZIP_DEFLATED) as jar:
-        for root, dirs, files in os.walk(tempdir + "/" + BIC):
+    with zipfile.ZipFile(tempdir + '/' + ojfn, 'w') as jar:
+        for root, dirs, files in os.walk(tempdir + '/' + BIC):
             for d in dirs:
-                jar.write(os.path.join(root, d), os.path.join(root.replace(tempdir + "/" + BIC, ""), d))     
+                jar.write(os.path.join(root, d), os.path.join(root.replace(tempdir + '/' + BIC, ''), d))     
             for f in files:
-                jar.write(os.path.join(root, f), os.path.join(root.replace(tempdir + "/" + BIC, ""), f))     
-        for root, dirs, files in os.walk(tempdir + "/" + MFDIR):
+                jar.write(os.path.join(root, f), os.path.join(root.replace(tempdir + '/' + BIC, ''), f))     
+        for root, dirs, files in os.walk(tempdir + '/' + MFDIR):
             for d in dirs:
-                jar.write(os.path.join(root, d), os.path.join(root.replace(tempdir, ""), d))     
+                jar.write(os.path.join(root, d), os.path.join(root.replace(tempdir, ''), d))     
             for f in files:
-                jar.write(os.path.join(root, f), os.path.join(root.replace(tempdir, ""), f))     
+                jar.write(os.path.join(root, f), os.path.join(root.replace(tempdir, ''), f))     
     #move to target dir
-    move(tempdir + "/" + ojfn, ojpp + "/" + ojfn)
+    move(tempdir + '/' + ojfn, ojpp + '/' + ojfn)
     
     #rm temp work dir
     rmtree(tempdir)
     
     
 
+def increment():
+    oj, nj, ipn, ipd, fp = incrementConfig['oj'], incrementConfig['nj'], incrementConfig['ipn'], incrementConfig['ipd'], incrementConfig['fp']
+    if oj is None or not os.path.exists(oj) or not zipfile.is_zipfile(oj):
+        print '[-c old-jar] invalid'
+        sys.exit()
+    if nj is None or not os.path.exists(nj) or not zipfile.is_zipfile(nj):
+        print '[-t new-jar] invalid'
+        sys.exit()
+    if ipn is None:
+        ipn = os.path.basename(oj) + '.incremental'
+    if ipd is None:
+        ipd = './'    
+    if fp is not None:
+        print 'force-path: ' + fp
+
+    #mkdir temp work dir
+    tempdir = ipd + '/' + ipn + '.tmp'
+    tempdir_old = tempdir + '/' + 'old'
+    tempdir_new = tempdir + '/' + 'new'
+    tempdir_inc = tempdir + '/' + 'inc'
+    if os.path.exists(tempdir): rmtree(tempdir)
+    os.makedirs(tempdir)
+    os.makedirs(tempdir_old)
+    os.makedirs(tempdir_new)
+    os.makedirs(tempdir_inc)
+    
+    #extract dir
+    with zipfile.ZipFile(oj, 'r') as jar: jar.extractall(tempdir_old)
+    with zipfile.ZipFile(nj, 'r') as jar: jar.extractall(tempdir_new)
+
+    #find delete file
+    with open(tempdir_inc + '/__delete__', 'w') as delfile:
+        delfiles = ''
+        for root, dirs, files, in os.walk(tempdir_old):
+            for d in dirs:
+                newpath = os.path.join(root.replace(tempdir_old, '') if root != tempdir_old else '/', d)
+                _newpath = tempdir_new + '/' + newpath
+                if os.path.exists(os.path.dirname(_newpath)) and not os.path.exists(_newpath):
+                    delfiles += newpath + '\n'
+                    print 'increment delete: ' + newpath
+            for f in files:
+                newpath = os.path.join(root.replace(tempdir_old, '') if root != tempdir_old else '/', f)
+                _newpath = tempdir_new + '/' + newpath
+                if os.path.exists(os.path.dirname(_newpath)) and not os.path.exists(_newpath):
+                    delfiles += newpath + '\n'
+                    print 'increment delete: ' + newpath
+        delfile.write(delfiles)
+
+    #find update file
+    for root, dirs, files in os.walk(tempdir_new):
+        _fpd = root.replace(tempdir_new, tempdir_inc)
+        if _fpd != tempdir_inc and os.path.exists(_fpd): continue
+        fpd = root.replace(tempdir_new, '')
+        if fpd != '' and (fp is not None and re.match(r'' + fp, fpd)):
+            copytree(root, _fpd)
+            print 'increment update: ' + _fpd.replace(tempdir_inc, '' if tempdir_inc != root else '/')
+            continue
+        for f in files:
+            oldpath = os.path.join(root.replace(tempdir_new, tempdir_old), f)
+            fpf = os.path.join(root.replace(tempdir_new, '' if tempdir_new != root else '/'), f)
+            if (fp is not None and re.match(r'' + fp, fpf)) or not os.path.exists(oldpath):
+                if not os.path.exists(_fpd): os.makedirs(_fpd)
+                copyfile(os.path.join(root, f), os.path.join(_fpd, f))
+                print 'increment update: ' + fpf
+
+    #generate increment jar
+    _tf = os.path.join(ipd, ipn)
+    with zipfile.ZipFile(_tf, 'w') as jar:
+        for root, dirs, files in os.walk(tempdir_inc):
+            for d in dirs:
+                jar.write(os.path.join(root, d), os.path.join(root.replace(tempdir_inc, ''), d))
+            for f in files:
+                jar.write(os.path.join(root, f), os.path.join(root.replace(tempdir_inc, ''), f))
+        print 'success increment: ' + _tf
+
+    #rm temp work dir
+    rmtree(tempdir)
+
+
+
+def update():
+    tj, ip, npn, npd, ips = updateConfig['tj'], updateConfig['ip'], updateConfig['npn'], updateConfig['npd'], updateConfig['ips']
+    if tj is None or not os.path.exists(tj) or not zipfile.is_zipfile(tj):
+        print '[-u target-jar] invalid'
+        sys.exit()
+    if ip is None or not os.path.exists(ip) or not zipfile.is_zipfile(ip):
+        print '[-a incremental-pkg] invalid'
+        sys.exit()
+    if npn is None:
+        npn = os.path.basename(tj)
+    if npd is None:
+        npd = os.path.dirname(tj)    
+
+    #mkdir temp work dir
+    tempdir = npd + '/' + npn + '.tmp'
+    tempdir_src = tempdir + '/' + 'src'
+    tempdir_inc = tempdir + '/' + 'inc'
+    if os.path.exists(tempdir): rmtree(tempdir)
+    os.makedirs(tempdir)
+    os.makedirs(tempdir_src)
+    os.makedirs(tempdir_inc)
+    
+    #extract dir
+    with zipfile.ZipFile(tj, 'r') as jar: jar.extractall(tempdir_src)
+    with zipfile.ZipFile(ip, 'r') as jar: jar.extractall(tempdir_inc)
+
+    #find delete file
+    with open(tempdir_inc + '/__delete__', 'r') as delfile:
+        delfiles = delfile.read()
+        for root, dirs, files in os.walk(tempdir_src):
+            for d in dirs:
+                newpath = os.path.join(root.replace(tempdir_src, '') if root != tempdir_src else '/', d)
+                if (newpath + '\n') in delfiles and (ips is None or not re.match(r'' + ips, newpath)):
+                    print 'delete dir: ' + newpath
+                    rmtree(os.path.join(root, d))
+            for f in files:
+                newpath = os.path.join(root.replace(tempdir_src, '') if root != tempdir_src else '/', f)
+                if (newpath + '\n') in delfiles and (ips is None or not re.match(r'' + ips, newpath)):
+                    print 'delete file: ' + newpath
+                    os.remove(os.path.join(root, f))
+        for root, dirs, files in os.walk(tempdir_inc):
+           for d in dirs:
+                newpath = os.path.join(root.replace(tempdir_inc, '') if root != tempdir_inc else '/', d)
+                _newpath = tempdir_src + '/' + newpath
+                if (ips is None or not re.match(r'' + ips, newpath)) and not os.path.exists(_newpath):
+                    print 'update dir: ' + newpath
+                    move(os.path.join(root, d), _newpath)
+           for f in files:
+                if f == '__delete__': continue
+                fp = os.path.join(root, f)
+                newpath = os.path.join(root.replace(tempdir_inc, '') if root != tempdir_inc else '/', f)
+                if os.path.exists(fp) and (ips is None or not re.match(r'' + ips, newpath)):
+                    print 'update file: ' + newpath
+                    copy(os.path.join(root, f), tempdir_src + '/' + newpath)
+        
+    #update old jar
+    _tf = os.path.join(npd, npn)
+    with zipfile.ZipFile(_tf, 'w') as jar:
+        for root, dirs, files in os.walk(tempdir_src):
+            for d in dirs:
+                jar.write(os.path.join(root, d), os.path.join(root.replace(tempdir_src, ''), d))
+            for f in files:
+                jar.write(os.path.join(root, f), os.path.join(root.replace(tempdir_src, ''), f))
+        print 'success update: ' + _tf
+
+    #rm temp work dir
+    rmtree(tempdir)
+
+
+
+originalConfig = {
+    'sbjf': None,
+    'ojfn': None,
+    'ojpp': None,
+    'elp': None
+}
+
+installConfig = {
+    'ojf': None,
+    'td': None,
+    'ld': None,
+    'cp': None,
+    'ij': None
+}
+
+incrementConfig = {
+    'oj': None,
+    'nj': None,
+    'ipn': None,
+    'ipd': None,
+    'fp': None
+}
+
+updateConfig = {
+    'tj': None,
+    'ip': None,
+    'npn': None,
+    'npd': None,
+    'ips': None
+}
+
 try:
-    opts, args = getopt.getopt(sys.argv[1:] if len(sys.argv) > 0 else [], "ho:n:d:e:i:t:l:p:I:", ["help"])
+    opts, args = getopt.getopt(sys.argv[1:] if len(sys.argv) > 1 else [], 'ho:i:c:u:n:d:e:t:l:p:I:f:a:', ['help'])
+    cmd, arg = opts[0] if len(opts) > 0 else (None, None)
+    if cmd is None or cmd in ('-h', '--help'):
+        usage()
+        sys.exit()
+    elif cmd in ('-o'):
+        originalConfig['sbjf'] = arg
+    elif cmd in ('-i'):
+        installConfig['ojf'] = arg
+    elif cmd in ('-c'):
+        incrementConfig['oj'] = arg
+    elif cmd in ('-u'):
+        updateConfig['tj'] = arg
+    else:
+        print 'unknow cmd: ' + cmd
+        sys.exit()
 except getopt.GetoptError:
-    print "argv error, please input"
+    print 'argv error, please input'
     usage()
     sys.exit()
 
-sbjf = ojfn = ojpp = elp = ojf = td = ld = cp = ij = None
 for cmd, arg in opts:
-    if cmd in ("-h", "--help"):
-        usage()
-        sys.exit()
-    elif cmd in ("-o"):
-        sbjf = arg
-    elif cmd in ("-n"):
-        ojfn = arg
-    elif cmd in ("-d"):
-        ojpp = arg
-    elif cmd in ("-e"):
-        elp = arg
-    elif cmd in ("-i"):
-        ojf = arg
-    elif cmd in ("-t"):
-        td = arg
-    elif cmd in ("-l"):
-        ld = arg
-    elif cmd in ("-p"):
-        cp = arg
-    elif cmd in ("-I"): 
-        ij = arg
+    if cmd in ('-n'):
+        if originalConfig['sbjf'] is not None:
+            originalConfig['ojfn'] = arg
+        elif incrementConfig['oj'] is not None:
+            incrementConfig['ipn'] = arg
+        else:
+            updateConfig['npn'] = arg
+    elif cmd in ('-d'):
+        if originalConfig['sbjf'] is not None:
+            originalConfig['ojpp'] = arg
+        elif incrementConfig['oj'] is not None:
+            incrementConfig['ipd'] = arg
+        else:
+            updateConfig['npd'] = arg
+    elif cmd in ('-e'):
+        originalConfig['elp'] = arg
+    elif cmd in ('-t'):
+        if installConfig['ojf'] is not None:
+            installConfig['td'] = arg
+        else: 
+            incrementConfig['nj'] = arg
+    elif cmd in ('-l'):
+        installConfig['ld'] = arg
+    elif cmd in ('-p'):
+        installConfig['cp'] = arg
+    elif cmd in ('-I'): 
+        if installConfig['ojf'] is not None:
+            installConfig['ij'] = arg
+        else:
+            updateConfig['ips'] = arg
+    elif cmd in ('-f'): 
+        incrementConfig['fp'] = arg
+    elif cmd in ('-a'): 
+        updateConfig['ip'] = arg
 
-if sbjf:
+if originalConfig['sbjf'] is not None:
     original()
-elif ojf:
+elif installConfig['ojf'] is not None:
     install()
+elif incrementConfig['oj'] is not None:
+    increment()
+elif updateConfig['tj'] is not None:
+    update()
 else:
     usage()
+

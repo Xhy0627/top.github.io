@@ -60,6 +60,9 @@ export NODE_PATH=$HOME/.node_modules:$npm_config_prefix/node_modules:$NODE_HOME/
 export NODE_MODULES=$NODE_PATH
 export PATH=$NODE_HOME/bin:$npm_config_prefix/bin:$PATH
 
+#pip
+export PIP_CONFIG_FILE=$HOME/.pip/pip.conf
+
 
 
 export PATH=$HOME/.bin:$PATH
