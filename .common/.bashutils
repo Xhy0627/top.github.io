@@ -43,6 +43,10 @@ qcmp() {
     eval "mvn archetype:generate -DinteractiveMode=false -DarchetypeArtifactId=${3:-maven-archetype-quickstart} -DgroupId=${1:-} -DartifactId=${2:-}"
 }
 
+curls() {
+    curl $@ | node <<< "var o = $(cat); console.log(JSON.stringify(o, null, 4));"
+}
+
 cnpm() {
     eval "npm --registry=https://registry.npm.taobao.org \
 --cache=$HOME/.npm/.cache/cnpm \
