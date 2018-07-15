@@ -160,6 +160,10 @@
     <location key="classpath-attribute-editor.0.0.1920.1080" x="765" y="326" />
     <location key="FileDocumentManager.FileCacheConflict.0.0.1366.768" x="0" y="0" />
     <location key="com.intellij.database.view.ui.AbstractDbRefactoringDialog.0.0.1920.1080" x="246" y="214" />
+    <location key="WELCOME_SCREEN.0.0.1920.1080@144dpi" x="962" y="471" />
+    <location key="ProcessPopupWindow.0.0.1920.1080@144dpi" x="663" y="635" />
+    <location key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog.0.0.1920.1080@144dpi" x="737" y="426" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1920.1080@144dpi" x="144" y="0" />
     <size key="NewModule_or_Project.wizard.0.0.1920.1080" width="861" height="735" />
     <size key="javadoc.popup.1920.0.1920.1080" width="446" height="166" />
     <size key="ProcessPopupWindow.1920.0.1920.1080" width="187" height="113" />
@@ -264,5 +268,19 @@
     <size key="#Notifications.0.0.1920.1080" width="486" height="571" />
     <size key="com.intellij.database.view.ui.AbstractDbRefactoringDialog.0.0.1920.1080" width="1026" height="677" />
     <size key="HiddenNamespacesPopup.-1920.0.1920.1080" width="222" height="469" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1080@144dpi" width="1856" height="240" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1080@144dpi" width="1856" height="240" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1080@144dpi" width="1856" height="240" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1080@144dpi" width="1856" height="240" />
+    <size key="ProcessPopupWindow.0.0.1920.1080@144dpi" width="600" height="411" />
+    <size key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1920.1080@144dpi" width="1704" height="1011" />
+    <size key="GridCell.Tab.1.left.0.0.1920.1080@144dpi" width="1856" height="240" />
+    <size key="GridCell.Tab.1.center.0.0.1920.1080@144dpi" width="1856" height="240" />
+    <size key="GridCell.Tab.1.right.0.0.1920.1080@144dpi" width="1856" height="240" />
+    <size key="GridCell.Tab.1.bottom.0.0.1920.1080@144dpi" width="1856" height="240" />
+    <size key="GridCell.Tab.2.left.0.0.1920.1080@144dpi" width="1856" height="240" />
+    <size key="GridCell.Tab.2.center.0.0.1920.1080@144dpi" width="1856" height="240" />
+    <size key="GridCell.Tab.2.right.0.0.1920.1080@144dpi" width="1856" height="240" />
+    <size key="GridCell.Tab.2.bottom.0.0.1920.1080@144dpi" width="1856" height="240" />
   </component>
 </application>

@@ -2,12 +2,12 @@
   <component name="RecentProjectsManager">
     <option name="recentPaths">
       <list>
+        <option value="U:/u~u/a0a/ws/java" />
         <option value="U:/u~u/a0a/ws/20180206" />
         <option value="U:/u~u/a0a/ws/tl/publisher" />
         <option value="U:/u~u/a0a/ws/tl/old-proj" />
         <option value="U:/u~u/a0a/ws/python" />
         <option value="U:/u~u/a0a/ws/js" />
-        <option value="U:/u~u/a0a/ws/java" />
         <option value="U:/u~u/a0a/ws/android" />
         <option value="U:/u~u/a0a/ws/java/D-ServletRequest" />
         <option value="E:/a0a/IdeaProjects/pdri" />
@@ -19,10 +19,10 @@
     </option>
     <option name="openPaths">
       <list>
-        <option value="U:/u~u/a0a/ws/20180206" />
+        <option value="U:/u~u/a0a/ws/java" />
       </list>
     </option>
-    <option name="lastPath" value="U:/u~u/a0a/ws/20180206" />
+    <option name="lastPath" value="U:/u~u/a0a/ws/java" />
     <option name="pid" value="" />
     <option name="additionalInfo">
       <map>
@@ -194,11 +194,11 @@
         <entry key="U:/u~u/a0a/ws/java">
           <value>
             <RecentProjectMetaInfo>
-              <option name="build" value="IU-172.4574.8" />
+              <option name="build" value="IU-181.4892.42" />
               <option name="productionCode" value="IU" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1521426492974" />
-              <option name="buildTimestamp" value="1510044998186" />
+              <option name="projectOpenTimestamp" value="1531662234284" />
+              <option name="buildTimestamp" value="1525760393456" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
