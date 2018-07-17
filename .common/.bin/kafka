@@ -1,0 +1,8 @@
+#!/bin/bash
+KAFKA_HOME=/u~u/.rc-ubuntu.local/bins/.linux/kafka/kafka_2.11-1.1.0
+KAFKA_OUT=$KAFKA_HOME/kk.out
+KAFKA_PID=$KAFKA_HOME/kk.pid
+chown zhangle $KAFKA_OUT $KAFKA_PID
+if [ -f $KAFKA_PID ]; then kill -9 `cat $KAFKA_PID` && read -p shutdown... -t 6; fi
+su zhangle -c "nohup $KAFKA_HOME/bin/kafka-server-start.sh $KAFKA_HOME/config/server.properties > $KAFKA_OUT 2>&1 & echo \$! > $KAFKA_PID"
+cat $KAFKA_PID && tail -f $KAFKA_OUT
