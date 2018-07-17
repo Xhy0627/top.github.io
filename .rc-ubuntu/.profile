@@ -38,7 +38,7 @@ if [ -d $_JAVA_LIBS ] ; then
     done
 fi
 export JAVA_HOME=$__LPATH__/bins/.linux/java/jdk1.8.0_171
-export CLASSPATH=.:$JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar:$_CLASSPATH
+export CLASSPATH=.:$JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar
 export _JAVA_OPTIONS="-Duser.home=$HOME -Droot.path=$__RPATH__ $_JAVA_OPTIONS"
 export PATH=$JAVA_HOME/bin:$PATH
 
