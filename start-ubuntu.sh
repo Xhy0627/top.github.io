@@ -31,7 +31,7 @@ rm -rf $upath;ln -s $rpath $upath
 
 if [[ $1 && -d $1 ]]
 then
-  _lpath=$1
+  _lpath=$(cd $1;pwd)
 else 
   _lpath=$rpath
 fi

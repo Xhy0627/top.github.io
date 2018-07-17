@@ -1,1 +1,1 @@
-
+. ~/.bashutils && cdrpath && rm -rf .ext && git clone -b configs.ext gh:ileler/ileler.github.io.git .ext
