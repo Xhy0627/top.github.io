@@ -1,0 +1,8 @@
+#!/bin/bash
+ES_HOME=/home/zhangle/ileler/.rc-ubuntu.local/bins/.linux/elastic/elasticsearch-6.3.1/
+ES_OUT=$ES_HOME/es.out
+ES_PID=$ES_HOME/es.pid
+chown zhangle $ES_OUT $ES_PID
+if [ -f $ES_PID ]; then kill -9 `cat $ES_PID` && read -p shutdown... -t 6; fi
+su zhangle -c "nohup $ES_HOME/bin/elasticsearch > $ES_OUT 2>&1 & echo \$! > $ES_PID"
+cat $ES_PID && tail -f $ES_OUT

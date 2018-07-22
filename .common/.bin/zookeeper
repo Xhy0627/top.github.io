@@ -1,0 +1,8 @@
+#!/bin/bash
+ZOO_HOME=/home/zhangle/ileler/.rc-ubuntu.local/bins/.linux/zookeeper/zookeeper-3.4.12
+ZOO_OUT=$ZOO_HOME/zk.out
+ZOO_PID=$ZOO_HOME/zk.pid
+chown zhangle $ZOO_OUT $ZOO_PID
+if [ -f $ZOO_PID ]; then kill -9 `cat $ZOO_PID` && read -p shutdown... -t 6; fi
+su zhangle -c "nohup $ZOO_HOME/bin/zkServer.sh start > $ZOO_OUT 2>&1 & echo \$! > $ZOO_PID"
+cat $ZOO_PID && tail -f $ZOO_OUT
