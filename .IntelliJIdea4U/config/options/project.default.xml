@@ -12,6 +12,9 @@
           </map>
         </option>
       </component>
+      <component name="CodeInsightWorkspaceSettings">
+        <option name="optimizeImportsOnTheFly" value="false" />
+      </component>
       <component name="EclipseCodeFormatter">
         <option name="defaultSettings" value="true" />
         <option name="formatter" value="ECLIPSE" />
@@ -40,8 +43,7 @@
       <component name="MavenImportPreferences">
         <option name="generalSettings">
           <MavenGeneralSettings>
-            <option name="mavenHome" value="/u~u/bins/Maven/apache-maven-3.5.0" />
-            <option name="userSettingsFile" value="$USER_HOME$/.m2/settings_spring-boot.xml" />
+            <option name="mavenHome" value="/u~u/.rc-ubuntu.local/bins/.linux/maven/apache-maven-3.5.0" />
           </MavenGeneralSettings>
         </option>
         <option name="importingSettings">
@@ -51,7 +53,8 @@
         </option>
       </component>
       <component name="MavenRunner">
-        <option name="vmOptions" value="-Duser.home=U:\u~u\a0a\.rc" />
+        <option name="jreName" value="#JAVA_HOME" />
+        <option name="vmOptions" value="-Duser.home=/u~u/.rc-ubuntu" />
       </component>
       <component name="Osmorc">
         <option name="bndAutoImport" value="true" />
@@ -61,76 +64,6 @@
       <component name="ProjectDictionaryState">
         <dictionary name="zhangle" />
       </component>
-      <component name="ProjectInspectionProfilesVisibleTreeState">
-        <entry key="Project Default">
-          <profile-state>
-            <expanded-state>
-              <State>
-                <id />
-              </State>
-              <State>
-                <id>Android &gt; Lint &gt; Correctness</id>
-              </State>
-              <State>
-                <id>Android &gt; Lint &gt; Performance</id>
-              </State>
-              <State>
-                <id>Android &gt; Lint &gt; Usability &gt; Icons</id>
-              </State>
-              <State>
-                <id>Android Lint for Kotlin</id>
-              </State>
-              <State>
-                <id>Data flow issuesJava</id>
-              </State>
-              <State>
-                <id>Data flow issuesJavaScript</id>
-              </State>
-              <State>
-                <id>ECMAScript 6 migration aidsJavaScript</id>
-              </State>
-              <State>
-                <id>General</id>
-              </State>
-              <State>
-                <id>Groovy</id>
-              </State>
-              <State>
-                <id>Java</id>
-              </State>
-              <State>
-                <id>JavaScript</id>
-              </State>
-              <State>
-                <id>Kotlin</id>
-              </State>
-              <State>
-                <id>Numeric issuesJava</id>
-              </State>
-              <State>
-                <id>Plugin DevKit</id>
-              </State>
-              <State>
-                <id>Threading issuesGroovy</id>
-              </State>
-              <State>
-                <id>Threading issuesJava</id>
-              </State>
-              <State>
-                <id>XPath</id>
-              </State>
-              <State>
-                <id>XSLT</id>
-              </State>
-            </expanded-state>
-            <selected-state>
-              <State>
-                <id>Android</id>
-              </State>
-            </selected-state>
-          </profile-state>
-        </entry>
-      </component>
       <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.7" project-jdk-type="JavaSDK" />
       <component name="PropertiesComponent">
         <property name="nodejs_interpreter_path.stuck_in_default_project" value="E:/a0a/nodejs/v6.9.2/node" />
@@ -138,7 +71,7 @@
         <property name="project.structure.last.edited" value="Problems" />
         <property name="project.structure.proportion" value="0.0" />
         <property name="project.structure.side.proportion" value="0.37586206" />
-        <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+        <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
       </component>
       <component name="RunManager">
         <configuration default="true" type="Applet" factoryName="Applet">

@@ -40,6 +40,12 @@
         <mark key="^" line="9" column="53" />
         <mark key="." line="9" column="53" />
       </file>
+      <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.java" timestamp="1530581112216">
+        <mark key="[" line="7" column="46" />
+        <mark key="]" line="8" column="45" />
+        <mark key="^" line="8" column="45" />
+        <mark key="." line="8" column="45" />
+      </file>
       <file name="E:/a0a/IdeaProjects/world/com.mpr.world/com.mpr.world.goods.pbook/src/main/java/com/mpr/world/goods/pbook/controller/DemoController.java" timestamp="1504251650007">
         <mark key="[" line="103" column="70" />
         <mark key="]" line="103" column="72" />
@@ -105,6 +111,7 @@
       <file name="E:/a0a/Eclipse/pdri/org.pdri.pcms/org.pdri.pcms.host/src/main/resources/resources/module/stat/stat.js" timestamp="1500608629785">
         <mark key="[" line="52" column="47" />
       </file>
+      <file name="/u~u/ws/tl/publisher/springboot2.0/com.mpr.panmedia.gateway/src/main/resources/application.yml" timestamp="1530581265952" />
       <file name="E:/a0a/Eclipse/pdri/org.pdri.pcms/org.pdri.pcms.host/src/main/resources/resources/module/account/account.js" timestamp="1500608284075">
         <mark key="[" line="0" column="46" />
       </file>
@@ -379,6 +386,9 @@
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed Y</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed X</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>

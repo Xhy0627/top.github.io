@@ -250,7 +250,7 @@
     <item name="sqljdbc42-6.4.0.jar"
           url="https://download.jetbrains.com/idea/jdbc-drivers/sqljdbc42-6.4.0.jar"
           md5=""/>
-    <item name="sqlserver6-win-auth.jar" url="https://download.jetbrains.com/idea/jdbc-drivers/sqlserver6-win-auth.jar" md5=""/>
+    <item name="sqlserver6-win-auth.jar" url="https://download.jetbrains.com/idea/jdbc-drivers/sqlserver64-win-auth.jar" md5=""/>
     <item name="sqlserver-driver6-license.txt" url="https://download.jetbrains.com/idea/jdbc-drivers/sqlserver-driver6-license.txt" md5=""/>
   </artifact>
   <artifact version="1.2.1.1001" name="Redshift">

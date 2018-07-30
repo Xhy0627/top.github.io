@@ -63,7 +63,7 @@
       </ViewImpl>
       <ViewImpl>
         <option name="ID" value="ThreadsContent" />
-        <option name="minimizedInGrid" value="true" />
+        <option name="minimizedInGrid" value="false" />
         <option name="placeInGrid" value="left" />
         <option name="tabIndex" value="0" />
         <option name="window" value="0" />
@@ -77,7 +77,7 @@
       </ViewImpl>
       <ViewImpl>
         <option name="ID" value="MemoryView" />
-        <option name="minimizedInGrid" value="true" />
+        <option name="minimizedInGrid" value="false" />
         <option name="placeInGrid" value="right" />
         <option name="tabIndex" value="0" />
         <option name="window" value="0" />
@@ -189,15 +189,15 @@
       </ViewImpl>
       <ViewImpl>
         <option name="ID" value="OverheadMonitor" />
-        <option name="minimizedInGrid" value="true" />
+        <option name="minimizedInGrid" value="false" />
         <option name="placeInGrid" value="right" />
         <option name="tabIndex" value="0" />
         <option name="window" value="0" />
       </ViewImpl>
       <TabImpl>
         <option name="displayName" value="Debugger" />
-        <option name="leftProportion" value="0.47715735" />
-        <option name="rightProportion" value="0.5820643" />
+        <option name="leftProportion" value="0.2994924" />
+        <option name="rightProportion" value="0.14382403" />
       </TabImpl>
       <TabImpl>
         <option name="bottomProportion" value="0.0" />

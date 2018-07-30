@@ -4,7 +4,7 @@
 #商品状态0：待销售(下架)、1：销售中(上架)、2：删除、3：强制下架(运营管理)、4：上传中、5：上传失败、6.预处理中、7：预处理失败、8：编辑中
 USE mpr_pgs;
 SELECT * FROM t_goods tg JOIN t_goods_base_info tgbi ON tg.goods_base_id = tgbi.id
-WHERE tg.status = 4 AND tgbi.goods_name LIKE CONCAT('%', '水浒传', '%');
+WHERE tg.status = 6 AND tgbi.goods_name LIKE CONCAT('%', '期刊申请', '%');
 
 
 
@@ -13,7 +13,7 @@ WHERE tg.status = 4 AND tgbi.goods_name LIKE CONCAT('%', '水浒传', '%');
 #查看CPPS的日志
 #com.mpr.content.preprocessor.system.service.impl.UploadServiceImpl#applyUploadId
 #定位到uploadId
-cat nohup.out | grep '发送上传文件信息: .*108808.*'
+cat nohup.out | grep '发送上传文件信息: .*121741.*'
 cat nohup.out | grep '发送mq消息到通知服务，记录回调业务系统地址: .*108808.*'							【cpps-queue-biz-callback-params-2-ns】
 
 
@@ -46,20 +46,20 @@ cat nohup.out | grep '查询出的数据：<.*3575.*>'
 
 
 #com.mpr.content.preprocessor.system.service.impl.PreprocessorServiceImpl#beforeFinished
-cat nohup.out | grep 'beforeFinished -------------------：.*118927.*'
+cat nohup.out | grep 'beforeFinished -------------------：.*122307.*'
 #com.mpr.content.preprocessor.system.service.impl.PreprocessorServiceImpl#syncMprIsliTarget
-cat nohup.out | grep '接收到的参数IsliTargetUploader：<.*118927.*>'
+cat nohup.out | grep '接收到的参数IsliTargetUploader：<.*122307.*>'
 cat nohup.out | grep 'copyMultiMediaToIsliTargetDir --> copyFileWithSystemCPCommand .*118927'
-cat nohup.out | grep '生成describe.json文件内容:<.*>,goodsId : 118927 -> .*'
+cat nohup.out | grep '生成describe.json文件.*goodsId : 122307 -> .*'
 cat nohup.out | grep 'describe.json<.*>输出成功'
 cat nohup.out | grep 'goodsId : 118927 upload2GTP to .*'
 cat nohup.out | grep 'goodsId : 118927 upload2GTP to .* success'
 cat nohup.out | grep 'goodsId : 118927 syncMprIsliTarget success'
 #com.mpr.content.preprocessor.system.service.impl.PreprocessorServiceImpl#beforeFinished
-cat nohup.out | grep '拷贝到发布区：<118927>.*'
-cat nohup.out | grep '预处理完成,发送MQ消息到cpps-queue-pub-file-2-rds队列.*118927.*'
+cat nohup.out | grep '拷贝到发布区：<122307>.*'
+cat nohup.out | grep '预处理完成,发送MQ消息到cpps-queue-pub-file-2-rds队列.*122307.*'
 cat nohup.out | grep '向KMG同步密钥与内容绑定出现错误<118927>'
-cat nohup.out | grep '预处理结束时，发生异常：<118927>.*'
+cat nohup.out | grep '预处理结束时，发生异常：<121689>.*'
 
 
 
@@ -67,15 +67,15 @@ cat nohup.out | grep '预处理结束时，发生异常：<118927>.*'
 
 #com.mpr.notification.message.consumer.MessageConsumer#receiveProgress(com.mpr.notification.model.ProgressNotifier, java.util.Map<java.lang.String,java.lang.Object>)
 cat nohup.out | grep 'Received Progress message = <.*118927.*>'
-cat nohup.out | grep 'Received Progress message = <.*118927.*"progress":20.*>'							【cpps-queue-progress-2-biz】
+cat nohup.out | grep 'Received Progress message = <.*121689.*"progress":100.*>'							【cpps-queue-progress-2-biz】
 
 
 
 5，商品服务
 
 #com.mpr.panmedia.goods.service.impl.PublishGoodsServiceImpl#updateProgress
-cat nohup.out | grep '接收到进度通知消息: .*118927.*'
-cat nohup.out | grep '接收到进度通知消息: .*118927.*"progress":100.*'
+cat nohup.out | grep '接收到进度通知消息: .*121459.*'
+cat nohup.out | grep '接收到进度通知消息: .*121829.*"progress":100.*'
 cat nohup.out | grep '.*预处理完成。从缓存中移除商品进度信息。goods id:118927'
 cat nohup.out | grep '预处理失败。从缓存中移除商品进度信息。goods id:118927'
 cat nohup.out | grep '更新商品状态。goods:.*118927.*, 更新结果:.*'
@@ -85,23 +85,55 @@ cat nohup.out | head -n 122651 | tail -n +117994 > temp.out
 
 
 t_sources
+cpps:
+cat nohup.out | grep -A1 '同步源到 pgs.*122307.*'
 ns:
-cat nohup.out | grep 'Received Source message = {}'
-cat nohup.out | grep 'begin to send:{}'
+cat nohup.out | grep 'Received Source message = .*122307.*'
+cat nohup.out | grep 'begin to send:.*122307.*'
 pgs:
-cat nohup.out | grep 'Request URL: /v1/sources, parameter: {}'
-cat nohup.out | grep 'source change Receiver : {}'
+cat nohup.out | grep 'Request URL: /v1/sources, parameter: .*122307.*'
+cat nohup.out | grep 'source change Receiver : .*122307.*'
 
 
 #关联目标池存储 通知处理结果，并入库
 #com.mpr.panmedia.goods.service.impl.StorageServiceImpl#isilDataNotify
-cat nohup.out | grep 'storage params:.*1000000461.*'
+cat nohup.out | grep 'storage params:.*121829.*'
+cat nohup.out | grep 'mprFinishNotify params:.*121829.*'
 
 
 #客户端预处理列表接口com.mpr.panmedia.goods.controller.PublishGoodsController#queryProgress
 
 
-cat nohup.out | grep 'beforeFinished -------------------：.*120873.*'
-cat nohup.out | grep '预处理完成,发送MQ消息到cpps-queue-pub-file-2-rds队列.*120873.*'
+cat nohup.out | grep 'beforeFinished -------------------：.*121741.*'
+cat nohup.out | grep '预处理完成,发送MQ消息到cpps-queue-pub-file-2-rds队列.*121741.*'
 #rds
-cat nohup.out | grep 'CDS Receive <.*120873.*>'
+cat nohup.out | grep 'CDS Receive <.*121741.*>'
+
+
+
+#suffix/search
+use mpr_pgs;
+SELECT tg.id FROM t_goods tg, (
+  SELECT DISTINCT tmp.id FROM (
+                                SELECT tgm.id,
+                                  CONCAT(IFNULL(tgm.service_code, '000000'),'-',tgm.mpr_prefix_code,"00102") AS identifier
+                                FROM t_goods_mpr tgm
+                                WHERE (tgm.service_code='000000' OR tgm.service_code IS NULL) AND tgm.mpr_prefix_code="1000001792" ) tmp
+    JOIN t_source ts ON tmp.identifier = ts.source_identifier
+) AS a WHERE tg.goods_type = 'mpr' AND tg.status = 1 AND tg.goods_type_id = a.id
+
+use mpr_pgs;
+select * from t_source where source_identifier like '%1000001858%'
+
+use mpr_pgs;
+SELECT tg.id FROM t_goods tg, (
+  SELECT DISTINCT tgm.id FROM t_goods_mpr tgm WHERE (tgm.service_code='000000' OR tgm.service_code IS NULL) AND tgm.mpr_prefix_code="1000001792"
+) AS a WHERE tg.goods_type = 'mpr' AND tg.status = 1 AND tg.goods_type_id = a.id
+
+use mpr_pgs;
+select * from t_goods a, t_goods_base_info b where a.goods_base_id=b.id and a.id=122307
+select * from t_goods_mpr where id=29589
+select * from t_goods_mpr where mpr_prefix_code='1000001858'
+
+use mpr_rds;
+select * from t_media_publication_info where goods_id=121841

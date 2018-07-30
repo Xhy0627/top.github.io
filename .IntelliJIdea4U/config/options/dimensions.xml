@@ -2,9 +2,9 @@
   <component name="DimensionService">
     <location key="FileChooserDialogImpl.0.0.1920.1080" x="1122" y="152" />
     <location key="#Spring_dmServer.0.0.1920.1080" x="707" y="181" />
-    <location key="SettingsEditor.0.0.1920.1080" x="377" y="123" />
+    <location key="SettingsEditor.0.0.1920.1080" x="431" y="68" />
     <location key="NewModule_or_Project.wizard.0.0.1920.1080" x="598" y="70" />
-    <location key="WELCOME_SCREEN.0.0.1920.1080" x="959" y="451" />
+    <location key="WELCOME_SCREEN.0.0.1920.1080" x="959" y="436" />
     <location key="com.intellij.ide.util.TipDialog.0.0.1920.1080" x="667" y="330" />
     <location key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog.1920.0.1920.1080" x="2498" y="197" />
     <location key="new project wizard.0.0.1920.1080" x="545" y="27" />
@@ -27,7 +27,7 @@
     <location key="EditParametersPopupWindow.0.0.1920.1080" x="789" y="372" />
     <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1920.1080" x="433" y="71" />
     <location key="#Project_Structure.0.0.1920.1080" x="440" y="88" />
-    <location key="ProcessPopupWindow.0.0.1920.1080" x="128" y="871" />
+    <location key="ProcessPopupWindow.0.0.1920.1080" x="447" y="944" />
     <location key="AbstractVcsHelper.FilterDialog.org.jetbrains.idea.svn.history.SvnVersionFilterComponent.0.0.1920.1080" x="794" y="358" />
     <location key="svn.copyDialog.0.0.1920.1080" x="618" y="142" />
     <location key="VCS.ChangeListViewerDialog.0.0.1920.1080" x="740" y="253" />
@@ -91,7 +91,7 @@
     <location key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes.0.0.1920.1080" x="407" y="367" />
     <location key="#com.intellij.unscramble.UnscrambleDialog.-1920.0.1920.1080" x="-1280" y="156" />
     <location key="#Maven_environment.-1920.0.1920.1080" x="-1257" y="339" />
-    <location key="find.popup.0.0.1920.1080" x="508" y="27" />
+    <location key="find.popup.0.0.1920.1080" x="2391" y="0" />
     <location key="com.intellij.openapi.editor.actions.MultiplePasteAction$1.0.0.1920.1080" x="662" y="121" />
     <location key="#com.intellij.ide.util.TreeClassChooserDialog.0.0.1920.1080" x="691" y="287" />
     <location key="#com.intellij.codeInsight.template.impl.EditVariableDialog.-1920.0.1920.1080" x="-1245" y="288" />
@@ -174,20 +174,28 @@
     <location key="#com.intellij.tools.ToolEditorDialog.0.0.1920.1080" x="822" y="340" />
     <location key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey.0.0.1920.1080" x="986" y="301" />
     <location key="com.intellij.database.run.ParametersPanel.Standalone.0.0.1920.1080" x="750" y="305" />
+    <location key="#com.intellij.ide.util.ExportDialog.0.0.1920.1080" x="626" y="289" />
+    <location key="find.popup.1920.0.1920.1080" x="2628" y="128" />
+    <location key="com.intellij.database.view.ui.AbstractDbRefactoringDialog.1920.0.1920.1080" x="2591" y="200" />
+    <location key="#Application_(1).0.0.1920.1080" x="476" y="60" />
+    <location key="#RCSMApplication.0.0.1920.1080" x="476" y="60" />
+    <location key="#HTTP_Proxy.0.0.1920.1080" x="754" y="287" />
+    <location key="#Application.0.0.1920.1080" x="476" y="60" />
+    <location key="DUMP_DIALOG_DIMENSION_KEY.0.0.1920.1080" x="676" y="356" />
     <size key="NewModule_or_Project.wizard.0.0.1920.1080" width="1141" height="735" />
     <size key="javadoc.popup.1920.0.1920.1080" width="446" height="166" />
     <size key="ProcessPopupWindow.1920.0.1920.1080" width="187" height="113" />
     <size key="StructurePopup.1920.0.1920.1080" width="444" height="368" />
     <size key="SettingsEditor.1920.0.1920.1080" width="1038" height="891" />
-    <size key="GridCell.Tab.0.left.1920.0.1920.1080" width="1920" height="287" />
-    <size key="GridCell.Tab.0.center.1920.0.1920.1080" width="1920" height="287" />
-    <size key="GridCell.Tab.0.right.1920.0.1920.1080" width="1920" height="287" />
-    <size key="GridCell.Tab.0.bottom.1920.0.1920.1080" width="1920" height="287" />
-    <size key="GridCell.Tab.1.left.1920.0.1920.1080" width="1920" height="353" />
-    <size key="GridCell.Tab.1.center.1920.0.1920.1080" width="1920" height="353" />
-    <size key="GridCell.Tab.1.right.1920.0.1920.1080" width="1920" height="353" />
-    <size key="GridCell.Tab.1.bottom.1920.0.1920.1080" width="1920" height="353" />
-    <size key="ProcessPopupWindow.0.0.1920.1080" width="650" height="117" />
+    <size key="GridCell.Tab.0.left.1920.0.1920.1080" width="1871" height="266" />
+    <size key="GridCell.Tab.0.center.1920.0.1920.1080" width="1871" height="266" />
+    <size key="GridCell.Tab.0.right.1920.0.1920.1080" width="1871" height="266" />
+    <size key="GridCell.Tab.0.bottom.1920.0.1920.1080" width="1871" height="266" />
+    <size key="GridCell.Tab.1.left.1920.0.1920.1080" width="1807" height="283" />
+    <size key="GridCell.Tab.1.center.1920.0.1920.1080" width="1807" height="283" />
+    <size key="GridCell.Tab.1.right.1920.0.1920.1080" width="1807" height="283" />
+    <size key="GridCell.Tab.1.bottom.1920.0.1920.1080" width="1807" height="283" />
+    <size key="ProcessPopupWindow.0.0.1920.1080" width="913" height="113" />
     <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1807" height="276" />
     <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1807" height="276" />
     <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1807" height="276" />
@@ -201,10 +209,10 @@
     <size key="GridCell.Tab.1.center.-1920.0.1920.1080" width="1876" height="278" />
     <size key="GridCell.Tab.1.right.-1920.0.1920.1080" width="1876" height="278" />
     <size key="GridCell.Tab.1.bottom.-1920.0.1920.1080" width="1876" height="278" />
-    <size key="GridCell.Tab.1.left.0.0.1920.1080" width="1807" height="341" />
-    <size key="GridCell.Tab.1.center.0.0.1920.1080" width="1807" height="341" />
-    <size key="GridCell.Tab.1.right.0.0.1920.1080" width="1807" height="341" />
-    <size key="GridCell.Tab.1.bottom.0.0.1920.1080" width="1807" height="341" />
+    <size key="GridCell.Tab.1.left.0.0.1920.1080" width="1807" height="340" />
+    <size key="GridCell.Tab.1.center.0.0.1920.1080" width="1807" height="340" />
+    <size key="GridCell.Tab.1.right.0.0.1920.1080" width="1807" height="340" />
+    <size key="GridCell.Tab.1.bottom.0.0.1920.1080" width="1807" height="340" />
     <size key="javadoc.popup.0.0.1920.1080" width="512" height="292" />
     <size key="javadoc.popup.-1920.0.1920.1080" width="1129" height="336" />
     <size key="DebuggerActiveHint.-1920.0.1920.1080" width="569" height="444" />
@@ -226,16 +234,16 @@
     <size key="GridCell.Tab.2.center.-1920.0.1920.1080" width="1876" height="278" />
     <size key="GridCell.Tab.2.right.-1920.0.1920.1080" width="1876" height="278" />
     <size key="GridCell.Tab.2.bottom.-1920.0.1920.1080" width="1876" height="278" />
-    <size key="find.popup.0.0.1920.1080" width="1243" height="1029" />
+    <size key="find.popup.0.0.1920.1080" width="1449" height="1082" />
     <size key="new project wizard.0.0.1920.1080" width="905" height="604" />
     <size key="SettingsEditor.-1920.0.1920.1080" width="1157" height="702" />
-    <size key="GridCell.Tab.2.left.0.0.1920.1080" width="1807" height="341" />
-    <size key="GridCell.Tab.2.center.0.0.1920.1080" width="1807" height="341" />
-    <size key="GridCell.Tab.2.right.0.0.1920.1080" width="1807" height="341" />
-    <size key="GridCell.Tab.2.bottom.0.0.1920.1080" width="1807" height="341" />
-    <size key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1920.1080" width="1344" height="909" />
+    <size key="GridCell.Tab.2.left.0.0.1920.1080" width="1807" height="340" />
+    <size key="GridCell.Tab.2.center.0.0.1920.1080" width="1807" height="340" />
+    <size key="GridCell.Tab.2.right.0.0.1920.1080" width="1807" height="340" />
+    <size key="GridCell.Tab.2.bottom.0.0.1920.1080" width="1807" height="340" />
+    <size key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1920.1080" width="1344" height="917" />
     <size key="GotoFile_FileTypePopup.0.0.1920.1080" width="200" height="200" />
-    <size key="SettingsEditor.0.0.1920.1080" width="1242" height="702" />
+    <size key="SettingsEditor.0.0.1920.1080" width="1251" height="739" />
     <size key="GridCell.Tab.0.left.0.0.1366.768" width="1322" height="175" />
     <size key="GridCell.Tab.0.center.0.0.1366.768" width="1322" height="175" />
     <size key="GridCell.Tab.0.right.0.0.1366.768" width="1322" height="175" />
@@ -296,5 +304,23 @@
     <size key="Maven.ArtifactSearchDialog.0.0.1920.1080" width="924" height="692" />
     <size key="com.intellij.database.run.ParametersPanel.Standalone.0.0.1920.1080" width="476" height="494" />
     <size key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog.0.0.1920.1080" width="524" height="510" />
+    <size key="#com.intellij.fileTypes.FileTypeChooser.0.0.1920.1080" width="599" height="406" />
+    <size key="AbstractVcsHelper.FilterDialog.org.jetbrains.idea.svn.history.SvnVersionFilterComponent.0.0.1920.1080" width="433" height="322" />
+    <size key="#com.intellij.ide.util.ExportDialog.0.0.1920.1080" width="724" height="527" />
+    <size key="find.popup.1920.0.1920.1080" width="770" height="694" />
+    <size key="com.intellij.database.view.ui.AbstractDbRefactoringDialog.1920.0.1920.1080" width="567" height="677" />
+    <size key="GridCell.Tab.2.left.1920.0.1920.1080" width="1807" height="283" />
+    <size key="GridCell.Tab.2.center.1920.0.1920.1080" width="1807" height="283" />
+    <size key="GridCell.Tab.2.right.1920.0.1920.1080" width="1807" height="283" />
+    <size key="GridCell.Tab.2.bottom.1920.0.1920.1080" width="1807" height="283" />
+    <size key="DebuggerActiveHint.1920.0.1920.1080" width="541" height="505" />
+    <size key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1.0.0.1920.1080" width="632" height="314" />
+    <size key="#com.intellij.ide.util.TreeClassChooserDialog.0.0.1920.1080" width="525" height="424" />
+    <size key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog.0.0.1920.1080" width="429" height="620" />
+    <size key="IdeErrosDialog.0.0.1920.1080" width="1119" height="326" />
+    <size key="#Application_(1).0.0.1920.1080" width="1024" height="984" />
+    <size key="#RCSMApplication.0.0.1920.1080" width="1024" height="984" />
+    <size key="#Application.0.0.1920.1080" width="1024" height="984" />
+    <size key="DUMP_DIALOG_DIMENSION_KEY.0.0.1920.1080" width="624" height="392" />
   </component>
 </application>

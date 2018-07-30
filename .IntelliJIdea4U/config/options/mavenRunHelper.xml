@@ -59,6 +59,12 @@
             <Goal>
               <option name="commandLine" value="package -X" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="package -U -X" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="install -Dmaven.test.skip=true" />
+            </Goal>
           </list>
         </option>
       </Goals>
