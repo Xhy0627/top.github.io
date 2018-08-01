@@ -53,3 +53,11 @@ cnpm() {
 --disturl=https://npm.taobao.org/dist \
 --userconfig=$HOME/.cnpmrc" "$@"
 }
+
+md5() {
+    echo -n $1 | md5sum | cut -d ' ' -f1
+}
+
+MD5() {
+    md5 $* | tr 'a-z' 'A-Z'
+}
