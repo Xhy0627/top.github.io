@@ -3,6 +3,7 @@
 	name = ileler
 [core]
 	#autocrlf = true
+        filemode = false
 [core]
 	autocrlf = false
 	safecrlf = true
