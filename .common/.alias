@@ -1,3 +1,4 @@
+alias ll="ls -alF"
 alias uuid=uuidgen
 alias UUID="uuid | tr 'a-z' 'A-Z'"
 alias guid="uuid | sed -e 's/-//g'"
