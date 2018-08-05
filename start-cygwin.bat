@@ -2,7 +2,7 @@
 
 set "U=U:"
 set "RC=.rc-cygwin"
-set "LC=%RC%.local"
+set "LC=.rc-local"
 set "a0a=a0a"
 
 set "ROOT=u~u"
@@ -12,8 +12,8 @@ set "UHOME=%MROOT%\%a0a%"
 set "CHOME=%CROOT%\%a0a%"
 ::set "SHOME=%~dp0\"
 set "SHOME=%~dp0\..\..\"
-set "LHOME=%UHOME%\%LC%"
 set "RHOME=%UHOME%\%RC%"
+set "LHOME=%RHOME%\%LC%"
 
 
 if exist %CROOT% (

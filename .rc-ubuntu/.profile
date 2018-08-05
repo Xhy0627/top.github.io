@@ -25,7 +25,7 @@ echo 'hi~'
 
 #__RPATH__=$(cd $(git rev-parse --show-toplevel)/../ && pwd)
 export __EPATH__=$(cd -P "$HOME/../.ext";pwd)
-export __LPATH__=$(cd "$HOME.local";pwd)
+export __LPATH__=$(cd "$HOME/.rc-local";pwd)
 export __RPATH__=$(cd "$HOME/../";pwd)
 
 #java

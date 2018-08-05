@@ -12,7 +12,7 @@ export USERPROFILE=$HOME
 export APPDATA=$USERPROFILE/AppData/Roaming
 export LOCALAPPDATA=$USERPROFILE/AppData/Local
 export __EPATH__=$(cd -P "$HOME/../.ext";pwd)
-export __LPATH__=$(cd "$HOME.local";pwd)
+export __LPATH__=$(cd "$HOME/.rc-local";pwd)
 export __RPATH__=$(cd "$HOME/../";pwd)
 
 

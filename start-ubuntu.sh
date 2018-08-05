@@ -17,14 +17,14 @@ if [[ $starget && ! "$starget" == "/" ]]; then
 fi
 user=u~u
 hdir=.rc-ubuntu
-ldir=$hdir.local
+ldir=.rc-local
 cdir=$(cd "$(dirname "$0")";pwd)
 #rpath=$(cd $cdir;cd "$(git rev-parse --show-toplevel)/../";pwd)
 rpath=$(cd $cdir;cd "../../";pwd)
 #hpath=$cdir/$hdir
 upath=/$user
-lpath=$upath/$ldir
 hpath=$upath/$hdir
+lpath=$hpath/$ldir
 
 echo $upath[$rpath]
 rm -rf $upath;ln -s $rpath $upath

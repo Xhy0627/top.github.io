@@ -6,7 +6,7 @@ then
     exit 1;
 fi
 RUN_WITH=$1
-ZOO_HOME=/u~u/.rc-ubuntu.local/bins/.linux/zookeeper/.zookeeper
+ZOO_HOME=~/.rc-local/bins/.linux/zookeeper/.zookeeper
 ZOO_OUT=$ZOO_HOME/zk.out
 ZOO_PID=$ZOO_HOME/zk.pid
 ZOO_LOG_DIR=$ZOO_HOME/zk.log
