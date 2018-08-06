@@ -35,6 +35,7 @@
     <property name="LiveContextsPanel[0]" value="0.110192835" />
     <property name="LiveContextsPanel[1]" value="0.12391574" />
     <property name="LiveContextsPanel[2]" value="0.14154282" />
+    <property name="MavenHelper.lastRadioButton" value="tree" />
     <property name="MavenModuleWizard.inheritGroupId" value="true" />
     <property name="MavenModuleWizard.inheritVersion" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -47,27 +48,29 @@
     <property name="ProjectStructure.SecondLevelElements" value="0.37586206" />
     <property name="RegistryRecentKeys" value="compiler.automake.allow.when.app.running" />
     <property name="RunConfigurable.dividerProportion" value="0.41554558" />
+    <property name="SettingsSearchHistory" value="Import" />
     <property name="ShowDocumentationInToolWindow" value="false" />
     <property name="SpringBeansModulesPanel[0]" value="0.10857763" />
     <property name="SpringBeansModulesPanel[1]" value="0.1216545" />
     <property name="SpringRepositoriesModulesPanel[0]" value="0.10840108" />
     <property name="SqlStructureView.filterD.file.structure.state" value="true" />
-    <property name="android-component-compatibility-check" value="1531660556307" />
+    <property name="android-component-compatibility-check" value="1533440822219" />
     <property name="com.intellij.diagnostic.IdeErrorsDialogactiveTab" value="1" />
     <property name="com.intellij.history.integration.ui.views.DirectoryHistoryDialog.0" value="300" />
-    <property name="com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor" value="Sources" />
+    <property name="com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor" value="Dependencies" />
     <property name="create.project.preferred.importer" value="Existing Sources" />
     <property name="decompiler.legal.notice.accepted" value="true" />
     <property name="eclipse.project.dir" value="E:\a0a\Eclipse\pdri\org.pdri.prms" />
     <property name="es6.show.auto.import" value="true" />
+    <property name="evlsprt3.181" value="14" />
     <property name="favorites.view.settings.abbreviate.qualified.package.names" value="false" />
     <property name="favorites.view.settings.autoscroll.from.source" value="true" />
     <property name="favorites.view.settings.autoscroll.to.source" value="false" />
     <property name="favorites.view.settings.flatten.packages" value="false" />
     <property name="favorites.view.settings.hide.empty.middle.packages" value="true" />
     <property name="favorites.view.settings.show.members" value="true" />
-    <property name="file.chooser.recent.files" value="Q:/tl/Panmedia/20180206/server/com.mpr&#10;U:/u~u/a0a/.rc-cygwin.local/bins/.win/java/jdk1.8.0_171&#10;U:/u~u/a0a/.rc-cygwin.local/bins/.win/maven/apache-maven-3.5.0&#10;U:/u~u/a0a/ws/20180206&#10;U:/u~u/a0a/bins/Java/jdk1.8.0_144&#10;/u~u/ws/tl/publisher/com.mpr/com.mpr.data.collection&#10;/u~u/bins/Java/jdk-8u144-linux-x64&#10;/u~u/.rc-ubuntu/.m2/settings_spring-boot.xml&#10;/u~u/ws/tl/publisher&#10;U:/u~u/a0a/ws/python/PyXiaomiGateway&#10;U:/u~u/a0a/.rc-cygwin/.IntelliJIdea/config/plugins/python-2017.2.172.3968.33.zip&#10;U:/u~u/a0a/ws/python/home-assistant&#10;U:/u~u/a0a/ws/python&#10;U:/u~u/a0a/ws/tl/publisher/com.mpr.panmedia/com.mpr.panmedia.goods/src/main/java/com/mpr/panmedia/goods/model&#10;U:/u~u/a0a/ws/tl/publisher/com.mpr/new/com.mpr.util-for-ribbon/com.mpr.util-for-ribbon&#10;E:/a0a/IdeaProjects/publisher/20180206/server/com.mpr/com.mpr.data.collection&#10;E:/a0a/IdeaProjects/publisher/20180206/server/com.mpr.panmedia/com.mpr.panmedia.data.collection.server&#10;U:/u~u/a0a/ws/tl/publisher/dctest/src/main/resources&#10;U:/u~u/a0a/ws/tl/com.mpr.dc&#10;U:/u~u/a0a/ws/tl/publisher/com.mpr.panmedia/com.mpr.panmedia.test1&#10;U:/u~u/a0a/ws/tl/publisher/com.mpr/new/org.ileler.util/org.ileler.util&#10;U:/u~u/a0a/ws/tl/publisher/com.mpr/new/com.mpr.debug-for-ribbon&#10;U:/u~u/a0a/ws/tl/publisher/com.mpr/com.mpr.data.collection&#10;U:/u~u/a0a/ws/js/homebridge-mi-aqara&#10;U:/u~u/a0a/ws/tl/publisher/com.mpr/com.mpr.mq&#10;U:/u~u/a0a/ws/java/spring-projects/spring-cloud-zookeeper&#10;U:/u~u/a0a/ws/java/gradle-test-artifact1/settings.gradle&#10;U:/u~u/a0a/ws/java/gradle-test-artifact1/build.gradle&#10;U:/u~u/a0a/ws/java/gradle-test-artifact1&#10;U:/u~u/a0a/ws/android/ApkAutoInstaller" />
-    <property name="file.gist.reindex.count" value="4707204" />
+    <property name="file.chooser.recent.files" value="U:/u~u/a0a/ws/java/zkui&#10;U:/u~u/a0a/ws/java/shepher&#10;Q:/tl/Panmedia/20180206/server/com.mpr&#10;U:/u~u/a0a/.rc-cygwin.local/bins/.win/java/jdk1.8.0_171&#10;U:/u~u/a0a/.rc-cygwin.local/bins/.win/maven/apache-maven-3.5.0&#10;U:/u~u/a0a/ws/20180206&#10;U:/u~u/a0a/bins/Java/jdk1.8.0_144&#10;/u~u/ws/tl/publisher/com.mpr/com.mpr.data.collection&#10;/u~u/bins/Java/jdk-8u144-linux-x64&#10;/u~u/.rc-ubuntu/.m2/settings_spring-boot.xml&#10;/u~u/ws/tl/publisher&#10;U:/u~u/a0a/ws/python/PyXiaomiGateway&#10;U:/u~u/a0a/.rc-cygwin/.IntelliJIdea/config/plugins/python-2017.2.172.3968.33.zip&#10;U:/u~u/a0a/ws/python/home-assistant&#10;U:/u~u/a0a/ws/python&#10;U:/u~u/a0a/ws/tl/publisher/com.mpr.panmedia/com.mpr.panmedia.goods/src/main/java/com/mpr/panmedia/goods/model&#10;U:/u~u/a0a/ws/tl/publisher/com.mpr/new/com.mpr.util-for-ribbon/com.mpr.util-for-ribbon&#10;E:/a0a/IdeaProjects/publisher/20180206/server/com.mpr/com.mpr.data.collection&#10;E:/a0a/IdeaProjects/publisher/20180206/server/com.mpr.panmedia/com.mpr.panmedia.data.collection.server&#10;U:/u~u/a0a/ws/tl/publisher/dctest/src/main/resources&#10;U:/u~u/a0a/ws/tl/com.mpr.dc&#10;U:/u~u/a0a/ws/tl/publisher/com.mpr.panmedia/com.mpr.panmedia.test1&#10;U:/u~u/a0a/ws/tl/publisher/com.mpr/new/org.ileler.util/org.ileler.util&#10;U:/u~u/a0a/ws/tl/publisher/com.mpr/new/com.mpr.debug-for-ribbon&#10;U:/u~u/a0a/ws/tl/publisher/com.mpr/com.mpr.data.collection&#10;U:/u~u/a0a/ws/js/homebridge-mi-aqara&#10;U:/u~u/a0a/ws/tl/publisher/com.mpr/com.mpr.mq&#10;U:/u~u/a0a/ws/java/spring-projects/spring-cloud-zookeeper&#10;U:/u~u/a0a/ws/java/gradle-test-artifact1/settings.gradle&#10;U:/u~u/a0a/ws/java/gradle-test-artifact1/build.gradle" />
+    <property name="file.gist.reindex.count" value="4708001" />
     <property name="fileTypeChangedCounter" value="2" />
     <property name="find.popup.splitter" value="0.5" />
     <property name="gradle.runner.text.console_str" value="false" />

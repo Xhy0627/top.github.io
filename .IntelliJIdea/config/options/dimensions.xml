@@ -164,6 +164,10 @@
     <location key="ProcessPopupWindow.0.0.1920.1080@144dpi" x="663" y="635" />
     <location key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog.0.0.1920.1080@144dpi" x="737" y="426" />
     <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1920.1080@144dpi" x="144" y="0" />
+    <location key="#com.intellij.ide.util.MemberChooser.0.0.1920.1080@144dpi" x="669" y="71" />
+    <location key="SettingsEditor.0.0.1920.1080@144dpi" x="182" y="0" />
+    <location key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog.0.0.1920.1080@144dpi" x="557" y="143" />
+    <location key="FileChooserDialogImpl.0.0.1920.1080@144dpi" x="633" y="110" />
     <size key="NewModule_or_Project.wizard.0.0.1920.1080" width="861" height="735" />
     <size key="javadoc.popup.1920.0.1920.1080" width="446" height="166" />
     <size key="ProcessPopupWindow.1920.0.1920.1080" width="187" height="113" />
@@ -282,5 +286,6 @@
     <size key="GridCell.Tab.2.center.0.0.1920.1080@144dpi" width="1856" height="240" />
     <size key="GridCell.Tab.2.right.0.0.1920.1080@144dpi" width="1856" height="240" />
     <size key="GridCell.Tab.2.bottom.0.0.1920.1080@144dpi" width="1856" height="240" />
+    <size key="DebuggerActiveHint.0.0.1920.1080@144dpi" width="612" height="693" />
   </component>
 </application>
