@@ -48,6 +48,7 @@
     <property name="DeploymentNotificationsComponent.WarnDisplayed.Java7&amp;Windows7FTPIssue" value="false" />
     <property name="ExpandBeforeRunStepsPanel" value="true" />
     <property name="ExpandRunDashboardTypesPanel" value="false" />
+    <property name="ExternalToolDialog.advanced.expanded" value="true" />
     <property name="FileTemplates.CurrentTab" value="Includes" />
     <property name="FileTemplates.SelectedTemplate" value="ActionScript File Header" />
     <property name="FindSplitterProportion" value="0.25324675" />
@@ -76,18 +77,18 @@
     <property name="MoveClassWithTarget.OpenInEditor" value="false" />
     <property name="MoveFile.OpenInEditor" value="true" />
     <property name="NlScreenMode" value="SCREEN_ONLY" />
-    <property name="PLUGIN_FILTER" value="mark&#10;php&#10;my&#10;Myb&#10;Myba" />
+    <property name="PLUGIN_FILTER" value="Scratch&#10;mark&#10;php&#10;my&#10;Myb" />
     <property name="ProjectStructure.SecondLevelElements" value="0.37586206" />
     <property name="RegistryRecentKeys" value="compiler.automake.allow.when.app.running" />
     <property name="RunConfigurable.dividerProportion" value="0.23838538" />
-    <property name="SettingsSearchHistory" value="Import&#10;jd&#10;Find&#10;Terminal" />
+    <property name="SettingsSearchHistory" value="scratch&#10;Import&#10;jd&#10;Find&#10;Terminal" />
     <property name="ShowDocumentationInToolWindow" value="false" />
     <property name="SpringBeansModulesPanel[0]" value="0.10857763" />
     <property name="SpringBeansModulesPanel[1]" value="0.1216545" />
     <property name="SpringRepositoriesModulesPanel[0]" value="0.10840108" />
     <property name="SqlStructureView.filterD.file.structure.state" value="true" />
     <property name="XDebuggerExpressionEditor_Use_Soft_Wraps" value="true" />
-    <property name="android-component-compatibility-check" value="1532752894240" />
+    <property name="android-component-compatibility-check" value="1533365359622" />
     <property name="build.toolwindow.Sync.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
     <property name="com.intellij.diagnostic.IdeErrorsDialogactiveTab" value="1" />
     <property name="com.intellij.history.integration.ui.views.DirectoryHistoryDialog.0" value="300" />
@@ -96,14 +97,15 @@
     <property name="decompiler.legal.notice.accepted" value="true" />
     <property name="eclipse.project.dir" value="E:\a0a\Eclipse\pdri\org.pdri.prms" />
     <property name="es6.show.auto.import" value="true" />
+    <property name="evlsprt3.181" value="14" />
     <property name="favorites.view.settings.abbreviate.qualified.package.names" value="false" />
     <property name="favorites.view.settings.autoscroll.from.source" value="true" />
     <property name="favorites.view.settings.autoscroll.to.source" value="false" />
     <property name="favorites.view.settings.flatten.packages" value="false" />
     <property name="favorites.view.settings.hide.empty.middle.packages" value="true" />
     <property name="favorites.view.settings.show.members" value="true" />
-    <property name="file.chooser.recent.files" value="/u~u/ws/java/spring-cloud-sleuth-master&#10;/u~u/ws/java/spring-cloud-openfeign-master&#10;/u~u/ws/java/settings-manager-sbs&#10;/u~u/ws/tl/publisher/20180709/com.mpr.content.preprocessor.system&#10;/u~u/ws/java/spring-cloud-commons/spring-cloud-context&#10;/u~u/ws/java/hikari-exception&#10;/u~u/ws/java/shepher&#10;/u~u/ws/java/shepher/shepher-packaging/target/shepher-packaging-1.0-bin/db/init.sql&#10;/u~u/ws/java/spring-projects/spring-cloud-gateway&#10;/u~u/ws/java/ribbon-discovery-filter-spring-cloud-starter&#10;/u~u/ws/tl/org.isli/org.isli.service-archetype&#10;/u~u/.rc-ubuntu.local/bins/.linux/maven/apache-maven-3.5.0/conf/settings.xml&#10;/u~u/.rc-ubuntu/.m2/settings.xml&#10;/u~u/ws/java/spring-boot-demo&#10;/u~u/ws/java/spring-boot-demo/spring-boot-demo&#10;/u~u/ws/tl/com.cncbox&#10;/u~u/ws/java/spring-boot-2.x-demo/spring-boot-2.x-demo&#10;/u~u/ws/java/org.ileler.utils/org.ileler.utils&#10;/u~u/ws/tl/publisher/20180626/com.mpr.panmedia.goods&#10;/u~u/ws/tl/publisher/springboot2.0/com.mpr.panmedia.gateway&#10;/u~u/ws/tl/publisher/springboot2.0/spring-cloud-gateway&#10;/u~u/ws/tl/publisher/springboot2.0/com.mpr.maven.dependencies.2.0.0&#10;/u~u/ws/tl/publisher/springboot2.0/com.mpr.maven.template.2.0.0&#10;/u~u/ws/tl/publisher/springboot2.0/com.mpr.panmedia&#10;/u~u/ws/tl/publisher/springboot2.0/com.mpr/com.mpr.debug-for-ribbon&#10;/u~u/ws/tl/publisher/springboot2.0/com.mpr.common/com.mpr.maven.template&#10;/u~u/ws/tl/publisher/springboot2.0/com.mpr.common&#10;/u~u/ws/tl/publisher/springboot2.0/com.mpr&#10;/u~u/ws/tl/publisher/springboot2.0&#10;/u~u/ws/tl/publisher/com.mpr/com.mpr.api.gateway" />
-    <property name="file.gist.reindex.count" value="4733021" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/.IntelliJIdea/config/plugins/lombok-plugin-0.19-2018.1.zip&#10;/u~u/.rc-ubuntu/.IntelliJIdea4U/config/scratches/scratch_5.java&#10;/u~u/ws/java/ribbon/settings.gradle&#10;/u~u/ws/java/ribbon&#10;/u~u/ws/java/spring-cloud-sleuth-master&#10;/u~u/ws/java/spring-cloud-openfeign-master&#10;/u~u/ws/java/settings-manager-sbs&#10;/u~u/ws/tl/publisher/20180709/com.mpr.content.preprocessor.system&#10;/u~u/ws/java/spring-cloud-commons/spring-cloud-context&#10;/u~u/ws/java/hikari-exception&#10;/u~u/ws/java/shepher&#10;/u~u/ws/java/shepher/shepher-packaging/target/shepher-packaging-1.0-bin/db/init.sql&#10;/u~u/ws/java/spring-projects/spring-cloud-gateway&#10;/u~u/ws/java/ribbon-discovery-filter-spring-cloud-starter&#10;/u~u/ws/tl/org.isli/org.isli.service-archetype&#10;/u~u/.rc-ubuntu.local/bins/.linux/maven/apache-maven-3.5.0/conf/settings.xml&#10;/u~u/.rc-ubuntu/.m2/settings.xml&#10;/u~u/ws/java/spring-boot-demo&#10;/u~u/ws/java/spring-boot-demo/spring-boot-demo&#10;/u~u/ws/tl/com.cncbox&#10;/u~u/ws/java/spring-boot-2.x-demo/spring-boot-2.x-demo&#10;/u~u/ws/java/org.ileler.utils/org.ileler.utils&#10;/u~u/ws/tl/publisher/20180626/com.mpr.panmedia.goods&#10;/u~u/ws/tl/publisher/springboot2.0/com.mpr.panmedia.gateway&#10;/u~u/ws/tl/publisher/springboot2.0/spring-cloud-gateway&#10;/u~u/ws/tl/publisher/springboot2.0/com.mpr.maven.dependencies.2.0.0&#10;/u~u/ws/tl/publisher/springboot2.0/com.mpr.maven.template.2.0.0&#10;/u~u/ws/tl/publisher/springboot2.0/com.mpr.panmedia&#10;/u~u/ws/tl/publisher/springboot2.0/com.mpr/com.mpr.debug-for-ribbon&#10;/u~u/ws/tl/publisher/springboot2.0/com.mpr.common/com.mpr.maven.template" />
+    <property name="file.gist.reindex.count" value="4733530" />
     <property name="fileTypeChangedCounter" value="3" />
     <property name="find.popup.splitter" value="0.5" />
     <property name="gradle.runner.text.console_str" value="false" />
@@ -111,7 +113,7 @@
     <property name="ideavim.statistics.timestamp" value="1530581164533" />
     <property name="installed.kotlin.plugin.version" value="1.2.30-release-IJ2018.1-1" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last.imported.location" value="/u~u/ws/java/org.ileler.utils/org.ileler.utils" />
+    <property name="last.imported.location" value="/u~u/ws/java/ribbon/settings.gradle" />
     <property name="last.used.gradle.home" value="/u~u/.rc-ubuntu.local/bins/.linux/gradle/gradle-4.6" />
     <property name="lastTip" value="1" />
     <property name="plugins.preselection.path" value="$USER_HOME$/.IntelliJIdea/config/plugins" />
