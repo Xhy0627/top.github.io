@@ -14,6 +14,17 @@
 .rc-*/.alias
 
 .rc-*/.gradle
+.rc-*/.cache
+.rc-*/.cnpmrc
+.rc-*/.config
+.rc-*/.local
+.rc-*/.npmrc
+.rc-*/.rc-local
+.rc-*/.rnd
+.rc-*/.sbt
+.rc-*/.java
+.rc-*/.trifecta
+.rc-*/.vim
 .rc-*/tmux-*.log
 .rc-cygwin/AppData
 *setup.log*

@@ -11,133 +11,217 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/RPATH
+~MSle0/ali
 
 # Last Substitute Search Pattern:
-~MSle0&\.\/
+~MSle0~&        
 
 # Last Substitute String:
-$\~\/\.ssh\/
+$    
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1526632107,,"q"
+|2,0,1535097989,,"q"
 :wq
-|2,0,1526604761,,"wq"
-:q!
-|2,0,1526600471,,"q!"
-:vsplit ../../start-ubuntu.sh
-|2,0,1526521217,,"vsplit ../../start-ubuntu.sh"
-:!
-|2,0,1526519212,,"!"
-:set ff
-|2,0,1526453981,,"set ff"
+|2,0,1535097760,,"wq"
+:117
+|2,0,1534293815,,"117"
 :w
-|2,0,1526280935,,"w"
-:vsplit env-cygwin
-|2,0,1526004178,,"vsplit env-cygwin"
-:172
-|2,0,1525858755,,"172"
-:100
-|2,0,1525856773,,"100"
-:94
-|2,0,1525856623,,"94"
-:95
-|2,0,1525855198,,"95"
-:set list!
-|2,0,1525847583,,"set list!"
-:set nolist
-|2,0,1525847564,,"set nolist"
+|2,0,1534144776,,"w"
+:q!
+|2,0,1533348289,,"q!"
+:%s/        /    /g
+|2,0,1533348113,,"%s/        /    /g"
+:retab
+|2,0,1533348099,,"retab"
 :set list
-|2,0,1525847562,,"set list"
-:set unlist
-|2,0,1525847515,,"set unlist"
+|2,0,1533348014,,"set list"
+:set listchars+=space:_
+|2,0,1533347927,,"set listchars+=space:_"
+:set nolist
+|2,0,1533347706,,"set nolist"
+:set nonu
+|2,0,1532951197,,"set nonu"
+:set !nu
+|2,0,1532947172,,"set !nu"
+:set ! nu
+|2,0,1532947169,,"set ! nu"
 :set nu
-|2,0,1525847510,,"set nu"
-:vsplit ./.rc-ubuntu/exit.sh
-|2,0,1524650411,,"vsplit ./.rc-ubuntu/exit.sh"
-:vsplit ./start-ubuntu.sh
-|2,0,1524650393,,"vsplit ./start-ubuntu.sh"
-:%s/\.\//\~\/\.ssh\//g
-|2,0,1524646059,,"%s/\\.\\//\\~\\/\\.ssh\\//g"
-:%s/\./\~\/\.ssh/g
-|2,0,1524646030,,"%s/\\./\\~\\/\\.ssh/g"
-:%s/\./\~\/\.ssh/\./g
-|2,0,1524645998,,"%s/\\./\\~\\/\\.ssh/\\./g"
-:vsplit ~/.ssh/config
-|2,0,1524645653,,"vsplit ~/.ssh/config"
-:%s/\~\/.ssh/\./g
-|2,0,1524645609,,"%s/\\~\\/.ssh/\\./g"
-:%s/\~\/.ssh/\.\//g
-|2,0,1524645594,,"%s/\\~\\/.ssh/\\.\\//g"
-:%s/\$HOME/\~/g
-|2,0,1524645258,,"%s/\\$HOME/\\~/g"
-:%s/\~/\$HOME/g
-|2,0,1524645202,,"%s/\\~/\\$HOME/g"
-:%s/~/$HOME/g
-|2,0,1524645185,,"%s/~/$HOME/g"
-:vsplit /media/zhangle/KERWIN/a0a/bins/Maven/apache-maven-3.5.0/
-|2,0,1523968294,,"vsplit /media/zhangle/KERWIN/a0a/bins/Maven/apache-maven-3.5.0/"
-:vsplit ~/.bin/idea.sh
-|2,0,1523936468,,"vsplit ~/.bin/idea.sh"
-:vsplit ~/.profile
-|2,0,1523933672,,"vsplit ~/.profile"
-:%s/rpath/__RPATH__/g
-|2,0,1523931528,,"%s/rpath/__RPATH__/g"
-:vsplit /home/zhangle/ws/ideaj/idea-IU-181.4203.550/bin/idea.sh
-|2,0,1523925523,,"vsplit /home/zhangle/ws/ideaj/idea-IU-181.4203.550/bin/idea.sh"
-:WQ
-|2,0,1523870908,,"WQ"
-:vsplit ~/.IntelliJIdea/config/idea64.exe.vmoptions
-|2,0,1523754723,,"vsplit ~/.IntelliJIdea/config/idea64.exe.vmoptions"
-:sp ~/.IntelliJIdea/config/idea64.exe.vmoptions
-|2,0,1523754608,,"sp ~/.IntelliJIdea/config/idea64.exe.vmoptions"
-:only
-|2,0,1523754319,,"only"
-:split
-|2,0,1523754239,,"split"
+|2,0,1532947164,,"set nu"
+:set nu=false
+|2,0,1532947162,,"set nu=false"
+:94
+|2,0,1532489122,,"94"
+:qq
+|2,0,1532436010,,"qq"
+:%s/kk/zk/g
+|2,0,1531960685,,"%s/kk/zk/g"
+:%s/KAFKA/ZOO/g
+|2,0,1531960671,,"%s/KAFKA/ZOO/g"
+:%s/es/kb/g
+|2,0,1531903751,,"%s/es/kb/g"
+:%s/ES/KB/g
+|2,0,1531903735,,"%s/ES/KB/g"
+:%s/KAFKA_/ES_/g
+|2,0,1531903039,,"%s/KAFKA_/ES_/g"
+:ws
+|2,0,1531894734,,"ws"
+:1,3 d
+|2,0,1531825280,,"1,3 d"
+:6
+|2,0,1531825231,,"6"
+:q:q
+|2,0,1531824155,,"q:q"
+:%s/$KAFKA_HOME/u~u/.rc-ubuntu.local/bins/.linux/kafka/kafka_2.11-1.1.0
+|2,0,1531824097,,"%s/$KAFKA_HOME/u~u/.rc-ubuntu.local/bins/.linux/kafka/kafka_2.11-1.1.0"
+:help folding
+|2,0,1531814310,,"help folding"
+:vsplit /u~u/.rc-ubuntu.local/bins/.linux/maven/apache-maven-3.5.0/conf/settings.xml
+|2,0,1531812563,,"vsplit /u~u/.rc-ubuntu.local/bins/.linux/maven/apache-maven-3.5.0/conf/settings.xml"
+:vsplit ~/.m2/settings.xml
+|2,0,1531731078,,"vsplit ~/.m2/settings.xml"
+:vsplit /home/zhangle/ileler/.rc-ubuntu.local/bins/maven/apache-maven-3.5.0/conf/settings.xml
+|2,0,1531730898,,"vsplit /home/zhangle/ileler/.rc-ubuntu.local/bins/maven/apache-maven-3.5.0/conf/settings.xml"
+:%s/org\.ileler/com\.cncbox/g
+|2,0,1531269226,,"%s/org\\.ileler/com\\.cncbox/g"
+:help :
+|2,0,1530258841,,"help :"
+:help
+|2,0,1530258729,,"help"
+:set nu!
+|2,0,1530238183,,"set nu!"
+:set foldmethod=indent
+|2,0,1530174955,,"set foldmethod=indent"
+:vsplit ~/.bin/sbjutil
+|2,0,1530174791,,"vsplit ~/.bin/sbjutil"
+:set foldmethod=none
+|2,0,1530094504,,"set foldmethod=none"
+:set fold!
+|2,0,1530094497,,"set fold!"
+:set folemethod=indent
+|2,0,1530093054,,"set folemethod=indent"
+:set foldmethond=indent
+|2,0,1530091748,,"set foldmethond=indent"
+:set foldmethon=indent
+|2,0,1530091736,,"set foldmethon=indent"
+:set nonumber
+|2,0,1529919480,,"set nonumber"
+:?
+|2,0,1529919403,,"?"
+:hide
+|2,0,1529919399,,"hide"
+:set unnu
+|2,0,1529919374,,"set unnu"
+:set unu
+|2,0,1529919371,,"set unu"
+:set fdm=indent
+|2,0,1529636766,,"set fdm=indent"
+:set foldmethod=ident
+|2,0,1529635053,,"set foldmethod=ident"
+:vsplit /home/zhangle/ileler/ws/tl/publisher/com.mpr.panmedia/com.mpr.panmedia.api.gateway/temp_ms/com.mpr.panmedia.api.gateway/install
+|2,0,1529627789,,"vsplit /home/zhangle/ileler/ws/tl/publisher/com.mpr.panmedia/com.mpr.panmedia.api.gateway/temp_ms/com.mpr.panmedia.api.gateway/install"
 
 # Search String History (newest to oldest):
-?/RPATH
-|2,1,1526600383,47,"RPATH"
-?/rpath
-|2,1,1526600591,47,"rpath"
-?/IDEA_CLASSPATH
-|2,1,1526536917,47,"IDEA_CLASSPATH"
-?/CLASSPATH
-|2,1,1526536869,47,"CLASSPATH"
-?/for-old
-|2,1,1526371251,47,"for-old"
-?/Discovering Xiaomi Gateways
-|2,1,1525853110,47,"Discovering Xiaomi Gateways"
-?/xiaomi
-|2,1,1525851667,47,"xiaomi"
-? \.\/
-|2,1,1524646059,,"\\.\\/"
-? \.
-|2,1,1524646030,,"\\."
-? \~\/.ssh
-|2,1,1524645609,,"\\~\\/.ssh"
-? \$HOME
-|2,1,1524645258,,"\\$HOME"
-? \~
-|2,1,1524645202,,"\\~"
-? ~
-|2,1,1524645185,,"~"
-?/L
-|2,1,1523953826,47,"L"
-? rpath
-|2,1,1523931528,,"rpath"
-?/%s/rpath/__RPATH__/G
-|2,1,1523931516,47,"%s/rpath/__RPATH__/G"
-?/key
-|2,1,1523930990,47,"key"
-?/idea.
-|2,1,1523930970,47,"idea."
-?/idea.key
-|2,1,1523930963,47,"idea.key"
-?/user.name
-|2,1,1523692587,47,"user.name"
+?         
+|2,1,1533348113,,"        "
+?/ali
+|2,1,1532079293,47,"ali"
+? @$
+|2,1,1531974936,,"@$"
+? kk
+|2,1,1531960685,,"kk"
+? KAFKA
+|2,1,1531960671,,"KAFKA"
+? es
+|2,1,1531903751,,"es"
+? ES
+|2,1,1531903735,,"ES"
+? KAFKA_
+|2,1,1531903039,,"KAFKA_"
+?/JMX
+|2,1,1531895100,47,"JMX"
+?/jmx
+|2,1,1531895095,47,"jmx"
+?/zr
+|2,1,1531814371,47,"zr"
+?/indent
+|2,1,1531814343,47,"indent"
+?/ext
+|2,1,1531703988,47,"ext"
+?/advert
+|2,1,1531363330,47,"advert"
+?/host
+|2,1,1531363297,47,"host"
+? org\.ileler
+|2,1,1531269226,,"org\\.ileler"
+?/ela
+|2,1,1531192692,47,"ela"
+?/server
+|2,1,1531192649,47,"server"
+?/zipfile\.ZIP
+|2,1,1530174848,47,"zipfile\\.ZIP"
+?/dirn
+|2,1,1530164235,47,"dirn"
+?/ipn
+|2,1,1530155804,47,"ipn"
+?/fps
+|2,1,1530148639,47,"fps"
+?/copy
+|2,1,1530101054,47,"copy"
+?/updateConfig['tj
+|2,1,1530096668,47,"updateConfig['tj"
+?/SITE
+|2,1,1529994920,47,"SITE"
+?/site
+|2,1,1529994918,47,"site"
+?/pip
+|2,1,1529994897,47,"pip"
+?/hide
+|2,1,1529919408,47,"hide"
+?/hide row num
+|2,1,1529919397,47,"hide row num"
+??help
+|2,1,1529919382,63,"help"
+?/print
+|2,1,1529912694,47,"print"
+?/http
+|2,1,1529912673,47,"http"
+?/openhttp
+|2,1,1529906064,47,"openhttp"
+?/openhtt
+|2,1,1529906028,47,"openhtt"
+?/openhttpservers
+|2,1,1529905672,47,"openhttpservers"
+?/-h
+|2,1,1529905581,47,"-h"
+?/inet_http
+|2,1,1529897682,47,"inet_http"
+?/include
+|2,1,1529897649,47,"include"
+?/ldojf
+|2,1,1529655711,47,"ldojf"
+?/invalid
+|2,1,1529653889,47,"invalid"
+?/elp
+|2,1,1529653625,47,"elp"
+?/path
+|2,1,1529579078,47,"path"
+?/snapshots-old
+|2,1,1529487505,47,"snapshots-old"
+?/8081
+|2,1,1529486174,47,"8081"
+?/nexus
+|2,1,1528883980,47,"nexus"
+?/ln
+|2,1,1528702993,47,"ln"
+?/lpath
+|2,1,1528699469,47,"lpath"
+?/ldir
+|2,1,1528699464,47,"ldir"
+?/\.local
+|2,1,1528699459,47,"\\.local"
+?/__LPATH__
+|2,1,1528699350,47,"__LPATH__"
 
 # Expression History (newest to oldest):
 
@@ -147,323 +231,534 @@ $\~\/\.ssh\/
 
 # Registers:
 ""0	LINE	0
-	export __RPATH__=$(cd "$HOME/../";pwd)
-|3,1,0,1,1,0,1526604736,"export __RPATH__=$(cd \"$HOME/../\";pwd)"
+	.rc-*/.sbt
+|3,1,0,1,1,0,1535097755,".rc-*/.sbt"
 "1	LINE	0
-	source ~/.bashrc
-|3,0,1,1,1,0,1526604697,"source ~/.bashrc"
+	classpath.index
+|3,0,1,1,1,0,1535097723,"classpath.index"
 "2	LINE	0
-	source ~/.bashutils
-|3,0,2,1,1,0,1526603567,"source ~/.bashutils"
+	203.208.46.1 golang.org
+	74.125.28.14    google.golang.org
+|3,0,2,1,2,0,1534748925,"203.208.46.1 golang.org","74.125.28.14    google.golang.org"
 "3	LINE	0
-	source ~/.bashrc
-|3,0,3,1,1,0,1526603552,"source ~/.bashrc"
+	echo "login..."
+|3,0,3,1,1,0,1534145754,"echo \"login...\""
 "4	LINE	0
-	lpath() {
-	    echo $(dirname $(cd -P $__LPATH__;pwd)/.)/$@
-	}
-	
-	cdlpath() {
-	    cd `lpath "$@"`
-	}
-	
-|3,0,4,1,8,0,1526603229,"lpath() {","    echo $(dirname $(cd -P $__LPATH__;pwd)/.)/$@","}","","cdlpath() {","    cd `lpath \"$@\"`","}",""
+	sort -g -t : -k 3 /etc/passwd -o /etc/passwd
+|3,0,4,1,1,0,1534145414,"sort -g -t : -k 3 /etc/passwd -o /etc/passwd"
 "5	LINE	0
-	alias cdepath="cd `epath \"$@\"`"
-|3,0,5,1,1,0,1526602770,"alias cdepath=\"cd `epath \\\"$@\\\"`\""
+	alias suroot="sort -g -t : -k 3 /etc/passwd -o /etc/passwd && su root"
+|3,0,5,1,1,0,1534145231,"alias suroot=\"sort -g -t : -k 3 /etc/passwd -o /etc/passwd && su root\""
 "6	LINE	0
-	alias epath="dirname $(cd -P $__EPATH__;pwd)/."
-|3,0,6,1,1,0,1526602769,"alias epath=\"dirname $(cd -P $__EPATH__;pwd)/.\""
+	echo "logout..."
+|3,0,6,1,1,0,1534145144,"echo \"logout...\""
 "7	LINE	0
-	source ~/.bashutils
-	source ~/.alias
-|3,0,7,1,2,0,1526602111,"source ~/.bashutils","source ~/.alias"
+	root:x:0:0:root:/root:/bin/bash
+|3,0,7,1,1,0,1534144998,"root:x:0:0:root:/root:/bin/bash"
 "8	LINE	0
-	
-|3,0,8,1,1,0,1526601925,""
+	root:x:0:0:root:/root:/bin/bash
+|3,0,8,1,1,0,1534144826,"root:x:0:0:root:/root:/bin/bash"
 "9	LINE	0
-	}
-|3,0,9,1,1,0,1526601924,"}"
+	root:x:0:0:root:/root:/bin/bash
+|3,0,9,1,1,0,1534144246,"root:x:0:0:root:/root:/bin/bash"
+"i	CHAR	0
+	re
+|3,0,18,0,1,0,1528427640,"re"
+"j	CHAR	0
+	948
+<jjjjjjjjjjjjjjjjjkkkkkkjlllllllllllllllllllllkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjkkj4ddjjjkkk12ddjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjj23ddjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjj10dd10dd10ddkk10dd5ddddddddddjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkk40dd40ddj9ddjkkkddddjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkuuuuuujjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkk40dd40ddu20ddddddddddjkkkkkkkkkkkkkjkkkkkkkkkkkkkkkk30ddu15ddddddddddddddddddddddjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjddjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjkkkj30dd5ddddddddddddjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkj
+|3,0,19,0,1,0,1526968202,>947
+|<"jjjjjjjjjjjjjjjjjkkkkkkjlllllllllllllllllllllkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjkkj4ddjjjkkk12ddjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjj23ddjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjj10dd10dd10ddkk10dd5ddddddddddjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkk40dd40ddj9ddjkkkddddjjjjjjjjkkkkkkkkkkkkkkkkkkkkkk
+|<kkkkkkkkkkkkkkkkkkkuuuuuujjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkk40dd40ddu20ddddddddddjkkkkkkkkkkkkkjkkkkkkkkkkkkkkkk30ddu15ddddddddddddddddddddddjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjddjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjkkkj30dd5ddddddddddddjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkj"
+"-	CHAR	0
+	 
+|3,0,36,0,1,0,1533348088," "
 
 # File marks:
-'0  1  0  /home/zhangle/ileler/ileler/configs/.gitignore
-|4,48,1,0,1526632107,"/home/zhangle/ileler/ileler/configs/.gitignore"
-'1  14  38  /home/zhangle/ileler/ileler/configs/env-cygwin
-|4,49,14,38,1526604761,"/home/zhangle/ileler/ileler/configs/env-cygwin"
-'2  1  0  /home/zhangle/ileler/ileler/configs/env-cygwin
-|4,50,1,0,1526603587,"/home/zhangle/ileler/ileler/configs/env-cygwin"
-'3  1  0  /home/zhangle/ileler/ileler/configs/env-cygwin
-|4,51,1,0,1526603587,"/home/zhangle/ileler/ileler/configs/env-cygwin"
-'4  3  0  ~/.bashutils
-|4,52,3,0,1526603290,"~/.bashutils"
-'5  12  40  ~/.bashutils
-|4,53,12,40,1526603016,"~/.bashutils"
-'6  4  40  ~/.bashutils
-|4,54,4,40,1526603016,"~/.bashutils"
-'7  18  0  ~/.bashutils
-|4,55,18,0,1526602919,"~/.bashutils"
-'8  18  0  ~/.bashutils
-|4,56,18,0,1526602919,"~/.bashutils"
-'9  10  0  ~/.bashutils
-|4,57,10,0,1526602919,"~/.bashutils"
+'0  1  0  ~/.dbus/session-bus/7aa70e56dfbb4beeaa0d0feca97042b4-0
+|4,48,1,0,1535097989,"~/.dbus/session-bus/7aa70e56dfbb4beeaa0d0feca97042b4-0"
+'1  25  10  /home/zhangle/ileler/ileler/configs/.gitignore
+|4,49,25,10,1535097760,"/home/zhangle/ileler/ileler/configs/.gitignore"
+'2  30  0  /home/zhangle/ileler/ileler/configs/.gitignore
+|4,50,30,0,1535097732,"/home/zhangle/ileler/ileler/configs/.gitignore"
+'3  29  0  /home/zhangle/ileler/ileler/configs/.gitignore
+|4,51,29,0,1535097732,"/home/zhangle/ileler/ileler/configs/.gitignore"
+'4  97  0  /home/zhangle/ileler/ileler/configs/classpath.index
+|4,52,97,0,1535097699,"/home/zhangle/ileler/ileler/configs/classpath.index"
+'5  1  0  ~/.vim/.netrwhist
+|4,53,1,0,1535097664,"~/.vim/.netrwhist"
+'6  1  0  /home/zhangle/ileler/ileler/configs/.gitignore
+|4,54,1,0,1535097487,"/home/zhangle/ileler/ileler/configs/.gitignore"
+'7  1  0  /home/zhangle/ileler/ileler/configs/.gitignore
+|4,55,1,0,1535097487,"/home/zhangle/ileler/ileler/configs/.gitignore"
+'8  1  0  /home/zhangle/ileler/ileler/configs/.gitignore
+|4,56,1,0,1535097487,"/home/zhangle/ileler/ileler/configs/.gitignore"
+'9  1  0  /home/zhangle/ileler/ileler/configs/.gitignore
+|4,57,1,0,1535097487,"/home/zhangle/ileler/ileler/configs/.gitignore"
 
 # Jumplist (newest first):
+-'  1  0  ~/.dbus/session-bus/7aa70e56dfbb4beeaa0d0feca97042b4-0
+|4,39,1,0,1535097989,"~/.dbus/session-bus/7aa70e56dfbb4beeaa0d0feca97042b4-0"
+-'  25  10  /home/zhangle/ileler/ileler/configs/.gitignore
+|4,39,25,10,1535097760,"/home/zhangle/ileler/ileler/configs/.gitignore"
+-'  25  10  /home/zhangle/ileler/ileler/configs/.gitignore
+|4,39,25,10,1535097760,"/home/zhangle/ileler/ileler/configs/.gitignore"
 -'  1  0  /home/zhangle/ileler/ileler/configs/.gitignore
-|4,39,1,0,1526632107,"/home/zhangle/ileler/ileler/configs/.gitignore"
--'  14  38  /home/zhangle/ileler/ileler/configs/env-cygwin
-|4,39,14,38,1526604761,"/home/zhangle/ileler/ileler/configs/env-cygwin"
--'  14  38  /home/zhangle/ileler/ileler/configs/env-cygwin
-|4,39,14,38,1526604761,"/home/zhangle/ileler/ileler/configs/env-cygwin"
--'  1  0  /home/zhangle/ileler/ileler/configs/env-cygwin
-|4,39,1,0,1526604689,"/home/zhangle/ileler/ileler/configs/env-cygwin"
--'  1  0  /home/zhangle/ileler/ileler/configs/env-cygwin
-|4,39,1,0,1526604689,"/home/zhangle/ileler/ileler/configs/env-cygwin"
--'  1  0  /home/zhangle/ileler/ileler/configs/env-cygwin
-|4,39,1,0,1526603587,"/home/zhangle/ileler/ileler/configs/env-cygwin"
--'  1  0  /home/zhangle/ileler/ileler/configs/env-cygwin
-|4,39,1,0,1526603587,"/home/zhangle/ileler/ileler/configs/env-cygwin"
--'  98  14  /home/zhangle/ileler/ileler/configs/env-cygwin
-|4,39,98,14,1526603580,"/home/zhangle/ileler/ileler/configs/env-cygwin"
--'  97  14  /home/zhangle/ileler/ileler/configs/env-cygwin
-|4,39,97,14,1526603580,"/home/zhangle/ileler/ileler/configs/env-cygwin"
--'  98  14  /home/zhangle/ileler/ileler/configs/env-cygwin
-|4,39,98,14,1526603580,"/home/zhangle/ileler/ileler/configs/env-cygwin"
--'  97  14  /home/zhangle/ileler/ileler/configs/env-cygwin
-|4,39,97,14,1526603580,"/home/zhangle/ileler/ileler/configs/env-cygwin"
--'  3  0  /home/zhangle/ileler/ileler/configs/env-cygwin
-|4,39,3,0,1526603565,"/home/zhangle/ileler/ileler/configs/env-cygwin"
--'  4  0  /home/zhangle/ileler/ileler/configs/env-cygwin
-|4,39,4,0,1526603565,"/home/zhangle/ileler/ileler/configs/env-cygwin"
--'  3  0  /home/zhangle/ileler/ileler/configs/env-cygwin
-|4,39,3,0,1526603565,"/home/zhangle/ileler/ileler/configs/env-cygwin"
--'  4  0  /home/zhangle/ileler/ileler/configs/env-cygwin
-|4,39,4,0,1526603565,"/home/zhangle/ileler/ileler/configs/env-cygwin"
--'  90  0  /home/zhangle/ileler/ileler/configs/env-cygwin
-|4,39,90,0,1526603553,"/home/zhangle/ileler/ileler/configs/env-cygwin"
--'  89  0  /home/zhangle/ileler/ileler/configs/env-cygwin
-|4,39,89,0,1526603553,"/home/zhangle/ileler/ileler/configs/env-cygwin"
--'  90  0  /home/zhangle/ileler/ileler/configs/env-cygwin
-|4,39,90,0,1526603553,"/home/zhangle/ileler/ileler/configs/env-cygwin"
--'  89  0  /home/zhangle/ileler/ileler/configs/env-cygwin
-|4,39,89,0,1526603553,"/home/zhangle/ileler/ileler/configs/env-cygwin"
--'  25  0  /home/zhangle/ileler/ileler/configs/env-cygwin
-|4,39,25,0,1526603488,"/home/zhangle/ileler/ileler/configs/env-cygwin"
--'  25  0  /home/zhangle/ileler/ileler/configs/env-cygwin
-|4,39,25,0,1526603488,"/home/zhangle/ileler/ileler/configs/env-cygwin"
--'  25  0  /home/zhangle/ileler/ileler/configs/env-cygwin
-|4,39,25,0,1526603488,"/home/zhangle/ileler/ileler/configs/env-cygwin"
--'  25  0  /home/zhangle/ileler/ileler/configs/env-cygwin
-|4,39,25,0,1526603488,"/home/zhangle/ileler/ileler/configs/env-cygwin"
--'  3  0  ~/.bashutils
-|4,39,3,0,1526603290,"~/.bashutils"
--'  3  0  ~/.bashutils
-|4,39,3,0,1526603290,"~/.bashutils"
--'  3  0  ~/.bashutils
-|4,39,3,0,1526603290,"~/.bashutils"
--'  3  0  ~/.bashutils
-|4,39,3,0,1526603290,"~/.bashutils"
--'  3  0  ~/.bashutils
-|4,39,3,0,1526603290,"~/.bashutils"
--'  3  0  ~/.bashutils
-|4,39,3,0,1526603290,"~/.bashutils"
--'  3  0  ~/.bashutils
-|4,39,3,0,1526603290,"~/.bashutils"
--'  3  0  ~/.bashutils
-|4,39,3,0,1526603290,"~/.bashutils"
--'  28  0  ~/.bashutils
-|4,39,28,0,1526603132,"~/.bashutils"
--'  28  0  ~/.bashutils
-|4,39,28,0,1526603132,"~/.bashutils"
--'  28  0  ~/.bashutils
-|4,39,28,0,1526603132,"~/.bashutils"
--'  28  0  ~/.bashutils
-|4,39,28,0,1526603132,"~/.bashutils"
--'  28  0  ~/.bashutils
-|4,39,28,0,1526603132,"~/.bashutils"
--'  28  0  ~/.bashutils
-|4,39,28,0,1526603132,"~/.bashutils"
--'  28  0  ~/.bashutils
-|4,39,28,0,1526603132,"~/.bashutils"
--'  28  0  ~/.bashutils
-|4,39,28,0,1526603132,"~/.bashutils"
--'  1  0  ~/.bashutils
-|4,39,1,0,1526603062,"~/.bashutils"
--'  1  0  ~/.bashutils
-|4,39,1,0,1526603062,"~/.bashutils"
--'  1  0  ~/.bashutils
-|4,39,1,0,1526603062,"~/.bashutils"
--'  1  0  ~/.bashutils
-|4,39,1,0,1526603062,"~/.bashutils"
--'  1  0  ~/.bashutils
-|4,39,1,0,1526603062,"~/.bashutils"
--'  1  0  ~/.bashutils
-|4,39,1,0,1526603062,"~/.bashutils"
--'  1  0  ~/.bashutils
-|4,39,1,0,1526603062,"~/.bashutils"
--'  1  0  ~/.bashutils
-|4,39,1,0,1526603062,"~/.bashutils"
--'  12  40  ~/.bashutils
-|4,39,12,40,1526603016,"~/.bashutils"
--'  4  40  ~/.bashutils
-|4,39,4,40,1526603016,"~/.bashutils"
--'  12  40  ~/.bashutils
-|4,39,12,40,1526603016,"~/.bashutils"
--'  4  40  ~/.bashutils
-|4,39,4,40,1526603016,"~/.bashutils"
--'  12  40  ~/.bashutils
-|4,39,12,40,1526603016,"~/.bashutils"
--'  4  40  ~/.bashutils
-|4,39,4,40,1526603016,"~/.bashutils"
--'  12  40  ~/.bashutils
-|4,39,12,40,1526603016,"~/.bashutils"
--'  4  40  ~/.bashutils
-|4,39,4,40,1526603016,"~/.bashutils"
--'  12  40  ~/.bashutils
-|4,39,12,40,1526603016,"~/.bashutils"
--'  4  40  ~/.bashutils
-|4,39,4,40,1526603016,"~/.bashutils"
--'  12  40  ~/.bashutils
-|4,39,12,40,1526603016,"~/.bashutils"
--'  4  40  ~/.bashutils
-|4,39,4,40,1526603016,"~/.bashutils"
--'  12  40  ~/.bashutils
-|4,39,12,40,1526603016,"~/.bashutils"
--'  4  40  ~/.bashutils
-|4,39,4,40,1526603016,"~/.bashutils"
--'  12  40  ~/.bashutils
-|4,39,12,40,1526603016,"~/.bashutils"
--'  4  40  ~/.bashutils
-|4,39,4,40,1526603016,"~/.bashutils"
--'  1  0  ~/.bashutils
-|4,39,1,0,1526602936,"~/.bashutils"
--'  1  0  ~/.bashutils
-|4,39,1,0,1526602936,"~/.bashutils"
--'  1  0  ~/.bashutils
-|4,39,1,0,1526602936,"~/.bashutils"
--'  1  0  ~/.bashutils
-|4,39,1,0,1526602936,"~/.bashutils"
--'  1  0  ~/.bashutils
-|4,39,1,0,1526602936,"~/.bashutils"
--'  1  0  ~/.bashutils
-|4,39,1,0,1526602936,"~/.bashutils"
--'  1  0  ~/.bashutils
-|4,39,1,0,1526602936,"~/.bashutils"
--'  1  0  ~/.bashutils
-|4,39,1,0,1526602936,"~/.bashutils"
--'  18  0  ~/.bashutils
-|4,39,18,0,1526602919,"~/.bashutils"
--'  10  0  ~/.bashutils
-|4,39,10,0,1526602919,"~/.bashutils"
--'  10  0  ~/.bashutils
-|4,39,10,0,1526602919,"~/.bashutils"
--'  18  0  ~/.bashutils
-|4,39,18,0,1526602919,"~/.bashutils"
--'  10  0  ~/.bashutils
-|4,39,10,0,1526602919,"~/.bashutils"
--'  10  0  ~/.bashutils
-|4,39,10,0,1526602919,"~/.bashutils"
--'  18  0  ~/.bashutils
-|4,39,18,0,1526602919,"~/.bashutils"
--'  10  0  ~/.bashutils
-|4,39,10,0,1526602919,"~/.bashutils"
--'  10  0  ~/.bashutils
-|4,39,10,0,1526602919,"~/.bashutils"
--'  18  0  ~/.bashutils
-|4,39,18,0,1526602919,"~/.bashutils"
--'  10  0  ~/.bashutils
-|4,39,10,0,1526602919,"~/.bashutils"
--'  10  0  ~/.bashutils
-|4,39,10,0,1526602919,"~/.bashutils"
--'  18  0  ~/.bashutils
-|4,39,18,0,1526602919,"~/.bashutils"
--'  10  0  ~/.bashutils
-|4,39,10,0,1526602919,"~/.bashutils"
--'  10  0  ~/.bashutils
-|4,39,10,0,1526602919,"~/.bashutils"
--'  18  0  ~/.bashutils
-|4,39,18,0,1526602919,"~/.bashutils"
--'  10  0  ~/.bashutils
-|4,39,10,0,1526602919,"~/.bashutils"
--'  10  0  ~/.bashutils
-|4,39,10,0,1526602919,"~/.bashutils"
--'  18  0  ~/.bashutils
-|4,39,18,0,1526602919,"~/.bashutils"
--'  10  0  ~/.bashutils
-|4,39,10,0,1526602919,"~/.bashutils"
--'  10  0  ~/.bashutils
-|4,39,10,0,1526602919,"~/.bashutils"
--'  18  0  ~/.bashutils
-|4,39,18,0,1526602919,"~/.bashutils"
--'  10  0  ~/.bashutils
-|4,39,10,0,1526602919,"~/.bashutils"
--'  10  0  ~/.bashutils
-|4,39,10,0,1526602919,"~/.bashutils"
--'  1  0  ~/.bashutils
-|4,39,1,0,1526602797,"~/.bashutils"
--'  1  0  ~/.bashutils
-|4,39,1,0,1526602797,"~/.bashutils"
--'  1  0  ~/.bashutils
-|4,39,1,0,1526602797,"~/.bashutils"
--'  1  0  ~/.bashutils
-|4,39,1,0,1526602797,"~/.bashutils"
--'  1  0  ~/.bashutils
-|4,39,1,0,1526602797,"~/.bashutils"
+|4,39,1,0,1535097751,"/home/zhangle/ileler/ileler/configs/.gitignore"
+-'  1  0  /home/zhangle/ileler/ileler/configs/.gitignore
+|4,39,1,0,1535097751,"/home/zhangle/ileler/ileler/configs/.gitignore"
+-'  30  0  /home/zhangle/ileler/ileler/configs/.gitignore
+|4,39,30,0,1535097732,"/home/zhangle/ileler/ileler/configs/.gitignore"
+-'  29  0  /home/zhangle/ileler/ileler/configs/.gitignore
+|4,39,29,0,1535097732,"/home/zhangle/ileler/ileler/configs/.gitignore"
+-'  30  0  /home/zhangle/ileler/ileler/configs/.gitignore
+|4,39,30,0,1535097732,"/home/zhangle/ileler/ileler/configs/.gitignore"
+-'  29  0  /home/zhangle/ileler/ileler/configs/.gitignore
+|4,39,29,0,1535097732,"/home/zhangle/ileler/ileler/configs/.gitignore"
+-'  1  0  /home/zhangle/ileler/ileler/configs/.gitignore
+|4,39,1,0,1535097703,"/home/zhangle/ileler/ileler/configs/.gitignore"
+-'  1  0  /home/zhangle/ileler/ileler/configs/.gitignore
+|4,39,1,0,1535097703,"/home/zhangle/ileler/ileler/configs/.gitignore"
+-'  97  0  /home/zhangle/ileler/ileler/configs/classpath.index
+|4,39,97,0,1535097699,"/home/zhangle/ileler/ileler/configs/classpath.index"
+-'  97  0  /home/zhangle/ileler/ileler/configs/classpath.index
+|4,39,97,0,1535097699,"/home/zhangle/ileler/ileler/configs/classpath.index"
+-'  97  0  /home/zhangle/ileler/ileler/configs/classpath.index
+|4,39,97,0,1535097699,"/home/zhangle/ileler/ileler/configs/classpath.index"
+-'  97  0  /home/zhangle/ileler/ileler/configs/classpath.index
+|4,39,97,0,1535097699,"/home/zhangle/ileler/ileler/configs/classpath.index"
+-'  97  0  /home/zhangle/ileler/ileler/configs/classpath.index
+|4,39,97,0,1535097699,"/home/zhangle/ileler/ileler/configs/classpath.index"
+-'  97  0  /home/zhangle/ileler/ileler/configs/classpath.index
+|4,39,97,0,1535097699,"/home/zhangle/ileler/ileler/configs/classpath.index"
+-'  97  0  /home/zhangle/ileler/ileler/configs/classpath.index
+|4,39,97,0,1535097699,"/home/zhangle/ileler/ileler/configs/classpath.index"
+-'  97  0  /home/zhangle/ileler/ileler/configs/classpath.index
+|4,39,97,0,1535097699,"/home/zhangle/ileler/ileler/configs/classpath.index"
+-'  1  0  /home/zhangle/ileler/ileler/configs/classpath.index
+|4,39,1,0,1535097692,"/home/zhangle/ileler/ileler/configs/classpath.index"
+-'  1  0  /home/zhangle/ileler/ileler/configs/classpath.index
+|4,39,1,0,1535097692,"/home/zhangle/ileler/ileler/configs/classpath.index"
+-'  1  0  /home/zhangle/ileler/ileler/configs/classpath.index
+|4,39,1,0,1535097692,"/home/zhangle/ileler/ileler/configs/classpath.index"
+-'  1  0  /home/zhangle/ileler/ileler/configs/classpath.index
+|4,39,1,0,1535097692,"/home/zhangle/ileler/ileler/configs/classpath.index"
+-'  1  0  /home/zhangle/ileler/ileler/configs/classpath.index
+|4,39,1,0,1535097692,"/home/zhangle/ileler/ileler/configs/classpath.index"
+-'  1  0  /home/zhangle/ileler/ileler/configs/classpath.index
+|4,39,1,0,1535097692,"/home/zhangle/ileler/ileler/configs/classpath.index"
+-'  1  0  /home/zhangle/ileler/ileler/configs/classpath.index
+|4,39,1,0,1535097692,"/home/zhangle/ileler/ileler/configs/classpath.index"
+-'  1  0  /home/zhangle/ileler/ileler/configs/classpath.index
+|4,39,1,0,1535097692,"/home/zhangle/ileler/ileler/configs/classpath.index"
+-'  1  0  ~/.vim/.netrwhist
+|4,39,1,0,1535097664,"~/.vim/.netrwhist"
+-'  1  0  ~/.vim/.netrwhist
+|4,39,1,0,1535097664,"~/.vim/.netrwhist"
+-'  1  0  ~/.vim/.netrwhist
+|4,39,1,0,1535097664,"~/.vim/.netrwhist"
+-'  1  0  ~/.vim/.netrwhist
+|4,39,1,0,1535097664,"~/.vim/.netrwhist"
+-'  1  0  ~/.vim/.netrwhist
+|4,39,1,0,1535097664,"~/.vim/.netrwhist"
+-'  1  0  ~/.vim/.netrwhist
+|4,39,1,0,1535097664,"~/.vim/.netrwhist"
+-'  1  0  ~/.vim/.netrwhist
+|4,39,1,0,1535097664,"~/.vim/.netrwhist"
+-'  1  0  ~/.vim/.netrwhist
+|4,39,1,0,1535097664,"~/.vim/.netrwhist"
+-'  1  0  ~/.vim/.netrwhist
+|4,39,1,0,1535097664,"~/.vim/.netrwhist"
+-'  1  0  ~/.vim/.netrwhist
+|4,39,1,0,1535097664,"~/.vim/.netrwhist"
+-'  1  0  ~/.vim/.netrwhist
+|4,39,1,0,1535097664,"~/.vim/.netrwhist"
+-'  1  0  ~/.vim/.netrwhist
+|4,39,1,0,1535097664,"~/.vim/.netrwhist"
+-'  1  0  ~/.vim/.netrwhist
+|4,39,1,0,1535097664,"~/.vim/.netrwhist"
+-'  1  0  ~/.vim/.netrwhist
+|4,39,1,0,1535097664,"~/.vim/.netrwhist"
+-'  1  0  ~/.vim/.netrwhist
+|4,39,1,0,1535097664,"~/.vim/.netrwhist"
+-'  1  0  ~/.vim/.netrwhist
+|4,39,1,0,1535097664,"~/.vim/.netrwhist"
+-'  1  0  /home/zhangle/ileler/ileler/configs/.gitignore
+|4,39,1,0,1535097487,"/home/zhangle/ileler/ileler/configs/.gitignore"
+-'  1  0  /home/zhangle/ileler/ileler/configs/.gitignore
+|4,39,1,0,1535097487,"/home/zhangle/ileler/ileler/configs/.gitignore"
+-'  1  0  /home/zhangle/ileler/ileler/configs/.gitignore
+|4,39,1,0,1535097487,"/home/zhangle/ileler/ileler/configs/.gitignore"
+-'  1  0  /home/zhangle/ileler/ileler/configs/.gitignore
+|4,39,1,0,1535097487,"/home/zhangle/ileler/ileler/configs/.gitignore"
+-'  1  0  /home/zhangle/ileler/ileler/configs/.gitignore
+|4,39,1,0,1535097487,"/home/zhangle/ileler/ileler/configs/.gitignore"
+-'  1  0  /home/zhangle/ileler/ileler/configs/.gitignore
+|4,39,1,0,1535097487,"/home/zhangle/ileler/ileler/configs/.gitignore"
+-'  1  0  /home/zhangle/ileler/ileler/configs/.gitignore
+|4,39,1,0,1535097487,"/home/zhangle/ileler/ileler/configs/.gitignore"
+-'  1  0  /home/zhangle/ileler/ileler/configs/.gitignore
+|4,39,1,0,1535097487,"/home/zhangle/ileler/ileler/configs/.gitignore"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
+-'  78  0  /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+|4,39,78,0,1535092298,"/home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom"
 
 # History of marks within files (newest to oldest):
 
-> /home/zhangle/ileler/ileler/configs/.gitignore
-	*	1526631963	0
+> ~/.dbus/session-bus/7aa70e56dfbb4beeaa0d0feca97042b4-0
+	*	1535097972	0
 	"	1	0
-	^	14	12
-	.	14	11
-	+	1	5
-	+	2	4
-	+	5	0
-	+	5	4
-	+	5	15
-	+	6	10
-	+	7	0
-	+	8	0
-	+	9	0
-	+	10	0
-	+	10	10
-	+	12	0
-	+	13	0
-	+	7	19
-	+	8	18
-	+	9	20
-	+	10	9
-	+	10	0
-	+	11	9
-	+	12	16
-	+	13	11
-	+	4	9
-	+	12	11
-	+	15	0
-	+	16	12
-	+	17	6
-	+	14	11
 
-> /home/zhangle/ileler/ileler/configs/env-cygwin
-	*	1526604755	0
-	"	14	38
-	^	14	39
-	.	14	38
-	+	90	0
-	+	3	0
-	+	90	0
-	+	97	0
-	+	98	14
-	+	3	0
-	+	89	0
-	+	14	38
+> /home/zhangle/ileler/ileler/configs/.gitignore
+	*	1535097759	0
+	"	25	10
+	^	25	11
+	.	25	10
+	+	28	0
+	+	25	10
+
+> /home/zhangle/ileler/ileler/configs/classpath.index
+	*	1535097697	0
+	"	97	0
+
+> ~/.vim/.netrwhist
+	*	1535097659	0
+	"	1	0
+
+> /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.relation/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.relation-1.0.0-SNAPSHOT.pom
+	*	1535092296	0
+	"	78	0
+
+> /home/zhangle/ileler/ws/.m2/repo/com/mpr/mprsp/cas/com.mpr.mprsp.cas.service.parsecode/1.0.0-SNAPSHOT/com.mpr.mprsp.cas.service.parsecode-1.0.0-SNAPSHOT.pom
+	*	1535092248	0
+	"	1	0
+
+> /etc/hosts
+	*	1534748930	0
+	"	13	40
+	^	13	41
+	.	13	16
+	+	11	7
+	+	12	6
+	+	12	26
+	+	13	16
+
+> ~/.profile
+	*	1534748354	0
+	"	69	0
+	^	69	0
+	.	68	29
+	+	24	9
+	+	46	58
+	+	46	57
+	+	46	10
+	+	24	54
+	+	46	0
+	+	29	52
+	+	45	5
+	+	25	32
+	+	65	27
+	+	48	56
+	+	25	27
+	+	25	0
+	+	26	0
+	+	25	0
+	+	24	0
+	+	26	31
+	+	26	8
+	+	25	0
+	+	71	0
+	+	73	0
+	+	79	0
+	+	75	28
+	+	40	76
+	+	44	58
+	+	49	50
+	+	1	140
+	+	61	0
+	+	53	61
+	+	61	26
+	+	75	0
+	+	61	0
+	+	54	48
+	+	53	14
+	+	58	30
+	+	55	24
+	+	56	25
+	+	57	92
+	+	59	25
+	+	31	56
+	+	45	41
+	+	54	44
+	+	47	32
+	+	41	33
+	+	30	0
+	+	27	0
+	+	41	64
+	+	40	0
+	+	32	36
+	+	32	72
+	+	32	38
+	+	38	0
+	+	37	38
+	+	32	37
+	+	32	0
+	+	33	48
+	+	33	24
+	+	37	46
+	+	33	13
+	+	33	0
+	+	41	77
+	+	41	0
+	+	32	38
+	+	37	33
+	+	35	29
+	+	53	0
+	+	50	0
+	+	24	0
+	+	76	0
+	+	81	8
+	+	81	0
+	+	61	48
+	+	41	76
+	+	37	46
+	+	34	19
+	+	35	3
+	+	36	3
+	+	37	7
+	+	38	3
+	+	39	1
+	+	64	41
+	+	37	8
+	+	41	65
+	+	70	0
+	+	67	39
+	+	68	29
+
+> /home/zhangle/ileler/ws/java/spring-cloud-gateway/spring-cloud-gateway-core/src/main/java/org/springframework/cloud/gateway/route/Route.java
+	*	1534293815	0
+	"	117	3
+
+> /etc/mysql/my.cnf
+	*	1534146312	0
+	"	1	0
+
+> ~/.bashrc
+	*	1534145755	0
+	"	4	0
+	.	4	0
+	+	4	0
+
+> ~/.bash_logout
+	*	1534145416	0
+	"	8	0
+	.	9	0
+	+	9	15
+	+	9	0
+
+> ~/.alias
+	*	1534145348	0
+	"	9	18
+	^	9	19
+	.	9	18
+	+	10	11
+	+	6	0
+	+	1	17
+	+	2	33
+	+	3	33
+	+	4	33
+	+	5	11
+	+	10	0
+	+	7	0
+	+	9	0
+	+	7	56
+	+	8	6
+	+	9	18
+
+> /etc/passwd
+	*	1534145051	0
+	"	1	0
+	.	2	0
+	+	46	0
+	+	45	0
+	+	46	0
+	+	1	0
+	+	2	0
+
+> /home/zhangle/ileler/ileler/configs/start-ubuntu.sh
+	*	1534144276	0
+	"	79	0
+	^	6	39
+	.	6	38
+	+	60	53
+	+	6	38
+
+> /etc/mysql/conf.d/mysql.cnf
+	*	1534143319	0
+	"	1	0
+
+> /etc/mysql/mariadb.cnf
+	*	1534143267	0
+	"	1	0
+
+> /tmp/index.html
+	*	1533975150	0
+	"	1	0
+
+> /tmp/xxx.xxx
+	*	1533974522	0
+	"	1	0
+
+> /home/zhangle/ileler/ileler/configs/.common/.ssh/config.d/mpr-test.cfg
+	*	1533348287	0
+	"	5	0
+	^	1	0
+
+> /home/zhangle/ileler/ileler/configs/.common/.ssh/config.d/mpr-dev.cfg
+	*	1533348254	0
+	"	1	0
+
+> /home/zhangle/ileler/ileler/configs/.common/.ssh/config
+	*	1533348121	0
+	"	81	4
+	^	4	0
+	.	4	0
+	+	1	0
+	+	5	0
+	+	4	0
+
+> ~/.vimrc
+	*	1533347947	0
+	"	4	0
+	^	6	1
+	.	6	0
+	+	10	20
+	+	7	1
+	+	6	1
+	+	6	0
+
+> /home/zhangle/ileler/ws/java/temp/111/.git/config
+	*	1533346791	0
+	"	1	0
+
+> ~/.gitconfig
+	*	1533346708	0
+	"	6	23
+	^	6	24
+	.	6	23
+	+	4	0
+	+	6	23
+
+> /home/zhangle/ileler/ws/java/spring-projects/spring-cloud-gateway/.git/config
+	*	1533346662	0
+	"	9	0
+
+> /home/zhangle/ileler/ws/java/settings-manager-sbs/.git/config
+	*	1533346608	0
+	"	5	0
 
 > ~/.bashutils
-	*	1526603289	0
-	"	3	0
-	.	3	0
-	+	51	0
-	+	50	31
+	*	1533173110	0
+	"	58	3
+	^	58	4
+	.	58	4
+	+	47	0
+	+	46	31
 	+	27	7
 	+	28	0
 	+	27	1
@@ -488,688 +783,784 @@ $\~\/\.ssh\/
 	+	27	8
 	+	27	0
 	+	3	0
-
-> ~/.alias
-	*	1526602772	0
-	"	1	0
-	.	1	0
-	+	1	26
-	+	1	39
-	+	1	30
-	+	1	0
-
-> ~/.profile
-	*	1526602122	0
-	"	68	0
-	.	68	0
-	+	24	9
-	+	44	58
-	+	44	57
-	+	44	10
-	+	24	54
-	+	44	0
-	+	29	52
-	+	43	5
-	+	25	32
-	+	60	27
-	+	46	56
-	+	25	27
-	+	25	0
-	+	26	0
-	+	25	0
-	+	24	0
-	+	26	31
-	+	26	8
-	+	25	0
-	+	63	0
-	+	65	0
-	+	71	0
-	+	67	28
-	+	38	76
-	+	42	58
-	+	47	50
-	+	1	140
-	+	59	0
-	+	51	61
-	+	59	26
-	+	67	0
-	+	59	0
-	+	52	48
-	+	51	14
-	+	56	30
-	+	53	24
-	+	54	25
-	+	55	92
-	+	57	25
-	+	31	56
-	+	43	41
-	+	52	44
-	+	45	32
-	+	39	33
-	+	30	0
-	+	27	0
-	+	39	64
-	+	38	0
-	+	32	36
-	+	32	72
-	+	32	38
 	+	37	0
-	+	36	38
-	+	32	37
 	+	32	0
-	+	33	48
-	+	33	24
-	+	36	46
-	+	33	13
-	+	33	0
-	+	39	77
-	+	39	0
-	+	32	38
-	+	36	33
-	+	34	29
-	+	51	0
-	+	48	0
-	+	24	0
-	+	68	0
+	+	31	84
+	+	31	146
+	+	31	3
+	+	32	13
+	+	31	3
+	+	31	154
+	+	32	0
+	+	31	148
+	+	31	7
+	+	32	12
+	+	31	83
+	+	32	0
+	+	31	8
+	+	36	0
+	+	35	10
+	+	27	0
+	+	47	23
+	+	57	7
+	+	58	9
+	+	59	0
+	+	63	0
+	+	62	26
+	+	58	14
+	+	64	8
+	+	64	0
+	+	58	4
+	j	31	82
+	m	31	82
 
-> ~/.bashrc
-	*	1526601646	0
-	"	53	1
-	^	119	36
-	.	119	35
-	+	119	35
-
-> /home/zhangle/ileler/ileler/configs/.common/.alias
-	*	1526601633	0
-	"	2	32
-	^	2	33
-	.	2	32
-	+	1	41
-	+	2	32
-
-> /home/zhangle/ileler/ileler/configs/start-ubuntu.sh
-	*	1526600795	0
-	"	24	1
-	^	60	54
-	.	60	53
-	+	60	53
-
-> /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/configuration/tomcat-server.xml
-	*	1526543923	0
+> /home/zhangle/ileler/ws/java/rsa_public_key.pem
+	*	1532951197	0
 	"	1	0
 
-> /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/configuration/isli/uasc/jdbc.properties
-	*	1526542636	0
+> /home/zhangle/ileler/ws/java/temp_rsa.pub
+	*	1532950880	0
 	"	1	0
 
-> /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/startup.sh
-	*	1526537889	0
-	"	2	59
-	^	2	60
-	.	2	57
-	+	1	0
-	+	3	0
-	+	2	57
-
-> /home/zhangle/ileler/bins/ideaj/idea-IU-181.4203.550/bin/idea.sh
-	*	1526536923	0
-	"	199	25
-	.	190	0
-	+	190	91
-	+	190	0
-
-> /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/jconsole.sh
-	*	1526519264	0
-	"	53	0
-
-> /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/checkJava.sh
-	*	1526519238	0
+> /home/zhangle/ileler/ws/java/temp_rsa
+	*	1532949223	0
 	"	1	0
 
-> /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/setupClasspath.sh
-	*	1526519214	0
+> /home/zhangle/ileler/ileler/configs/.ext/...
+	*	1532910350	0
 	"	1	0
 
-> /home/zhangle/ileler/bins/.linux/virgo/virgo-tomcat-server-3.5.0.RELEASE/bin/dmk.sh
-	*	1526519176	0
-	"	15	0
+> /home/zhangle/ileler/ws/java/spring-boot-demo/spring-boot-demo/org.ileler.utils/src/main/java/org/ileler/utils/IPUtils.java
+	*	1532789069	0
+	"	67	0
+
+> /home/zhangle/ileler/ws/java/spring-boot-demo/spring-boot-demo/org.ileler.utils/src/main/resources/META-INF/spring.factories
+	*	1532788774	0
+	"	4	0
+
+> /etc/shadow
+	*	1532569529	0
+	"	1	0
+
+> /home/zhangle/ileler/ws/java/spring-cloud-commons/spring-cloud-context/src/main/java/org/springframework/cloud/autoconfigure/RefreshAutoConfiguration.java
+	*	1532489135	0
+	"	105	18
+
+> /home/zhangle/ileler/ws/java/shepher/shepher-packaging/target/shepher-packaging-1.0-bin/conf/application-base.properties
+	*	1532484768	0
+	"	1	0
+
+> /home/zhangle/ileler/ws/java/shepher/shepher-packaging/target/shepher-packaging-1.0-bin/conf/application-default.properties
+	*	1532436010	0
+	"	1	0
+	^	4	30
+	.	4	30
+	+	17	20
+	+	2	44
+	+	4	30
+
+> /home/zhangle/ileler/ws/java/shepher/shepher-packaging/target/shepher-packaging-1.0-bin/db/init.sql
+	*	1532435252	0
+	"	216	0
+
+> /home/zhangle/ileler/ws/java/shepher/conf/application-default.properties
+	*	1532435166	0
+	"	29	0
+
+> /home/zhangle/ileler/ws/java/shepher/conf/application-base.properties
+	*	1532435143	0
+	"	1	0
+
+> /home/zhangle/ileler/ws/java/shepher/bin/run.sh
+	*	1532435002	0
+	"	6	0
+
+> /home/zhangle/ileler/ws/.m2/repo/org/apache/maven/plugins/maven-surefire-plugin/2.21.0/maven-surefire-plugin-2.21.0.pom
+	*	1532082357	0
+	"	23	0
+
+> /home/zhangle/ileler/ws/.m2/repo/org/apache/maven/plugins/maven-surefire-plugin/2.21.0/maven-surefire-plugin-2.21.0.pom.lastUpdated
+	*	1532082120	0
+	"	1	0
+
+> u~u/ws/.m2/repo/org/apache/maven/plugins/maven-compiler-plugin/3.7.0/maven-compiler-plugin-3.7.0.pom
+	*	1532080982	0
+	"	1	0
 
 > /home/zhangle/ileler/ileler/configs/.common/.m2/settings.xml
-	*	1526463046	0
-	"	313	0
+	*	1532079293	0
+	"	238	22
+	^	235	46
+	.	240	0
+	+	343	0
+	+	364	0
+	+	343	0
+	+	343	28
+	+	343	0
+	+	364	28
+	+	364	0
+	+	9	0
+	+	343	0
+	+	364	0
+	+	235	24
+	+	343	78
+	+	343	28
+	+	364	78
+	+	364	28
+	+	343	0
+	+	336	0
+	+	329	0
+	+	145	1
+	+	155	0
+	+	156	17
+	+	158	21
+	+	150	0
+	+	151	18
+	+	152	0
+	+	158	0
+	+	157	0
+	+	158	0
+	+	152	16
+	+	153	19
+	+	152	12
+	+	157	12
+	+	153	17
+	+	340	6
+	+	341	63
+	+	333	0
+	+	335	0
+	+	343	0
+	+	353	0
+	+	355	0
+	+	363	0
+	+	361	0
+	+	363	0
+	+	160	0
+	+	161	20
+	+	166	19
+	+	343	0
+	+	322	0
+	+	364	0
+	+	345	0
+	+	237	0
+	+	237	20
+	+	237	24
+	+	237	0
+	+	231	0
+	+	242	0
+	+	238	0
+	+	336	0
+	+	349	0
+	+	373	0
+	+	374	19
+	+	374	0
+	+	387	0
+	+	412	0
+	+	375	0
+	+	237	11
+	+	242	19
+	+	237	8
+	+	242	17
+	+	1	0
+	+	235	52
+	+	236	0
+	+	235	46
+	+	236	0
+	+	240	0
 
-> /home/zhangle/ileler/ileler/configs/.ext/.IntelliJIdea/config/jdbc-drivers/jdbc-drivers.xml
-	*	1526453981	0
-	"	1	0
-
-> /home/zhangle/ileler/ileler/configs/.ext/.git/config
-	*	1526453909	0
+> /home/zhangle/ileler/ws/java/spring-boot-demo/spring-boot-demo/org.ileler.services/org.ileler.service1/src/main/resources/application.yml
+	*	1532047606	0
 	"	9	0
 
-> ~/nexus.xml.bak
-	*	1526371251	0
-	"	205	10
-
-> ~/.gitconfig
-	*	1526284258	0
-	"	1	0
-	^	5	2
-	.	5	1
-	+	5	1
-
-> ~/.config/configstore/update-notifier-npm.json
-	*	1526280053	0
-	"	1	0
-
-> /home/zhangle/ileler/ileler/configs/.ext/.IntelliJIdea4U/config/port
-	*	1526278629	0
-	"	1	0
-
-> /home/zhangle/ileler/ileler/configs/.common/.vimrc
-	*	1526269257	0
-	"	1	0
-
-> /home/zhangle/ileler/ileler/configs/.ext/.init
-	*	1526267757	0
-	"	7	11
-	^	7	12
-	.	7	11
-	+	7	11
-
-> /home/zhangle/ileler/ileler/configs/.ext/.int
-	*	1526267720	0
-	"	1	0
-
-> /etc/rc.local
-	*	1526018161	0
-	"	3	0
-	^	3	1
-	.	3	0
-	+	3	85
+> /home/zhangle/ileler/ws/java/spring-boot-demo/spring-boot-demo/org.ileler.services/org.ileler.service1/src/main/java/org/ileler/service1/Application.java
+	*	1532047532	0
+	"	18	0
+	.	18	0
 	+	3	0
+	+	7	0
+	+	18	0
 
-> /home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/jsw/conf/wrapper.conf
-	*	1526017606	0
-	"	15	79
-	^	15	80
-	.	15	79
-	+	15	79
-
-> /etc/systemd/system/nexus.service
-	*	1526017155	0
-	"	9	11
-	^	9	12
-	.	9	11
-	+	13	0
-	+	7	63
-	+	8	62
-	+	9	11
-
-> /etc/systemd/system/rc-local.service
-	*	1526017041	0
-	"	14	0
-
-> /home/zhangle/ileler/bins/.linux/nexus/sonatype-work/nexus/conf/capabilities.xml
-	*	1526010915	0
-	"	68	0
-
-> /home/zhangle/ileler/bins/.linux/nexus/sonatype-work/nexus/conf/nexus.xml
-	*	1526010900	0
-	"	1	0
-
-> /home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/conf/nexus.properties
-	*	1526010775	0
-	"	1	0
-
-> /home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/nexus/WEB-INF/classes/ehcache.xml
-	*	1526010676	0
-	"	135	0
-
-> /home/zhangle/ileler/bins/.linux/nexus/nexus-2.14.8-01/bin/nexus
-	*	1526010562	0
-	"	259	0
-
-> /media/kerwin/a0a/ws/js/aqara-gateway-faker/index.js
-	*	1526007754	0
-	"	1	0
-
-> /media/kerwin/a0a/ileler/configs/start-ubuntu.sh
-	*	1526004652	0
-	"	14	0
-	^	14	1
-	.	14	0
-	+	38	3
-	+	37	0
-	+	39	27
-	+	40	41
-	+	41	28
-	+	43	47
-	+	8	0
-	+	16	0
-	+	14	0
-
-> /media/kerwin/a0a/ileler/configs/.git/config
-	*	1526004569	0
-	"	6	15
-	^	6	16
-	.	6	15
-	+	6	15
-
-> /media/kerwin/a0a/ileler/configs/env-cygwin
-	*	1526004317	0
-	"	20	0
-
-> /media/zhangle/KERWIN/a0a/ws/js/aqara-gateway-faker/index.js
-	*	1525859084	0
-	"	52	25
-	^	48	156
-	.	48	112
-	+	8	47
-	+	10	3
-	+	52	19
-	+	3	34
-	+	17	2
-	+	39	0
-	+	4	25
-	+	38	44
-	+	52	23
-	+	2	37
-	+	4	24
-	+	29	17
-	+	29	4
-	+	17	0
-	+	38	36
-	+	37	33
-	+	23	33
-	+	24	11
-	+	38	102
-	+	23	27
-	+	29	0
-	+	25	9
-	+	29	0
-	+	25	8
-	+	38	116
-	+	36	29
-	+	38	108
-	+	25	40
-	+	38	58
-	+	30	40
-	+	32	4
-	+	31	43
-	+	41	0
-	+	42	0
-	+	40	0
-	+	41	16
-	+	43	31
-	+	52	0
-	+	38	101
-	+	28	10
-	+	27	38
-	+	28	14
-	+	46	16
-	+	48	112
-
-> /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/xiaomi_gateway/__init__.py
-	*	1525858785	0
-	"	175	38
-	^	175	39
-	.	175	39
-	+	79	35
-	+	93	52
-	+	97	0
-	+	96	0
-	+	175	39
-
-> ~/.homeassistant/home-assistant.log
-	*	1525853166	0
-	"	160	80
-	.	128	0
-	+	127	0
-	+	128	0
-
-> ~/.homeassistant/configuration.yaml
-	*	1525852952	0
-	"	77	24
-	^	77	25
-	.	77	24
-	+	78	47
-	+	73	7
-	+	71	19
-	+	77	24
-
-> /home/zhangle/ws/homeassistant/lib/python3.6/site-packages/homeassistant/components/xiaomi_aqara.py
-	*	1525851860	0
-	"	148	0
-
-> ~/.tmux.conf
-	*	1525847219	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> /media/zhangle/KERWIN/a0a/ileler/configs/upan/start-ubuntu.sh
-	*	1525846822	0
-	"	32	0
-	^	31	47
-	.	31	46
-	+	15	0
-	+	15	11
-	+	31	46
-
-> /media/zhangle/KERWIN/a0a/ileler/configs/upan/.common/.vimrc
-	*	1525846738	0
-	"	7	30
-	^	7	31
-	.	7	30
-	+	4	13
-	+	1	13
-	+	2	3
-	+	3	3
-	+	4	13
-	+	6	10
-	+	7	35
-	+	6	30
-	+	7	30
-
-> /media/zhangle/KERWIN/a0a/ileler/configs/upan/.common/.ssh/config
-	*	1525836430	0
-	"	1	8
-	.	1	0
-	+	1	24
-	+	6	26
-	+	11	26
-	+	3	0
+> /home/zhangle/ileler/bins/.linux/kafka/kafka_2.11-1.1.0/config/server.properties
+	*	1531979029	0
+	"	32	30
+	^	32	31
+	.	32	30
+	+	123	0
+	+	124	18
+	+	31	33
 	+	2	0
-	+	3	0
-	+	1	0
-	+	82	0
-	+	1	0
+	+	125	1
+	+	124	0
+	+	32	30
 
-> /etc/fstab
-	*	1525835240	0
-	"	1	0
-
-> ~/.viminfo
-	*	1525835092	0
-	"	727	1
-	.	33	0
-	+	33	0
-
-> ~/test.java
-	*	1524790260	0
-	"	5	0
-	^	5	0
-	.	5	0
-	+	1	35
-	+	4	39
-	+	1	9
-	+	3	0
-	+	4	0
-	+	4	6
-	+	5	0
-
-> ~/.profile~
-	*	1524790226	0
+> /home/zhangle/ileler/bins/.linux/logstash/logstash-6.3.1/bin/logstash
+	*	1531974991	0
 	"	60	0
 
-> /media/zhangle/KERWIN/a0a/ileler/configs/upan/.common/.bin/idea.sh
-	*	1524787535	0
-	"	10	17
-	^	10	18
-	.	10	17
-	+	1	0
-	+	1	11
-	+	12	81
-	+	12	0
-	+	13	0
-	+	11	0
-	+	13	31
-	+	4	6
-	+	6	1
-	+	5	7
-	+	12	98
-	+	7	26
-	+	12	22
-	+	13	0
-	+	12	61
-	+	4	0
-	+	3	5
-	+	4	26
-	+	12	58
-	+	10	17
-
-> /etc/sysctl.conf
-	*	1524787415	0
-	"	77	0
-
-> ~/.IntelliJIdea4U/idea.properties
-	*	1524727079	0
-	"	15	44
-	^	15	45
-	.	15	44
-	+	9	44
-	+	15	44
-
-> /media/zhangle/KERWIN/a0a/ws/python/home-assistant/requirements_all.txt
-	*	1524708064	0
-	"	1045	0
-
-> /media/zhangle/KERWIN/a0a/ws/python/home-assistant/tox.ini
-	*	1524708021	0
+> /home/zhangle/ileler/bins/.linux/kibana/kibana-6.3.1-linux-x86_64/bin/kibana
+	*	1531974897	0
 	"	1	0
 
-> /media/zhangle/KERWIN/a0a/ws/python/home-assistant/pylintrc
-	*	1524707998	0
+> /home/zhangle/ileler/bins/.linux/kafka/kafka_2.11-1.1.0/bin/kafka-server-start.sh
+	*	1531961591	0
+	"	44	0
+
+> /home/zhangle/ileler/bins/.linux/kafka/kafka_2.11-1.1.0/bin/kafka-run-class.sh
+	*	1531961564	0
+	"	148	0
+
+> /home/zhangle/ileler/bins/.linux/zookeeper/zookeeper-3.4.12/conf/zoo.cfg
+	*	1531960869	0
 	"	1	0
 
-> /media/zhangle/KERWIN/a0a/ws/python/home-assistant/.travis.yml
-	*	1524707838	0
-	"	1	0
-
-> /tmp/passwd
-	*	1524650623	0
-	"	1	0
-
-> ~/exit.sh
-	*	1524650563	0
-	"	3	58
-	^	3	59
-	.	3	58
-	+	3	44
-	+	2	13
-	+	1	0
-	+	3	58
-
-> /etc/passwd
-	*	1524650549	0
-	"	1	0
-	^	43	31
-	.	44	0
-	+	1	0
-	+	43	0
-	+	1	0
+> /home/zhangle/ileler/ileler/configs/.common/.bin/zookeeper
+	*	1531960801	0
+	"	8	31
+	^	7	52
+	.	7	51
 	+	2	0
-	+	42	0
-	+	44	0
+	+	3	0
+	+	2	9
+	+	7	51
 
-> /etc/sudoers
-	*	1524649411	0
+> /home/zhangle/ileler/ileler/configs/.common/.bin/kibana
+	*	1531903796	0
+	"	2	89
+	^	2	90
+	.	2	90
+	+	2	0
+	+	3	0
+	+	7	39
+	+	2	90
+
+> /home/zhangle/ileler/ileler/configs/.common/.bin/elastic
+	*	1531903395	0
+	"	8	0
+	^	7	47
+	.	7	47
+	+	2	0
+	+	2	98
+	+	5	0
+	+	2	0
+	+	2	70
+	+	2	69
+	+	4	0
+	+	2	0
+	+	2	2
+	+	3	17
+	+	4	17
+	+	2	8
+	+	7	47
+
+> ~/.trifecta/config.properties
+	*	1531898924	0
+	"	9	75
+	^	9	76
+	.	9	26
+	+	25	0
+	+	8	26
+	+	16	36
+	+	15	0
+	+	9	0
+	+	8	0
+	+	9	26
+
+> /home/zhangle/ileler/bins/.linux/kafka/kafka-manager-1.3.3.18/temp/kafka-manager-1.3.3.18/conf/consumer.properties
+	*	1531894756	0
+	"	3	0
+
+> /home/zhangle/ileler/bins/.linux/kafka/kafka-manager-1.3.3.18/temp/kafka-manager-1.3.3.18/conf/application.conf
+	*	1531894742	0
+	"	1	0
+	^	25	1
+	.	25	0
+	+	23	0
+	+	24	23
+	+	25	0
+
+> /home/zhangle/ileler/bins/.linux/kafka/kafka-manager-1.3.3.18/temp/kafka-manager-1.3.3.18/conf/logback.xml
+	*	1531893168	0
 	"	1	0
 
-> ~/test.sh
-	*	1524646350	0
-	"	1	5
-	^	1	6
-	.	1	5
-	+	1	5
+> /home/zhangle/ileler/bins/.linux/kafka/kafka-manager-1.3.3.18/conf/application.conf
+	*	1531888854	0
+	"	27	0
 
-> /media/zhangle/KERWIN/a0a/ileler/configs/upan/.common/.bin/ssh
-	*	1524644344	0
-	"	3	0
-	^	3	0
-	.	2	12
-	+	4	42
-	+	2	12
+> /home/zhangle/ileler/bins/.linux/maven/apache-maven-3.5.0/conf/settings.xml
+	*	1531883575	0
+	"	160	2
+	.	160	0
+	+	55	46
+	+	160	0
+	+	160	1
+	+	160	36
+	+	160	0
+	+	160	41
+	+	160	0
 
-> /media/zhangle/KERWIN/a0a/ileler/configs/upan/.common/.ssh/config.d/mpr-dev.cfg
-	*	1524641631	0
-	"	1	5
-	^	1	6
-	.	1	5
-	+	3	4
-	+	1	5
+> /home/zhangle/ileler/kafka
+	*	1531832579	0
+	"	1	0
+	^	6	79
+	.	6	78
+	+	8	242
+	+	8	2
+	+	8	301
+	+	8	242
+	+	8	59
+	+	8	11
+	+	8	9
+	+	8	23
+	+	8	31
+	+	8	144
+	+	8	22
+	+	8	27
+	+	8	0
+	+	8	27
+	+	8	107
+	+	8	31
+	+	8	14
+	+	8	17
+	+	8	54
+	+	8	14
+	+	8	136
+	+	8	10
+	+	8	0
+	+	8	21
+	+	8	123
+	+	8	15
+	+	8	115
+	+	8	0
+	+	7	0
+	+	1	0
+	+	7	0
+	+	3	0
+	+	7	15
+	+	7	137
+	+	7	14
+	+	7	136
+	+	7	5
+	+	7	137
+	+	7	20
+	+	7	136
+	+	7	0
+	+	5	0
+	+	7	121
+	+	8	0
+	+	9	13
+	+	7	124
+	+	9	0
+	+	8	0
+	+	6	78
 
-> /etc/ssh/sshd_config
-	*	1524638075	0
-	"	31	0
+> /usr/share/vim/vim80/doc/fold.txt
+	*	1531814445	0
+	"	363	0
 
-> /media/zhangle/KERWIN/a0a/ileler/configs/upan/.common/.ssh/config.d/mpr-test.cfg
-	*	1524637820	0
-	"	1	4
+> /home/zhangle/ileler/ws/java/temp/temp/settings.xml
+	*	1531813223	0
+	"	204	27
+	^	253	7
+	.	253	6
+	+	55	19
+	+	113	0
+	+	133	0
+	+	127	0
+	+	130	35
+	+	131	25
+	+	128	18
+	+	129	21
+	+	270	0
+	+	247	0
+	+	225	0
+	+	270	0
+	+	249	0
+	+	250	6
+	+	251	6
+	+	252	6
+	+	253	6
+
+> /home/zhangle/ileler/ws/java/temp/temp/pom.xml
+	*	1531811388	0
+	"	1	0
+
+> /home/zhangle/ileler/ws/tl/com.cncbox/com.cncbox.services/com.cncbox.service1/target/generated-sources/archetype/pom.xml
+	*	1531810305	0
+	"	19	0
+
+> /home/zhangle/ileler/bins/maven/apache-maven-3.5.0/conf/settings.xml
+	*	1531730930	0
+	"	131	6
+
+> /home/zhangle/ileler/ileler/configs/.ext/.IntelliJIdea/license-server.txt
+	*	1531700211	0
+	"	1	0
+
+> /home/zhangle/ileler/bins/.linux/elastic/elasticsearch-6.3.1/config/elasticsearch.yml
+	*	1531445827	0
+	"	90	0
+	^	61	15
+	.	61	14
+	+	56	22
+	+	61	14
+
+> /home/zhangle/ileler/bins/.linux/kafka/kafka_2.11-1.1.0/config/zookeeper.properties
+	*	1531362749	0
+	"	20	0
+
+> /home/zhangle/ileler/ws/tl/com.cncbox/com.cncbox.commons/com.cncbox.zipkin/pom.xml
+	*	1531294098	0
+	"	15	4
+	^	12	33
+	.	15	0
+	+	12	32
+	+	15	0
+
+> /home/zhangle/ileler/ws/tl/com.cncbox/com.cncbox.commons/com.cncbox.eureka/pom.xml
+	*	1531274896	0
+	"	15	4
+	^	12	33
+	.	15	0
+	+	7	20
+	+	12	32
+	+	15	0
+
+> /home/zhangle/ileler/ws/tl/com.cncbox/com.cncbox.maven.template/pom.xml
+	*	1531270366	0
+	"	7	17
+	^	7	18
+	.	7	17
+	+	5	0
+	+	7	17
+
+> /home/zhangle/ileler/ws/tl/com.cncbox/com.cncbox.maven.dependencies/pom.xml
+	*	1531269446	0
+	"	8	13
+	^	8	14
+	.	8	13
+	+	5	0
+	+	8	13
+
+> /home/zhangle/ileler/ws/tl/com.cncbox/com.cncbox.services/com.cncbox.service2/pom.xml
+	*	1531269425	0
+	"	9	0
 	.	6	0
 	+	6	0
 
-> /etc/ssh/ssh_config
-	*	1524637517	0
-	"	55	0
+> /home/zhangle/ileler/ws/tl/com.cncbox/com.cncbox.services/com.cncbox.service1/pom.xml
+	*	1531269380	0
+	"	14	4
+	.	14	0
+	+	6	0
+	+	14	0
 
-> /media/zhangle/KERWIN/a0a/ileler/configs/upan/.common/.ssh/id_rsa.pub
-	*	1524635604	0
+> /home/zhangle/ileler/ws/tl/com.cncbox/com.cncbox.services/com.cncbox.gateway/pom.xml
+	*	1531269314	0
+	"	8	33
+	^	12	34
+	.	12	34
+	+	6	0
+	+	12	34
+
+> /home/zhangle/ileler/ws/tl/com.cncbox/com.cncbox.services/pom.xml
+	*	1531269257	0
+	"	11	4
+	^	7	18
+	.	11	0
+	+	5	0
+	+	15	34
+	+	7	17
+	+	11	0
+
+> /home/zhangle/ileler/bins/.linux/logstash/log_es.conf
+	*	1531203871	0
+	"	20	29
+	^	20	30
+	.	20	29
+	+	22	1
+	+	20	29
+
+> /home/zhangle/ileler/bins/.linux/kibana/kibana-6.3.1-linux-x86_64/config/kibana.yml
+	*	1531192719	0
+	"	30	6
+	^	30	0
+	.	31	0
+	+	8	23
+	+	31	0
+	+	30	0
+	+	31	0
+
+> /home/zhangle/ileler/bins/.linux/elastic/elasticsearch-6.3.1/bin/elasticsearch
+	*	1531191855	0
 	"	1	0
 
-> /media/zhangle/KERWIN/a0a/ileler/configs/upan/.common/.ssh/id_rsa
-	*	1524635595	0
+> /home/zhangle/ileler/ws/java/spring-boot-demo/spring-boot-demo/org.ileler.services/org.ileler.zipkin/temp.out
+	*	1531122187	0
 	"	1	0
 
-> /media/zhangle/KERWIN/a0a/ileler/configs/upan/.common/.ssh/moba_rsa.pub
-	*	1524635332	0
-	"	1	0
-
-> /media/zhangle/KERWIN/a0a/ileler/configs/upan/.common/.ssh/upan.pub
-	*	1524635185	0
-	"	1	0
-
-> /media/zhangle/KERWIN/a0a/bins/NodeJS/npm-global/node_modules/@angular/cli/models/config/config.js
-	*	1524109828	0
-	"	1	0
-
-> /media/zhangle/KERWIN/a0a/bins/NodeJS/node-v6.13.1-linux-x64/bin/npm
-	*	1524046639	0
-	"	1	1
-	^	1	2
-	.	1	2
-	+	1	2
-
-> /media/zhangle/KERWIN/a0a/bins/NodeJS/npm-global/node_modules/cnpm/bin/cnpm
-	*	1524046116	0
-	"	1	0
-
-> /media/zhangle/KERWIN/a0a/bins/NodeJS/npm-global/cnpm
-	*	1524046002	0
-	"	1	0
-
-> /media/zhangle/KERWIN/a0a/bins/NodeJS/node-v6.13.1-linux-x64/lib/node_modules/npm/bin/npm-cli.js
-	*	1524045647	0
-	"	1	0
-
-> /media/zhangle/KERWIN/a0a/ileler/configs/upan/.common/.m2/settings_spring-boot.xml
-	*	1524013064	0
-	"	7	28
-	^	7	29
-	.	7	28
-	+	7	28
-
-> /media/zhangle/KERWIN/a0a/bins/Maven/apache-maven-3.5.0/conf/settings.xml
-	*	1523968067	0
-	"	55	29
-	^	55	30
-	.	55	29
-	+	55	29
-
-> ../bins/Maven/apache-maven-3.5.0/conf/settings.xml
-	*	1523966635	0
-	"	1	0
-
-> /media/zhangle/KERWIN/a0a/ileler/configs/upan/.common/.bin/idea.bat
-	*	1523936841	0
-	"	10	6
-	^	10	7
-	.	10	6
-	+	2	0
-	+	8	0
-	+	9	18
-	+	9	0
-	+	7	4
-	+	10	35
-	+	9	60
-	+	7	16
-	+	10	6
-
-> /media/zhangle/KERWIN/a0a/ileler/configs/upan/.common/.IntelliJIdea/idea.properties
-	*	1523936193	0
-	"	15	27
-	^	15	28
-	.	15	27
-	+	9	22
-	+	15	27
-
-> /media/zhangle/KERWIN/a0a/ileler/configs/upan/.rc-cygwin/.gitconfig
-	*	1523935105	0
-	"	1	0
-
-> /media/zhangle/KERWIN/a0a/ileler/configs/upan/env-cygwin
-	*	1523934204	0
-	"	80	0
-
-> /media/zhangle/KERWIN/a0a/ileler/configs/upan/start-cygwin.bat
-	*	1523933564	0
-	"	68	0
-
-> /home/zhangle/ws/ideaj/idea-IU-181.4203.550/bin/idea.sh
-	*	1523930913	0
-	"	137	2
-	.	209	0
-	+	206	0
-	+	179	21
-	+	179	0
-	+	181	26
-	+	209	0
-
-> /media/zhangle/KERWIN/a0a/ileler/configs/upan/.common/.IntelliJIdea/config/idea.key
-	*	1523930876	0
-	"	1	0
-
-> /media/zhangle/KERWIN/a0a/ileler/configs/upan/.common/.IntelliJIdea/config/idea64.vmoptions
-	*	1523873022	0
+> /home/zhangle/ileler/ileler/configs/.ext/.IntelliJIdea/config/idea64.vmoptions
+	*	1531098778	0
 	"	12	0
 	.	13	0
 	+	13	0
 
-> /media/zhangle/KERWIN/a0a/ileler/configs/upan/.common/.IntelliJIdea/config/idea64.exe.vmoptions
-	*	1523755893	0
-	"	29	0
-	.	30	0
-	+	30	0
+> /home/zhangle/ileler/ws/java/spring-boot-2.x-demo/.gitignore
+	*	1530866590	0
+	"	4	4
+	^	4	5
+	.	4	0
+	+	4	0
 
-> ~/idea.sh
-	*	1523691837	0
+> ~/.curlrc
+	*	1530329459	0
+	"	1	4
+	^	1	5
+	.	1	4
+	+	1	4
+
+> /home/zhangle/ileler/ileler/configs/env-cygwin
+	*	1530260022	0
+	"	68	0
+
+> /usr/share/vim/vim80/doc/eval.txt
+	*	1530259286	0
+	"	3426	42
+
+> /usr/share/vim/vim80/doc/cmdline.txt
+	*	1530259276	0
+	"	691	50
+
+> /usr/share/vim/vim80/doc/help.txt
+	*	1530258829	0
+	"	40	0
+
+> /home/zhangle/ileler/ws/python/iu-jar/setup.py
+	*	1530239075	0
+	"	8	17
+	^	8	18
+	.	8	17
+	+	22	0
+	+	7	15
+	+	9	17
+	+	10	33
+	+	9	17
+	+	11	17
+	+	14	40
+	+	22	0
+	+	22	5
+	+	22	0
+	+	22	32
+	+	22	0
+	+	21	28
+	+	8	17
+
+> /home/zhangle/ileler/ws/python/iu-jar/README.md
+	*	1530238408	0
+	"	1	1
+	^	3	44
+	.	3	0
+	+	3	0
+
+> /home/zhangle/ileler/ws/python/iu-jar/iu-jar/iujar
+	*	1530238183	0
 	"	1	0
 
-> /etc/profile
-	*	1523690356	0
-	"	30	31
-	^	30	32
-	.	30	31
-	+	30	31
+> ~/.pip/pip.conf
+	*	1530237626	0
+	"	9	25
+	^	9	4
+	.	9	3
+	+	1	8
+	+	2	46
+	+	7	46
+	+	2	0
+	+	3	0
+	+	2	11
+	+	3	14
+	+	7	17
+	+	5	30
+	+	9	18
+	+	5	14
+	+	6	39
+	+	4	3
+	+	5	3
+	+	6	3
+	+	8	3
+	+	9	3
 
-> /media/zhangle/KERWIN/a0a/ileler/configs/upan/.common/.bin/idea
-	*	1523689043	0
+> /home/zhangle/ileler/ws/python/iu-jar/LICENSE
+	*	1530234094	0
+	"	19	8
+	^	19	9
+	.	19	0
+	+	19	0
+
+> /home/zhangle/ileler/ileler/configs/.common/.bin/sbjutil
+	*	1530176674	0
+	"	57	48
+	^	57	49
+	.	57	48
+	+	343	0
+	+	346	0
+	+	293	26
+	+	335	9
+	+	336	27
+	+	342	37
+	+	180	10
+	+	180	27
+	+	191	0
+	+	180	10
+	+	192	4
+	+	342	37
+	+	265	10
+	+	266	27
+	+	272	32
+	+	239	48
+	+	239	31
+	+	239	41
+	+	239	56
+	+	243	0
+	+	244	0
+	+	243	41
+	+	242	0
+	+	240	26
+	+	240	102
+	+	242	0
+	+	243	34
+	+	244	49
+	+	233	0
+	+	239	0
+	+	233	23
+	+	234	102
+	+	239	0
+	+	254	69
+	+	262	47
+	+	242	51
+	+	237	51
+	+	231	20
+	+	237	46
+	+	243	0
+	+	245	29
+	+	242	50
+	+	241	49
+	+	242	91
+	+	235	0
+	+	237	0
+	+	275	4
+	+	236	0
+	+	235	0
+	+	236	0
+	+	235	46
+	+	241	0
+	+	259	24
+	+	250	0
+	+	250	17
+	+	250	0
+	+	259	0
+	+	254	100
+	+	258	90
+	+	260	60
+	+	261	64
+	+	50	0
+	+	50	96
+	+	275	4
+	+	248	0
+	+	252	63
+	+	259	15
+	+	252	43
+	+	212	32
+	+	259	0
+	+	345	4
+	+	325	74
+	+	332	67
+	+	339	22
+	+	341	22
+	+	336	0
+	+	337	0
+	+	338	0
+	+	339	0
+	+	341	0
+	+	325	23
+	+	332	23
+	+	325	23
+	+	322	27
+	+	323	76
+	+	325	55
+	+	326	24
+	+	327	45
+	+	345	4
+	+	53	0
+	+	52	0
+	+	54	9
+	+	180	50
+	+	266	33
+	+	336	33
+	+	316	34
+	+	311	34
+	+	205	17
+	+	285	18
+	+	57	48
+
+> /home/zhangle/ileler/ws/python/iu-jar/iujar
+	*	1530175066	0
+	"	175	0
+	^	37	49
+	.	37	48
+	+	1	16
+	+	19	0
+	+	11	0
+	+	39	4
+	+	39	0
+	+	189	0
+	+	187	0
+	+	212	0
+	+	244	0
+	+	238	8
+	+	237	0
+	+	236	8
+	+	235	0
+	+	231	8
+	+	226	8
+	+	207	86
+	+	17	32
+	+	19	6
+	+	207	76
+	+	212	19
+	+	19	118
+	+	20	61
+	+	21	61
+	+	22	67
+	+	23	77
+	+	24	95
+	+	27	77
+	+	28	82
+	+	29	93
+	+	30	83
+	+	31	95
+	+	26	121
+	+	20	41
+	+	21	41
+	+	27	41
+	+	28	41
+	+	22	57
+	+	23	56
+	+	29	65
+	+	30	56
+	+	46	17
+	+	43	17
+	+	126	18
+	+	152	34
+	+	157	34
+	+	107	33
+	+	177	33
+	+	34	61
+	+	35	68
+	+	37	48
+
+> /home/zhangle/ileler/ws/tl/publisher/com.mpr.panmedia/com.mpr.panmedia.consumer/com.mpr.panmedia.consumer-1.0.0-SNAPSHOT.jar.incremental.tmp/inc/__delete__
+	*	1530100617	0
 	"	1	0
 
-> /media/zhangle/KERWIN/a0a/ileler/configs/upan/env
-	*	1523688634	0
-	"	53	0
-
-> /media/zhangle/KERWIN/a0a/ileler/configs/upan/ext
-	*	1523688605	0
+> /home/zhangle/ileler/ileler/configs/.uwt
+	*	1530078534	0
 	"	1	0

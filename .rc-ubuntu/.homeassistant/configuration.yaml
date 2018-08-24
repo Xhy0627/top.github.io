@@ -69,10 +69,12 @@ cloud:
 # Aqara
 xiaomi_aqara:
   discovery_retry: 5
+  gateways:
+    - key: ijeslefsjkdedsfb
 
 # Logger
 logger:
-  default: info
+  default: error
   logs:
     xiaomi_gateway: debug
     homeassistant.components.xiaomi_aqara: debug

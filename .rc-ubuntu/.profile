@@ -63,6 +63,9 @@ export PATH=$NODE_HOME/bin:$npm_config_prefix/bin:$PATH
 #pip
 export PIP_CONFIG_FILE=$HOME/.pip/pip.conf
 
+#go
+export GOROOT=$__LPATH__/bins/.linux/go
+export PATH=$GOROOT/bin:$PATH
 
 
 export PATH=$HOME/.bin:$PATH
