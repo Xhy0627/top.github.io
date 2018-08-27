@@ -11,7 +11,7 @@ set "MROOT=%U%\%ROOT%"
 set "UHOME=%MROOT%\%a0a%"
 set "CHOME=%CROOT%\%a0a%"
 ::set "SHOME=%~dp0\"
-set "SHOME=%~dp0\..\..\"
+set "SHOME=%~dp0\..\"
 set "RHOME=%UHOME%\%RC%"
 set "LHOME=%RHOME%\%LC%"
 
