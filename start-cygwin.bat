@@ -17,49 +17,49 @@ set "LHOME=%RHOME%\%LC%"
 
 
 if exist %CROOT% (
-	rd /s /q %CROOT%
+    rd /s /q %CROOT%
 )
 
 if not exist %CROOT% (
-	mkdir %CROOT%
+    mkdir %CROOT%
 )
 
 
 if exist %U% (
-	if "%~d0"=="%U%" (
-		echo "U:"存在且就是当前盘
-	) else (
-		echo "U:"存在但不是当前盘
-	)
-	if exist %MROOT% (
-		RD /S /Q %MROOT%
-	)
+    if "%~d0"=="%U%" (
+        echo "U:"存在且就是当前盘
+    ) else (
+        echo "U:"存在但不是当前盘
+    )
+    if exist %MROOT% (
+        RD /S /Q %MROOT%
+    )
 ) else (
-	echo "U:"不存在
-	subst %U% /D
-	subst %U% %CROOT%	
+    echo "U:"不存在
+    subst %U% /D
+    subst %U% %CROOT%    
 )
 
 mklink /j %MROOT% %CROOT%
 mklink /j %CHOME% %SHOME%
 
 if exist %LHOME% (
-	RD /S /Q %LHOME%
+    RD /S /Q %LHOME%
 )
 if exist %RHOME% (
-	RD /S /Q %RHOME%
+    RD /S /Q %RHOME%
 )
 if exist %UHOME%\env-cygwin (
-	RD /S /Q %UHOME%\env-cygwin
+    RD /S /Q %UHOME%\env-cygwin
 )
 if exist %UHOME%\ext-cygwin (
-	RD /S /Q %UHOME%\ext-cygwin
+    RD /S /Q %UHOME%\ext-cygwin
 )
 if exist %UHOME%\.common (
-	RD /S /Q %UHOME%\.common
+    RD /S /Q %UHOME%\.common
 )
 if exist %UHOME%\.ext (
-	RD /S /Q %UHOME%\.ext
+    RD /S /Q %UHOME%\.ext
 )
 
 mklink /j %RHOME% %~dp0\%RC%
@@ -70,12 +70,12 @@ mklink /j %UHOME%\.ext %~dp0\.ext
 set /p _lhome="Enter LHOME PATH:["
 echo %_lhome%]
 if not defined _lhome (
-	set _lhome=empty
+    set _lhome=empty
 )
 if exist %_lhome% (
-	set __lhome=%_lhome%
+    set __lhome=%_lhome%
 ) else (
-	set __lhome=%UHOME%
+    set __lhome=%UHOME%
 )
 mklink /j %LHOME% %__lhome%
 
@@ -90,7 +90,7 @@ cd /d %UHOME%
 
 ::cat $(pwd)/.rc/.sshd_config_u > /etc/ssh/sshd_config && 
 ::echo 'PermitUserEnvironment yes' >> /etc/ssh/sshd_config && 
-set "HOME=%RHOME%" && cd.>%RHOME%\.bash_profile && start "" ".\bins\cygwin64\bin\mintty.exe" -e /usr/bin/bash --login -i -c "export HOME=$(pwd) && echo \"SHOME='%SHOME%'\" > ~/.bash_profile && cat $HOME/../env-cygwin >> ~/.bash_profile && /usr/bin/bash --login -i"
+set "HOME=%RHOME%" && cd.>%RHOME%\.bash_profile && start "" "%LHOME%\bins\cygwin64\bin\mintty.exe" -e /usr/bin/bash --login -i -c "export HOME=$(pwd) && echo \"SHOME='%SHOME%'\" > ~/.bash_profile && cat $HOME/../env-cygwin >> ~/.bash_profile && /usr/bin/bash --login -i"
 
 
 
