@@ -14,6 +14,7 @@ export LOCALAPPDATA=$USERPROFILE/AppData/Local
 export __EPATH__=$(cd -P "$HOME/../.ext";pwd)
 export __LPATH__=$(cd "$HOME/.rc-local";pwd)
 export __RPATH__=$(cd "$HOME/../";pwd)
+export __LBINS__=$__LPATH__/bins/.win
 
 
 #EXT DIR SET
@@ -49,15 +50,15 @@ mkdir -p $APPDATA
 export ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/
 
 #nodejs
-export _NODEJS_=node-v8.11.1-win-x64
-export NODE_HOME=$__LPATH__/bins/.win/nodejs
+export _NODEJS_=.node
+export NODE_HOME=$__LBINS__/nodejs
 export npm_config_cache=`ext-winpath $NODE_HOME/npm-cache`
 export npm_config_prefix=`ext-winpath $NODE_HOME/npm-global`
 export NODE_PATH=`ext-winpath $HOME/.node_modules`:$npm_config_prefix\\node_modules:`ext-winpath $NODE_HOME/$_NODEJS_/node_modules`
 export NODE_MODULES=$NODE_PATH
 
 #python
-#export _PYTHON_=Python36-32
+#export _PYTHON_=.python
 #export PYTHON_HOME=$__LPATH__/bins/Python
 #export PYTHON_SCRIPTS=Scripts
 #export PYTHONHOME=$PYTHON_HOME/$_PYTHON_
@@ -66,21 +67,21 @@ export PYTHONPATH=$PYTHON_SITE_PACKAGE_PATH
 #export PYTHON=u:\\u~u\\a0a\\bins\\Cygwin\\bin\\python2.7.exe
 
 #java
-export JAVA_HOME=$__LPATH__/bins/.win/java/jdk1.8.0_171
+export JAVA_HOME=$__LBINS__/java/.jdk
 export _JAVA_OPTIONS="-Duser.home='`ext-winpath $HOME`' -Droot.path='`ext-winpath $__RPATH__`' $_JAVA_OPTIONS"
 export CLASSPATH=.:$JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar
 
 #idea
 export IDEA_PROPERTIES=`ext-winpath $HOME/.IntelliJIdea/idea.properties`
 
+#groovy
+export GROOVY_HOME=$__LBINS__/groovy/.groovy
+
 #gradle
-export GRADLE_HOME=$__LPATH__/bins/.win/gradle/gradle-4.2.1
+export GRADLE_HOME=$__LBINS__/gradle/.gradle
 
 #maven
-export MAVEN_HOME=$__LPATH__/bins/.win/maven/apache-maven-3.5.0
-
-#groovy
-export GROOVY_HOME=$__LPATH__/bins/.win/groovy/groovy-2.4.13
+export MAVEN_HOME=$__LBINS__/maven/.maven
 
 #path
 export PATH=$GROOVY_HOME/bin:$MAVEN_HOME/bin:$GRADLE_HOME/bin:$JAVA_HOME/bin:$PYTHONHOME:$PYTHONHOME/$PYTHON_SCRIPTS:$NODE_HOME/$_NODEJS_:$NODE_HOME/npm-global:$NVM_HOME:$HOME/.bin:$PATH
