@@ -27,6 +27,7 @@ echo 'hi~'
 export __EPATH__=$(cd -P "$HOME/../.ext";pwd)
 export __LPATH__=$(cd "$HOME/.rc-local";pwd)
 export __RPATH__=$(cd "$HOME/../";pwd)
+export __LBINS__=$__LPATH__/bins/.linux
 
 #java
 _JAVA_LIBS="$__EPATH__/tools/java-libs"
@@ -37,13 +38,21 @@ if [ -d $_JAVA_LIBS ] ; then
         _CLASSPATH=$_CLASSPATH:$_JAVA_LIBS/$jarname
     done
 fi
-export JAVA_HOME=$__LPATH__/bins/.linux/java/jdk1.8.0_171
+export JAVA_HOME=$__LBINS__/java/jdk1.8.0_171
 export CLASSPATH=.:$JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar
 export _JAVA_OPTIONS="-Duser.home=$HOME -Droot.path=$__RPATH__ $_JAVA_OPTIONS"
 export PATH=$JAVA_HOME/bin:$PATH
 
+#groovy
+export GROOVY_HOME=$__LBINS__/groovy/.groovy
+export PATH=$GROOVY_HOME/bin:$PATH
+
+#gradle
+export GRADLE_HOME=$__LBINS__/gradle/.gradle
+export PATH=$GRADLE_HOME/bin:$PATH
+
 #maven
-export MAVEN_HOME=$__LPATH__/bins/.linux/maven/apache-maven-3.5.0
+export MAVEN_HOME=$__LBINS__/maven/apache-maven-3.5.0
 export PATH=$MAVEN_HOME/bin:$PATH
 
 #ideaj
@@ -52,7 +61,7 @@ export IDEA_PROPERTIES=$HOME/.IntelliJIdea4U/idea.properties
 export IDEA_VM_OPTIONS=$HOME/.IntelliJIdea4U/config/idea64.vmoptions
 
 #nodejs
-export NODE_DIR=$__LPATH__/bins/.linux/nodejs
+export NODE_DIR=$__LBINS__/nodejs
 export NODE_HOME=$NODE_DIR/node-v8.11.1-linux-x64
 export npm_config_cache=$NODE_DIR/npm-cache
 export npm_config_prefix=$NODE_DIR/npm-global
@@ -64,7 +73,7 @@ export PATH=$NODE_HOME/bin:$npm_config_prefix/bin:$PATH
 export PIP_CONFIG_FILE=$HOME/.pip/pip.conf
 
 #go
-export GOROOT=$__LPATH__/bins/.linux/go
+export GOROOT=$__LBINS__/go
 export PATH=$GOROOT/bin:$PATH
 
 
