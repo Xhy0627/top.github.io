@@ -19,7 +19,7 @@ ext-link() {
     else
         # Link-creation mode.
         if windows; then
-            if [[ ${2:0:1} == "." ]]; then
+            if [[ ${2:0:1} != "/" ]]; then
                 if [[ -d "$2" ]]; then
                     temp=$(cd $2;pwd)
                 else
