@@ -1,0 +1,22 @@
+buildscript {
+    ext.repos = {
+        mavenLocal()
+        maven {
+            url 'http://localhost:8081/nexus/content/groups/public'
+        }
+        maven {
+            url 'http://maven.aliyun.com/nexus/content/groups/public'
+        }
+    }
+    repositories repos
+}
+
+allprojects {
+    repositories repos
+}
+
+settingsEvaluated { settings ->
+    settings.pluginManagement {
+        repositories repos
+    }
+}
