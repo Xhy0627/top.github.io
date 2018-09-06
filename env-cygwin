@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-cd ../
+cd -P ../
 source ./ext-cygwin
 export UETYPE=CYGWIN
 
@@ -11,8 +11,8 @@ export HOMEPATH=$HOME
 export USERPROFILE=$HOME
 export APPDATA=$USERPROFILE/AppData/Roaming
 export LOCALAPPDATA=$USERPROFILE/AppData/Local
-export __EPATH__=$(cd -P "$HOME/../.ext";pwd)
 export __LPATH__=$(cd "$HOME/.rc-local";pwd)
+export __EPATH__=$(cd "$HOME/.rc-ext";pwd)
 export __RPATH__=$(cd "$HOME/../";pwd)
 export __LBINS__=$__LPATH__/bins/.win
 

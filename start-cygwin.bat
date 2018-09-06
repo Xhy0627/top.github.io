@@ -3,6 +3,7 @@
 set "U=U:"
 set "RC=.rc-cygwin"
 set "LC=.rc-local"
+set "EC=.rc-ext"
 set "a0a=a0a"
 
 set "ROOT=u~u"
@@ -14,6 +15,7 @@ set "CHOME=%CROOT%\%a0a%"
 set "SHOME=%~dp0\..\"
 set "RHOME=%UHOME%\%RC%"
 set "LHOME=%RHOME%\%LC%"
+set "EHOME=%RHOME%\%EC%"
 
 
 if exist %CROOT% (
@@ -43,30 +45,17 @@ if exist %U% (
 mklink /j %MROOT% %CROOT%
 mklink /j %CHOME% %SHOME%
 
+if exist %EHOME% (
+    RD /S /Q %EHOME%
+)
 if exist %LHOME% (
     RD /S /Q %LHOME%
 )
 if exist %RHOME% (
     RD /S /Q %RHOME%
 )
-if exist %UHOME%\env-cygwin (
-    RD /S /Q %UHOME%\env-cygwin
-)
-if exist %UHOME%\ext-cygwin (
-    RD /S /Q %UHOME%\ext-cygwin
-)
-if exist %UHOME%\.common (
-    RD /S /Q %UHOME%\.common
-)
-if exist %UHOME%\.ext (
-    RD /S /Q %UHOME%\.ext
-)
 
 mklink /j %RHOME% %~dp0\%RC%
-mklink /j %UHOME%\env-cygwin %~dp0\env-cygwin
-mklink /j %UHOME%\ext-cygwin %~dp0\ext-cygwin
-mklink /j %UHOME%\.common %~dp0\.common
-mklink /j %UHOME%\.ext %~dp0\.ext
 set /p _lhome="Enter LHOME PATH:["
 echo %_lhome%]
 if not defined _lhome (
@@ -78,12 +67,14 @@ if exist %_lhome% (
     set __lhome=%UHOME%
 )
 mklink /j %LHOME% %__lhome%
+mklink /j %EHOME% %~dp0\.ext
 
 rem UHOME[U:\!!KERWIN!!\a0a]
 echo UHOME[%UHOME%]
 
 echo %RHOME%[%~dp0\%RC%]
 echo %LHOME%[%__lhome%]
+echo %EHOME%[%~dp0\.ext]
 
 
 cd /d %UHOME%

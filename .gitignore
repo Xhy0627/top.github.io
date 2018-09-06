@@ -28,4 +28,5 @@
 .rc-*/.vim
 .rc-*/tmux-*.log
 .rc-cygwin/AppData
+.rc-cygwin/.bash_profile
 *setup.log*
