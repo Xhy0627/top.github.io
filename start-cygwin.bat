@@ -13,7 +13,7 @@ set "UHOME=%MROOT%\%a0a%"
 set "CHOME=%CROOT%\%a0a%"
 ::set "SHOME=%~dp0\"
 set "SHOME=%~dp0\..\"
-set "RHOME=%UHOME%\%RC%"
+set "RHOME=%~dp0\%RC%"
 set "LHOME=%RHOME%\%LC%"
 set "EHOME=%RHOME%\%EC%"
 
@@ -51,11 +51,7 @@ if exist %EHOME% (
 if exist %LHOME% (
     RD /S /Q %LHOME%
 )
-if exist %RHOME% (
-    RD /S /Q %RHOME%
-)
 
-mklink /j %RHOME% %~dp0\%RC%
 set /p _lhome="Enter LHOME PATH:["
 echo %_lhome%]
 if not defined _lhome (
@@ -72,7 +68,6 @@ mklink /j %EHOME% %~dp0\.ext
 rem UHOME[U:\!!KERWIN!!\a0a]
 echo UHOME[%UHOME%]
 
-echo %RHOME%[%~dp0\%RC%]
 echo %LHOME%[%__lhome%]
 echo %EHOME%[%~dp0\.ext]
 
