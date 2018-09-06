@@ -18,6 +18,7 @@ fi
 user=u~u
 hdir=.rc-ubuntu
 ldir=.rc-local
+edir=.rc-ext
 cdir=$(cd "$(dirname "$0")";pwd)
 #rpath=$(cd $cdir;cd "$(git rev-parse --show-toplevel)/../";pwd)
 rpath=$(cd $cdir;cd "../";pwd)
@@ -25,9 +26,13 @@ rpath=$(cd $cdir;cd "../";pwd)
 upath=/$user
 hpath=$upath/$hdir
 lpath=$hpath/$ldir
+epath=$hpath/$edir
 
 echo $upath[$rpath]
 rm -rf $upath;ln -s $rpath $upath
+
+echo $hpath[$cdir/$hdir]
+rm -rf $hpath;ln -s $cdir/$hdir $hpath
 
 if [[ $1 && -d $1 ]]
 then
@@ -38,16 +43,15 @@ fi
 echo $lpath[$_lpath]
 rm -rf $lpath;ln -s $_lpath $lpath
 
-echo $hpath[$cdir/$hdir]
-rm -rf $hpath;ln -s $cdir/$hdir $hpath
+echo $epath[$cdir/.ext]
+rm -rf $epath;ln -s $cdir/.ext $epath
 
 
-#ext dir set
-export _USER_EXT_=$cdir/.ext
+#idea home dir set
 fnameArray=(.IntelliJIdea .IntelliJIdea4U)
 for fname in ${fnameArray[@]}
 do
-  cd $hpath && rm -rf $fname && ln -s $_USER_EXT_/$fname $fname && cd - >/dev/null
+  cd $hpath && rm -rf $fname && ln -s $epath/$fname $fname && cd - >/dev/null
 done
 
 #common dir set

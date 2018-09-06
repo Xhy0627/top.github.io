@@ -24,8 +24,8 @@ fi
 echo 'hi~'
 
 #__RPATH__=$(cd $(git rev-parse --show-toplevel)/../ && pwd)
-export __EPATH__=$(cd -P "$HOME/../.ext";pwd)
 export __LPATH__=$(cd "$HOME/.rc-local";pwd)
+export __EPATH__=$(cd "$HOME/.rc-ext";pwd)
 export __RPATH__=$(cd "$HOME/../";pwd)
 export __LBINS__=$__LPATH__/bins/.linux
 
@@ -60,6 +60,7 @@ export IDEA_CLASSPATH=$CLASSPATH
 export IDEA_PROPERTIES=$HOME/.IntelliJIdea4U/idea.properties
 export IDEA_VM_OPTIONS=$HOME/.IntelliJIdea4U/config/idea64.vmoptions
 
+export JENKINS_HOME=$__EPATH__/.jenkins
 export JENKINS_URL=http://admin:admin123456@localhost:8080
 
 #nodejs

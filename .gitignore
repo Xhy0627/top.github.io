@@ -20,6 +20,7 @@
 .rc-*/.local
 .rc-*/.npmrc
 .rc-*/.rc-local
+.rc-*/.rc-ext
 .rc-*/.rnd
 .rc-*/.sbt
 .rc-*/.java
