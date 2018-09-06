@@ -61,3 +61,11 @@ md5() {
 MD5() {
     md5 $* | tr 'a-z' 'A-Z'
 }
+
+javad() {
+    if [ -z "$1" ]; then
+        echo "Missing port for debug."
+        return
+    fi
+    dport=$1; shift; set -x; java -Xdebug -Xrunjdwp:transport=dt_socket,address=$dport,server=y,suspend=n $@; set +x
+}

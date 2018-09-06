@@ -52,13 +52,15 @@ export GRADLE_HOME=$__LBINS__/gradle/.gradle
 export PATH=$GRADLE_HOME/bin:$PATH
 
 #maven
-export MAVEN_HOME=$__LBINS__/maven/apache-maven-3.5.0
+export MAVEN_HOME=$__LBINS__/maven/.maven
 export PATH=$MAVEN_HOME/bin:$PATH
 
 #ideaj
 export IDEA_CLASSPATH=$CLASSPATH
 export IDEA_PROPERTIES=$HOME/.IntelliJIdea4U/idea.properties
 export IDEA_VM_OPTIONS=$HOME/.IntelliJIdea4U/config/idea64.vmoptions
+
+export JENKINS_URL=http://admin:admin123456@localhost:8080
 
 #nodejs
 export NODE_DIR=$__LBINS__/nodejs

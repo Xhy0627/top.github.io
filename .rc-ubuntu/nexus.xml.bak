@@ -194,14 +194,11 @@
       <externalConfiguration>
         <mergeMetadata>true</mergeMetadata>
         <memberRepositories>
-          <memberRepository>releases</memberRepository>
-          <memberRepository>snapshots</memberRepository>
-          <memberRepository>thirdparty</memberRepository>
-          <memberRepository>central</memberRepository>
           <memberRepository>for-old-release</memberRepository>
           <memberRepository>for-old-snapshot</memberRepository>
           <memberRepository>for-spring-boot-release</memberRepository>
           <memberRepository>for-spring-boot-snapshot</memberRepository>
+          <memberRepository>jenkins-ci</memberRepository>
         </memberRepositories>
       </externalConfiguration>
     </repository>
@@ -234,6 +231,7 @@
         <metadataMaxAge>1440</metadataMaxAge>
         <itemMaxAge>1440</itemMaxAge>
         <autoBlockActive>true</autoBlockActive>
+        <proxyMode>ALLOW</proxyMode>
       </externalConfiguration>
     </repository>
     <repository>
@@ -265,6 +263,7 @@
         <metadataMaxAge>1440</metadataMaxAge>
         <itemMaxAge>1440</itemMaxAge>
         <autoBlockActive>true</autoBlockActive>
+        <proxyMode>ALLOW</proxyMode>
       </externalConfiguration>
     </repository>
     <repository>
@@ -324,6 +323,37 @@
         <fileTypeValidation>true</fileTypeValidation>
         <downloadRemoteIndex>true</downloadRemoteIndex>
         <artifactMaxAge>1440</artifactMaxAge>
+        <metadataMaxAge>1440</metadataMaxAge>
+        <itemMaxAge>1440</itemMaxAge>
+        <autoBlockActive>true</autoBlockActive>
+      </externalConfiguration>
+    </repository>
+    <repository>
+      <id>jenkins-ci</id>
+      <name>jenkins-ci</name>
+      <providerRole>org.sonatype.nexus.proxy.repository.Repository</providerRole>
+      <providerHint>maven2</providerHint>
+      <localStatus>IN_SERVICE</localStatus>
+      <notFoundCacheActive>true</notFoundCacheActive>
+      <notFoundCacheTTL>1440</notFoundCacheTTL>
+      <userManaged>true</userManaged>
+      <exposed>true</exposed>
+      <browseable>true</browseable>
+      <writePolicy>READ_ONLY</writePolicy>
+      <indexable>true</indexable>
+      <searchable>true</searchable>
+      <localStorage>
+        <provider>file</provider>
+      </localStorage>
+      <remoteStorage>
+        <url>http://repo.jenkins-ci.org/releases/</url>
+      </remoteStorage>
+      <externalConfiguration>
+        <repositoryPolicy>RELEASE</repositoryPolicy>
+        <checksumPolicy>WARN</checksumPolicy>
+        <fileTypeValidation>true</fileTypeValidation>
+        <downloadRemoteIndex>true</downloadRemoteIndex>
+        <artifactMaxAge>-1</artifactMaxAge>
         <metadataMaxAge>1440</metadataMaxAge>
         <itemMaxAge>1440</itemMaxAge>
         <autoBlockActive>true</autoBlockActive>
@@ -436,7 +466,7 @@
     <hostname>smtp-host</hostname>
     <port>25</port>
     <username>smtp-username</username>
-    <password>{QzPf0ax4WkIH0pXuPN+cYoNjbdLfUZwhHj7Ycst04TQ=}</password>
+    <password>{xx9WsP7DCxcH2cqg1ZnbUMA7OKITQ0bVSFgGKLV4VCQ=}</password>
     <systemEmailAddress>system@nexus.org</systemEmailAddress>
   </smtpConfiguration>
   <notification />
