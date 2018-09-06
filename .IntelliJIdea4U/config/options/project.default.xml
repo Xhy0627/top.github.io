@@ -15,6 +15,9 @@
       <component name="CodeInsightWorkspaceSettings">
         <option name="optimizeImportsOnTheFly" value="false" />
       </component>
+      <component name="CompilerWorkspaceConfiguration">
+        <option name="AUTO_SHOW_ERRORS_IN_EDITOR" value="false" />
+      </component>
       <component name="EclipseCodeFormatter">
         <option name="defaultSettings" value="true" />
         <option name="formatter" value="ECLIPSE" />
@@ -43,7 +46,7 @@
       <component name="MavenImportPreferences">
         <option name="generalSettings">
           <MavenGeneralSettings>
-            <option name="mavenHome" value="/u~u/.rc-ubuntu.local/bins/.linux/maven/apache-maven-3.5.0" />
+            <option name="mavenHome" value="$USER_HOME$/.rc-local/bins/.linux/maven/apache-maven-3.5.0" />
           </MavenGeneralSettings>
         </option>
         <option name="importingSettings">
@@ -71,7 +74,7 @@
         <property name="project.structure.last.edited" value="Problems" />
         <property name="project.structure.proportion" value="0.0" />
         <property name="project.structure.side.proportion" value="0.37586206" />
-        <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+        <property name="settings.editor.selected.configurable" value="project.propCompiler" />
       </component>
       <component name="RunManager">
         <configuration default="true" type="Applet" factoryName="Applet">

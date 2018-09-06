@@ -1,6 +1,6 @@
 <application>
   <component name="DimensionService">
-    <location key="FileChooserDialogImpl.0.0.1920.1080" x="1122" y="152" />
+    <location key="FileChooserDialogImpl.0.0.1920.1080" x="947" y="342" />
     <location key="#Spring_dmServer.0.0.1920.1080" x="707" y="181" />
     <location key="SettingsEditor.0.0.1920.1080" x="431" y="68" />
     <location key="NewModule_or_Project.wizard.0.0.1920.1080" x="598" y="70" />
@@ -91,7 +91,7 @@
     <location key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes.0.0.1920.1080" x="407" y="367" />
     <location key="#com.intellij.unscramble.UnscrambleDialog.-1920.0.1920.1080" x="-1280" y="156" />
     <location key="#Maven_environment.-1920.0.1920.1080" x="-1257" y="339" />
-    <location key="find.popup.0.0.1920.1080" x="2003" y="0" />
+    <location key="find.popup.0.0.1920.1080" x="1964" y="0" />
     <location key="com.intellij.openapi.editor.actions.MultiplePasteAction$1.0.0.1920.1080" x="662" y="121" />
     <location key="#com.intellij.ide.util.TreeClassChooserDialog.0.0.1920.1080" x="691" y="287" />
     <location key="#com.intellij.codeInsight.template.impl.EditVariableDialog.-1920.0.1920.1080" x="-1245" y="288" />
@@ -175,7 +175,7 @@
     <location key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey.0.0.1920.1080" x="986" y="301" />
     <location key="com.intellij.database.run.ParametersPanel.Standalone.0.0.1920.1080" x="750" y="305" />
     <location key="#com.intellij.ide.util.ExportDialog.0.0.1920.1080" x="626" y="289" />
-    <location key="find.popup.1920.0.1920.1080" x="2625" y="125" />
+    <location key="find.popup.1920.0.1920.1080" x="2620" y="120" />
     <location key="com.intellij.database.view.ui.AbstractDbRefactoringDialog.1920.0.1920.1080" x="2591" y="200" />
     <location key="#Application_(1).0.0.1920.1080" x="476" y="60" />
     <location key="#RCSMApplication.0.0.1920.1080" x="476" y="60" />
@@ -187,7 +187,12 @@
     <location key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog.0.0.1920.1080" x="746" y="409" />
     <location key="#BuildArtifactsBeforeRunChooser.0.0.1920.1080" x="888" y="333" />
     <location key="#com.intellij.refactoring.rename.AutomaticRenamingDialog.0.0.1920.1080" x="67" y="27" />
-    <size key="NewModule_or_Project.wizard.0.0.1920.1080" width="1141" height="735" />
+    <location key="com.intellij.database.view.ui.DeleteDialog.0.0.1920.1080" x="858" y="445" />
+    <location key="#Scratch_(1).0.0.1920.1080" x="708" y="270" />
+    <location key="#Scratch_(2).0.0.1920.1080" x="708" y="270" />
+    <location key="#Scratch_(3).0.0.1920.1080" x="708" y="270" />
+    <location key="#Scratch_(4).0.0.1920.1080" x="708" y="270" />
+    <size key="NewModule_or_Project.wizard.0.0.1920.1080" width="1136" height="735" />
     <size key="javadoc.popup.1920.0.1920.1080" width="446" height="166" />
     <size key="ProcessPopupWindow.1920.0.1920.1080" width="187" height="113" />
     <size key="StructurePopup.1920.0.1920.1080" width="444" height="368" />
@@ -200,7 +205,7 @@
     <size key="GridCell.Tab.1.center.1920.0.1920.1080" width="1807" height="283" />
     <size key="GridCell.Tab.1.right.1920.0.1920.1080" width="1807" height="283" />
     <size key="GridCell.Tab.1.bottom.1920.0.1920.1080" width="1807" height="283" />
-    <size key="ProcessPopupWindow.0.0.1920.1080" width="913" height="113" />
+    <size key="ProcessPopupWindow.0.0.1920.1080" width="911" height="113" />
     <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1807" height="340" />
     <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1807" height="340" />
     <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1807" height="340" />
@@ -239,7 +244,7 @@
     <size key="GridCell.Tab.2.center.-1920.0.1920.1080" width="1876" height="278" />
     <size key="GridCell.Tab.2.right.-1920.0.1920.1080" width="1876" height="278" />
     <size key="GridCell.Tab.2.bottom.-1920.0.1920.1080" width="1876" height="278" />
-    <size key="find.popup.0.0.1920.1080" width="1467" height="1082" />
+    <size key="find.popup.0.0.1920.1080" width="1545" height="1082" />
     <size key="new project wizard.0.0.1920.1080" width="905" height="604" />
     <size key="SettingsEditor.-1920.0.1920.1080" width="1157" height="702" />
     <size key="GridCell.Tab.2.left.0.0.1920.1080" width="1807" height="340" />
@@ -248,7 +253,7 @@
     <size key="GridCell.Tab.2.bottom.0.0.1920.1080" width="1807" height="340" />
     <size key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1920.1080" width="1344" height="917" />
     <size key="GotoFile_FileTypePopup.0.0.1920.1080" width="200" height="200" />
-    <size key="SettingsEditor.0.0.1920.1080" width="1251" height="739" />
+    <size key="SettingsEditor.0.0.1920.1080" width="1425" height="869" />
     <size key="GridCell.Tab.0.left.0.0.1366.768" width="1322" height="175" />
     <size key="GridCell.Tab.0.center.0.0.1366.768" width="1322" height="175" />
     <size key="GridCell.Tab.0.right.0.0.1366.768" width="1322" height="175" />
@@ -295,7 +300,7 @@
     <size key="CommitChangelistDialog2.0.0.1920.1080" width="1367" height="880" />
     <size key="#TODO.0.0.1920.1080" width="498" height="1024" />
     <size key="#Inspections.0.0.1920.1080" width="720" height="645" />
-    <size key="#xdebugger.evaluate.0.0.1920.1080" width="240" height="493" />
+    <size key="#xdebugger.evaluate.0.0.1920.1080" width="254" height="493" />
     <size key="#Project_Structure.0.0.1920.1080" width="1024" height="853" />
     <size key="DatabaseViewActions_Filter.0.0.1920.1080" width="254" height="195" />
     <size key="#virgo-8090.0.0.1920.1080" width="690" height="817" />
@@ -312,7 +317,7 @@
     <size key="#com.intellij.fileTypes.FileTypeChooser.0.0.1920.1080" width="599" height="406" />
     <size key="AbstractVcsHelper.FilterDialog.org.jetbrains.idea.svn.history.SvnVersionFilterComponent.0.0.1920.1080" width="433" height="322" />
     <size key="#com.intellij.ide.util.ExportDialog.0.0.1920.1080" width="724" height="527" />
-    <size key="find.popup.1920.0.1920.1080" width="776" height="700" />
+    <size key="find.popup.1920.0.1920.1080" width="786" height="710" />
     <size key="com.intellij.database.view.ui.AbstractDbRefactoringDialog.1920.0.1920.1080" width="567" height="677" />
     <size key="GridCell.Tab.2.left.1920.0.1920.1080" width="1807" height="283" />
     <size key="GridCell.Tab.2.center.1920.0.1920.1080" width="1807" height="283" />
@@ -334,5 +339,10 @@
     <size key="#com.intellij.tools.ToolEditorDialog.0.0.1920.1080" width="565" height="660" />
     <size key="#BuildArtifactsBeforeRunChooser.0.0.1920.1080" width="424" height="392" />
     <size key="#com.intellij.refactoring.rename.AutomaticRenamingDialog.0.0.1920.1080" width="657" height="1053" />
+    <size key="com.intellij.database.view.ui.DeleteDialog.0.0.1920.1080" width="261" height="215" />
+    <size key="#Scratch_(1).0.0.1920.1080" width="561" height="565" />
+    <size key="#Scratch_(2).0.0.1920.1080" width="561" height="565" />
+    <size key="#Scratch_(3).0.0.1920.1080" width="561" height="565" />
+    <size key="com.intellij.database.view.editors.DatabaseObjectCommentEditor$1$1.0.0.1920.1080" width="303" height="170" />
   </component>
 </application>

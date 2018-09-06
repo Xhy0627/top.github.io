@@ -3,36 +3,11 @@
     <state version="4" enabled="false" />
     <globalmarks />
     <filemarks>
-      <file name="U:/u~u/a0a/ws/java/Settings-Manager-SBS/Settings-Manager-SBS/src/main/java/org/ileler/settings/manager/sbs/dao/impl/EnvDAOImpl.java" timestamp="1511596103025">
-        <mark key="[" line="49" column="47" />
-        <mark key="]" line="49" column="44" />
-        <mark key="." line="49" column="44" />
-        <mark key="^" line="49" column="44" />
-      </file>
-      <file name="U:/u~u/a0a/ws/js/angular/settins-manager-sbs-front/src/app/app.component.ts" timestamp="1511745138486">
-        <mark key="[" line="85" column="22" />
-        <mark key="]" line="85" column="20" />
-        <mark key="^" line="85" column="20" />
-        <mark key="." line="85" column="20" />
-      </file>
       <file name="U:/u~u/a0a/ws/java/gradle-test-artifact1/settings.gradle" timestamp="1513904671636">
         <mark key="[" line="2" column="0" />
         <mark key="]" line="2" column="57" />
         <mark key="^" line="2" column="57" />
         <mark key="." line="2" column="57" />
-      </file>
-      <file name="U:/u~u/a0a/ws/java/org.ileler.untitled/src/main/java/org/ileler/untitled/MicoData.java" timestamp="1504743499367">
-        <mark key="[" line="41" column="57" />
-        <mark key="]" line="41" column="57" />
-        <mark key="." line="41" column="57" />
-        <mark key="^" line="41" column="57" />
-      </file>
-      <file name="U:/u~u/a0a/ws/js/react/react-demos/router-study/src03/index.js" timestamp="1501479579542">
-        <mark key="'" line="15" column="15" />
-        <mark key="[" line="11" column="23" />
-        <mark key="]" line="11" column="23" />
-        <mark key="^" line="11" column="23" />
-        <mark key="." line="11" column="23" />
       </file>
       <file name="E:/a0a/IdeaProjects/world/com.mpr.world/com.mpr.world.goods.mpr/src/main/java/com/mpr/world/goods/mpr/mapper/GoodsMapper.java" timestamp="1504768688698">
         <mark key="[" line="9" column="53" />
@@ -59,15 +34,147 @@
         <mark key="^" line="114" column="29" />
         <mark key="." line="114" column="29" />
       </file>
-      <file name="E:/a0a/Eclipse/pdri/org.pdri.pcms/org.pdri.pcms.host/src/main/resources/resources/module/mpr/entrance/periodical.html" timestamp="1500621795132">
-        <mark key="[" line="257" column="60" />
-      </file>
       <file name="E:/a0a/IdeaProjects/world/com.mpr.world/com.mpr.world.goods.mpr/src/main/java/com/mpr/world/goods/mpr/service/impl/GoodsServiceImpl.java" timestamp="1504768817127">
         <mark key="'" line="56" column="11" />
         <mark key="[" line="65" column="45" />
         <mark key="]" line="65" column="43" />
         <mark key="^" line="65" column="43" />
         <mark key="." line="65" column="43" />
+      </file>
+      <file name="U:/u~u/a0a/ws/java/Settings-Manager-SBS/Settings-Manager-SBS/src/main/java/org/ileler/settings/manager/sbs/model/Server.java" timestamp="1511618350818">
+        <mark key="[" line="15" column="96" />
+        <mark key="]" line="20" column="42" />
+        <mark key="^" line="20" column="42" />
+        <mark key="." line="20" column="42" />
+      </file>
+      <file name="U:/u~u/a0a/ws/java/Settings-Manager-SBS/Settings-Manager-SBS/src/main/java/org/ileler/settings/manager/sbs/util/JsonDB.java" timestamp="1511592642996">
+        <mark key="[" line="79" column="101" />
+        <mark key="]" line="79" column="95" />
+        <mark key="." line="79" column="95" />
+        <mark key="^" line="79" column="95" />
+      </file>
+      <file name="U:/u~u/a0a/ws/java/intellij-plugin-demo/resources/META-INF/plugin.xml" timestamp="1501811788311">
+        <mark key="'" line="32" column="0" />
+        <mark key="[" line="32" column="56" />
+        <mark key="]" line="32" column="58" />
+        <mark key="^" line="32" column="58" />
+        <mark key="." line="32" column="58" />
+      </file>
+      <file name="U:/u~u/a0a/ws/java/Settings-Manager-SBS/Settings-Manager-SBS/pom.xml" timestamp="1511600635968">
+        <mark key="[" line="40" column="21" />
+        <mark key="]" line="40" column="21" />
+        <mark key="." line="40" column="21" />
+      </file>
+      <file name="E:/a0a/Eclipse/pdri/org.pdri.pcms/org.pdri.pcms.host/src/main/resources/resources/module/register/activatempr.html" timestamp="1501554800999">
+        <mark key="[" line="29" column="17" />
+        <mark key="]" line="29" column="17" />
+        <mark key="^" line="29" column="17" />
+        <mark key="." line="29" column="17" />
+      </file>
+      <file name="U:/u~u/a0a/ws/java/Settings-Manager-SBS/Settings-Manager-SBS/src/main/java/org/ileler/settings/manager/sbs/model/Profile.java" timestamp="1511619322443">
+        <mark key="'" line="13" column="20" />
+        <mark key="[" line="15" column="92" />
+        <mark key="]" line="15" column="90" />
+        <mark key="^" line="15" column="90" />
+        <mark key="." line="15" column="90" />
+      </file>
+      <file name="E:/a0a/Eclipse/pdri/org.pdri.pcms/org.pdri.pcms.host/src/main/resources/resources/module/warmtip/tip.js" timestamp="1500608645539">
+        <mark key="[" line="6" column="32" />
+      </file>
+      <file name="U:/u~u/a0a/ws/java/Settings-Manager-SBS/Settings-Manager-SBS/src/main/java/org/ileler/settings/manager/sbs/model/Env.java" timestamp="1511598389870">
+        <mark key="[" line="43" column="0" />
+        <mark key="]" line="43" column="0" />
+        <mark key="." line="43" column="0" />
+      </file>
+      <file name="/u~u/ws/tl/com.cncbox/com.cncbox.services/com.cncbox.temporary.resources/src/main/java/com/cncbox/temporary/resources/controller/ResourcesController.java" timestamp="1534207873564">
+        <mark key="[" line="55" column="0" />
+        <mark key="]" line="55" column="0" />
+        <mark key="." line="55" column="0" />
+      </file>
+      <file name="U:/u~u/a0a/ws/java/gradle-test-artifact1/src/main/java/App.java" timestamp="1514357104913">
+        <mark key="'" line="1" column="29" />
+        <mark key="[" line="6" column="51" />
+        <mark key="]" line="6" column="51" />
+        <mark key="^" line="6" column="51" />
+        <mark key="." line="6" column="51" />
+      </file>
+      <file name="U:/u~u/a0a/ws/java/gradle-test-artifact1/src/test/java/AppTest.java" timestamp="1514357233556">
+        <mark key="'" line="0" column="20" />
+        <mark key="[" line="4" column="81" />
+        <mark key="]" line="4" column="81" />
+        <mark key="^" line="4" column="81" />
+        <mark key="." line="4" column="81" />
+      </file>
+      <file name="U:/u~u/a0a/ws/js/react/react-demos/router-study/src02/index.js" timestamp="1501468510345">
+        <mark key="'" line="1" column="0" />
+        <mark key="[" line="1" column="0" />
+        <mark key="]" line="1" column="33" />
+        <mark key="^" line="74" column="28" />
+        <mark key="." line="1" column="0" />
+      </file>
+      <file name="U:/u~u/a0a/ws/tl/publisher/test/src/main/java/com/test/sixsixsix/Test.java" timestamp="1508069925123">
+        <mark key="[" line="11" column="36" />
+        <mark key="]" line="11" column="40" />
+        <mark key="^" line="11" column="40" />
+        <mark key="." line="11" column="40" />
+      </file>
+      <file name="U:/u~u/a0a/ws/java/gradle-test-artifact1/build.gradle" timestamp="1514356954683">
+        <mark key="[" line="3" column="20" />
+        <mark key="]" line="4" column="25" />
+        <mark key="^" line="4" column="25" />
+        <mark key="." line="4" column="25" />
+      </file>
+      <file name="U:/u~u/a0a/ws/js/react/react-demos/router-study/package.json" timestamp="1501032352527">
+        <mark key="[" line="1" column="22" />
+        <mark key="]" line="1" column="22" />
+        <mark key="^" line="1" column="22" />
+        <mark key="." line="1" column="22" />
+      </file>
+      <file name="U:/u~u/a0a/ws/js/angular/settins-manager-sbs-front/src/app/app.component.html" timestamp="1511745099810">
+        <mark key="[" line="34" column="88" />
+        <mark key="]" line="34" column="89" />
+        <mark key="^" line="34" column="89" />
+        <mark key="." line="34" column="89" />
+      </file>
+      <file name="U:/u~u/a0a/ws/java/spring-boot-demo/src/main/java/springboot/demo/WidgetController.java" timestamp="1501740817907">
+        <mark key="[" line="11" column="36" />
+        <mark key="]" line="11" column="109" />
+        <mark key="^" line="11" column="109" />
+        <mark key="." line="11" column="109" />
+      </file>
+      <file name="E:/a0a/Eclipse/pdri/org.pdri.commons.service/src/main/resources/template/EMAIL_TYPE_RA_PUBLISHER_REGISTER_EN.ftl" timestamp="1500621742604">
+        <mark key="[" line="19" column="74" />
+        <mark key="]" line="19" column="72" />
+        <mark key="^" line="19" column="72" />
+        <mark key="." line="19" column="72" />
+      </file>
+      <file name="U:/u~u/a0a/ws/java/Settings-Manager-SBS/Settings-Manager-SBS/src/main/java/org/ileler/settings/manager/sbs/dao/impl/EnvDAOImpl.java" timestamp="1511596103025">
+        <mark key="[" line="49" column="47" />
+        <mark key="]" line="49" column="44" />
+        <mark key="." line="49" column="44" />
+        <mark key="^" line="49" column="44" />
+      </file>
+      <file name="U:/u~u/a0a/ws/js/angular/settins-manager-sbs-front/src/app/app.component.ts" timestamp="1511745138486">
+        <mark key="[" line="85" column="22" />
+        <mark key="]" line="85" column="20" />
+        <mark key="^" line="85" column="20" />
+        <mark key="." line="85" column="20" />
+      </file>
+      <file name="U:/u~u/a0a/ws/java/org.ileler.untitled/src/main/java/org/ileler/untitled/MicoData.java" timestamp="1504743499367">
+        <mark key="[" line="41" column="57" />
+        <mark key="]" line="41" column="57" />
+        <mark key="." line="41" column="57" />
+        <mark key="^" line="41" column="57" />
+      </file>
+      <file name="U:/u~u/a0a/ws/js/react/react-demos/router-study/src03/index.js" timestamp="1501479579542">
+        <mark key="'" line="15" column="15" />
+        <mark key="[" line="11" column="23" />
+        <mark key="]" line="11" column="23" />
+        <mark key="^" line="11" column="23" />
+        <mark key="." line="11" column="23" />
+      </file>
+      <file name="E:/a0a/Eclipse/pdri/org.pdri.pcms/org.pdri.pcms.host/src/main/resources/resources/module/mpr/entrance/periodical.html" timestamp="1500621795132">
+        <mark key="[" line="257" column="60" />
       </file>
       <file name="U:/u~u/a0a/ws/java/Settings-Manager-SBS/Settings-Manager-SBS/src/main/java/org/ileler/settings/manager/sbs/dao/impl/ServerDAOImpl.java" timestamp="1511596232901">
         <mark key="[" line="27" column="24" />
@@ -90,51 +197,20 @@
       <file name="E:/a0a/Eclipse/pdri/org.pdri.pcms/org.pdri.pcms.host/src/main/resources/resources/module/pdri/identifier.js" timestamp="1500608230953">
         <mark key="[" line="244" column="4" />
       </file>
-      <file name="U:/u~u/a0a/ws/java/Settings-Manager-SBS/Settings-Manager-SBS/src/main/java/org/ileler/settings/manager/sbs/model/Server.java" timestamp="1511618350818">
-        <mark key="[" line="15" column="96" />
-        <mark key="]" line="20" column="42" />
-        <mark key="^" line="20" column="42" />
-        <mark key="." line="20" column="42" />
-      </file>
       <file name="U:/u~u/a0a/ws/java/Settings-Manager-SBS/Settings-Manager-SBS/src/main/java/org/ileler/settings/manager/sbs/controller/EnvController.java" timestamp="1511593049188">
         <mark key="[" line="31" column="0" />
         <mark key="]" line="31" column="0" />
         <mark key="^" line="26" column="34" />
         <mark key="." line="31" column="0" />
       </file>
-      <file name="U:/u~u/a0a/ws/java/Settings-Manager-SBS/Settings-Manager-SBS/src/main/java/org/ileler/settings/manager/sbs/util/JsonDB.java" timestamp="1511592642996">
-        <mark key="[" line="79" column="101" />
-        <mark key="]" line="79" column="95" />
-        <mark key="." line="79" column="95" />
-        <mark key="^" line="79" column="95" />
-      </file>
       <file name="E:/a0a/Eclipse/pdri/org.pdri.pcms/org.pdri.pcms.host/src/main/resources/resources/module/stat/stat.js" timestamp="1500608629785">
         <mark key="[" line="52" column="47" />
       </file>
-      <file name="/u~u/ws/tl/publisher/springboot2.0/com.mpr.panmedia.gateway/src/main/resources/application.yml" timestamp="1530581265952" />
       <file name="E:/a0a/Eclipse/pdri/org.pdri.pcms/org.pdri.pcms.host/src/main/resources/resources/module/account/account.js" timestamp="1500608284075">
         <mark key="[" line="0" column="46" />
       </file>
-      <file name="U:/u~u/a0a/ws/java/intellij-plugin-demo/resources/META-INF/plugin.xml" timestamp="1501811788311">
-        <mark key="'" line="32" column="0" />
-        <mark key="[" line="32" column="56" />
-        <mark key="]" line="32" column="58" />
-        <mark key="^" line="32" column="58" />
-        <mark key="." line="32" column="58" />
-      </file>
-      <file name="U:/u~u/a0a/ws/java/Settings-Manager-SBS/Settings-Manager-SBS/pom.xml" timestamp="1511600635968">
-        <mark key="[" line="40" column="21" />
-        <mark key="]" line="40" column="21" />
-        <mark key="." line="40" column="21" />
-      </file>
       <file name="/Dummy.txt" timestamp="1513905455884">
         <mark key="[" line="0" column="0" />
-      </file>
-      <file name="E:/a0a/Eclipse/pdri/org.pdri.pcms/org.pdri.pcms.host/src/main/resources/resources/module/register/activatempr.html" timestamp="1501554800999">
-        <mark key="[" line="29" column="17" />
-        <mark key="]" line="29" column="17" />
-        <mark key="^" line="29" column="17" />
-        <mark key="." line="29" column="17" />
       </file>
       <file name="E:/a0a/Eclipse/pdri/org.pdri.pcms/org.pdri.pcms.host/src/main/resources/resources/module/info/inform.js" timestamp="1500608370720">
         <mark key="[" line="5" column="0" />
@@ -142,40 +218,11 @@
       <file name="E:/a0a/Eclipse/pdri/sendEmail/src/main/java/sendEmail/SendEmailUtil.java" timestamp="1500620809156">
         <mark key="[" line="85" column="66" />
       </file>
-      <file name="U:/u~u/a0a/ws/java/Settings-Manager-SBS/Settings-Manager-SBS/src/main/java/org/ileler/settings/manager/sbs/model/Profile.java" timestamp="1511619322443">
-        <mark key="'" line="13" column="20" />
-        <mark key="[" line="15" column="92" />
-        <mark key="]" line="15" column="90" />
-        <mark key="^" line="15" column="90" />
-        <mark key="." line="15" column="90" />
-      </file>
-      <file name="E:/a0a/Eclipse/pdri/org.pdri.pcms/org.pdri.pcms.host/src/main/resources/resources/module/warmtip/tip.js" timestamp="1500608645539">
-        <mark key="[" line="6" column="32" />
-      </file>
-      <file name="U:/u~u/a0a/ws/java/Settings-Manager-SBS/Settings-Manager-SBS/src/main/java/org/ileler/settings/manager/sbs/model/Env.java" timestamp="1511598389870">
-        <mark key="[" line="43" column="0" />
-        <mark key="]" line="43" column="0" />
-        <mark key="." line="43" column="0" />
-      </file>
-      <file name="U:/u~u/a0a/ws/java/gradle-test-artifact1/src/main/java/App.java" timestamp="1514357104913">
-        <mark key="'" line="1" column="29" />
-        <mark key="[" line="6" column="51" />
-        <mark key="]" line="6" column="51" />
-        <mark key="^" line="6" column="51" />
-        <mark key="." line="6" column="51" />
-      </file>
       <file name="U:/u~u/a0a/ws/java/intellij-plugin-deployres/src/org/ileler/ideaplugin/deployres/Plugin.java" timestamp="1501833254674">
         <mark key="[" line="26" column="27" />
         <mark key="]" line="26" column="54" />
         <mark key="^" line="26" column="54" />
         <mark key="." line="26" column="54" />
-      </file>
-      <file name="U:/u~u/a0a/ws/java/gradle-test-artifact1/src/test/java/AppTest.java" timestamp="1514357233556">
-        <mark key="'" line="0" column="20" />
-        <mark key="[" line="4" column="81" />
-        <mark key="]" line="4" column="81" />
-        <mark key="^" line="4" column="81" />
-        <mark key="." line="4" column="81" />
       </file>
       <file name="E:/a0a/IdeaProjects/world/com.mpr/com.mpr.nosql/src/main/java/com/mpr/nosql/NoSQLService.java" timestamp="1505700958480">
         <mark key="[" line="19" column="43" />
@@ -189,30 +236,11 @@
         <mark key="^" line="60" column="10" />
         <mark key="." line="60" column="10" />
       </file>
-      <file name="U:/u~u/a0a/ws/js/react/react-demos/router-study/src02/index.js" timestamp="1501468510345">
-        <mark key="'" line="1" column="0" />
-        <mark key="[" line="1" column="0" />
-        <mark key="]" line="1" column="33" />
-        <mark key="^" line="74" column="28" />
-        <mark key="." line="1" column="0" />
-      </file>
       <file name="E:/a0a/IdeaProjects/world/com.mpr.world/com.mpr.world.goods.pbook/src/main/java/com/mpr/world/goods/pbook/service/impl/GoodsServiceImpl.java" timestamp="1504251618285">
         <mark key="[" line="47" column="27" />
         <mark key="]" line="47" column="30" />
         <mark key="^" line="47" column="30" />
         <mark key="." line="47" column="30" />
-      </file>
-      <file name="U:/u~u/a0a/ws/tl/publisher/test/src/main/java/com/test/sixsixsix/Test.java" timestamp="1508069925123">
-        <mark key="[" line="11" column="36" />
-        <mark key="]" line="11" column="40" />
-        <mark key="^" line="11" column="40" />
-        <mark key="." line="11" column="40" />
-      </file>
-      <file name="U:/u~u/a0a/ws/java/gradle-test-artifact1/build.gradle" timestamp="1514356954683">
-        <mark key="[" line="3" column="20" />
-        <mark key="]" line="4" column="25" />
-        <mark key="^" line="4" column="25" />
-        <mark key="." line="4" column="25" />
       </file>
       <file name="U:/u~u/a0a/ws/java/Settings-Manager-SBS/Settings-Manager-SBS/src/main/java/org/ileler/settings/manager/sbs/util/SettingsDB.java" timestamp="1511620885996">
         <mark key="[" line="73" column="38" />
@@ -232,24 +260,6 @@
         <mark key="." line="17" column="47" />
         <mark key="^" line="17" column="47" />
       </file>
-      <file name="U:/u~u/a0a/ws/js/react/react-demos/router-study/package.json" timestamp="1501032352527">
-        <mark key="[" line="1" column="22" />
-        <mark key="]" line="1" column="22" />
-        <mark key="^" line="1" column="22" />
-        <mark key="." line="1" column="22" />
-      </file>
-      <file name="U:/u~u/a0a/ws/js/angular/settins-manager-sbs-front/src/app/app.component.html" timestamp="1511745099810">
-        <mark key="[" line="34" column="88" />
-        <mark key="]" line="34" column="89" />
-        <mark key="^" line="34" column="89" />
-        <mark key="." line="34" column="89" />
-      </file>
-      <file name="U:/u~u/a0a/ws/java/spring-boot-demo/src/main/java/springboot/demo/WidgetController.java" timestamp="1501740817907">
-        <mark key="[" line="11" column="36" />
-        <mark key="]" line="11" column="109" />
-        <mark key="^" line="11" column="109" />
-        <mark key="." line="11" column="109" />
-      </file>
       <file name="/fragment.java" timestamp="1511591977810">
         <mark key="[" line="0" column="0" />
       </file>
@@ -258,12 +268,6 @@
         <mark key="]" line="11" column="0" />
         <mark key="^" line="11" column="0" />
         <mark key="." line="11" column="0" />
-      </file>
-      <file name="E:/a0a/Eclipse/pdri/org.pdri.commons.service/src/main/resources/template/EMAIL_TYPE_RA_PUBLISHER_REGISTER_EN.ftl" timestamp="1500621742604">
-        <mark key="[" line="19" column="74" />
-        <mark key="]" line="19" column="72" />
-        <mark key="^" line="19" column="72" />
-        <mark key="." line="19" column="72" />
       </file>
     </filemarks>
     <jumps>
@@ -290,8 +294,8 @@
       <jump line="0" column="20" filename="U:/u~u/a0a/ws/java/gradle-test-artifact1/src/test/java/AppTest.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>serverFromElement</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIFJlc3VsdFZPPFBhZ2luYXRpb25SZXNwb25zZTxSZXNvdXJjZT4+IGdldFJlc291cmNlKFJlc291cmNlUmVxdWVzdCByZXF1ZXN0KSB7CiAgICAgICAgcmV0dXJuIHJlc291cmNlc1NlcnZpY2UuZ2V0UmVzb3VyY2UocmVxdWVzdCk7CiAgICB9CgogICAgQEFwaU9wZXJhdGlvbih2YWx1ZSA9ICLojrflj5botYTmupDmlofku7bkv6Hmga/liJfooagiKQogICAgQEdldE1hcHBpbmcoIi9maWxlSW5mbyIpCiAgICBSZXN1bHRWTzxQYWdpbmF0aW9uUmVzcG9uc2U8TWFwPFN0cmluZywgT2JqZWN0Pj4+IGdldEZpbGVJbmZvTGlzdChGaWxlSW5mb1JlcXVlc3QgcmVxdWVzdCkgewogICAgICAgIHJldHVybiByZXNvdXJjZXNTZXJ2aWNlLmdldEZpbGVJbmZvTGlzdChyZXF1ZXN0KTsKICAgIH0K</text>
       </register>
       <register name="-" type="4">
         <text>serverFromElement</text>
@@ -303,31 +307,31 @@
         <text encoding="base64">ICAgICAgICBCdWZmZXJlZFJlYWRlciBwYXR0ZXJuUmVhZGVyID0gbmV3IEJ1ZmZlcmVkUmVhZGVyKG5ldyBJbnB1dFN0cmVhbVJlYWRlcihuZXcgRmlsZUlucHV0U3RyZWFtKCIiKSkpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBMaXN0PFNlcnZlcj4gc2VydmVycyA9IG5ldyBBcnJheUxpc3Q8PigwKWRkOwo=</text>
+        <text encoding="base64">ICAgIFJlc3VsdFZPPFBhZ2luYXRpb25SZXNwb25zZTxSZXNvdXJjZT4+IGdldFJlc291cmNlKFJlc291cmNlUmVxdWVzdCByZXF1ZXN0KSB7CiAgICAgICAgcmV0dXJuIHJlc291cmNlc1NlcnZpY2UuZ2V0UmVzb3VyY2UocmVxdWVzdCk7CiAgICB9CgogICAgQEFwaU9wZXJhdGlvbih2YWx1ZSA9ICLojrflj5botYTmupDmlofku7bkv6Hmga/liJfooagiKQogICAgQEdldE1hcHBpbmcoIi9maWxlSW5mbyIpCiAgICBSZXN1bHRWTzxQYWdpbmF0aW9uUmVzcG9uc2U8TWFwPFN0cmluZywgT2JqZWN0Pj4+IGdldEZpbGVJbmZvTGlzdChGaWxlSW5mb1JlcXVlc3QgcmVxdWVzdCkgewogICAgICAgIHJldHVybiByZXNvdXJjZXNTZXJ2aWNlLmdldEZpbGVJbmZvTGlzdChyZXF1ZXN0KTsKICAgIH0K</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBjb25maWd1cmF0aW9uLmVsZW1lbnQoIiIpCg==</text>
+        <text encoding="base64">ICAgICAgICBMaXN0PFNlcnZlcj4gc2VydmVycyA9IG5ldyBBcnJheUxpc3Q8PigwKWRkOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAoc2VydmVycyA9PSBudWxsKSByZXR1cm4gbnVsbDsK</text>
+        <text encoding="base64">ICAgICAgICBjb25maWd1cmF0aW9uLmVsZW1lbnQoIiIpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgRWxlbWVudCBzZXJ2ZXJzOwo=</text>
+        <text encoding="base64">ICAgICAgICBpZiAoc2VydmVycyA9PSBudWxsKSByZXR1cm4gbnVsbDsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBFbGVtZW50IHNlcnZlciA9IGRkKEVsZW1lbnQpIHNlcnZlcjE7Cg==</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgRWxlbWVudCBzZXJ2ZXJzOwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGZpbGVJbnB1dFN0cmVhbS5jbG9zZSgpOwo=</text>
+        <text encoding="base64">ICAgICAgICBFbGVtZW50IHNlcnZlciA9IGRkKEVsZW1lbnQpIHNlcnZlcjE7Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGZpbGVPdXRwdXRTdHJlYW0uY2xvc2UoKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGZpbGVJbnB1dFN0cmVhbS5jbG9zZSgpOwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGZpbGVPdXRwdXRTdHJlYW0uY2xvc2UoKTsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLmVudiA9IGVudjsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
