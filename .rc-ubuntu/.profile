@@ -53,6 +53,8 @@ export PATH=$GRADLE_HOME/bin:$PATH
 
 #maven
 export MAVEN_HOME=$__LBINS__/maven/.maven
+export MAVEN_GS=$MAVEN_HOME/conf/settings.xml
+rm -rf $MAVEN_GS && ln -s $HOME/.m2/settings-global.xml $MAVEN_GS
 export PATH=$MAVEN_HOME/bin:$PATH
 
 #ideaj
