@@ -69,3 +69,13 @@ javad() {
     fi
     dport=$1; shift; set -x; java -Xdebug -Xrunjdwp:transport=dt_socket,address=$dport,server=y,suspend=n $@; set +x
 }
+
+mvnd() {
+    if [ -z "$1" ]; then
+        echo "Missing port for debug."
+        return
+    fi
+    __OLD_MAVEN_OPTS=$MAVEN_OPTS
+    dport=$1; shift; set -x; export MAVEN_OPTS="-Xdebug -Xrunjdwp:transport=dt_socket,address=$dport,server=y,suspend=n $MAVEN_OPTS" && mvn $@; set +x
+    export MAVEN_OPTS=$__OLD_MAVEN_OPTS
+}
