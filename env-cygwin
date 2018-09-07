@@ -1,12 +1,14 @@
-#!/usr/bin/env sh
-cd -P ../
-source ./ext-cygwin
+cd -P .. && source ./ext-cygwin
+__UDIR__=.rc-cygwin
+export __=$(pwd)
+cd $UHOME
+rm -rf $__UDIR__
+ext-link $__UDIR__ $__/$__UDIR__
 export UETYPE=CYGWIN
 
 
 #global
-export __=$(pwd)
-export HOME=$__/.rc-cygwin
+export HOME=$(cd "$__UDIR__";pwd)
 export HOMEPATH=$HOME
 export USERPROFILE=$HOME
 export APPDATA=$USERPROFILE/AppData/Roaming
@@ -49,6 +51,29 @@ chown -RL $un /home/$un/.ssh && chmod -R 600 /home/$un/.ssh
 mkdir -p $APPDATA
 export ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/
 
+#java
+export JAVA_HOME=$__LBINS__/java/.jdk
+export CLASSPATH=.:$JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar
+export _JAVA_OPTIONS="-Duser.home='`ext-winpath $HOME`' -Droot.path='`ext-winpath $__RPATH__`' $_JAVA_OPTIONS"
+export PATH=$JAVA_HOME/bin:$PATH
+
+#groovy
+export GROOVY_HOME=$__LBINS__/groovy/.groovy
+export PATH=$GROOVY_HOME/bin:$PATH
+
+#gradle
+export GRADLE_HOME=$__LBINS__/gradle/.gradle
+export PATH=$GRADLE_HOME/bin:$PATH
+
+#maven
+export MAVEN_HOME=$__LBINS__/maven/.maven
+export MAVEN_GS=$MAVEN_HOME/conf/settings.xml
+rm -rf $MAVEN_GS && ln -s $HOME/.m2/settings-global.xml $MAVEN_GS
+export PATH=$MAVEN_HOME/bin:$PATH
+
+#idea
+export IDEA_PROPERTIES=`ext-winpath $HOME/.IntelliJIdea/idea.properties`
+
 #nodejs
 export _NODEJS_=.node
 export NODE_HOME=$__LBINS__/nodejs
@@ -56,6 +81,7 @@ export npm_config_cache=`ext-winpath $NODE_HOME/npm-cache`
 export npm_config_prefix=`ext-winpath $NODE_HOME/npm-global`
 export NODE_PATH=`ext-winpath $HOME/.node_modules`:$npm_config_prefix\\node_modules:`ext-winpath $NODE_HOME/$_NODEJS_/node_modules`
 export NODE_MODULES=$NODE_PATH
+export PATH=$NODE_HOME/$_NODEJS_:$NODE_HOME/npm-global:$NVM_HOME:$PATH
 
 #python
 #export _PYTHON_=.python
@@ -65,26 +91,10 @@ export NODE_MODULES=$NODE_PATH
 export PYTHON_SITE_PACKAGE_PATH=$__RPATH__/ws/.local
 export PYTHONPATH=$PYTHON_SITE_PACKAGE_PATH
 #export PYTHON=u:\\u~u\\a0a\\bins\\Cygwin\\bin\\python2.7.exe
-
-#java
-export JAVA_HOME=$__LBINS__/java/.jdk
-export _JAVA_OPTIONS="-Duser.home='`ext-winpath $HOME`' -Droot.path='`ext-winpath $__RPATH__`' $_JAVA_OPTIONS"
-export CLASSPATH=.:$JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar
-
-#idea
-export IDEA_PROPERTIES=`ext-winpath $HOME/.IntelliJIdea/idea.properties`
-
-#groovy
-export GROOVY_HOME=$__LBINS__/groovy/.groovy
-
-#gradle
-export GRADLE_HOME=$__LBINS__/gradle/.gradle
-
-#maven
-export MAVEN_HOME=$__LBINS__/maven/.maven
+export PATH=$PYTHONHOME:$PYTHONHOME/$PYTHON_SCRIPTS:$PATH
 
 #path
-export PATH=$GROOVY_HOME/bin:$MAVEN_HOME/bin:$GRADLE_HOME/bin:$JAVA_HOME/bin:$PYTHONHOME:$PYTHONHOME/$PYTHON_SCRIPTS:$NODE_HOME/$_NODEJS_:$NODE_HOME/npm-global:$NVM_HOME:$HOME/.bin:$PATH
+export PATH=$HOME/.bin:$PATH
 
 echo "current PATH:"
 echo ">>>>>>>>>>>>>>>>>>>>>>>>>"
