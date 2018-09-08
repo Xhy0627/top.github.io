@@ -1,4 +1,8 @@
 @echo off
+chcp 65001
+for /f  %%i in ('chcp') do (
+	echo %%i
+)
 
 set "U=U:"
 set "RC=.rc-cygwin"
