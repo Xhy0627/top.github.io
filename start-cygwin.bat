@@ -79,7 +79,7 @@ cd /d %UHOME%
 
 ::cat $(pwd)/.rc/.sshd_config_u > /etc/ssh/sshd_config && 
 ::echo 'PermitUserEnvironment yes' >> /etc/ssh/sshd_config && 
-set "HOME=%RHOME%" && cd.>%RHOME%\.bash_profile && start "" "%LHOME%\bins\cygwin64\bin\mintty.exe" -e /usr/bin/bash --login -i -c "export HOME=$(pwd) && echo \"#!/usr/bin/bash\" > ~/.bash_profile && echo \"SHOME='%SHOME%'\" >> ~/.bash_profile && echo \"UHOME='%UHOME%'\" >> ~/.bash_profile && cat $HOME/../env-cygwin >> ~/.bash_profile && /usr/bin/bash --login -i"
+set "HOME=%RHOME%" && cd.>%RHOME%\.bash_profile && start "" "%LHOME%\bins\cygwin64\bin\mintty.exe" -e /usr/bin/bash --login -i -c "cmd /c chcp 65001; export HOME=$(pwd) && echo \"#!/usr/bin/bash\" > ~/.bash_profile && echo \"SHOME='%SHOME%'\" >> ~/.bash_profile && echo \"UHOME='%UHOME%'\" >> ~/.bash_profile && cat $HOME/../env-cygwin >> ~/.bash_profile && /usr/bin/bash --login -i"
 
 
 
