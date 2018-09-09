@@ -52,9 +52,9 @@ mkdir -p $APPDATA
 export ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/
 
 #java
-export JAVA_HOME=$__LBINS__/java/.jdk
-export CLASSPATH=.:$JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar
-export _JAVA_OPTIONS="-Duser.home='`ext-winpath $HOME`' -Droot.path='`ext-winpath $__RPATH__`' $_JAVA_OPTIONS"
+export JAVA_HOME=`cygpath --dos "$__LBINS__/java/.jdk"`
+export CLASSPATH=".;$JAVA_HOME\\lib\\tools.jar;$JAVA_HOME\\lib\\dt.jar"
+export _JAVA_OPTIONS="-Duser.home='`cygpath --dos $HOME`' -Droot.path='`cygpath --dos $__RPATH__`' $_JAVA_OPTIONS"
 export PATH=$JAVA_HOME/bin:$PATH
 
 #groovy
@@ -67,8 +67,7 @@ export PATH=$GRADLE_HOME/bin:$PATH
 
 #maven
 export MAVEN_HOME=$__LBINS__/maven/.maven
-export MAVEN_GS=$MAVEN_HOME/conf/settings.xml
-rm -rf $MAVEN_GS && ln -s $HOME/.m2/settings-global.xml $MAVEN_GS
+cd $MAVEN_HOME/conf/ && rm -rf settings.xml && ext-link settings.xml $HOME/.m2/settings-global.xml && cd -
 export PATH=$MAVEN_HOME/bin:$PATH
 
 #idea
