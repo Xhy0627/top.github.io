@@ -2,6 +2,8 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="test2222" type="PLAIN_TEXT" />
+      <mapping pattern="555" type="PLAIN_TEXT" />
+      <mapping pattern="taglib" type="PLAIN_TEXT" />
       <mapping ext="cfg" type="PLAIN_TEXT" />
       <mapping ext="jelly" type="XML" />
     </extensionMap>
