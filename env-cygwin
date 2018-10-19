@@ -80,7 +80,7 @@ export npm_config_cache=`ext-winpath $NODE_HOME/npm-cache`
 export npm_config_prefix=`ext-winpath $NODE_HOME/npm-global`
 export NODE_PATH=`ext-winpath $HOME/.node_modules`:$npm_config_prefix\\node_modules:`ext-winpath $NODE_HOME/$_NODEJS_/node_modules`
 export NODE_MODULES=$NODE_PATH
-export PATH=$NODE_HOME/$_NODEJS_:$NODE_HOME/npm-global:$NVM_HOME:$PATH
+export PATH=$NODE_HOME/npm-global:$NODE_HOME/$_NODEJS_:$NVM_HOME:$PATH
 
 #python
 #export _PYTHON_=.python
