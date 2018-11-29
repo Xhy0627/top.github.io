@@ -43,6 +43,10 @@ qcmp() {
     eval "mvn archetype:generate -DinteractiveMode=false -DarchetypeArtifactId=${3:-maven-archetype-quickstart} -DgroupId=${1:-} -DartifactId=${2:-}"
 }
 
+qdmj() {
+    eval "mvn deploy:deploy-file -Dpackaging=jar -DgroupId=${1:-} -DartifactId=${2:-} -Dversion=${3:-} -Dfile=${4:-}"
+}
+
 curls() {
     curl $@ | node <<< "var o = $(cat); console.log(JSON.stringify(o, null, 4));"
 }
