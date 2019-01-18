@@ -77,9 +77,17 @@ echo %EHOME%[%~dp0\.ext]
 
 cd /d %UHOME%
 
+set "EXEPATH=%LHOME%\bins\cygwin64\bin\mintty.exe"
+::check mintty.exe 
+if not exist %EXEPATH% (
+	echo "retry after cygwin installed."
+	start "" %RHOME%\setup-x86_64.exe -R %UHOME%/bins/cygwin64/ -l %UHOME%/bins/cygwin64/local_package/ -s http://mirrors.163.com/cygwin/ %*
+    exit
+)
+
 ::cat $(pwd)/.rc/.sshd_config_u > /etc/ssh/sshd_config && 
 ::echo 'PermitUserEnvironment yes' >> /etc/ssh/sshd_config && 
-set "HOME=%RHOME%" && cd.>%RHOME%\.bash_profile && start "" "%LHOME%\bins\cygwin64\bin\mintty.exe" -e /usr/bin/bash --login -i -c "cmd /c chcp 65001; export HOME=$(pwd) && echo \"#!/usr/bin/bash\" > ~/.bash_profile && echo \"SHOME='%SHOME%'\" >> ~/.bash_profile && echo \"UHOME='%UHOME%'\" >> ~/.bash_profile && cat $HOME/../env-cygwin >> ~/.bash_profile && /usr/bin/bash --login -i"
+set "HOME=%RHOME%" && cd.>%RHOME%\.bash_profile && start "" "%EXEPATH%" -e /usr/bin/bash --login -i -c "cmd /c chcp 65001; export HOME=$(pwd) && echo \"#!/usr/bin/bash\" > ~/.bash_profile && echo \"SHOME='%SHOME%'\" >> ~/.bash_profile && echo \"UHOME='%UHOME%'\" >> ~/.bash_profile && cat $HOME/../env-cygwin >> ~/.bash_profile && /usr/bin/bash --login -i"
 
 
 
