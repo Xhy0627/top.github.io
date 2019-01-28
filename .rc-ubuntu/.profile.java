@@ -31,6 +31,12 @@ rm -rf $MAVEN_GS && ln -s $HOME/.m2/settings-global.xml $MAVEN_GS
 export PATH=$MAVEN_HOME/bin:$PATH
 
 #ideaj
+#idea home dir set
+fnameArray=(.IntelliJIdea .IntelliJIdea4U)
+for fname in ${fnameArray[@]}
+do
+  cd $HOME && rm -rf $fname && ln -s $__EPATH__/$fname $fname && cd - >/dev/null
+done
 export IDEA_CLASSPATH=$CLASSPATH
 export IDEA_PROPERTIES=$HOME/.IntelliJIdea4U/idea.properties
 export IDEA_VM_OPTIONS=$HOME/.IntelliJIdea4U/config/idea64.vmoptions

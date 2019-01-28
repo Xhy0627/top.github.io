@@ -26,8 +26,21 @@ echo 'hi~'
 #__RPATH__=$(cd $(git rev-parse --show-toplevel)/../ && pwd)
 export __LPATH__=$(cd "$HOME/.rc-local";pwd)
 export __EPATH__=$(cd "$HOME/.rc-ext";pwd)
+export __CPATH__=$(cd -P "$HOME/../";pwd)
 export __RPATH__=$(cd "$HOME/../";pwd)
 export __LBINS__=$__LPATH__/bins/.linux
+
+
+#common dir set
+export _USER_COMMON_=$__CPATH__/.common
+for fname in $(ls -A $_USER_COMMON_/)
+do
+  cd $HOME && rm -rf $fname && ln -s $_USER_COMMON_/$fname $fname && cd - >/dev/null
+done
+
+un=`id -u -n`
+chown -RL $un $HOME/.ssh && chmod -R 600 $HOME/.ssh
+
 
 export PATH=$HOME/.bin:$PATH
 

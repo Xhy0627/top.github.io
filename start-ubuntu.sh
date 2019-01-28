@@ -46,23 +46,6 @@ rm -rf $lpath;ln -s $_lpath $lpath
 echo $epath[$cdir/.ext]
 rm -rf $epath;ln -s $cdir/.ext $epath
 
-
-#idea home dir set
-fnameArray=(.IntelliJIdea .IntelliJIdea4U)
-for fname in ${fnameArray[@]}
-do
-  cd $hpath && rm -rf $fname && ln -s $epath/$fname $fname && cd - >/dev/null
-done
-
-#common dir set
-export _USER_COMMON_=$cdir/.common
-for fname in $(ls -A $_USER_COMMON_/)
-do
-  cd $hpath && rm -rf $fname && ln -s $_USER_COMMON_/$fname $fname && cd - >/dev/null
-done
-
-chown -RL $user $hpath/.ssh && chmod -R 600 $hpath/.ssh
-
 #create user
 egrep "^$user" /etc/passwd >& /dev/null
 if [ $? -eq 0 ]
