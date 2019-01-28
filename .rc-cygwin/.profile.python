@@ -8,5 +8,6 @@ export PYTHONPATH=$PYTHON_SITE_PACKAGE_PATH
 #export PYTHON=u:\\u~u\\a0a\\bins\\Cygwin\\bin\\python2.7.exe
 #export PATH=$PYTHONHOME:$PYTHONHOME/$PYTHON_SCRIPTS:$PATH
 
-export PYTHON_HOME=$__LBINS__/.python
-export PATH=$PYTHON_HOME/:$PATH
+export PYTHONHOME=$__LBINS__/.python
+#export PATH=$PYTHONHOME/:$PATH
+export PYTHONEXE=$PYTHONHOME/python

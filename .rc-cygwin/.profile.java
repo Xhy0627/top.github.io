@@ -1,8 +1,10 @@
 #java
-export JAVA_HOME=`ext-winpath "$__LBINS__/java/.jdk"`
-export CLASSPATH=".;$JAVA_HOME\\lib\\tools.jar;$JAVA_HOME\\lib\\dt.jar"
+export JAVA_HOME=$__LBINS__/java/.jdk
+export CLASSPATH=.:$JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar
 export _JAVA_OPTIONS="-Duser.home='`ext-winpath $HOME`' -Droot.path='`ext-winpath $__RPATH__`' $_JAVA_OPTIONS"
 export PATH=$JAVA_HOME/bin:$PATH
+export JAVA_HOME=`cygpath -aw $JAVA_HOME`
+export CLASSPATH=`cygpath -pw $CLASSPATH`
 
 #groovy
 export GROOVY_HOME=$__LBINS__/groovy/.groovy

@@ -122,3 +122,7 @@ ext-cygi() {
     cmd <<< "$cmdStr" > /dev/null &     
     echo $cmdStr
 }
+
+python() {
+    echo $*
+}

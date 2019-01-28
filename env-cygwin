@@ -39,6 +39,9 @@ mount -o binary,user,noacl,posix=0 `ext-winpath $__LPATH__/bins/cygwin64/home` /
 chown -RL $un /home/$un/.ssh && chmod -R 600 /home/$un/.ssh
 
 
+export PATH=$HOME/bin:$HOME/.bin:$PATH
+
+
 echo "current PATH:"
 echo ">>>>>>>>>>>>>>>>>>>>>>>>>"
 echo $PATH
@@ -46,8 +49,8 @@ echo "<<<<<<<<<<<<<<<<<<<<<<<<<"
 
 source ~/.bashrc
 
-export HOMEPATH=`cygpath --dos $HOME`
-export USERPROFILE=`cygpath --dos $HOME`
+export HOMEPATH=`cygpath -aw $HOME`
+export USERPROFILE=`cygpath -aw $HOME`
 export APPDATA=`ext-winpath $USERPROFILE\\\\AppData\\\\Roaming`
 export LOCALAPPDATA=`ext-winpath $USERPROFILE\\\\AppData\\\\Local`
 
