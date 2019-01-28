@@ -16,8 +16,16 @@ cdepath() {
     cd `epath "$@"`
 }
 
+cpath() {
+    echo $(dirname $(cd -P $__CPATH__;pwd)/.)/$@
+}
+
+cdcpath() {
+    cd `cpath "$@"`
+}
+
 rpath() {
-    echo $(dirname $(cd -P $HOME/../;pwd)/.)/$@
+    echo $(dirname $(cd -P $__RPATH__;pwd)/.)/$@
 }
 
 cdrpath() {
