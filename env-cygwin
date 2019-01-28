@@ -19,14 +19,6 @@ export __RPATH__=$(cd "$HOME/../";pwd)
 export __LBINS__=$__LPATH__/bins/.win
 
 
-#EXT DIR SET
-export _USER_EXT_=$__/.ext
-fnameArray=(.IntelliJIdea)
-for fname in ${fnameArray[@]}
-do
-  cd $HOME && rm -rf $fname && ext-link $fname $_USER_EXT_/$fname && cd -
-done
-
 #COMMON DIR SET
 export _USER_COMMON_=$__/.common
 for fname in $(ls -A $_USER_COMMON_/)
@@ -47,54 +39,6 @@ mount -o binary,user,noacl,posix=0 `ext-winpath $__LPATH__/bins/cygwin64/home` /
 chown -RL $un /home/$un/.ssh && chmod -R 600 /home/$un/.ssh
 
 
-#some software need.(eg: electron)
-mkdir -p $APPDATA
-export ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/
-
-#java
-export JAVA_HOME=`cygpath --dos "$__LBINS__/java/.jdk"`
-export CLASSPATH=".;$JAVA_HOME\\lib\\tools.jar;$JAVA_HOME\\lib\\dt.jar"
-export _JAVA_OPTIONS="-Duser.home='`cygpath --dos $HOME`' -Droot.path='`cygpath --dos $__RPATH__`' $_JAVA_OPTIONS"
-export PATH=$JAVA_HOME/bin:$PATH
-
-#groovy
-export GROOVY_HOME=$__LBINS__/groovy/.groovy
-export PATH=$GROOVY_HOME/bin:$PATH
-
-#gradle
-export GRADLE_HOME=$__LBINS__/gradle/.gradle
-export PATH=$GRADLE_HOME/bin:$PATH
-
-#maven
-export MAVEN_HOME=$__LBINS__/maven/.maven
-cd $MAVEN_HOME/conf/ && rm -rf settings.xml && ext-link settings.xml $HOME/.m2/settings-global.xml && cd -
-export PATH=$MAVEN_HOME/bin:$PATH
-
-#idea
-export IDEA_PROPERTIES=`ext-winpath $HOME/.IntelliJIdea/idea.properties`
-
-#nodejs
-export _NODEJS_=.node
-export NODE_HOME=$__LBINS__/nodejs
-export npm_config_cache=`ext-winpath $NODE_HOME/npm-cache`
-export npm_config_prefix=`ext-winpath $NODE_HOME/npm-global`
-export NODE_PATH=`ext-winpath $HOME/.node_modules`:$npm_config_prefix\\node_modules:`ext-winpath $NODE_HOME/$_NODEJS_/node_modules`
-export NODE_MODULES=$NODE_PATH
-export PATH=$NODE_HOME/npm-global:$NODE_HOME/$_NODEJS_:$NVM_HOME:$PATH
-
-#python
-#export _PYTHON_=.python
-#export PYTHON_HOME=$__LPATH__/bins/Python
-#export PYTHON_SCRIPTS=Scripts
-#export PYTHONHOME=$PYTHON_HOME/$_PYTHON_
-export PYTHON_SITE_PACKAGE_PATH=$__RPATH__/ws/.local
-export PYTHONPATH=$PYTHON_SITE_PACKAGE_PATH
-#export PYTHON=u:\\u~u\\a0a\\bins\\Cygwin\\bin\\python2.7.exe
-export PATH=$PYTHONHOME:$PYTHONHOME/$PYTHON_SCRIPTS:$PATH
-
-#path
-export PATH=$HOME/.bin:$PATH
-
 echo "current PATH:"
 echo ">>>>>>>>>>>>>>>>>>>>>>>>>"
 echo $PATH
@@ -102,8 +46,8 @@ echo "<<<<<<<<<<<<<<<<<<<<<<<<<"
 
 source ~/.bashrc
 
-export HOMEPATH=`ext-winpath $HOME`
-export USERPROFILE=`ext-winpath $HOME`
+export HOMEPATH=`cygpath --dos $HOME`
+export USERPROFILE=`cygpath --dos $HOME`
 export APPDATA=`ext-winpath $USERPROFILE\\\\AppData\\\\Roaming`
 export LOCALAPPDATA=`ext-winpath $USERPROFILE\\\\AppData\\\\Local`
 
@@ -112,3 +56,7 @@ source ~/.bashutils
 source ~/.alias
 export PS1="\[\033]0;\$TITLEPREFIX:\${PWD//[^[:ascii:]]/?}\007\]\n\[\033[32m\]\u@\h\[\033[35m\]:\[\033[33m\]\w\[\033[36m\]\`__git_ps1\`\[\033[0m\]\n$"
 export LC_ALL="en_US.UTF-8"
+
+source ~/.profile.java
+source ~/.profile.python
+source ~/.profile.nodejs

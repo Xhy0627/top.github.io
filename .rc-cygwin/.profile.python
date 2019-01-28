@@ -1,0 +1,12 @@
+#python
+#export _PYTHON_=.python
+#export PYTHON_HOME=$__LPATH__/bins/Python
+#export PYTHON_SCRIPTS=Scripts
+#export PYTHONHOME=$PYTHON_HOME/$_PYTHON_
+export PYTHON_SITE_PACKAGE_PATH=$__RPATH__/ws/.local
+export PYTHONPATH=$PYTHON_SITE_PACKAGE_PATH
+#export PYTHON=u:\\u~u\\a0a\\bins\\Cygwin\\bin\\python2.7.exe
+#export PATH=$PYTHONHOME:$PYTHONHOME/$PYTHON_SCRIPTS:$PATH
+
+export PYTHON_HOME=$__LBINS__/.python
+export PATH=$PYTHON_HOME/:$PATH
