@@ -2,8 +2,8 @@
   <component name="RecentProjectsManager">
     <option name="recentPaths">
       <list>
-        <option value="/u~u/ws/tl/publisher" />
         <option value="/u~u/ws/java" />
+        <option value="/u~u/ws/tl/publisher" />
         <option value="/u~u/ws/tl/old-proj" />
         <option value="/u~u/ws/tl/gradle-projects" />
         <option value="/u~u/ws/tl/publisher/springboot2.0" />
@@ -14,11 +14,10 @@
     <option name="openPaths">
       <list>
         <option value="/u~u/ws/java" />
-        <option value="/u~u/ws/tl/publisher" />
       </list>
     </option>
-    <option name="lastPath" value="/u~u/ws/tl/publisher" />
-    <option name="pid" value="2262" />
+    <option name="lastPath" value="/u~u/ws/java" />
+    <option name="pid" value="22306" />
     <option name="additionalInfo">
       <map>
         <entry key="$USER_HOME$/Downloads/shiro-example-master/shiro-example-chapter17-client">
@@ -38,8 +37,8 @@
               <option name="build" value="IU-181.4203.550" />
               <option name="productionCode" value="IU" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1538290952438" />
-              <option name="buildTimestamp" value="1522093140349" />
+              <option name="projectOpenTimestamp" value="1548668768651" />
+              <option name="buildTimestamp" value="1522093169761" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
@@ -82,8 +81,8 @@
               <option name="build" value="IU-181.4203.550" />
               <option name="productionCode" value="IU" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1536829692201" />
-              <option name="buildTimestamp" value="1522093181080" />
+              <option name="projectOpenTimestamp" value="1540436470399" />
+              <option name="buildTimestamp" value="1522093140649" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
@@ -93,8 +92,8 @@
               <option name="build" value="IU-181.4203.550" />
               <option name="productionCode" value="IU" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1538290952438" />
-              <option name="buildTimestamp" value="1522093140349" />
+              <option name="projectOpenTimestamp" value="1547806254463" />
+              <option name="buildTimestamp" value="1522093149923" />
             </RecentProjectMetaInfo>
           </value>
         </entry>

@@ -74,7 +74,7 @@
         <property name="project.structure.last.edited" value="Problems" />
         <property name="project.structure.proportion" value="0.0" />
         <property name="project.structure.side.proportion" value="0.37586206" />
-        <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+        <property name="settings.editor.selected.configurable" value="Errors" />
       </component>
       <component name="RunManager">
         <configuration default="true" type="Applet" factoryName="Applet">

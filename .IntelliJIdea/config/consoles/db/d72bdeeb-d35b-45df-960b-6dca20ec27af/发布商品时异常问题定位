@@ -86,13 +86,13 @@ cat nohup.out | head -n 122651 | tail -n +117994 > temp.out
 
 t_sources
 cpps:
-cat nohup.out | grep -A1 '同步源到 pgs.*122307.*'
+cat nohup.out | grep -A1 '同步源到 pgs.*123633.*'
 ns:
-cat nohup.out | grep 'Received Source message = .*122307.*'
+cat nohup.out | grep 'Received Source message<.*> = .*123633.*'
 cat nohup.out | grep 'begin to send:.*122307.*'
 pgs:
-cat nohup.out | grep 'Request URL: /v1/sources, parameter: .*122307.*'
-cat nohup.out | grep 'source change Receiver : .*122307.*'
+cat nohup.out | grep 'Request URL: /v1/sources, parameter: .*123633.*'
+cat nohup.out | grep 'source change Receiver : .*123633.*'
 
 
 #关联目标池存储 通知处理结果，并入库

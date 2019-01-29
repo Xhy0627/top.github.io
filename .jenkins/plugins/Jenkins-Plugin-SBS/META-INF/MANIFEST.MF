@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: u~u
+Build-Jdk: 1.8.0_171
+Extension-Name: Jenkins-Plugin-SBS
+Specification-Title: The Jenkins Plugins Parent POM Project
+Implementation-Title: Jenkins-Plugin-SBS
+Implementation-Version: 1.0-SNAPSHOT
+Group-Id: org.ileler
+Short-Name: Jenkins-Plugin-SBS
+Long-Name: Jenkins-Plugin-SBS
+Url: http://maven.apache.org
+Plugin-Version: 1.0-SNAPSHOT (private-e2ba3400-u~u)
+Hudson-Version: 2.7.3
+Jenkins-Version: 2.7.3
+Plugin-Developers: 
+

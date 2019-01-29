@@ -194,6 +194,12 @@
           md5=""/>
     <item name="xerial-sqlite-license.txt" url="https://download.jetbrains.com/idea/jdbc-drivers/xerial-sqlite-license.txt" md5=""/>
   </artifact>
+  <artifact version="3.25.1" name="Xerial SQLiteJDBC">
+    <item name="sqlite-jdbc-3.25.1.jar"
+          url="https://download.jetbrains.com/idea/jdbc-drivers/sqlite/3.25/sqlite-jdbc-3.25.1.jar"
+          md5=""/>
+    <item name="license.txt" url="https://download.jetbrains.com/idea/jdbc-drivers/sqlite/license.txt" md5=""/>
+  </artifact>
   <artifact version="1.3.176" name="H2">
     <item name="h2-1.3.176.jar"
           url="https://download.jetbrains.com/idea/jdbc-drivers/h2-1.3.176.jar"
@@ -274,6 +280,13 @@
     <item name="amazon-redshift-jdbc-driver-license-agreement.txt"
           url="https://download.jetbrains.com/idea/jdbc-drivers/amazon-redshift-jdbc-driver-license-agreement.txt" md5=""/>
   </artifact>
+  <artifact version="1.2.16.1027" name="Redshift">
+    <item name="RedshiftJDBC42-1.2.16.1027.jar"
+          url="http://download.jetbrains.com/idea/jdbc-drivers/Redshift/1.2.16/RedshiftJDBC42-1.2.16.1027.jar"
+          md5=""/>
+    <item name="license.txt"
+          url="https://download.jetbrains.com/idea/jdbc-drivers/Redshift/license.txt" md5=""/>
+  </artifact>
   <artifact version="6.0.3" name="Exasol">
     <item name="exajdbc-6.0.3.jar"
           url="https://download.jetbrains.com/idea/jdbc-drivers/exajdbc-6.0.3.jar"
@@ -285,5 +298,29 @@
           url="http://download.jetbrains.com/idea/jdbc-drivers/ClickHouse/0.1.40/clickhouse-jdbc-0.1.40d.jar"
           md5=""/>
     <item name="clickhouse-license.txt" url="https://download.jetbrains.com/idea/jdbc-drivers/ClickHouse/clickhouse-license.txt" md5=""/>
+  </artifact>
+  <artifact version="1.2.6" name="Cassandra">
+    <item name="cassandra-jdbc-driver-1.2.6.jar"
+          url="http://download.jetbrains.com/idea/jdbc-drivers/Cassandra/1.2/cassandra-jdbc-driver-1.2.6.jar"
+          md5=""/>
+    <item name="license.txt" url="https://download.jetbrains.com/idea/jdbc-drivers/Cassandra/license.txt" md5=""/>
+  </artifact>
+  <artifact version="1.2.7" name="Cassandra">
+    <item name="cassandra-jdbc-driver-1.2.7.jar"
+          url="http://download.jetbrains.com/idea/jdbc-drivers/Cassandra/1.2/cassandra-jdbc-driver-1.2.7.jar"
+          md5=""/>
+    <item name="license.txt" url="https://download.jetbrains.com/idea/jdbc-drivers/Cassandra/license.txt" md5=""/>
+  </artifact>
+  <artifact version="1.2.8" name="Cassandra">
+    <item name="cassandra-jdbc-driver-1.2.8.jar"
+          url="http://download.jetbrains.com/idea/jdbc-drivers/Cassandra/1.2/cassandra-jdbc-driver-1.2.8.jar"
+          md5=""/>
+    <item name="license.txt" url="https://download.jetbrains.com/idea/jdbc-drivers/Cassandra/license.txt" md5=""/>
+  </artifact>
+  <artifact version="1.2.9" name="Cassandra">
+    <item name="cassandra-jdbc-driver-1.2.9.jar"
+          url="http://download.jetbrains.com/idea/jdbc-drivers/Cassandra/1.2/cassandra-jdbc-driver-1.2.9.jar"
+          md5=""/>
+    <item name="license.txt" url="https://download.jetbrains.com/idea/jdbc-drivers/Cassandra/license.txt" md5=""/>
   </artifact>
 </artifacts>

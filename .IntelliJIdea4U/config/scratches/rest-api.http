@@ -1,0 +1,72 @@
+GET http://127.0.0.1:11999/1/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-11T092920.200.html
+
+###
+
+GET http://127.0.0.1:11999/2/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-11T093041.404.json
+
+###
+
+GET http://127.0.0.1:11999/1/1;/2/2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-11T093132.200.html
+
+###
+
+GET http://127.0.0.1:11999/11/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-11T104017.200.html
+<> 2018-10-11T103934.200.html
+<> 2018-10-11T093049.200.html
+
+###
+
+GET http://127.0.0.1:11999/22/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-11T093149.404.json
+<> 2018-10-11T093126.404.json
+
+###
+
+GET http://127.0.0.1:11999/11/1,/22/2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-11T093143.200.html
+
+###
+
+GET http://127.0.0.1:11999/111/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-11T103004.200.html
+<> 2018-10-11T093507.200.html
+<> 2018-10-11T093408.404.json
+<> 2018-10-11T093208.404.json
+<> 2018-10-11T093153.404.json
+
+###
+
+GET http://127.0.0.1:11999/222/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-11T093416.404.json
+<> 2018-10-11T093213.404.json
+<> 2018-10-11T093158.404.json
+
+###

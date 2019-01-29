@@ -64,6 +64,11 @@
     <property name="LiveContextsPanel[0]" value="0.110192835" />
     <property name="LiveContextsPanel[1]" value="0.12391574" />
     <property name="LiveContextsPanel[2]" value="0.14154282" />
+    <property name="MYSQL_DUMP_CLI_PACK_LAST_USED_CONFIGURATION" value="MYSQL_PROPERTIES" />
+    <property name="MYSQL_PROPERTIES_COMMAND" value="--result-file=&quot;/u~u/.rc-ubuntu/com_cncbox_ucaac_template_management.sql&quot; &quot;com_cncbox_ucaac_template_management&quot;" />
+    <property name="MYSQL_PROPERTIES_EXPANDED" value="true" />
+    <property name="MYSQL_PROPERTIES_PATH" value="/usr/bin/mysqldump" />
+    <property name="MYSQL_PROPERTIES_VARIANTS_-753420028" value="--databases --all-databases -A -Y --all-tablespaces -y --no-tablespaces --add-drop-database --add-drop-table --skip-add-drop-table --add-locks --skip-add-locks --allow-keywords --apply-slave-statements --character-sets-dir= -i --comments --skip-comments --compatible= --compact --skip-disable-keys --skip-set-charset -c --complete-insert -C --compress -a --create-options --skip-create-options -B -# --debug --debug-check --debug-info --default-character-set= --delayed-insert --delete-master-logs --master-data -K --disable-keys --dump-slave --lock-all-tables --single-transaction --lock-tables -E --events -e --extended-insert --skip-extended-insert --fields-terminated-by= --fields-enclosed-by= --fields-optionally-enclosed-by= --fields-escaped-by= -F --flush-logs --databases= --flush-privileges -f --force --gtid --master-data= --dump-slave= --help --hex-blob -h --host= --ignore-table= --include-master-host-port --insert-ignore --lines-terminated-by= -x -l --skip-lock-tables --log-error= --log-queries --skip-log-queries --max-allowed-packet= --net-buffer-length= --no-autocommit -n --no-create-db -t --no-create-info -d --no-data --no-data-med --skip-no-data-med -N --no-set-names --opt --quick --set-charset --skip-opt --order-by-primary -p --password -P --port= --protocol= -q --skip-quick -Q --quote-names --skip-quote-names --replace -r --result-file= -R --routines --dump-date --skip-dump-date -S --socket= --ssl --ssl-ca= --ssl-capath= --ssl-cert= --ssl-cipher= --ssl-key= --ssl-crl= --ssl-crlpath= --ssl-verify-server-cert -T --tab= --tables --triggers --skip-triggers --tz-utc --skip-tz-utc -u --user= -v --verbose -V --version -w --where= -X --xml --plugin-dir= --default-auth=" />
     <property name="MYSQL_RESTORE_CLI_PACK_LAST_USED_CONFIGURATION" value="MYSQL_RESTORE_KEY" />
     <property name="MYSQL_RESTORE_KEY_COMMAND" value=" &lt; &quot;/u~u/ws/java/shepher/shepher-packaging/target/shepher-packaging-1.0-bin/db/init.sql&quot;" />
     <property name="MYSQL_RESTORE_KEY_EXPANDED" value="true" />
@@ -78,24 +83,25 @@
     <property name="MoveClassWithTarget.OpenInEditor" value="false" />
     <property name="MoveFile.OpenInEditor" value="true" />
     <property name="NlScreenMode" value="SCREEN_ONLY" />
-    <property name="PLUGIN_FILTER" value="Scratch&#10;mark&#10;php&#10;my&#10;Myb" />
+    <property name="PLUGIN_FILTER" value="aliba&#10;Scratch&#10;mark&#10;php&#10;my" />
     <property name="ProjectStructure.SecondLevelElements" value="0.37586206" />
+    <property name="RESTClient.httpMethod" value="GET&#10;POST&#10;PUT&#10;PATCH&#10;DELETE&#10;HEAD&#10;OPTIONS" />
     <property name="RegistryRecentKeys" value="compiler.automake.allow.when.app.running" />
-    <property name="RunConfigurable.dividerProportion" value="0.23838538" />
+    <property name="RunConfigurable.dividerProportion" value="0.3659091" />
     <property name="SearchEveryWhereHistory" value="upper" />
-    <property name="SettingsSearchHistory" value="scratch&#10;Import&#10;jd&#10;Find&#10;Terminal" />
+    <property name="SettingsSearchHistory" value="Refac&#10;Refact&#10;scratch&#10;Import&#10;jd" />
     <property name="ShowDocumentationInToolWindow" value="false" />
     <property name="SpringBeansModulesPanel[0]" value="0.10857763" />
     <property name="SpringBeansModulesPanel[1]" value="0.1216545" />
     <property name="SpringRepositoriesModulesPanel[0]" value="0.10840108" />
     <property name="SqlStructureView.filterD.file.structure.state" value="true" />
     <property name="XDebuggerExpressionEditor_Use_Soft_Wraps" value="true" />
-    <property name="android-component-compatibility-check" value="1537928703655" />
+    <property name="android-component-compatibility-check" value="1548667427134" />
     <property name="build.toolwindow.Sync.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
     <property name="com.intellij.database.view.ui.DeleteDialog.previewExpanded" value="true" />
     <property name="com.intellij.diagnostic.IdeErrorsDialogactiveTab" value="1" />
     <property name="com.intellij.history.integration.ui.views.DirectoryHistoryDialog.0" value="300" />
-    <property name="com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor" value="Sources" />
+    <property name="com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor" value="Dependencies" />
     <property name="create.project.preferred.importer" value="Maven" />
     <property name="decompiler.legal.notice.accepted" value="true" />
     <property name="eclipse.project.dir" value="E:\a0a\Eclipse\pdri\org.pdri.prms" />
@@ -107,13 +113,14 @@
     <property name="favorites.view.settings.flatten.packages" value="false" />
     <property name="favorites.view.settings.hide.empty.middle.packages" value="true" />
     <property name="favorites.view.settings.show.members" value="true" />
-    <property name="file.chooser.recent.files" value="$APPLICATION_CONFIG_DIR$/scratches/scratch_8.java&#10;/u~u/ws/java/request-service-mapping/request-service-mapping&#10;/u~u/ws/java/spring-cloud-gateway&#10;/u~u/ws/java/ui-samples-plugin&#10;/u~u/ws/java/org.ileler.jenkins-plugin-demo&#10;/u~u/ws/java/maven-hpi-plugin&#10;/u~u/ws/java/job-import-plugin&#10;/u~u/ws/java/eureka/settings.gradle&#10;/u~u/ws/java/eureka&#10;/u~u/ws/tl/com.cncbox&#10;/u~u/ws/tl/com.cncbox/com.cncbox.services&#10;/u~u/ws/java/hikari-exception/hikari-exception&#10;/u~u/ws/java/reactor-demo&#10;/u~u/ws/tl/CAS&#10;/u~u/ws/tl/com.cncbox.ucaac&#10;/u~u/.rc-ubuntu/.rc-local/bins/.linux/java/java-se-7u75-ri&#10;/u~u/.rc-ubuntu/.rc-local/bins/.linux/java/jdk1.7.0_25&#10;/u~u/ws/java/zkui&#10;/u~u/ws/java/shepher&#10;/u~u/.rc-ubuntu/.rc-local/bins/.linux/java/jdk1.8.0_171&#10;/u~u/.rc-ubuntu/.IntelliJIdea/config/plugins/lombok-plugin-0.19-2018.1.zip&#10;/u~u/.rc-ubuntu/.IntelliJIdea4U/config/scratches/scratch_5.java&#10;/u~u/ws/java/ribbon/settings.gradle&#10;/u~u/ws/java/ribbon&#10;/u~u/ws/java/spring-cloud-sleuth-master&#10;/u~u/ws/java/spring-cloud-openfeign-master&#10;/u~u/ws/java/settings-manager-sbs&#10;/u~u/ws/tl/publisher/20180709/com.mpr.content.preprocessor.system&#10;/u~u/ws/java/spring-cloud-commons/spring-cloud-context&#10;/u~u/ws/java/hikari-exception" />
-    <property name="file.gist.reindex.count" value="4747567" />
+    <property name="file.chooser.recent.files" value="/u~u/ws/tl/rcs/10-19full-process-tracking-auth-software-view&#10;/u~u/ws/tl/rcs/20-29data-collection-software&#10;/u~u/ws/tl/rcs/10-19full-process-tracking-auth-software&#10;/u~u/ws/tl/org.isli/org.isli.services/org.isli.services.commons.api&#10;/u~u/.rc-ubuntu/.IntelliJIdea4U/config/scratches/com-cncbox-util-RSAUtils-test.java&#10;/u~u/.rc-ubuntu/.IntelliJIdea4U/config/scratches/com-cncbox-util-JWTUtils-test.java&#10;/u~u/ws/tl/mis&#10;/u~u/ws/java/spring-cloud-gateway/spring-cloud-gateway-core&#10;/u~u/.rc-ubuntu/.m2/settings_spring-boot.xml&#10;/u~u/.rc-ubuntu/.IntelliJIdea4U/config/scratches/scratch_8.java&#10;/u~u/ws/java/request-service-mapping/request-service-mapping&#10;/u~u/ws/java/spring-cloud-gateway&#10;/u~u/ws/java/ui-samples-plugin&#10;/u~u/ws/java/org.ileler.jenkins-plugin-demo&#10;/u~u/ws/java/maven-hpi-plugin&#10;/u~u/ws/java/job-import-plugin&#10;/u~u/ws/java/eureka/settings.gradle&#10;/u~u/ws/java/eureka&#10;/u~u/ws/tl/com.cncbox&#10;/u~u/ws/tl/com.cncbox/com.cncbox.services&#10;/u~u/ws/java/hikari-exception/hikari-exception&#10;/u~u/ws/java/reactor-demo&#10;/u~u/ws/tl/CAS&#10;/u~u/ws/tl/com.cncbox.ucaac&#10;/u~u/.rc-ubuntu/.rc-local/bins/.linux/java/java-se-7u75-ri&#10;/u~u/.rc-ubuntu/.rc-local/bins/.linux/java/jdk1.7.0_25&#10;/u~u/ws/java/zkui&#10;/u~u/ws/java/shepher&#10;/u~u/.rc-ubuntu/.rc-local/bins/.linux/java/jdk1.8.0_171&#10;/u~u/.rc-ubuntu/.IntelliJIdea/config/plugins/lombok-plugin-0.19-2018.1.zip" />
+    <property name="file.gist.reindex.count" value="4750915" />
     <property name="fileTypeChangedCounter" value="5" />
     <property name="find.popup.splitter" value="0.5" />
     <property name="gradle.runner.text.console_str" value="false" />
     <property name="gradle.test.runner.text.console_str" value="false" />
     <property name="ideavim.statistics.timestamp" value="1530581164533" />
+    <property name="insert_as_null" value="true" />
     <property name="installed.kotlin.plugin.version" value="1.2.30-release-IJ2018.1-1" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last.imported.location" value="/u~u/ws/java/eureka/settings.gradle" />
